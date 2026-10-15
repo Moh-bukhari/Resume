@@ -1,21 +1,24 @@
 # Instructions for AI assistants
 
-This is Mohammed Bukhari's factual resume toolkit. Select and frame supported
-experience for each target, maintain the complete bank, and produce readable,
-one-page Overleaf resumes. No prior chat or files outside this checkout are needed.
+This is Mohammed Bukhari's application toolkit. Maintain the factual bank,
+produce one-page Overleaf resumes, research relevant professional contacts,
+and write stage-appropriate letters. No prior chat or files outside this
+checkout are needed.
 
 ## Read in this order
 
 1. This file.
 2. `bank/experience-bank.md` for profile, bullets, metrics, summaries, sources,
    role maps, and gaps. Edit facts in `bank/experience-bank.json`.
-3. `docs/TAILORING.md` and `skills/README.md` for the relevant workflow.
+3. `skills/README.md` and the task guide: `docs/TAILORING.md` for resumes,
+   `docs/CONTACT-RESEARCH.md` for people, `docs/LETTERS.md` for letters.
 4. The full target JD. Known user-supplied requirements are under `jobs/`;
    these are historical inputs, not verified current openings.
 5. `templates/resume-base.tex` for the current standalone layout.
 6. `tamara-crm-study.md` for detailed Tamara implementation claims.
 
-Use `docs/EXAMPLE-PROMPTS.md` for tasks, `docs/MAINTENANCE.md` for bank updates,
+Use `skills/application-workflow/SKILL.md` for a complete packet,
+`docs/EXAMPLE-PROMPTS.md` for tasks, `docs/MAINTENANCE.md` for bank updates,
 and `docs/BUILD.md` for compilation. New versions follow `applications/README.md`.
 
 ## Source priority
@@ -42,6 +45,10 @@ and `docs/BUILD.md` for compilation. New versions follow `applications/README.md
 - Supply **complete standalone LaTeX in chat**, from `\documentclass` through
   `\end{document}`. Downloads have been unreliable and section-only snippets
   previously caused invalid LaTeX.
+- Letters are copyable text/Markdown by default. Use a concrete subject, a
+  sourced role/company connection, one or two relevant bank facts, and one
+  clear ask. Introductory emails are usually 90–150 words; use the letter guide
+  for other formats. Generic upstream length/subject rules are optional.
 - Expected graduation is May 2027. Full-time preference is after graduation,
   open to earlier work. Do not infer exact availability, current residence,
   citizenship, work authorization, or sponsorship needs.
@@ -101,8 +108,42 @@ search; their concrete capabilities remain `needs_detail`.
 7. Give complete LaTeX and brief selections/gaps. Report checks actually run.
    Do not describe unrun checks as passed.
 
-Drafting does not authorize submitting applications, sending messages, or
-editing external profiles. Follow the user's actual request.
+## Research people and write letters
+
+1. Read the role and confirmed application state. Use
+   `python3 scripts/new_application.py --help` to scaffold a new packet when
+   useful; it creates drafts, not researched/sent materials. Reuse existing
+   packets without overwriting prior work.
+2. Use `skills/contact-research/SKILL.md` and `docs/CONTACT-RESEARCH.md`.
+   Default to one primary contact and one fallback: a current recruiter,
+   named role contact, or likely function leader with evidence of relevance.
+   Label hiring authority instead of assuming it from a title.
+3. Save exact found LinkedIn URLs and professional email evidence in
+   `contacts.json`, with sources/access dates. Published address, provider
+   result, inferred pattern, and deliverability check are separate concepts.
+   Leave unknown details blank; do not call guesses verified.
+4. Use `skills/application-letter-writer/SKILL.md` and `docs/LETTERS.md` to
+   select before/after-application, referral, follow-up, LinkedIn, cover letter,
+   thank-you, or event-response wording. Unknown status cannot become
+   “I applied”; a draft cannot become a sent-message event.
+5. Personalize company/recipient details from sourced facts and candidate
+   claims from the bank. No invented prior meetings, referrals, news, product
+   experience, current competing offers, or recipient addresses.
+6. Save needed drafts under `letters/` and timing/evidence in `outreach-plan.md`.
+   Keep notes/claim IDs outside the copyable text. Run
+   `python3 scripts/check_contacts.py <application-folder>/contacts.json`.
+7. Return contact sources/uncertainty and requested letters with the resume.
+   If web access is unavailable, continue drafting from known facts with clear
+   recipient placeholders; skills do not create live access.
+
+For an open role, do not wait for a cold reply and miss a required application.
+Use pre-application outreach for a useful scope/timing question or genuine
+referral. Follow-up timing starts from a confirmed sent event, normally around
+5–7 business days; employer/user timelines take priority. Replies change the plan.
+
+Drafting and research do not authorize submitting applications, sending messages,
+editing profiles, buying tools, or scheduling outreach. Follow the user's request;
+do not ask again for already requested research or local drafting.
 
 ## Update facts
 
@@ -121,12 +162,15 @@ preserved original upload is `sources/user-supplied-resume.tex`.
 
 ## Skills and environment
 
-Start with `skills/resume-workflow/SKILL.md`, then select upstream skills using
-`skills/README.md`. Read a skill before applying it. Generic examples and
-recommendations remain subordinate to user preferences and factual constraints.
+Choose the local resume, contact-research, letter-writing, or complete-packet
+workflow through `skills/README.md`, then read relevant upstream skills.
+Generic sales examples, sending infrastructure, autonomous replies, and
+campaign benchmarks do not override job-application scope or user facts.
 
 Python 3 supports the bank tools. PDF builds need `pdflatex`, `pdfinfo`, and
 `pdftotext`; `pdftoppm` helps visual review. No server, production CRM, database,
-real candidate data, model credentials, or API calls are needed. Generated
+real candidate data, model credentials, or API calls are needed for bank/resume
+work. Live contact research needs search/browser access; authorized enrichment
+tools are optional and are not installed by copying skills. Generated
 artifacts belong in ignored `build/`; source `.tex`, selected PDFs, and notes
 may be versioned. Never include credentials or raw applicant data.

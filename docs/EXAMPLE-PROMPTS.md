@@ -5,6 +5,53 @@ Replace angle-bracket placeholders before using these. Read
 prompts authorize local drafting and review; sending applications or outreach
 requires a separate explicit instruction.
 
+## Complete application packet
+
+> Read AGENTS.md and use application-workflow for `<company> — <role>`.
+> Here is the full JD: `<text and URL>`. My application status is `<not applied /
+> applied, date if known / interviewed / unknown>`. Tailor a one-page Overleaf
+> resume, find one relevant contact and one fallback, source their LinkedIn and
+> professional email where available, and recommend before/after-application
+> timing. Draft the useful cover letter, email, and LinkedIn variant for this
+> stage. Save sources, bank claim IDs, uncertainty, and timing notes. Give me
+> full LaTeX and copyable messages. Keep everything as drafts.
+
+## Find the right person
+
+> For `<company, role, JD>`, find the relevant recruiter or function leader
+> and one fallback. Use contact-research. Explain their hiring connection and
+> show source URLs/dates for current role, LinkedIn, and professional email.
+> Separate published/provider addresses, guesses, and delivery checks. If no
+> supported email is found, give the best sourced route. Save contacts.json.
+
+## Write before applying
+
+> I have not applied to `<role/company>`. Decide whether a pre-application note
+> would answer a useful question or whether I should apply normally first.
+> Draft a concise message to the sourced recipient with one clear ask, using
+> relevant bank evidence and the JD. Do not invent an application or referral.
+
+## Write after applying
+
+> I applied to `<exact role/company>` on `<date or unknown>`. Use the saved JD,
+> resume, and contact research to draft a short email and LinkedIn alternative.
+> Connect their needs to my work; keep claim/source IDs outside the copyable
+> text. Leave both as drafts.
+
+## Follow up or thank an interviewer
+
+> Here is the actual sent thread/interview context: `<text, dates, details>`.
+> Write the appropriate follow-up or thank-you using application-letter-writer.
+> Respect stated timelines, add useful context, and do not invent a topic or
+> earlier message. Suggest timing in my timezone; leave the message as a draft.
+
+## Offers and other hiring replies
+
+> Draft a `<scheduling / clarification / negotiation / acceptance / decline /
+> withdrawal / reference>` reply. Here are the real terms, thread, dates, and
+> my decision: `<details>`. Use event-response. Ask about missing material
+> terms instead of inventing commitments or current competing offers.
+
 ## Tailor a new application
 
 > Tailor a one-page Overleaf resume for `<company> — <role>`. The posting is

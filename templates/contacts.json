@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "company": "",
+  "role": "",
+  "created_on": null,
+  "application_stage": "unknown",
+  "application_date": null,
+  "interview_date": null,
+  "research_status": "not_started",
+  "contacts": [],
+  "outreach_events": []
+}

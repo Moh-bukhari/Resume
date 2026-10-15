@@ -2,7 +2,28 @@
 
 Start with [the local resume workflow](resume-workflow/SKILL.md) and
 [AGENTS.md](../AGENTS.md). Read only the relevant upstream skill before using
-it; the entire bundle is available offline for future needs.
+it; the skill files and references are available offline for future needs.
+
+## Contacts, letters, and full application packets
+
+| Task | Start here | Supporting skill |
+| --- | --- | --- |
+| Resume plus contacts and letters | [Application workflow](application-workflow/SKILL.md) | Routes to the skills below |
+| Find a relevant person, LinkedIn, and professional email | [Contact research](contact-research/SKILL.md) | [Prospecting](marketingskills/prospecting/SKILL.md) |
+| Pre/post-application email, LinkedIn, referral, follow-up, thank-you, or reply | [Application letter writer](application-letter-writer/SKILL.md) | [Cold Email](marketingskills/cold-email/SKILL.md) |
+| Formal cover letter | [Application letter writer](application-letter-writer/SKILL.md) | [Cover Letter Generator](resumeskills/skills/cover-letter-generator/SKILL.md) |
+
+See [selection research](../docs/SKILL-SELECTION.md),
+[contact guidance](../docs/CONTACT-RESEARCH.md), and
+[letter routing/templates](../docs/LETTERS.md). The two selected marketing
+skills include their references, evaluation cases, and [MIT license](marketingskills/LICENSE).
+Their [pinned provenance](marketingskills/UPSTREAM.md) is separate from the
+original ResumeSkills bundle below. No live tool/provider access is installed.
+
+Local guidance selects source-backed research and concise writing. Sales-volume
+targets, sending domains, mailbox warm-up, automatic replies, and rigid
+length/subject rules are not defaults for job applications. Contacts and event
+state must be grounded in evidence.
 
 ## Default tailoring sequence
 

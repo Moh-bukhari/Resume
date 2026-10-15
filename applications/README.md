@@ -11,14 +11,41 @@ applications/
     resume.pdf
     job-description.md
     tailoring-notes.md
+    contacts.json
+    outreach-plan.md
+    letters/
 ```
 
 For example, a new role could use `applications/example-company-growth-associate/`. Do not overwrite a different role's version. When two postings share a company and title, add a short location or posting identifier to distinguish them. If a submitted version must be preserved while a revision is prepared, create a distinct revision folder and record the relationship in the notes.
+
+Start a packet from the repository root:
+
+```bash
+python3 scripts/new_application.py --company "Example Company" --role "Growth Associate"
+```
+
+Use `--stage before_application`, `--stage after_application`, or
+`--stage interview_completed` only when known. Default: `unknown`. Optional
+`--date YYYY-MM-DD` records the creation date, not an application/interview
+date. `--slug` distinguishes similar postings; see `--help`. Existing folders
+are never overwritten. The helper scaffolds drafts; research, tailoring,
+finalizing letters, and PDF validation remain AI tasks.
 
 - `resume.tex`: complete standalone Overleaf source, tailored from the current bank.
 - `resume.pdf`: the locally built, inspected PDF corresponding to that exact source; create it only after validation.
 - `job-description.md`: the full supplied or retrieved description, exact title, company, URL, source, retrieval/provision date in the user's timezone, and any access/status limits. Never invent a description from a role title or an inaccessible link.
 - `tailoring-notes.md`: copy `templates/application-notes.md`; record selected bullet IDs, evidence, scope limits, gaps, positioning decisions, changes, validation and submission status.
+- `contacts.json`: sourced identities, found LinkedIn URLs, professional email
+  origin/verification, application stage, and separately confirmed events.
+- `outreach-plan.md`: recipient/channel, evidence, stage, and suggested timing.
+- `letters/`: eight unused template drafts initially; finalize the needed
+  types and omit unused variants when presenting a finished packet.
+
+Use [contact research](../docs/CONTACT-RESEARCH.md),
+[letter guidance](../docs/LETTERS.md), or the
+[complete workflow](../skills/application-workflow/SKILL.md). Current-state
+records belong in `contacts.json`; draft/notes metadata should match that
+state. Unknown dates stay unknown.
 
 ## Workflow
 
@@ -47,10 +74,22 @@ For example, a new role could use `applications/example-company-growth-associate
    cp build/resume/resume.pdf applications/company-role/resume.pdf
    ```
 
-8. Deliver the source/PDF and any material limitations. For Overleaf use the complete `resume.tex` with pdfLaTeX. Provide the complete LaTeX in chat when downloads are unavailable.
+8. Research the relevant contact and create stage-appropriate drafts using
+   the guides above. Check the evidence record:
+
+   ```bash
+   python3 scripts/check_contacts.py applications/company-role/contacts.json
+   ```
+
+9. Deliver the source/PDF, requested copyable letters, sourced contacts, and
+   important gaps. Provide complete Overleaf LaTeX in chat when downloads fail.
 
 Leave generated `.aux`, `.log`, `.out` and related build files in ignored `build/`, outside application folders. The templates are starting points and contain no record of validation for a new version.
 
 ## Status
 
-Every new version starts as **draft**, with **no submission recorded**. Creating a folder, compiling a PDF, or reviewing a resume does not mark a job applied to. Drafting alone does not authorize submitting applications or sending emails, LinkedIn messages or other outreach; follow explicit user instructions for any such action. Record an actual submission only when the user explicitly confirms it, with its date and the confirmed action.
+Documents start as **drafts**. Application status defaults to **unknown/no
+submission recorded**, unless a known stage was supplied. File creation does
+not mark a job applied to or an email sent. Record real events from user
+confirmation or a confirmed result of a separately authorized action, with
+dates when known. Drafting does not authorize applying or sending outreach.

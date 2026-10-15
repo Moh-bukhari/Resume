@@ -87,3 +87,19 @@ Overleaf delivery: upload the complete standalone `resume.tex`, select it as the
 ## Submission record
 
 Preparing these files does not authorize or establish an application, email, LinkedIn message, or other outreach. Update submission status only from explicit user confirmation; record the date and confirmed action rather than inferring it from file creation.
+
+## Contacts and letters
+
+- Current-state/evidence record: `contacts.json`
+- Selected recipient ID, relevance, and fallback: [researched choices]
+- LinkedIn source and current-role confidence: [source/date/limits]
+- Professional email origin and verification: [record separately]
+- Outreach plan: `outreach-plan.md`
+- Needed letter type, chosen stage, and draft file(s): [under `letters/`]
+- Company/recipient sources and candidate bank IDs: [outside copyable text]
+- Contact validation: [pending / actual result]
+- Actual sent/reply/application/interview events: [confirmed events only]
+
+Follow `docs/CONTACT-RESEARCH.md` and `docs/LETTERS.md`. The starter helper
+creates unused drafts; finalize the variants fitting the actual stage. Keep
+inferred addresses labeled and unknown dates unknown. Drafts start no timers.
