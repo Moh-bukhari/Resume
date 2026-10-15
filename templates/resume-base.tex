@@ -1,0 +1,110 @@
+% Mohammed Bukhari -- reusable general base; select evidence for each new job.
+% Facts: bank/experience-bank.json is authoritative. This file is a draft.
+% Copy into applications/<company>-<role>/resume.tex before tailoring.
+% Compile with pdfLaTeX. Check one-page layout after every content change.
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.58in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\urlstyle{same}
+\raggedright
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+\setlist[itemize]{leftmargin=13pt,itemsep=1.5pt,topsep=2pt,parsep=0pt,partopsep=0pt}
+
+% Two stable macros: company/location, then official role/dates; project/date.
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\par
+  \textit{#3}\hfill #4\par
+}
+\newcommand{\project}[2]{\textbf{#1}\hfill #2\par}
+
+\begin{document}
+\begin{center}
+  {\LARGE\bfseries Mohammed Bukhari}\\[3pt]
+  +1 (415) 314-6640\enspace$|$\enspace
+  \href{mailto:H7@berkeley.edu}{H7@berkeley.edu}\enspace$|$\enspace
+  \href{https://www.linkedin.com/in/mo-bukhari/}{linkedin.com/in/mo-bukhari}\enspace$|$\enspace
+  \href{https://mobuk.me}{mobuk.me}
+\end{center}
+\vspace{-5pt}
+
+\section{Summary}
+Product manager and founder turning stakeholder needs into software and shared workflows. Experience spans talent sourcing, AI-assisted search, growth automation, partnerships, and voice AI prototyping.
+
+\section{Experience}
+\entry{Tamara -- Fintech}{Riyadh, Saudi Arabia / Remote}
+{Talent Brand \& Partnerships Intern, then External Consultant}{Jun 2026 -- Present}
+\begin{itemize}
+  % TAM-08, TAM-09: historical applicants; later intake is additional scope.
+  \item Mapped COO, recruiting, Talent Brand, and Partnerships workflows; built a \textbf{Greenhouse-integrated CRM} around \textbf{700K+ historical applicant records}.
+  % TAM-14, TAM-15, TAM-18, TAM-25: code features plus user-reported team usage.
+  \item Unified candidate ownership, event attendance, staff interactions, and follow-up for recruiting, Talent Brand/Partnerships, and leadership; added \textbf{OpenAI-assisted search}.
+  % TAM-06, TAM-26: workflow-level connection, no LinkedIn API claim.
+  \item Built targeted event invitation lists in \textbf{LinkedIn Sales Navigator}, with personalized invitations through the COO's LinkedIn profile and subsequent follow-up.
+  % TAM-02, TAM-05, TAM-07: distinct partnership, candidate, and prize units.
+  \item Secured \textbf{7 partnerships} and added \textbf{500+ qualified early-career candidates} during summer 2026; led a national credit-risk competition with \textbf{SAR 100,000 in prizes}.
+\end{itemize}
+
+\entry{UC Berkeley -- Sutardja Center for Entrepreneurship \& Technology}{Berkeley, CA}
+{Product Manager}{Sep 2025 -- Present}
+\begin{itemize}
+  % SCP-06: 500 selected targets; these are not enrollments or conversions.
+  \item Built an \textbf{AI and HubSpot API workflow} filtering \textbf{100K+ leads} from multiple sources into \textbf{500 priority outreach targets}.
+  % SCP-01, SCP-02: spend covered by attribution, no retired ROAS/CPL figures.
+  \item Built attribution across Google, Meta, LinkedIn, and organic channels for \textbf{\$50K in ad spend}, informing marketing budget allocation.
+  % SCP-05: shared-project receipts, not personally generated revenue.
+  \item Worked across approximately \textbf{12 partnerships} on SCET projects that received \textbf{\$100K+ in payments}.
+\end{itemize}
+\textit{Operations Intern}\hfill Jun 2025 -- Dec 2025\par
+\begin{itemize}
+  % SCO-01, SCO-02, SCO-03: preserve the supplied overlapping role dates.
+  \item Delivered intern onboarding and training, standardized documentation, and automated recurring administrative and coordination tasks.
+\end{itemize}
+
+\entry{AynX -- Satellite Collision Avoidance \;\href{https://aynx.space}{(aynx.space)}}{Berkeley, CA}
+{Co-Founder}{Oct 2025 -- Present}
+\begin{itemize}
+  % AYN-01, AYN-02, AYN-03: intended operators are not established customers.
+  \item Co-founded a platform for low-Earth-orbit operators to coordinate maneuvers without revealing satellite ownership; built rotating cryptographic identities and an ML-backed maneuver decision engine.
+  % AYN-04: no unconfirmed finalist date.
+  \item Reached the finals of the Saudi Space Agency's global \textbf{DebriSolver} competition.
+\end{itemize}
+
+\section{Projects \& Awards}
+\project{Sitters -- 1st Place, Anthropic Hackathon}{Sep 2026}
+\begin{itemize}
+  % SIT-01, SIT-02, SIT-04: project/team award, no production adoption claim.
+  \item Built a \textbf{Next.js, Claude, and ElevenLabs} app for voice conversations with a painting's sitter, painter, or both; designed personas separating sourced responses from labeled speculation.
+\end{itemize}
+\project{Personal Job-Search Automation}{2025}
+\begin{itemize}
+  % PAI-01, PAI-10: AI-assisted development and minor personal Python edits.
+  \item Developed with \textbf{Claude/GPT-assisted coding and minor Python edits}; processed \textbf{2,000+ postings in one month} and shortlisted roles scoring \textbf{75+}.
+  % PAI-09: full search period is separate from the processing month.
+  \item Used the workflow during a personal search involving \textbf{221 applications}, interviews with \textbf{17 companies}, and \textbf{7 job offers}.
+\end{itemize}
+\project{SkipLab -- 1st Place, AFI Global Idea Challenge (\$7,000)}{Jan 2025 -- Present}
+\begin{itemize}
+  % SKI-01, SKI-02, SKI-03: project prize; no model-validation claim.
+  \item Co-developed an AI cosmetic-safety pre-screening platform; built the front-end demo and designed an ML workflow using peer-reviewed skin-sensitization and toxicology datasets.
+\end{itemize}
+
+\section{Education}
+\textbf{University of California, Berkeley}\hfill Expected May 2027\par
+B.S. Aerospace Engineering\enspace$|$\enspace GPA: 3.5/4.0\par
+
+\section{Skills}
+\textbf{Technical:} TypeScript, Next.js, Python, SQL, Prisma, OpenAI, Claude, ElevenLabs\par
+\textbf{Business \& Analytics:} LinkedIn Sales Navigator, Greenhouse, HubSpot, Advanced Excel\par
+\textbf{Languages:} Arabic (native), English (fluent)
+\end{document}

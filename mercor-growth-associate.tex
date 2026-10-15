@@ -1,0 +1,155 @@
+% Target: Mercor -- Growth Associate. Standalone Overleaf source; compile with pdfLaTeX.
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.58in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\urlstyle{same}
+\raggedright
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{5pt}{3pt}
+\setlist[itemize]{
+  leftmargin=13pt,
+  itemsep=1pt,
+  topsep=2pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\par
+  \textit{#3}\hfill #4\par
+}
+\newcommand{\project}[2]{\textbf{#1}\hfill #2\par}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries Mohammed Bukhari}\\[3pt]
+  +1 (415) 314-6640\enspace$|$\enspace
+  \href{mailto:H7@berkeley.edu}{H7@berkeley.edu}\enspace$|$\enspace
+  \href{https://www.linkedin.com/in/mo-bukhari/}{linkedin.com/in/mo-bukhari}\enspace$|$\enspace
+  \href{https://mobuk.me}{mobuk.me}
+\end{center}
+\vspace{-5pt}
+
+\section{Summary}
+Product manager and founder combining talent sourcing and growth operations
+with stakeholder discovery, workflow design, and technical implementation.
+Built Tamara's talent CRM connecting Sales Navigator funnels with Greenhouse
+and AI-assisted search; experience spans outbound engagement, cross-team
+operations, partnership delivery, and award-winning voice AI.
+
+\section{Experience}
+
+\entry
+{Tamara -- Fintech}
+{Riyadh, Saudi Arabia / Remote}
+{Talent Brand \& Partnerships Intern, then External Consultant}
+{Jun 2026 -- Present}
+\begin{itemize}
+  \item Ran \textbf{LinkedIn Sales Navigator} sourcing and outreach funnels
+  for Tamara events, connecting prospect engagement and follow-up with
+  recruiting workflows.
+  \item Added \textbf{500+ qualified early-career candidates} to a warm
+  pipeline during summer 2026; secured \textbf{7 partnerships} spanning
+  global hackathons and campus programs after evaluating 40+ organizations.
+  \item Mapped COO, Talent Brand, Partnerships, and recruiting workflows;
+  built a \textbf{Greenhouse-integrated CRM} connecting Sales Navigator
+  sourcing workflows and event intake across \textbf{700K+ applicant,
+  prospect, and event-attendee records}.
+  \item Unified intake, deduplication, shared ownership, engagement
+  histories, and follow-up tracking across talent pipelines; built
+  \textbf{OpenAI-assisted search} for candidate filtering and shared views.
+  \item Led Tamara's national credit-risk fintech competition with
+  \textbf{SAR 100,000 in prizes}.
+\end{itemize}
+
+\entry
+{UC Berkeley -- Sutardja Center for Entrepreneurship \& Technology}
+{Berkeley, CA}
+{Product Manager}
+{Sep 2025 -- Present}
+\begin{itemize}
+  \item Built lead and email automations with
+  \textbf{API integrations and LLM-powered personalization},
+  supporting enrollment across concurrent SCET programs.
+  \item Built attribution across Google, Meta, LinkedIn, and organic
+  channels for \textbf{\$50K in ad spend}, translating campaign
+  performance into budget allocation decisions.
+  \item Worked across approximately \textbf{12 partnerships} on
+  projects that received \textbf{\$100K+ in payments}.
+\end{itemize}
+
+\textit{Operations Intern}\hfill Jun 2025 -- Dec 2025\par
+\begin{itemize}
+  \item Standardized intern onboarding, training, and operational
+  documentation; automated recurring administrative and coordination
+  workflows.
+\end{itemize}
+
+\entry
+{AynX -- Satellite Collision Avoidance
+  \;\href{https://aynx.space}{(aynx.space)}}
+{Berkeley, CA}
+{Co-Founder}
+{Oct 2025 -- Present}
+\begin{itemize}
+  \item Co-founded a platform translating a complex coordination
+  problem into a workflow for low-Earth-orbit operators to avoid
+  collisions without disclosing satellite ownership.
+  \item Built rotating cryptographic identities for pseudonymous,
+  verifiable conjunction-data sharing and an \textbf{ML-backed engine}
+  to determine who maneuvers and when.
+  \item Reached the finals of the Saudi Space Agency's global
+  \textbf{DebriSolver} competition.
+\end{itemize}
+
+\section{Projects \& Awards}
+
+\project{Sitters -- 1st Place, Anthropic Hackathon}{Sep 2026}
+\begin{itemize}
+  \item Personally implemented a \textbf{Next.js, Claude, and ElevenLabs}
+  app enabling museum visitors to point a camera at a painting and
+  hold voice conversations with its sitter, painter, or both.
+  \item Designed conversational personas separating sourced answers
+  from labeled speculation, with a curator layer for context;
+  demonstrated on Sargent's \textit{Portrait of Madame X}.
+\end{itemize}
+
+\project
+{SkipLab -- 1st Place, AFI Global Idea Challenge (\$7,000)}
+{Jan 2025 -- Present}
+\begin{itemize}
+  \item Co-developed an AI platform to pre-screen cosmetic formulation
+  safety; wrote the demo code and designed an ML workflow using
+  peer-reviewed skin-sensitization and toxicology datasets.
+\end{itemize}
+
+\project{Embersafe -- Fire-Hazard Awareness}{}
+\begin{itemize}
+  \item Conducted customer discovery for fire-hazard awareness,
+  built a tool around identified needs, and gathered feedback
+  through public group demos. Adoption in Sonoma County is planned.
+\end{itemize}
+
+\section{Education}
+\textbf{University of California, Berkeley}\hfill Expected May 2027\par
+B.S. Aerospace Engineering\enspace$|$\enspace GPA: 3.5/4.0\par
+
+\section{Skills}
+\textbf{Sourcing \& Growth:} LinkedIn Sales Navigator, Greenhouse, HubSpot,
+prospecting, lead nurturing\par
+\textbf{Analytics \& Automation:} Advanced Excel, SQL, Python, TypeScript,
+Next.js, OpenAI\par
+\textbf{Languages:} Arabic (native), English (fluent)
+
+\end{document}

@@ -1,0 +1,34 @@
+# Reproducible local builds; curated root-level PDFs remain versioned.
+/build/
+
+# TeX auxiliaries.
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# Python and editor temporary files.
+__pycache__/
+*.py[cod]
+.DS_Store
+*~
+*.swp
+*.swo
+.#*
+
+# Never commit local credentials; example configuration can be tracked.
+.env
+.env.*
+!.env.example
