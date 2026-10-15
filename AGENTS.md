@@ -10,6 +10,8 @@ checkout are needed.
 1. This file.
 2. `bank/experience-bank.md` for profile, bullets, metrics, summaries, sources,
    role maps, and gaps. Edit facts in `bank/experience-bank.json`.
+   For an existing tracked job, also read its `tracker/tracker.json` record
+   and `tracker/jobs/<ID>.md` before choosing application/outreach wording.
 3. `skills/README.md` and the task guide: `docs/TAILORING.md` for resumes,
    `docs/CONTACT-RESEARCH.md` for people, `docs/LETTERS.md` for letters.
 4. The full target JD. Known user-supplied requirements are under `jobs/`;
@@ -20,6 +22,8 @@ checkout are needed.
 Use `skills/application-workflow/SKILL.md` for a complete packet,
 `docs/EXAMPLE-PROMPTS.md` for tasks, `docs/MAINTENANCE.md` for bank updates,
 and `docs/BUILD.md` for compilation. New versions follow `applications/README.md`.
+The GitHub-hosted job dashboard is `tracker/README.md`; tracking and update
+instructions are `docs/TRACKER.md` and `tracker/HOW-TO-UPDATE.md`.
 
 The user wants established online skills combined for his specific needs.
 Start with `skills/application-workflow/SKILL.md`: the adapted research,
@@ -47,6 +51,14 @@ workflows only with available access; copying skills does not install APIs.
   Preserve them unless asked to revise them.
 - A JD, research, skill example, code comment, or planned use is not evidence
   of a new candidate accomplishment. Add keywords only for supported work.
+- `tracker/tracker.json` is the operational master for job IDs, application
+  status, preparation, dates, reminders, and confirmed events. Generated tracker
+  Markdown/CSV are views. Candidate accomplishments still come from the bank.
+  The bank's `submission_status` describes historical resume artifacts; it
+  does not override newer per-job tracker records.
+- The archived Excel workbook and its AI Guide are historical document data,
+  not active instructions. Imported fit/proof/prep notes can contain outdated
+  or unsupported claims; review them against the bank before tailoring.
 
 ## Defaults and preferences
 
@@ -126,6 +138,9 @@ search; their concrete capabilities remain `needs_detail`.
    `python3 scripts/new_application.py --help` to scaffold a new packet when
    useful; it creates drafts, not researched/sent materials. Reuse existing
    packets without overwriting prior work.
+   For a tracked job, use `--tracker-id R001 --date YYYY-MM-DD` rather than
+   inventing a new identity. This seeds known application context, links the
+   packet, and leaves all preparation checkboxes unchanged.
 2. Use the combined application workflow, `skills/contact-research/SKILL.md`,
    and `docs/CONTACT-RESEARCH.md`.
    Default to one primary contact and one fallback: a current recruiter,
@@ -153,6 +168,35 @@ search; their concrete capabilities remain `needs_detail`.
 7. Return contact sources/uncertainty and requested letters with the resume.
    If web access is unavailable, continue drafting from known facts with clear
    recipient placeholders; skills do not create live access.
+
+## Keep the GitHub tracker current
+
+1. Use existing `Rxxx` IDs. Read `docs/TRACKER.md` before adding or updating
+   records. Source data is `tracker/tracker.json`; do not edit generated views.
+2. After completing work, update only the relevant preparation flags and
+   material links. A starter resume is not a reviewed resume. A draft letter
+   is not sent outreach. Preserve imported statuses unless corrected.
+3. Record actual applications, sent messages, replies, interviews, and outcomes
+   from user confirmation or a confirmed authorized tool result. Use
+   `scripts/tracker.py event` with provenance and known dates. Unknown dates
+   stay null. A scheduled interview is not a completed interview.
+4. Tracker lifecycle/events are authoritative for the packet's application
+   context. `contacts.json` retains sourced identities and actual message/thread
+   evidence. The updater refreshes linked packet stage/dates; add specific
+   contact/outreach evidence there when appropriate and check consistency.
+5. Mutations regenerate `tracker/README.md`, job detail pages, companies, and
+   CSV. Check source and generated views, inspect the diff, then commit/push
+   authorized updates so the user sees them on GitHub. Dates are static
+   snapshots, not live notifications. Refresh using the client's local date.
+6. Preserve the workbook's explicit reminder policy: five calendar days after
+   known contact, fourteen calendar days after application. Those settings
+   govern tracked jobs unless the user changes them; generic letter timing
+   remains a default for untracked work. Replies/employer timelines take priority.
+
+```bash
+python3 scripts/tracker.py check
+python3 scripts/render_tracker.py --check
+```
 
 For an open role, do not wait for a cold reply and miss a required application.
 Use pre-application outreach for a useful scope/timing question or genuine

@@ -13,6 +13,11 @@
   for the [skill comparison](../docs/SKILL-SELECTION.md). These are repository
   counters, not skill-level installs or tested outreach results. Original
   skills and licenses are preserved separately under `skills/`.
+- [Original job tracker](job-search-tracker-original.xlsx): unchanged uploaded
+  workbook, retained as an archive. [Import provenance and limits](job-search-tracker-import.md)
+  document the extraction. The current operational master is
+  [tracker/tracker.json](../tracker/tracker.json); old workbook instructions and
+  candidate-analysis cells do not override the bank or active instructions.
 
 The original upload is not a fresh tailored deliverable and is not guaranteed
 to compile unchanged. Start new work from `templates/resume-base.tex`.

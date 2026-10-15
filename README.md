@@ -4,6 +4,16 @@ A factual experience bank, one-page Overleaf resumes, professional contact
 research, and tailored application letters in one place.
 **AI assistants: start with [AGENTS.md](AGENTS.md).**
 
+**[Open the job tracker](tracker/README.md)** ·
+[Company watchlist](tracker/companies.md) · [Spreadsheet-style job table](tracker/jobs.csv)
+
+The tracker is hosted here in GitHub: 10 imported jobs and 41 companies.
+Tell the AI “Prepare R001” or confirm an application/outreach event, and it
+can update the tracker alongside your materials. Changes appear after they
+are committed and pushed. [How updates work](tracker/HOW-TO-UPDATE.md).
+You can view it directly on GitHub; no Google Sheets connection or separate
+website is required. The Excel workbook is preserved as a source snapshot.
+
 ## Published specialist skills
 
 The [comparison research](docs/SKILL-SELECTION.md) covers both the earlier
@@ -52,6 +62,9 @@ The default is one A4 page, readable 10pt text, pdfLaTeX, and Tamara first.
 | Path | Purpose |
 | --- | --- |
 | [AGENTS.md](AGENTS.md) | Main instructions and navigation for any AI assistant |
+| [tracker/README.md](tracker/README.md) | GitHub-hosted application dashboard and reminders |
+| [tracker/tracker.json](tracker/tracker.json) | Editable operational master; permanent job IDs, status, preparation, events, and links |
+| [docs/TRACKER.md](docs/TRACKER.md) | Tracking workflow, source ownership, and update commands |
 | [CLAUDE.md](CLAUDE.md) | Claude entry point pointing to the same instructions |
 | [bank/experience-bank.json](bank/experience-bank.json) | Editable factual master: profile, experiences, bullets, metrics, skills, summaries, sources, gaps, role maps |
 | [bank/experience-bank.md](bank/experience-bank.md) | Generated human-readable master bank |
@@ -96,15 +109,22 @@ is not evidence that an application was submitted.
 ## Commands
 
 Run from the repository root. Python helpers use only the standard library.
+The optional one-time Excel importer additionally needs `openpyxl`; normal
+tracking, rendering, and packet creation do not.
 
 ```bash
 python3 scripts/render_bank.py
 python3 scripts/check_bank.py
+python3 scripts/tracker.py check
+python3 scripts/render_tracker.py --check
 bash scripts/build_resume.sh templates/resume-base.tex
 
 # Start an unsent draft packet; see --help for stage/date options:
 python3 scripts/new_application.py --company "Example Company" --role "Growth Associate"
 python3 scripts/check_contacts.py applications/example-company-growth-associate/contacts.json
+
+# Start a packet using a job already in the tracker:
+python3 scripts/new_application.py --tracker-id R001 --date 2026-10-15
 ```
 
 Build output goes under ignored `build/<source-stem>/`. See

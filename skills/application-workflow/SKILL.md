@@ -40,10 +40,18 @@ dates. Archived JDs/uploads keep their source dates; they are not current news.
 Read the full JD, [bank](../../bank/experience-bank.md), and existing
 `applications/<company>-<role>/` packet. Consult `contacts.json`, confirmed
 events, and supplied conversation threads before asking anything again.
+For a tracked job, first read its `Rxxx` record in
+`tracker/tracker.json` and [the tracking guide](../../docs/TRACKER.md).
+Tracker lifecycle/dates drive the application context; imported fit/proof
+notes do not override the factual bank.
 
 For a new target, use `python3 scripts/new_application.py --help` to scaffold
 the packet. Supply only known stage/date metadata. The initializer creates
 untailored, unsent drafts; file creation proves no application or contact.
+Use `--tracker-id R001 --date YYYY-MM-DD` for an existing tracked job to keep
+its ID and link the packet. Update preparation/material links after real work,
+and confirmed events after they happen, using `scripts/tracker.py`. Regenerate,
+validate, and publish the tracker with authorized repository changes.
 
 Write a short fit brief in `tailoring-notes.md`:
 

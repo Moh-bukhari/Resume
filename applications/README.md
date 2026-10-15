@@ -7,6 +7,7 @@ Use lowercase, hyphen-separated company and role slugs:
 ```text
 applications/
   company-role/
+    application.json
     resume.tex
     resume.pdf
     job-description.md
@@ -24,6 +25,19 @@ Start a packet from the repository root:
 python3 scripts/new_application.py --company "Example Company" --role "Growth Associate"
 ```
 
+For a job in [the tracker](../tracker/README.md), use its permanent ID instead:
+
+```bash
+python3 scripts/new_application.py --tracker-id R001 --date 2026-10-15
+```
+
+The helper creates an ID-prefixed folder, records its identity in
+`application.json`, and links it from the tracker. It seeds known application
+dates and stage without treating an upcoming interview as completed. Imported
+job summaries still need the full posting before tailoring. A temporary output
+outside this repository leaves the live tracker untouched. Existing folders
+are never overwritten; reuse their packet on later work.
+
 Use `--stage before_application`, `--stage after_application`, or
 `--stage interview_completed` only when known. Default: `unknown`. Optional
 `--date YYYY-MM-DD` records the creation date, not an application/interview
@@ -35,6 +49,8 @@ finalizing letters, and PDF validation remain AI tasks.
 - `resume.pdf`: the locally built, inspected PDF corresponding to that exact source; create it only after validation.
 - `job-description.md`: the full supplied or retrieved description, exact title, company, URL, source, retrieval/provision date in the user's timezone, and any access/status limits. Never invent a description from a role title or an inaccessible link.
 - `tailoring-notes.md`: copy `templates/application-notes.md`; record selected bullet IDs, evidence, scope limits, gaps, positioning decisions, changes, validation and submission status.
+- `application.json`: packet identity, tracker reference/ID, posting reference,
+  and creation date; not evidence of submission or a reviewed resume.
 - `contacts.json`: sourced identities, found LinkedIn URLs, professional email
   origin/verification, application stage, and separately confirmed events.
 - `outreach-plan.md`: recipient/channel, evidence, stage, and suggested timing.
@@ -44,8 +60,9 @@ finalizing letters, and PDF validation remain AI tasks.
 Use [contact research](../docs/CONTACT-RESEARCH.md),
 [letter guidance](../docs/LETTERS.md), or the
 [complete workflow](../skills/application-workflow/SKILL.md). Current-state
-records belong in `contacts.json`; draft/notes metadata should match that
-state. Unknown dates stay unknown.
+application lifecycle belongs in `tracker/tracker.json` when linked; sourced
+contact/thread evidence stays in `contacts.json`. Draft/notes metadata should
+match that context. Unknown dates stay unknown.
 
 ## Workflow
 
