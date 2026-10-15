@@ -1,13 +1,25 @@
-# Mohammed Bukhari — application toolkit
+# Mohammed Bukhari — job application system
 
 A factual experience bank, one-page Overleaf resumes, professional contact
-research, and tailored application letters in one place.
-**AI assistants: start with [AGENTS.md](AGENTS.md).**
+research, tailored letters, and an application tracker in one portable repository.
+
+**New assistant or new session: [START-HERE.md](START-HERE.md).**
+The shared Markdown handbook works with any AI that can read the repository.
+[AGENTS.md](AGENTS.md) is the operating instruction file; Claude/Copilot entry
+files route to the same instructions. No prior chat is required.
+
+| Use the system | Open |
+| --- | --- |
+| Learn how files, tools, and updates work | [System guide](docs/SYSTEM.md) |
+| Complete a task step by step | [Workflows](docs/WORKFLOWS.md) |
+| Understand tracking fields and events | [Tracker reference](docs/TRACKER-REFERENCE.md) |
+| Continue unfinished work | [Current handoff](docs/HANDOFF.md) |
+| Browse every guide | [Documentation index](docs/README.md) |
 
 **[Open the job tracker](tracker/README.md)** ·
 [Company watchlist](tracker/companies.md) · [Spreadsheet-style job table](tracker/jobs.csv)
 
-The tracker is hosted here in GitHub: 10 imported jobs and 41 companies.
+The tracker is hosted here in GitHub; it began with 10 imported jobs and 41 companies.
 Tell the AI “Prepare R001” or confirm an application/outreach event, and it
 can update the tracker alongside your materials. Changes appear after they
 are committed and pushed. [How updates work](tracker/HOW-TO-UPDATE.md).
@@ -43,17 +55,21 @@ copying the skills does not configure an account or spend credits.
 
 ## Start here
 
-1. Read the [experience bank](bank/experience-bank.md) and the full job description.
+1. Read [START-HERE.md](START-HERE.md), the relevant tracker record, the
+   [experience bank](bank/experience-bank.md), and the full job description.
 2. Follow the [combined application workflow](skills/application-workflow/SKILL.md)
    and [skill router](skills/README.md); use the [tailoring guide](docs/TAILORING.md)
    for the resume layout and selection.
-3. Create an [application packet](applications/README.md) with the helper below.
+3. Add/resolve the stable job ID and create its linked
+   [application packet](applications/README.md) with the helper below.
 4. Tailor the [resume](templates/resume-base.tex),
    [research relevant people](docs/CONTACT-RESEARCH.md), and
    [choose the right letter](docs/LETTERS.md) for the actual stage.
 5. Build/check the resume and contacts. Provide complete LaTeX and copyable
    letters in chat. Downloads have
    previously been unreliable.
+6. Update supported preparation/event records, regenerate views, validate,
+   publish, and save a handoff. [Full procedure](docs/WORKFLOWS.md).
 
 The default is one A4 page, readable 10pt text, pdfLaTeX, and Tamara first.
 
@@ -61,7 +77,9 @@ The default is one A4 page, readable 10pt text, pdfLaTeX, and Tamara first.
 
 | Path | Purpose |
 | --- | --- |
+| [START-HERE.md](START-HERE.md) | Universal entry point and copyable instruction for a new AI |
 | [AGENTS.md](AGENTS.md) | Main instructions and navigation for any AI assistant |
+| [docs/README.md](docs/README.md) | Organized handbook index, including workflows and handoff |
 | [tracker/README.md](tracker/README.md) | GitHub-hosted application dashboard and reminders |
 | [tracker/tracker.json](tracker/tracker.json) | Editable operational master; permanent job IDs, status, preparation, events, and links |
 | [docs/TRACKER.md](docs/TRACKER.md) | Tracking workflow, source ownership, and update commands |

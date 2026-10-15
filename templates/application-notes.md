@@ -88,7 +88,13 @@ Overleaf delivery: upload the complete standalone `resume.tex`, select it as the
 
 ## Submission record
 
-Preparing these files does not authorize or establish an application, email, LinkedIn message, or other outreach. Update submission status only from explicit user confirmation; record the date and confirmed action rather than inferring it from file creation.
+Preparing these files does not authorize or establish an application, email,
+LinkedIn message, or other outreach. Use the tracked job's confirmed state;
+otherwise leave submission unknown/no submission recorded. Update it from the
+user's confirmation of an actual action or a successful authorized tool result,
+recording the evidence and known date. Authorization or file creation alone
+does not establish completion. Record the event in the tracker and keep these
+notes consistent with it.
 
 ## Contacts and letters
 

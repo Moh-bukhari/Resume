@@ -1,5 +1,8 @@
 # Application tracker
 
+[System guide](SYSTEM.md) · [Task workflows](WORKFLOWS.md) ·
+[Complete field/event reference](TRACKER-REFERENCE.md)
+
 Open [the dashboard](../tracker/README.md) on GitHub to see application status,
 preparation, suggested next actions, and links to each job. Use
 [company research](../tracker/companies.md) for the wider company list and

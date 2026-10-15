@@ -1,5 +1,11 @@
 # Skills for this repository
 
+The portable system begins at [START-HERE.md](../START-HERE.md). Use
+[task workflows](../docs/WORKFLOWS.md) for tracking, preparation, and publishing;
+this index selects the specialist methods used inside those workflows.
+Any AI can read the skill Markdown directly; a vendor-specific skill loader
+is optional. Current work is recorded in [the handoff](../docs/HANDOFF.md).
+
 Start with [AGENTS.md](../AGENTS.md) and [Mohammed's combined application
 workflow](application-workflow/SKILL.md), or [the resume subset](resume-workflow/SKILL.md)
 when only a resume is needed. Read the relevant published original before using

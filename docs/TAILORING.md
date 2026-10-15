@@ -98,7 +98,10 @@ are recurring distinctions that affect wording:
    `resume.tex`, `job-description.md`, and `tailoring-notes.md`. In the notes,
    record target/URL, source text, selected bullet and metric IDs, wording
    decisions, material gaps, and verification results. Submission status is
-   “not submitted” until the user reports or explicitly authorizes a submission.
+   taken from confirmed tracker/packet evidence; otherwise use “unknown / no
+   submission recorded.” Mark submitted only when the user confirms an actual
+   submission or an authorized tool returns evidence that it succeeded.
+   Permission to apply does not establish that the application happened.
 4. Produce a **complete standalone LaTeX document** with the preamble and
    `\begin{document}` / `\end{document}`. Escape LaTeX special characters in
    prose. Do not give only a section fragment for replacing an Overleaf document.

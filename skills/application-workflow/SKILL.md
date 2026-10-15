@@ -5,6 +5,11 @@ description: Build Mohammed Bukhari's per-job resume and outreach packet using e
 
 # Mohammed's application workflow
 
+For the full repository operating cycle, use [START-HERE.md](../../START-HERE.md)
+and [task workflows](../../docs/WORKFLOWS.md). This skill supplies application
+research/writing methods within that cycle. Save supported tracking changes
+and a [handoff](../../docs/HANDOFF.md) when finishing the requested work.
+
 Use for a tailored resume, finding the right person, or writing before or after
 an application. Read [AGENTS.md](../../AGENTS.md) first. Complete the requested
 parts; a request for one letter does not require producing every template.

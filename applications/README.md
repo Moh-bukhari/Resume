@@ -1,5 +1,10 @@
 # Application versions
 
+For normal job-search work, add/resolve a tracker ID first and use the linked
+packet workflow in [WORKFLOWS.md](../docs/WORKFLOWS.md). The company/role-only
+initializer below remains useful for a standalone draft that does not need
+tracking; creating one does not add a tracker record.
+
 Store each tailored resume and its evidence in a separate folder. Start from the current `bank/experience-bank.json`, the guidance in `skills/README.md`, and `templates/resume-base.tex`. Existing application drafts and PDFs are prior versions, not the factual master or a record of submission.
 
 Use lowercase, hyphen-separated company and role slugs:

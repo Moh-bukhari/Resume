@@ -1,5 +1,9 @@
 # Update the tracker
 
+New AI session: [START-HERE.md](../START-HERE.md). For complete procedures use
+[WORKFLOWS.md](../docs/WORKFLOWS.md); for every field, event, correction, and
+manual edit use [TRACKER-REFERENCE.md](../docs/TRACKER-REFERENCE.md).
+
 Read [the dashboard](README.md), choose the stable job ID, and use
 [the tracker guide](../docs/TRACKER.md) for ownership and evidence rules.
 Commands run from the repository root. Example dates and notes below are

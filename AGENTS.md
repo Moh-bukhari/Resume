@@ -1,23 +1,32 @@
 # Instructions for AI assistants
 
-This is Mohammed Bukhari's application toolkit. Maintain the factual bank,
+This is Mohammed Bukhari's application system. Maintain the factual bank,
 produce one-page Overleaf resumes, research relevant professional contacts,
-and write stage-appropriate letters. No prior chat or files outside this
-checkout are needed.
+write stage-appropriate letters, and keep the GitHub tracker current as work
+progresses. No prior chat or files outside this checkout are needed.
+These instructions apply to any AI assistant with repository access.
+
+Human/AI entry point: [START-HERE.md](START-HERE.md). Documentation map:
+[docs/README.md](docs/README.md). Model-specific entry files point here;
+keep operating rules in shared Markdown instead of duplicating them by model.
 
 ## Read in this order
 
-1. This file.
-2. `bank/experience-bank.md` for profile, bullets, metrics, summaries, sources,
-   role maps, and gaps. Edit facts in `bank/experience-bank.json`.
-   For an existing tracked job, also read its `tracker/tracker.json` record
-   and `tracker/jobs/<ID>.md` before choosing application/outreach wording.
-3. `skills/README.md` and the task guide: `docs/TAILORING.md` for resumes,
-   `docs/CONTACT-RESEARCH.md` for people, `docs/LETTERS.md` for letters.
-4. The full target JD. Known user-supplied requirements are under `jobs/`;
-   these are historical inputs, not verified current openings.
-5. `templates/resume-base.tex` for the current standalone layout.
-6. `tamara-crm-study.md` for detailed Tamara implementation claims.
+1. This file, then [docs/SYSTEM.md](docs/SYSTEM.md) for file ownership,
+   capabilities, update/publish procedures, and recovery.
+2. [docs/HANDOFF.md](docs/HANDOFF.md) for unfinished work. Verify its notes
+   against the current records; it does not override them.
+3. [docs/WORKFLOWS.md](docs/WORKFLOWS.md) for the requested task. Tracking-only
+   work does not require reading every resume or vendor skill.
+4. The job's `tracker/tracker.json` record, `tracker/jobs/<ID>.md`, and linked
+   packet before choosing application/outreach wording. Use
+   [docs/TRACKER-REFERENCE.md](docs/TRACKER-REFERENCE.md) for exact data contracts.
+5. For candidate claims, `bank/experience-bank.md`: profile, bullets, metrics,
+   summaries, sources, role maps, and gaps. Edit facts in `bank/experience-bank.json`.
+6. Relevant guides/skills via `skills/README.md` and the full target JD.
+   Known requirements under `jobs/` are historical inputs, not verified current
+   openings. Use `templates/resume-base.tex` for layout and
+   `tamara-crm-study.md` for detailed Tamara implementation claims.
 
 Use `skills/application-workflow/SKILL.md` for a complete packet,
 `docs/EXAMPLE-PROMPTS.md` for tasks, `docs/MAINTENANCE.md` for bank updates,
@@ -118,6 +127,9 @@ search; their concrete capabilities remain `needs_detail`.
 3. Create `applications/<company>-<role>/` containing `job-description.md`,
    `tailoring-notes.md`, and `resume.tex`. Use `templates/application-notes.md`
    to record selected IDs, scopes, gaps, and checks. Default status: `draft`.
+   In the normal job-search workflow, add/resolve the tracker job first and use
+   `python3 scripts/new_application.py --tracker-id Rxxx --date YYYY-MM-DD`;
+   it creates an ID-prefixed packet. Reuse a linked packet on later work.
 4. Adapt the current template with concrete verbs and readable bullets.
    Preserve facts and personal/team credit. Do not fill gaps with invented
    tools, tenure, revenue, customer outcomes, or keyword stuffing.
@@ -173,6 +185,8 @@ search; their concrete capabilities remain `needs_detail`.
 
 1. Use existing `Rxxx` IDs. Read `docs/TRACKER.md` before adding or updating
    records. Source data is `tracker/tracker.json`; do not edit generated views.
+   Inspect the event history before recording a user report again: repeated
+   commands append events, so retries must not duplicate the same event.
 2. After completing work, update only the relevant preparation flags and
    material links. A starter resume is not a reviewed resume. A draft letter
    is not sent outreach. Preserve imported statuses unless corrected.
@@ -192,6 +206,15 @@ search; their concrete capabilities remain `needs_detail`.
    known contact, fourteen calendar days after application. Those settings
    govern tracked jobs unless the user changes them; generic letter timing
    remains a default for untracked work. Replies/employer timelines take priority.
+7. Finish with a short update to [docs/HANDOFF.md](docs/HANDOFF.md): changed job
+   IDs/paths, completed checks, publication result, and remaining work. Save real
+   facts/events in their canonical records first; handoff notes are not a ledger.
+
+The full task runbooks are [docs/WORKFLOWS.md](docs/WORKFLOWS.md); every field,
+event mapping, direct-edit rule, and correction procedure is documented in
+[docs/TRACKER-REFERENCE.md](docs/TRACKER-REFERENCE.md). If execution/write access
+is missing, follow [docs/SYSTEM.md](docs/SYSTEM.md): produce precise proposed
+changes and identify what remains unexecuted rather than claiming an update.
 
 ```bash
 python3 scripts/tracker.py check
