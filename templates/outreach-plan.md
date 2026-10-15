@@ -38,6 +38,19 @@ Follow `docs/COMPANY-ALIGNMENT.md` from the repository root. Review the exact
 text before delivery and before any authorized send. Keep administrative replies
 brief; preserve actual sent wording and record real events separately.
 
+## Final writing review
+
+Apply `skills/professional-writing-review/SKILL.md` from the repository root to
+every new/revised message before delivery and any authorized send.
+
+| Draft/version | Blader naturalness pass | Corey clarity/proof/strength pass | Facts and company fit preserved | Review status/date |
+| --- | --- | --- | --- | --- |
+| [exact file/version] | pending | pending | pending | pending |
+
+Retain useful technical terms, concrete achievements, and one clear ask.
+Keep administrative replies brief. Recheck edited wording; never rewrite the
+historical text of a sent message or record a review as a sending event.
+
 ## Recommended next step
 
 [Choose the letter type and explain why it fits the confirmed stage. Do not

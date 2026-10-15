@@ -1,0 +1,286 @@
+{
+  "observed_client_date": "2026-10-15",
+  "purpose": "Compare natural-writing skills for factual resumes and professional job-search messages.",
+  "limits": [
+    "GitHub API, Google/Bing search, and skills.sh requests were blocked by proxy HTTP 403. GitHub repository search HTML, repository pages, raw files, and native Git worked.",
+    "Repository stars indicate adoption/attention, not an individual skill effectiveness score, hiring outcomes, or a detector benchmark.",
+    "Only text was inspected; no remote installer, script, detector, or enrichment service was executed."
+  ],
+  "humanizer_candidates": [
+    {
+      "repository": "blader/humanizer",
+      "repository_url": "https://github.com/blader/humanizer",
+      "observed_client_date": "2026-10-15",
+      "stars": 57276,
+      "counter_source": "GitHub repository search embedded JSON results[].followers (repository stars)",
+      "counter_search_url": "https://github.com/search?q=humanizer+skill&type=repositories&s=stars&o=desc",
+      "counter_scope": "repository-wide adoption, not skill quality or output benchmark",
+      "pin": "225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8",
+      "commit_timestamp": "2026-09-27T22:54:38-07:00",
+      "license": "MIT",
+      "skill_path": "SKILL.md",
+      "license_path": "LICENSE",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+          "source_url": "https://github.com/blader/humanizer/blob/225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8/SKILL.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96",
+          "source_url": "https://github.com/blader/humanizer/blob/225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8/LICENSE"
+        }
+      ]
+    },
+    {
+      "repository": "hardikpandya/stop-slop",
+      "repository_url": "https://github.com/hardikpandya/stop-slop",
+      "observed_client_date": "2026-10-15",
+      "stars": 18052,
+      "counter_source": "GitHub repository search embedded JSON results[].followers (repository stars)",
+      "counter_search_url": "https://github.com/search?q=stop-slop&type=repositories&s=stars&o=desc",
+      "counter_scope": "repository-wide adoption, not skill quality or output benchmark",
+      "pin": "8da1f030185bdfe8471220585162991eaeb970e9",
+      "commit_timestamp": "2026-03-18T00:20:36+05:30",
+      "license": "MIT",
+      "skill_path": "SKILL.md",
+      "license_path": "LICENSE",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "7432a1d9ebdd42b27666da8458af252edf549f723fb14bcd4791425103930310",
+          "source_url": "https://github.com/hardikpandya/stop-slop/blob/8da1f030185bdfe8471220585162991eaeb970e9/SKILL.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "2e2b2beaf41cc0ce28485455a62aed81777cdcdf68702e142427aef1cd720f2c",
+          "source_url": "https://github.com/hardikpandya/stop-slop/blob/8da1f030185bdfe8471220585162991eaeb970e9/LICENSE"
+        },
+        {
+          "path": "references/examples.md",
+          "sha256": "49c592899eb4457f95d0767e15e3143569e2cef50f2927c3174e62432984cd3d",
+          "source_url": "https://github.com/hardikpandya/stop-slop/blob/8da1f030185bdfe8471220585162991eaeb970e9/references/examples.md"
+        },
+        {
+          "path": "references/phrases.md",
+          "sha256": "4ca1b7e97123b5c67eff3dc97e5e977332e0b24021265c1553888a93ec33fa93",
+          "source_url": "https://github.com/hardikpandya/stop-slop/blob/8da1f030185bdfe8471220585162991eaeb970e9/references/phrases.md"
+        },
+        {
+          "path": "references/structures.md",
+          "sha256": "ffbf1316c7fb5aaf552de005609a64a9639b546ecd76bfb0e482864d5bbe6f58",
+          "source_url": "https://github.com/hardikpandya/stop-slop/blob/8da1f030185bdfe8471220585162991eaeb970e9/references/structures.md"
+        }
+      ]
+    },
+    {
+      "repository": "Nanako0129/sepia",
+      "repository_url": "https://github.com/Nanako0129/sepia",
+      "observed_client_date": "2026-10-15",
+      "stars": 3188,
+      "counter_source": "GitHub repository search embedded JSON results[].followers (repository stars)",
+      "counter_search_url": "https://github.com/search?q=humanizer+skill&type=repositories&s=stars&o=desc",
+      "counter_scope": "repository-wide adoption, not skill quality or output benchmark",
+      "pin": "fb06be76abeae7dd606960a32f2b10c1d1798e0d",
+      "commit_timestamp": "2026-10-15T10:19:10+08:00",
+      "license": "MIT",
+      "skill_path": "skills/sepia/SKILL.md",
+      "license_path": "LICENSE",
+      "files": [
+        {
+          "path": "skills/sepia/SKILL.md",
+          "sha256": "90f3ce8f1f83cb342a8605ad4815473920b5c2ee692f7215459f901669aa0947",
+          "source_url": "https://github.com/Nanako0129/sepia/blob/fb06be76abeae7dd606960a32f2b10c1d1798e0d/skills/sepia/SKILL.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "7d3d6cf8de8f5ffe1b161b86c35e7286cfacf7f55d17b2a5c52efdad21a79df3",
+          "source_url": "https://github.com/Nanako0129/sepia/blob/fb06be76abeae7dd606960a32f2b10c1d1798e0d/LICENSE"
+        },
+        {
+          "path": "skills/sepia/references/professional-pass.md",
+          "sha256": "56ec4a89d476b27090698d7bf8a295ec2ad32d9ba2194ca0d2cc657ed3504949",
+          "source_url": "https://github.com/Nanako0129/sepia/blob/fb06be76abeae7dd606960a32f2b10c1d1798e0d/skills/sepia/references/professional-pass.md"
+        },
+        {
+          "path": "skills/sepia/references/style-pass.md",
+          "sha256": "6a129bd629bebdda069865876737a8d0acf85b5bba9213c5466dff974b7724dd",
+          "source_url": "https://github.com/Nanako0129/sepia/blob/fb06be76abeae7dd606960a32f2b10c1d1798e0d/skills/sepia/references/style-pass.md"
+        }
+      ]
+    },
+    {
+      "repository": "AIScientists-Dev/academic-humanizer",
+      "repository_url": "https://github.com/AIScientists-Dev/academic-humanizer",
+      "observed_client_date": "2026-10-15",
+      "stars": 2149,
+      "counter_source": "GitHub repository search embedded JSON results[].followers (repository stars)",
+      "counter_search_url": "https://github.com/search?q=humanizer+skill&type=repositories&s=stars&o=desc",
+      "counter_scope": "repository-wide adoption, not skill quality or output benchmark",
+      "pin": "94b88b23703bed7df507acae7d6d5876209a0cdf",
+      "commit_timestamp": "2026-07-03T15:58:31+08:00",
+      "license": "MIT",
+      "skill_path": "SKILL.md",
+      "license_path": "LICENSE",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "1f4501cb7331cffe9018960f8db045c719eea0658ce04e4af5e273ee59785a9c",
+          "source_url": "https://github.com/AIScientists-Dev/academic-humanizer/blob/94b88b23703bed7df507acae7d6d5876209a0cdf/SKILL.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "95201f07cd5d4454f205a53a65337cbe00298a4d21a4e68a1fc516958e7cdaf9",
+          "source_url": "https://github.com/AIScientists-Dev/academic-humanizer/blob/94b88b23703bed7df507acae7d6d5876209a0cdf/LICENSE"
+        }
+      ]
+    },
+    {
+      "repository": "harshaneel/humanize",
+      "repository_url": "https://github.com/harshaneel/humanize",
+      "observed_client_date": "2026-10-15",
+      "stars": 543,
+      "counter_source": "GitHub repository search embedded JSON results[].followers (repository stars)",
+      "counter_search_url": "https://github.com/search?q=humanizer+skill&type=repositories&s=stars&o=desc",
+      "counter_scope": "repository-wide adoption, not skill quality or output benchmark",
+      "pin": "9c3dec34dc8e0ed9d26de14a869900a714da8f9e",
+      "commit_timestamp": "2026-09-22T09:24:11-07:00",
+      "license": "MIT",
+      "skill_path": "plugins/humanize/skills/humanize/SKILL.md",
+      "license_path": "LICENSE",
+      "files": [
+        {
+          "path": "plugins/humanize/skills/humanize/SKILL.md",
+          "sha256": "bfb3c5fb90c837f44b5732b33f13e9e1dd61885cc77d0cfe99ce8a3e6ef541aa",
+          "source_url": "https://github.com/harshaneel/humanize/blob/9c3dec34dc8e0ed9d26de14a869900a714da8f9e/plugins/humanize/skills/humanize/SKILL.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0261d6664eea6c1cd1203686249c3fc9b9f4cef47b6e1706503a5c5525d522ad",
+          "source_url": "https://github.com/harshaneel/humanize/blob/9c3dec34dc8e0ed9d26de14a869900a714da8f9e/LICENSE"
+        }
+      ]
+    },
+    {
+      "repository": "Jakeschincariol/linkedin-agent-skill",
+      "repository_url": "https://github.com/Jakeschincariol/linkedin-agent-skill",
+      "observed_client_date": "2026-10-15",
+      "stars": 2158,
+      "counter_source": "GitHub repository search embedded JSON results[].followers (repository stars)",
+      "counter_search_url": "https://github.com/search?q=humanizer+skill&type=repositories&s=stars&o=desc",
+      "counter_scope": "repository-wide adoption, not skill quality or output benchmark",
+      "pin": "add2c23882fe79180737d242ff80a5da205eda6a",
+      "commit_timestamp": "2026-09-07T18:58:10-04:00",
+      "license": "MIT",
+      "skill_path": "skills/li-human/SKILL.md",
+      "license_path": "LICENSE",
+      "files": [
+        {
+          "path": "skills/li-human/SKILL.md",
+          "sha256": "2ebda9ff1b63f0d567cd8e30b6fc1465e05c46e166809ea0569cba3591d73d90",
+          "source_url": "https://github.com/Jakeschincariol/linkedin-agent-skill/blob/add2c23882fe79180737d242ff80a5da205eda6a/skills/li-human/SKILL.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "857c8d5276809c8196b3cd7cb3300324768bfc562b2b6281b06d6865058e186c",
+          "source_url": "https://github.com/Jakeschincariol/linkedin-agent-skill/blob/add2c23882fe79180737d242ff80a5da205eda6a/LICENSE"
+        }
+      ]
+    },
+    {
+      "repository": "op7418/Humanizer-zh",
+      "repository_url": "https://github.com/op7418/Humanizer-zh",
+      "observed_client_date": "2026-10-15",
+      "stars": 19774,
+      "counter_source": "GitHub repository search embedded JSON results[].followers (repository stars)",
+      "counter_search_url": "https://github.com/search?q=humanizer+skill&type=repositories&s=stars&o=desc",
+      "counter_scope": "repository-wide adoption, not skill quality or output benchmark",
+      "pin": "f4518a8eab97b8bfebc66a89d34320a89bef6930",
+      "commit_timestamp": "2026-09-23T10:24:26+08:00",
+      "license": "MIT",
+      "skill_path": "SKILL.md",
+      "license_path": "LICENSE",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "95627fd4437d886f98032ccc62d79136e6310f1fc04e354bb86431795ff206df",
+          "source_url": "https://github.com/op7418/Humanizer-zh/blob/f4518a8eab97b8bfebc66a89d34320a89bef6930/SKILL.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "aa00e74769e1b9d8e7fa7094dbfcca9b129a0ded6dce1cf4da050b99146d2fa7",
+          "source_url": "https://github.com/op7418/Humanizer-zh/blob/f4518a8eab97b8bfebc66a89d34320a89bef6930/LICENSE"
+        }
+      ]
+    }
+  ],
+  "editing_candidates": [
+    {
+      "repository": "softaworks/agent-toolkit",
+      "url": "https://github.com/softaworks/agent-toolkit",
+      "commit": "3027f20f3181758385a1bb8c022d4041dfb4de84",
+      "repository_stars": 2557,
+      "observed_client_date": "2026-10-15",
+      "evidence_method": "GitHub HTML embedded JSON currentOid and stargazerCount",
+      "html_sha256": "3c08772b44e0845f392d9e925e3ad81da3dcf9c60a6854e815769c22c6b29945"
+    },
+    {
+      "repository": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "commit": "365b412152b9542499ca1439426f7fc3cc92bb65",
+      "repository_stars": 54892,
+      "observed_client_date": "2026-10-15",
+      "evidence_method": "GitHub HTML embedded JSON currentOid and stargazerCount",
+      "html_sha256": "b905a76acc226a712530c65db7973b364fb405821c4c111a149b7b6cc3573fe3"
+    },
+    {
+      "repository": "joshuadavidthomas/agent-skills",
+      "url": "https://github.com/joshuadavidthomas/agent-skills",
+      "commit": "516dee7a422b90937b2958d11c03694154ab9c09",
+      "repository_stars": 56,
+      "observed_client_date": "2026-10-15",
+      "evidence_method": "GitHub HTML embedded JSON currentOid and stargazerCount",
+      "html_sha256": "dce68c2a4450cccd2a50c334fac466272eabefe4f2810e155530d334a2cba646"
+    },
+    {
+      "repository": "obra/the-elements-of-style",
+      "url": "https://github.com/obra/the-elements-of-style",
+      "commit": "05fc4f0d2b97b7c042dd9949ad658568e4a1324e",
+      "repository_stars": 599,
+      "observed_client_date": "2026-10-15",
+      "evidence_method": "GitHub HTML embedded JSON currentOid and stargazerCount",
+      "html_sha256": "5fe5116b9e373023a2fdb7e54d84e4e92778d020bff46d25310368858dd7a41d"
+    }
+  ],
+  "selected": [
+    {
+      "repository": "blader/humanizer",
+      "commit": "225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8",
+      "local_files": [
+        {
+          "path": "skills/blader/humanizer/SKILL.md",
+          "sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad"
+        },
+        {
+          "path": "skills/blader/LICENSE",
+          "sha256": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96"
+        }
+      ]
+    },
+    {
+      "repository": "coreyhaines31/marketingskills",
+      "commit": "365b412152b9542499ca1439426f7fc3cc92bb65",
+      "local_files": [
+        {
+          "path": "skills/marketingskills/copy-editing/SKILL.md",
+          "sha256": "2a072606d9d5662509ea6ef62c65719487dcb68876acab9286bde4d1af5c030f"
+        },
+        {
+          "path": "skills/marketingskills/LICENSE",
+          "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591"
+        }
+      ]
+    }
+  ]
+}

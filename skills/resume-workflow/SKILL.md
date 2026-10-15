@@ -24,6 +24,9 @@ Read `AGENTS.md` first. Paths below are relative to the repository root.
 5. Run `python3 scripts/check_bank.py` and
    `bash scripts/build_resume.sh <path-to-resume.tex>`. Review extracted text
    and PDF layout; record actual checks and remaining limitations.
+   Before the final build, apply [Professional Writing Review](../professional-writing-review/SKILL.md)
+   to the summary and bullets, preserving strong verbs, terms, scope, and company
+   fit. Record the actual review; the final PDF must contain that reviewed wording.
 6. Provide complete standalone LaTeX in chat, including preamble and body,
    because prior downloads and snippets failed for the user.
 

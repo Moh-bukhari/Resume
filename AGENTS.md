@@ -71,6 +71,14 @@ workflows only with available access; copying skills does not install APIs.
 
 ## Defaults and preferences
 
+- **All new or revised application writing needs a final writing review.** Use
+  [Professional Writing Review](skills/professional-writing-review/SKILL.md):
+  Blader Humanizer, then Corey Haines Copy Editing, then compare the result
+  against the evidence. Keep strong accurate verbs, technical terms, metric
+  scope, and company fit. Apply to resumes, messages, and application answers
+  before delivery and any authorized send. Record the actual review in packet
+  notes/letter metadata; preserve sent/submitted history. Read the
+  [selection research](docs/HUMANIZER-SELECTION.md) for sources and adaptations.
 - **Company alignment is required for every tailored resume and message.**
   Follow [docs/COMPANY-ALIGNMENT.md](docs/COMPANY-ALIGNMENT.md): research the
   company's mission and current goals, map this role's contribution to supported

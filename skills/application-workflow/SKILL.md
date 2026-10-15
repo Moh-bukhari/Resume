@@ -165,6 +165,13 @@ and research caveats outside copyable text. See [the worked example](../../docs/
 
 ## 6. Save, check, and return
 
+Run [Professional Writing Review](../professional-writing-review/SKILL.md) on
+every new/revised resume, message, and application answer before delivery.
+Use Blader Humanizer, then Corey's relevant strength/editing checks, then compare
+the exact final wording against the bank and company-fit brief. Record the
+review in packet notes/letter metadata and recheck changes before authorized
+sending. Compile the resume after the final prose edit.
+
 Keep the actual JD, fit brief, selected IDs/gaps, contact research, chosen
 stage/intent, drafts, and timing in the packet. Use `templates/outreach-plan.md`
 for the hook, proof, ask, and history status. Finalize only requested variants.

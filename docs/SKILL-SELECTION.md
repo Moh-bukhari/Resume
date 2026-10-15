@@ -44,6 +44,12 @@ do not override Mohammed's facts or local letter guidance. Hunter's official
 MCP integration is a tool connection; do not present it as an expert-authored
 `SKILL.md` playbook without an actual source.
 
+For the later mandatory final writing pass, see the
+[humanizer comparison](HUMANIZER-SELECTION.md) and
+[Professional Writing Review](../skills/professional-writing-review/SKILL.md).
+Blader Humanizer now precedes the existing Corey editing checks on every new
+or revised application text; factual scope and company fit are rechecked afterward.
+
 ## The combination adapted to Mohammed
 
 1. **Ground the application.** Read the JD, factual bank, application state,

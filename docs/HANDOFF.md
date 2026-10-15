@@ -7,12 +7,14 @@ Replace this note at the end of a session; Git keeps prior versions.
 ## Last task
 
 - Date: 2026-10-15.
-- Request: make every tailored resume and message reflect the specific
-  company's mission and goals to show Mohammed's fit.
-- Work: added [company alignment](COMPANY-ALIGNMENT.md) as a standing requirement
-  in shared instructions, resume/letter workflows, and local skills. Added a
-  sourced fit brief to packet notes, review fields to the outreach plan and
-  all eight letter templates, and saved the preference as bank source `SRC15`.
+- Request: research the best humanizer skills and make all application writing
+  pass through them while keeping the wording strong.
+- Work: compared 11 repositories and selected Blader Humanizer v3.1.0 plus the
+  existing Corey Haines Copy Editing skill. Added the unchanged MIT-licensed
+  Blader source, [selection research](HUMANIZER-SELECTION.md), and required
+  [Professional Writing Review](../skills/professional-writing-review/SKILL.md).
+  Instructions, workflows, and all eight letter templates now carry the review.
+  Saved the preference as bank source `SRC16`; company alignment remains required.
 
 ## Current records
 
@@ -24,26 +26,28 @@ Replace this note at the end of a session; Git keeps prior versions.
 
 ## Checks and publication
 
-- Template smoke checks: two application stages; all eight letter types retain
-  the alignment review fields and correct stage metadata. Contact checks passed.
+- Template smoke checks: three application stages; all eight letter types retain
+  pending writing/alignment review fields and correct metadata. Contact checks passed.
+- Selected upstream skill/license hashes verified against pinned research evidence.
 - Bank validation: 13 entries, 72 bullets, 21 numeric facts; generated views agree.
 - Tracker validation: 10 jobs and 41 companies; all 13 generated views agree.
-- Documentation links and whitespace checked. The live tracker was unchanged
-  by the template checks; no application or message events were created.
-- A separate assistant reviewed the policy, preference, and template changes
-  and found no material issues or initializer incompatibilities.
-- Publication: this handoff belongs to the company-alignment commit intended for
+- Documentation: 369 relative links/anchors and whitespace checked. The live
+  tracker was unchanged by smoke checks; no application/message events were created.
+- A separate assistant reviewed the local adapter and all three writing examples
+  against the bank; factual scope, strength, company fit, and history were preserved.
+- Publication: this handoff belongs to the professional-writing-review commit intended for
   `origin/main`. On a new session, compare the checkout and remote commit rather
   than assuming a local file proves publication. No runtime configuration or
   external provider account is required by this documentation change.
 
 ## Continue here
 
-- The standing preference and template changes are complete. No specific
-  company's resume or message was requested or sent in this task.
+- The research, standing preference, and template changes are complete. No
+  specific company's resume or message was requested or sent in this task.
 - For the next job-search task, follow [WORKFLOWS.md](WORKFLOWS.md) using the
   user's requested job ID or posting. Add/reuse its company-fit brief before
-  writing, and review alignment before delivery or any authorized send.
+  writing, then apply the required writing review to final prose before delivery
+  or any authorized send. Template metadata is not proof that review occurred.
 
 ## Handoff maintenance
 

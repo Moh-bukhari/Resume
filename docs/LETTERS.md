@@ -8,6 +8,13 @@ check the correct company and conversation context for logistical replies.
 Record the selected connection and review in `outreach-plan.md`. Repeat the
 review on the exact final text before any separately authorized send.
 
+Before delivery, run [Professional Writing Review](../skills/professional-writing-review/SKILL.md)
+on every new/revised message or cover letter. Blader Humanizer removes canned
+phrasing; Corey Copy Editing sharpens clarity and proof. Confirm the final text
+still carries the relevant achievement, factual scope, and company connection.
+Record the review in the outreach plan and letter metadata; recheck changed
+wording before any authorized send. Logistical replies can remain short.
+
 The combined candidate workflow is
 [application-workflow](../skills/application-workflow/SKILL.md). Its writing
 methods combine Anthropic's published

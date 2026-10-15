@@ -71,3 +71,9 @@ request's scope.
 
 Deliver copyable subject/body, a short explanation of timing/recipient choice,
 and any contact verification gap. Save under the application's `letters/`.
+
+Before delivery, apply [Professional Writing Review](../professional-writing-review/SKILL.md)
+to every new/revised letter, message, or application answer. It combines Blader
+Humanizer and Corey's editing checks with a final meaning/strength comparison.
+Record review results and date in the outreach plan and letter metadata. Repeat
+the check on changed wording before any authorized send; retain actual sent text.

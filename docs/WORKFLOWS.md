@@ -106,6 +106,10 @@ application attempts must remain distinguishable even when titles match.
    record the gap. Imported tracker proof notes do not override the bank.
 4. Build and inspect the exact version:
 
+   First apply [Professional Writing Review](../skills/professional-writing-review/SKILL.md)
+   to the final resume prose. Record its naturalness, strength, factual scope,
+   and company-fit review in `tailoring-notes.md`, then build that exact wording:
+
    ```bash
    python3 scripts/check_bank.py
    bash scripts/build_resume.sh applications/r001-retell-ai-deployment-strategist/resume.tex
@@ -160,6 +164,11 @@ Record an application only after a confirmed submission, using runbook 5.
    goal/proof and review date in the plan. Review the exact final text again
    before an authorized send; a logistical reply should address its actual task.
 5. Validate the contact record, then link the completed drafts if useful:
+
+   Before finalizing, run [Professional Writing Review](../skills/professional-writing-review/SKILL.md)
+   on every drafted/revised message, including brief replies. Record the actual
+   result in `outreach-plan.md` and letter metadata. Recheck changed text before
+   any authorized send; preserve the version actually sent.
 
    ```bash
    python3 scripts/check_contacts.py applications/r001-retell-ai-deployment-strategist/contacts.json

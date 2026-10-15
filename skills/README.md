@@ -13,6 +13,14 @@ its method; files and references are available offline.
 
 ## Contacts, letters, and full application packets
 
+**Required final pass for all application writing:**
+[Professional Writing Review](professional-writing-review/SKILL.md), using
+[Blader Humanizer](blader/humanizer/SKILL.md) and
+[Corey Copy Editing](marketingskills/copy-editing/SKILL.md). It preserves the
+strength and factual scope of resumes, messages, and application answers.
+See the [humanizer research](../docs/HUMANIZER-SELECTION.md). Read the selected
+originals and apply the local protections; do not stack every available editor.
+
 The combined workflow selects the strongest parts of established sources and
 the earlier specialist picks. It includes role-specific bank evidence, current
 contact checks, actual conversation history, before/after-application timing,
@@ -25,7 +33,7 @@ one useful ask, and editing. See the [dated comparison](../docs/SKILL-SELECTION.
 | Find people and LinkedIn profiles | [Contact research](contact-research/SKILL.md) | [Exa Search](exa/search/SKILL.md) and its [people patterns](exa/search/references/patterns-people.md) |
 | Find/verify professional emails | [Contact research](contact-research/SKILL.md) | [Daniela Ryplová's Verified Email Finder](apify/apify-verified-email-finder/SKILL.md) |
 | Pre/post-application email, LinkedIn, referral, follow-up, thank-you, or reply | [Application letter writer](application-letter-writer/SKILL.md) | [Anthropic Draft Outreach](anthropic-sales/draft-outreach/SKILL.md) plus [Corey Haines Cold Email](marketingskills/cold-email/SKILL.md) |
-| Polish a draft | [Application letter writer](application-letter-writer/SKILL.md) | [Copy Editing](marketingskills/copy-editing/SKILL.md) |
+| Review all new/revised application writing | [Professional Writing Review](professional-writing-review/SKILL.md) | [Blader Humanizer](blader/humanizer/SKILL.md) + [Copy Editing](marketingskills/copy-editing/SKILL.md) |
 | Optional deeper context | [Contact research](contact-research/SKILL.md) | [Firecrawl Lead Research](firecrawl/firecrawl-lead-research/SKILL.md) |
 | Formal cover letter | [Application letter writer](application-letter-writer/SKILL.md) | [Cover Letter Generator](resumeskills/skills/cover-letter-generator/SKILL.md) |
 

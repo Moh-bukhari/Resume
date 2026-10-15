@@ -57,6 +57,11 @@ Similar employers may legitimately share relevant evidence.
 
 ## Review before delivery and before sending
 
+After applying the brief, run [Professional Writing Review](../skills/professional-writing-review/SKILL.md).
+Naturalizing the prose must preserve the specific company/role connection and
+supported evidence. Removing a generic mission slogan does not remove the
+requirement to demonstrate fit through concrete work.
+
 - The company mission/goal claims have sources and dates, or the unavailable
   research is explicitly recorded in notes.
 - The role's contribution is clear, and the most relevant bank evidence is

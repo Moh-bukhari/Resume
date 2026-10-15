@@ -14,6 +14,8 @@ application workflow; open the relevant branch of the guide for the current task
 | Tracking | [TRACKER-REFERENCE.md](TRACKER-REFERENCE.md) | Field types, event effects, date rules, direct-edit contracts |
 | Experience | [MAINTENANCE.md](MAINTENANCE.md) | Add/correct evidence, preserve scope, regenerate the bank |
 | Company fit | [COMPANY-ALIGNMENT.md](COMPANY-ALIGNMENT.md) | Required mission/goal research, evidence mapping, and review for resumes/messages |
+| Final writing review | [Professional Writing Review](../skills/professional-writing-review/SKILL.md) | Required naturalness, strength, facts, and company-fit passes |
+| Humanizer research | [HUMANIZER-SELECTION.md](HUMANIZER-SELECTION.md) | Compared sources, adoption evidence, selected methods, and professional-writing protections |
 | Resume | [TAILORING.md](TAILORING.md) | Choose relevant proof and fit one page |
 | PDF | [BUILD.md](BUILD.md) | Overleaf/local build and layout checks |
 | People | [CONTACT-RESEARCH.md](CONTACT-RESEARCH.md) | Relevant contacts, LinkedIn, professional email provenance |

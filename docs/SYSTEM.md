@@ -70,6 +70,9 @@ for a new import; never re-import over the maintained tracker.
 
 1. **Read:** resolve the stable job ID and inspect existing history and artifacts.
 2. **Do the work:** save the requested research, document, or confirmed event.
+   For new/revised application prose, complete
+   [Professional Writing Review](../skills/professional-writing-review/SKILL.md)
+   before delivery, preserving the bank evidence and company-fit brief.
 3. **Update the owner:** bank for candidate facts; tracker for job progress;
    packet for actual materials/contact evidence. Preserve unknown dates and
    provenance. Use the tracker helper for normal mutations.

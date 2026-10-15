@@ -10,6 +10,12 @@ goals, and role needs through supported experience. Follow the
 [company-alignment guide](docs/COMPANY-ALIGNMENT.md) before drafting and before
 any authorized send or submission.
 
+All new or revised application writing then goes through
+[Professional Writing Review](skills/professional-writing-review/SKILL.md):
+Blader Humanizer for natural phrasing, Corey Copy Editing for strong wording,
+and a final check of facts and company fit. This is a required AI editing step;
+copying a template does not perform it.
+
 ## Give a new AI this instruction
 
 > Open this repository and read START-HERE.md, then AGENTS.md. Follow the

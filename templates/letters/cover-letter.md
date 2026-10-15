@@ -17,12 +17,20 @@ Review company fit using the repository-root `docs/COMPANY-ALIGNMENT.md` guide
 before finalizing and before any authorized send. Use the shared packet brief;
 keep logistical replies concise and preserve the exact sent version.
 
+Then apply the repository-root `skills/professional-writing-review/SKILL.md`
+to the final text: Blader Humanizer, Corey Copy Editing, and a factual/strength
+comparison. Record the real review below; a copied template remains pending.
+
 ```yaml
 message_status: draft
 company_alignment_brief: "../tailoring-notes.md#company-mission-and-goals"
 company_alignment_goal: "[Sourced company/role goal; context-only for a logistical reply]"
 company_alignment_review: "pending"
 company_alignment_review_date: null
+writing_review_methods: ["Blader Humanizer", "Corey Haines Copy Editing", "Professional Writing Review"]
+writing_review: pending
+writing_review_date: null
+writing_review_notes: "[Natural voice, strong wording, factual scope, and company fit; remaining issues]"
 draft_date: "[YYYY-MM-DD in the user's timezone]"
 application_status: "[not_submitted | submitted_user_confirmed | unconfirmed]"
 company: "[Company]"

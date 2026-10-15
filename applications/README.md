@@ -71,6 +71,12 @@ match that context. Unknown dates stay unknown.
 
 ## Workflow
 
+All new or revised resume prose, application answers, and messages require
+[Professional Writing Review](../skills/professional-writing-review/SKILL.md)
+before delivery and any authorized sending/submission. Save the actual review
+in packet notes and letter metadata; the initializer leaves it pending. Build
+the PDF after final wording changes and preserve submitted/sent versions.
+
 1. Read the current bank and relevant skills. Keep Tamara first by default. Select supported facts for this role; do not import superseded claims from old drafts.
 2. Create the version folder and copy in the standalone base and notes template. Save the full job description and source details.
 3. Tailor the content, recording selected bullet IDs and material gaps. Keep body text at 10pt on one A4 page; remove less relevant content before shrinking it.

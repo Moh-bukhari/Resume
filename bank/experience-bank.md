@@ -665,28 +665,29 @@ UC Berkeley aerospace engineering student and satellite-platform co-founder with
 ## Tailoring rules
 
 1. This bank is the current source for future tailoring; do not re-import superseded claims from older resume drafts.
-2. For every tailored resume and job-search message, research the specific company's mission and goals, connect the role's priorities to supported bank evidence, and make that fit shape the content. Follow docs/COMPANY-ALIGNMENT.md; record sources and review before delivery or any authorized send/submission. Keep logistical replies natural, preserve actual sent/submitted versions, and do not invent achievements, personal beliefs, company goals, or guaranteed outcomes (SRC15).
-3. Choose a few relevant bullets per role. Bullet variants are alternatives, not additional achievements; merge overlapping claims and avoid counting the same result twice.
-4. Preserve official titles, dates, expected graduation, units, approximation, and individual-versus-team credit.
-5. Default to Tamara first, as requested. Keep one-page tailored resumes with readable 10pt body text and a standard single-column layout.
-6. The bank itself has no one-page limit. Include older engineering experience, Rasma, and full coursework here even when omitted from a tailored resume.
-7. Add job-specific terminology only when it describes supported work. A job requirement is not evidence of a candidate skill.
-8. Use Sales Navigator workflow experience and Greenhouse API integration accurately; do not invent LinkedIn Recruiter use or a direct Sales Navigator API connection.
-9. Use 500+ candidates across summer channels, not hires or all-Sales-Navigator conversions; use 700K+ for the historical applicant base, with future event/prospect intake described separately.
-10. Use $100K+ SCET shared-project payments, not personal sales; $50K is advertising spend; SAR 100K is competition prizes.
-11. Exclude the retired SCET ROAS, cost-per-lead, and converted-lead-value figures. The user asked to skip them; do not ask for them again or derive new ratios from old values.
-12. Distinguish code-supported features from live validation; do not invent deployment success, uptime, latency, time savings, model accuracy, hiring results, or customer adoption.
-13. Describe CRM AI as natural-language/structured search, not automated resume ranking or hiring decisions. Resume parsing is deterministic.
-14. Keep Embersafe’s Sonoma-area city-council engagement at the latest confirmed stage: planning. Implementation/pilots are not established; wider expansion and future website demos remain prospective. Intended sovereign programs are not confirmed customers; public/judge demos are not enterprise deployment.
-15. Do not infer citizenship, work authorization, protected attributes, current residence, or availability from names, language, schooling, or prior work locations.
-16. For each job, save a separate resume version and note the company, title, job description, selected bullet IDs, and source facts. Do not imply that an existing draft has been submitted.
-17. For Overleaf, provide the complete standalone document, not only a section snippet when replacing main.tex. Use pdfLaTeX and verify page count/text/layout when the document changes. Paste code in chat because prior file downloads did not work for the user.
-18. Record the confirmed internal CRM users and targeted COO-invitation workflow. Do not infer AI fit ranking, a sending API, or an account-access mechanism.
-19. Keep OpenClaw and personal-assistant capabilities at their stated scope until concrete tasks are supplied; the separate job-search workflow now has confirmed tasks. “Does everything” is not a list of demonstrated capabilities; using/configuring OpenClaw is not creating its underlying software.
-20. Keep AI scoring project-specific: personal job-search fit scoring and AI-assisted SCET filtering do not establish AI resume scoring inside Tamara’s CRM. Do not infer a ranked/validated SCET model or transfer the job-search 75+ threshold to SCET.
-21. SCET’s 100K+ source leads and 500 selected targets are workflow scope, not conversions; Embersafe’s $1M+ is problem context, not money raised, managed, or saved. The user reports 221 applications in the personal search; workflow preparation/drafts do not establish automated submission or message sending.
-22. Report personal-search results as personal-search results: 2,000+ jobs processed in one month, 221 applications, interviews with 17 distinct companies, and seven distinct offers. Do not invent a causal lift or transfer the one-month window to all outcomes. Development in 2025 does not change Tamara’s June 2026 start date.
-23. Use AI-assisted development with Claude/GPT and minor Python edits accurately; do not assert a handwritten end-to-end engineering implementation, specific runtime model APIs, or autonomous applications. Berkeley Big Ideas calendar dates alone do not establish exact project dates or award status; Embersafe’s cycle remains unverified while official pages are blocked.
+2. Before delivering or sending any new/revised application writing, use skills/professional-writing-review/SKILL.md: Blader Humanizer plus Corey Haines Copy Editing, followed by a final comparison against bank facts and the company-fit brief. Preserve accurate action verbs, technical terms, numbers and their scope, attribution, dates, and project maturity. Do not invent personal feelings, use forced casualness, or rewrite actual sent/submitted history; record the actual review separately (SRC16).
+3. For every tailored resume and job-search message, research the specific company's mission and goals, connect the role's priorities to supported bank evidence, and make that fit shape the content. Follow docs/COMPANY-ALIGNMENT.md; record sources and review before delivery or any authorized send/submission. Keep logistical replies natural, preserve actual sent/submitted versions, and do not invent achievements, personal beliefs, company goals, or guaranteed outcomes (SRC15).
+4. Choose a few relevant bullets per role. Bullet variants are alternatives, not additional achievements; merge overlapping claims and avoid counting the same result twice.
+5. Preserve official titles, dates, expected graduation, units, approximation, and individual-versus-team credit.
+6. Default to Tamara first, as requested. Keep one-page tailored resumes with readable 10pt body text and a standard single-column layout.
+7. The bank itself has no one-page limit. Include older engineering experience, Rasma, and full coursework here even when omitted from a tailored resume.
+8. Add job-specific terminology only when it describes supported work. A job requirement is not evidence of a candidate skill.
+9. Use Sales Navigator workflow experience and Greenhouse API integration accurately; do not invent LinkedIn Recruiter use or a direct Sales Navigator API connection.
+10. Use 500+ candidates across summer channels, not hires or all-Sales-Navigator conversions; use 700K+ for the historical applicant base, with future event/prospect intake described separately.
+11. Use $100K+ SCET shared-project payments, not personal sales; $50K is advertising spend; SAR 100K is competition prizes.
+12. Exclude the retired SCET ROAS, cost-per-lead, and converted-lead-value figures. The user asked to skip them; do not ask for them again or derive new ratios from old values.
+13. Distinguish code-supported features from live validation; do not invent deployment success, uptime, latency, time savings, model accuracy, hiring results, or customer adoption.
+14. Describe CRM AI as natural-language/structured search, not automated resume ranking or hiring decisions. Resume parsing is deterministic.
+15. Keep Embersafe’s Sonoma-area city-council engagement at the latest confirmed stage: planning. Implementation/pilots are not established; wider expansion and future website demos remain prospective. Intended sovereign programs are not confirmed customers; public/judge demos are not enterprise deployment.
+16. Do not infer citizenship, work authorization, protected attributes, current residence, or availability from names, language, schooling, or prior work locations.
+17. For each job, save a separate resume version and note the company, title, job description, selected bullet IDs, and source facts. Do not imply that an existing draft has been submitted.
+18. For Overleaf, provide the complete standalone document, not only a section snippet when replacing main.tex. Use pdfLaTeX and verify page count/text/layout when the document changes. Paste code in chat because prior file downloads did not work for the user.
+19. Record the confirmed internal CRM users and targeted COO-invitation workflow. Do not infer AI fit ranking, a sending API, or an account-access mechanism.
+20. Keep OpenClaw and personal-assistant capabilities at their stated scope until concrete tasks are supplied; the separate job-search workflow now has confirmed tasks. “Does everything” is not a list of demonstrated capabilities; using/configuring OpenClaw is not creating its underlying software.
+21. Keep AI scoring project-specific: personal job-search fit scoring and AI-assisted SCET filtering do not establish AI resume scoring inside Tamara’s CRM. Do not infer a ranked/validated SCET model or transfer the job-search 75+ threshold to SCET.
+22. SCET’s 100K+ source leads and 500 selected targets are workflow scope, not conversions; Embersafe’s $1M+ is problem context, not money raised, managed, or saved. The user reports 221 applications in the personal search; workflow preparation/drafts do not establish automated submission or message sending.
+23. Report personal-search results as personal-search results: 2,000+ jobs processed in one month, 221 applications, interviews with 17 distinct companies, and seven distinct offers. Do not invent a causal lift or transfer the one-month window to all outcomes. Development in 2025 does not change Tamara’s June 2026 start date.
+24. Use AI-assisted development with Claude/GPT and minor Python edits accurately; do not assert a handwritten end-to-end engineering implementation, specific runtime model APIs, or autonomous applications. Berkeley Big Ideas calendar dates alone do not establish exact project dates or award status; Embersafe’s cycle remains unverified while official pages are blocked.
 
 ## Clarifications already recorded
 
@@ -706,6 +707,7 @@ UC Berkeley aerospace engineering student and satellite-platform co-founder with
 - Embersafe’s Sonoma-area city-council engagement is still planning, superseding earlier wording suggesting implementation had begun.
 - Embersafe competition date reference is Berkeley Big Ideas; official date lookup was attempted but blocked by network HTTP 403. Exact cycle/project dates remain unverified.
 - Every tailored resume and job-search message should show alignment with the specific company's mission and goals through relevant supported experience (SRC15).
+- All new or revised application writing should receive a humanizing and professional editing pass while preserving strong wording, specific evidence, factual scope, and company fit (SRC16).
 
 ## Details that would strengthen future versions
 
@@ -802,6 +804,11 @@ Attempted official Berkeley Big Ideas calendar verification on 2026-10-14 (Ameri
 ### SRC15
 
 On 2026-10-15, the user requested that every tailored resume and message align Mohammed's experience with the specific company's mission and goals to demonstrate fit. This is a standing content preference, not a new accomplishment or authorization to send messages.
+
+
+### SRC16
+
+On 2026-10-15, the user requested research into the best humanizer skills for messages and resume writing and required all application writing to pass through them while keeping the wording strong. This is a standing editing preference, not a new accomplishment or permission to alter sent/submitted history.
 
 
 ## Submission status

@@ -9,6 +9,12 @@ Map the company's mission and current goals to this role and supported bank
 evidence in `tailoring-notes.md`; use that map to choose the summary, bullets,
 and projects. Review the connection before marking the resume ready.
 
+Before the final build and delivery, apply
+[Professional Writing Review](../skills/professional-writing-review/SKILL.md)
+to the summary and bullets. Record the result in `tailoring-notes.md`. Keep
+accurate action verbs, technical terms, metrics, and scope; then rebuild the
+final LaTeX so the reviewed wording is the wording in the PDF.
+
 ## Start here
 
 1. Read [AGENTS.md](../AGENTS.md) for repository instructions and

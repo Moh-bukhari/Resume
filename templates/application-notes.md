@@ -76,6 +76,24 @@ Do not revive retired SCET ROAS/CPL/conversion-value claims or ask for those fig
 - Text diff reviewed: [pending / files and result]
 - LaTeX diff reviewed: [pending / files and result]
 
+## Final writing review
+
+Follow `skills/professional-writing-review/SKILL.md` from the repository root
+before delivery and before any authorized submission. Review new/revised resume
+prose and application answers; preserve exact submitted versions.
+
+- Artifact/version reviewed: [file and version/date]
+- Methods: Blader Humanizer + Corey Haines Copy Editing + final evidence comparison
+- Natural phrasing and professional voice: [pending / findings]
+- Strong verbs, specific terms, and company fit retained: [pending / findings]
+- Numbers, scope, attribution, dates, and project maturity preserved: [pending / findings]
+- Writing review status/date: [pending / reviewed / needs_revision; actual date]
+- Remaining issues: [none / describe]
+
+Reset the affected review to pending after changing wording. Review is an AI
+editing task; generating these fields does not perform it. Build the PDF after
+the final prose edit.
+
 Keep the complete standalone LaTeX document. Preserve legacy drafts unless the user explicitly asks to replace one. If using a prior application as the baseline, refresh its claims from the current bank rather than treating that old resume as authoritative.
 
 ## Build and validation record

@@ -28,6 +28,13 @@ website is required. The Excel workbook is preserved as a source snapshot.
 
 ## Published specialist skills
 
+Every new or revised resume, message, and application answer uses
+[Professional Writing Review](skills/professional-writing-review/SKILL.md).
+It combines Blader Humanizer with Corey Haines Copy Editing to improve natural
+phrasing while preserving strong verbs, exact facts, and company fit. The
+[humanizer comparison](docs/HUMANIZER-SELECTION.md) explains the selection from
+11 researched repositories and the adaptations for professional writing.
+
 The [comparison research](docs/SKILL-SELECTION.md) covers both the earlier
 picks and better-known alternatives. The combined workflow uses Anthropic's
 official research/outreach skills (about 29.8K repository stars) and Corey

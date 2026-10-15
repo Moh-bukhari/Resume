@@ -1,5 +1,10 @@
 # Preserved sources
 
+The [humanizer research record](skill-research/2026-10-15-humanizers.json)
+preserves dated repository adoption, pinned revisions, source URLs, and selected
+file hashes for the required writing review. See the
+[comparison](../docs/HUMANIZER-SELECTION.md) for decisions and access limits.
+
 - [user-supplied-resume.tex](user-supplied-resume.tex): original uploaded resume,
   preserved as received. It is historical input; current bank corrections win.
 - Bank `SRC` records capture additional firsthand answers so the previous
