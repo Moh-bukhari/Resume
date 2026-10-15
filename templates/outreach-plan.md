@@ -12,6 +12,20 @@
 - Recipient relevance and hiring-connection confidence: [evidence and uncertainty]
 - Preferred channel and email origin/verification: [record separately]
 
+## Role fit and selected methods
+
+- Role family: [growth/sourcing / deployment/product / AI systems / engineering / other]
+- Two or three central role needs: [from the actual JD]
+- Selected proof IDs and bridge to these needs: [one or two main facts; preserve scope]
+- Material gaps or timing constraints: [include May 2027 graduation when relevant]
+- Company/person research: [Anthropic Account Research; tools/sources actually used]
+- People discovery / optional email verification: [Exa method or fallback; provider if run]
+- Draft structure and editing: [Anthropic Draft Outreach + Corey Cold Email/Copy Editing]
+- Prior conversation history: [not queried / unavailable / user-confirmed none / actual thread reviewed]
+- Actual latest exchange and source, if reviewed: [date/topic/evidence; not a preview]
+- Message intent: [cold introduction / warm reply / referral / event / interview / follow-up]
+- One useful ask: [a single question fitting the stage]
+
 ## Recommended next step
 
 [Choose the letter type and explain why it fits the confirmed stage. Do not

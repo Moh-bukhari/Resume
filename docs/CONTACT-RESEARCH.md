@@ -1,18 +1,24 @@
 # Find the right person and contact route
 
-Start with the actual published specialist skills in
-[the curated source list](SKILL-SELECTION.md): [Exa Search](../skills/exa/search/SKILL.md)
-for people/LinkedIn, [Daniela Ryplová's Verified Email Finder](../skills/apify/apify-verified-email-finder/SKILL.md)
-for business email enrichment/verification, and
-[Firecrawl Lead Research](../skills/firecrawl/firecrawl-lead-research/SKILL.md)
-for deeper context. Read their original instructions when selecting that
-provider. Use only available tool access and authorized usage. Reuse job,
-department, target-count, and output preferences already supplied instead of
-asking the user for the same inputs again.
+Start with the combined candidate workflow in
+[application-workflow](../skills/application-workflow/SKILL.md) and the
+published sources compared in [the curated source list](SKILL-SELECTION.md).
+Read [Anthropic Account Research](../skills/anthropic-sales/account-research/SKILL.md)
+for a sourced company/person brief and
+[Corey Haines' Prospecting](../skills/marketingskills/prospecting/SKILL.md)
+for relevance, cross-checking, and provenance. Use
+[Exa Search](../skills/exa/search/SKILL.md) for people/LinkedIn discovery when
+Exa tools are connected. [Daniela Ryplová's Verified Email Finder](../skills/apify/apify-verified-email-finder/SKILL.md)
+is optional business-email enrichment/verification; [Firecrawl Lead Research](../skills/firecrawl/firecrawl-lead-research/SKILL.md)
+is optional deeper context. Read the selected original instructions and use
+only available tools and authorized access. Reuse the job, department,
+target-count, and output preferences already supplied.
 
-Use [contact-research](../skills/contact-research/SKILL.md) and the bundled
-[Prospecting skill](../skills/marketingskills/prospecting/SKILL.md). The target
-is a small, useful hiring shortlist for a particular job, not a sales lead list.
+Use [contact-research](../skills/contact-research/SKILL.md) for this standalone
+step. Adapt the published research methods to a small, useful hiring shortlist
+for a particular job. Sales ICPs, campaign volumes, CRM administration, host
+Page/Slide output rules, silent-work instructions, and substituting upload
+dates for the actual date do not apply to this repository's workflow.
 
 ## Start with the job
 
@@ -29,24 +35,37 @@ each person is relevant and label the connection confirmed, likely, or unknown.
 
 ## Research sequence
 
-1. Read the official posting, careers/team pages, and named hiring posts.
-2. Use available web search/browser tools to discover current professional
+1. Read the actual JD, existing packet, supplied contacts, and any supplied
+   prior threads. Open the full available thread before characterizing the
+   last exchange; a search preview can omit recent messages. Record what was
+   checked in `outreach-plan.md`: confirmed prior contact, no prior contact
+   found in the checked sources, or history not checked/unavailable. Unqueried
+   history is not evidence that this is a first contact. Do not search private
+   accounts or connectors merely because an upstream sales skill mentions them.
+2. Read the official posting, careers/team pages, and named hiring posts. A
+   user-provided contact or confirmed thread is already valid provenance;
+   avoid repeating discovery when identity and relevance are established.
+3. Use available web search/browser tools to discover current professional
    profiles and relevant work. Useful search patterns include:
    - `"Company" "role or function" recruiter`
    - `site:linkedin.com/in "Company" "function"`
    - `site:company-domain "person name"`
    - `"person name" "Company" hiring`
-3. Open the original sources when possible. Match employer, role, identity,
+4. Open the original sources when possible. Match employer, role, identity,
    and function; distinguish present employment from old bios or former roles.
    Search snippets are discovery leads, not proof of current details.
-4. Save the exact LinkedIn profile URL actually found. If access is limited,
+5. Save the exact LinkedIn profile URL actually found. If access is limited,
    record the limit and cross-check public company pages or professional work.
    Never manufacture a LinkedIn slug or treat a same-name match as confirmed.
-5. Look for a published professional email on company/person professional
+6. Look for a published professional email on company/person professional
    pages or an authorized provider result. Cross-check that the result belongs
    to this person/company. Leave the address blank when unsupported.
-6. Keep a short sourced reason for contact and one relevant personalization
-   fact. Gather facts first; write the angle afterward.
+7. Keep a short sourced reason for contact and one relevant personalization
+   fact, with dates where recency matters. Separate the observed requirement
+   or company/person fact from an inferred priority. Then connect that need
+   to a supported bank achievement for the writer. Do not infer a staffing
+   problem from funding alone or manufacture a personal hook; the JD itself
+   is valid role context. Gather facts first; write the evidence bridge afterward.
 
 If browsing/search is unavailable, say what could not be checked. Draft from
 the supplied JD and bank with recipient placeholders. A skill file does not
@@ -78,9 +97,11 @@ Do not use a live email as a test probe.
   access. Record lookup errors separately from a genuine no-match response.
 - Check costs/credits before an unspecified paid lookup. Do not buy a service
   to complete a draft. Keep credentials in the supported environment.
-- Browser automation can read individual accessible pages if the assistant
-  has that capability; [OpenAI's Playwright skill](https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright)
-  is an optional capability reference, not a dependency installed here.
+- Use the current host's available browser/search capability for individual
+  accessible pages. If a browser tool is missing, current official host or
+  OpenAI plugin documentation can guide an optional setup; archived
+  `openai/skills` Playwright copies are historical references, not a fresh
+  installation recommendation or a dependency of this repository.
 
 Only relevant professional information is needed. No bulk scraper, private
 contact extraction, unrelated personal details, or access-wall workaround is
@@ -128,3 +149,7 @@ python3 scripts/check_contacts.py applications/company-role/contacts.json
 Return the shortlist with name, current role, relevance, LinkedIn, professional
 email and origin/verification state, source links, and remaining uncertainty.
 Recommend one channel and keep the packet ready for drafting.
+
+This research task creates local contact evidence and copyable drafts. It does
+not authorize external email drafts, sent messages, sales sequences, scheduling,
+or application submission.

@@ -16,6 +16,11 @@ requires a separate explicit instruction.
 > stage. Save sources, bank claim IDs, uncertainty, and timing notes. Give me
 > full LaTeX and copyable messages. Keep everything as drafts.
 
+`application-workflow` combines Anthropic's research/context methods, Exa's
+people discovery, Corey's outreach/editing, and optional email verification
+with this bank. It selects role-specific proof and timing rather than reusing
+the same letter for every company. See the [comparison research](SKILL-SELECTION.md).
+
 ## Find the right person
 
 > For `<company, role, JD>`, find the relevant recruiter or function leader

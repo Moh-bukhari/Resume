@@ -2,16 +2,31 @@
 
 See [a worked introduction](OUTREACH-EXAMPLE.md) for the target style.
 
-The writing methods come from Corey Haines' published
+The combined candidate workflow is
+[application-workflow](../skills/application-workflow/SKILL.md). Its writing
+methods combine Anthropic's published
+[Account Research](../skills/anthropic-sales/account-research/SKILL.md) and
+[Draft Outreach](../skills/anthropic-sales/draft-outreach/SKILL.md) with Corey
+Haines' published
 [Cold Email](../skills/marketingskills/cold-email/SKILL.md) and
 [Copy Editing](../skills/marketingskills/copy-editing/SKILL.md) skills. Read the
-original files and relevant references. This guide supplies job stage,
-candidate facts, and delivery context; it does not replace their methodology.
+original files and relevant references. Use Anthropic's sourced relevance,
+evidence bridge, and one small ask with Corey's relevance, concise voice, and
+editing passes. This guide adapts those methods to job stage, candidate facts,
+and delivery context. Sales CRM actions, host-specific Page/Slide rendering,
+silent-work instructions, and replacing the current date with upload dates
+are outside this workflow.
 
 Use [application-letter-writer](../skills/application-letter-writer/SKILL.md).
 For a complete packet, use [application-workflow](../skills/application-workflow/SKILL.md).
 Read the actual job description, selected resume, bank, contact research, and
 confirmed application/thread events before writing.
+
+Read supplied prior exchanges before calling a message cold or warm. Open the
+full available thread before naming the last exchange; previews may omit newer
+replies. Distinguish confirmed prior contact, no history found in the sources
+actually checked, and history not checked/unavailable. Unqueried history cannot
+support “we have never spoken.” Do not invent familiarity when history is unknown.
 
 ## Choose the stage
 
@@ -39,8 +54,8 @@ provenance; no invented public-source URL or repeated contact lookup is needed.
 
 | Artifact | Template | Default length |
 | --- | --- | --- |
-| Introduction before applying | [Pre-application email](../templates/letters/pre-application-email.md) | 90–150 words |
-| Introduction after applying | [Post-application email](../templates/letters/post-application-email.md) | 90–150 words |
+| Introduction before applying | [Pre-application email](../templates/letters/pre-application-email.md) | Usually 100–120 words; up to 150 when useful |
+| Introduction after applying | [Post-application email](../templates/letters/post-application-email.md) | Usually 100–120 words; up to 150 when useful |
 | Connection note / direct message | [LinkedIn variants](../templates/letters/linkedin-message.md) | Note target ≤200 characters; recheck current account limit. DM roughly ≤100 words. |
 | Genuine referral request | [Referral](../templates/letters/referral-request.md) | Around 100 words |
 | Follow-up | [Follow-up](../templates/letters/follow-up-email.md) | 50–90 words |
@@ -51,18 +66,23 @@ provenance; no invented public-source URL or repeated contact lookup is needed.
 A template is a starting point. Choose the evidence for the role rather than
 retaining the same Tamara paragraph in every letter. Produce the needed draft
 and useful optional variants; there is no reason to send all eight templates.
+Lengths are flexible defaults, not minimums: a clear shorter message is fine.
 
 ## Writing standard
 
 1. **A real connection to the work.** Use a sourced requirement, product
-   decision, or hiring priority. If there is no researched personal hook, use
-   the actual JD instead of invented praise.
-2. **A compact relevant example.** One or two bank facts that explain fit.
+   decision, or hiring priority. Keep the observed fact separate from any
+   inferred need in the notes; do not present an assumption as the recipient's
+   stated problem. If there is no researched personal hook, use the actual JD
+   instead of invented praise.
+2. **An evidence bridge.** Connect that particular need to one or two bank
+   facts in a compact example, so the proof explains why the observation matters.
    Keep historical applicant scope, selected-target scope, shared payments,
    and personal/team credit accurate. Do not paste the whole resume.
-3. **One clear ask.** A role/timing question, a short conversation, or a
+3. **One small, clear ask.** A role/timing question, a brief reply, or a
    specific next step. Do not combine requests for a referral, resume review,
-   meeting, and introduction in one message.
+   meeting, and introduction in one message. Do not default to a 20–30 minute
+   meeting when a one-line answer would resolve the question.
 
 Write warmly and directly. Use a concrete subject, natural language, and short
 paragraphs. Avoid inflated flattery, “perfect fit,” a generic mission paragraph,
@@ -72,6 +92,12 @@ referral, product usage, interview topic, application date, or attachment.
 For a recruiter, make the exact role, fit, and start timing easy to understand.
 For a likely team leader, connect their work to a relevant system/problem you
 have handled. A founder is useful only when the company/role makes that natural.
+
+Before delivery, check clarity, natural voice, relevance, proof, and specificity.
+Remove any opening that could be swapped between unrelated companies, unsupported
+metrics, generic flattery, and a second ask. Preserve the user's wording when
+making a point edit. Emotion, urgency, guarantees, campaign response benchmarks,
+and sales-volume tactics are not requirements for a candidate letter.
 
 Expected graduation is May 2027; the user prefers afterward and is open to
 earlier work. Mention timing when it matters, but do not invent immediate
@@ -96,3 +122,7 @@ PDF is requested, provide a complete document and check its layout too.
 Offer, withdrawal, and negotiation drafts need confirmed terms and the user's
 actual decision. The seven historical job offers in the bank are not current
 competing-offer leverage.
+
+Local drafting and research do not authorize creating drafts in an external
+mailbox, sending, scheduling, adding contacts to sales sequences, or submitting
+applications. A separate user request must establish the scope of those actions.

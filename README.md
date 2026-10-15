@@ -6,25 +6,37 @@ research, and tailored application letters in one place.
 
 ## Published specialist skills
 
-The [curated sources](docs/SKILL-SELECTION.md) include the original skills,
-references, authorship, pinned versions, and licenses:
+The [comparison research](docs/SKILL-SELECTION.md) covers both the earlier
+picks and better-known alternatives. The combined workflow uses Anthropic's
+official research/outreach skills (about 29.8K repository stars) and Corey
+Haines' specialist writing/editing skills (about 54.9K), alongside Exa for
+people discovery. Counts were observed on October 15, 2026; they measure
+repository popularity, not results for an individual skill.
 
 | Task | Published skill |
 | --- | --- |
+| Research relevant company/person needs | [Anthropic — Account Research](skills/anthropic-sales/account-research/SKILL.md) |
 | Find relevant people and LinkedIn profiles | [Exa Labs — Search](skills/exa/search/SKILL.md), including people-search patterns |
-| Find and verify business emails | [Daniela Ryplová — Verified Email Finder](skills/apify/apify-verified-email-finder/SKILL.md), from Apify's community catalog |
-| Write personalized outreach | [Corey Haines — Cold Email](skills/marketingskills/cold-email/SKILL.md) |
+| Choose cold/warm intent and structure the message | [Anthropic — Draft Outreach](skills/anthropic-sales/draft-outreach/SKILL.md) |
+| Write natural, concise outreach | [Corey Haines — Cold Email](skills/marketingskills/cold-email/SKILL.md) |
 | Polish the writing | [Corey Haines — Copy Editing](skills/marketingskills/copy-editing/SKILL.md) |
-| Research a person/company before writing | [Firecrawl — Lead Research](skills/firecrawl/firecrawl-lead-research/SKILL.md) |
+| Optional email enrichment/verification | [Daniela Ryplová — Verified Email Finder](skills/apify/apify-verified-email-finder/SKILL.md), from Apify's community catalog |
+| Optional deeper context | [Firecrawl — Lead Research](skills/firecrawl/firecrawl-lead-research/SKILL.md) |
 
-Local bank/workflow guides connect these published methods to your facts and
-application stage. Exa/Apify/Firecrawl execution needs the relevant tool access;
+Use [Mohammed's combined workflow](skills/application-workflow/SKILL.md) for
+role-specific proof selection, recipient research, message timing, and drafting.
+Original sources, licenses, and pins are retained separately. It adapts the
+methods to your bank and May 2027 graduation, with examples for growth,
+deployment, AI systems, and engineering roles.
+Exa/Apify/Firecrawl execution needs the relevant tool access;
 copying the skills does not configure an account or spend credits.
 
 ## Start here
 
 1. Read the [experience bank](bank/experience-bank.md) and the full job description.
-2. Follow the [tailoring guide](docs/TAILORING.md) and [skill router](skills/README.md).
+2. Follow the [combined application workflow](skills/application-workflow/SKILL.md)
+   and [skill router](skills/README.md); use the [tailoring guide](docs/TAILORING.md)
+   for the resume layout and selection.
 3. Create an [application packet](applications/README.md) with the helper below.
 4. Tailor the [resume](templates/resume-base.tex),
    [research relevant people](docs/CONTACT-RESEARCH.md), and
@@ -48,8 +60,10 @@ The default is one A4 page, readable 10pt text, pdfLaTeX, and Tamara first.
 | [skills/resume-workflow/SKILL.md](skills/resume-workflow/SKILL.md) | Repository-specific resume workflow |
 | [skills/application-workflow/SKILL.md](skills/application-workflow/SKILL.md) | Complete resume/contact/letter packet |
 | [skills/resumeskills/](skills/resumeskills/) | Requested upstream ResumeSkills bundle and license |
-| [skills/marketingskills/](skills/marketingskills/UPSTREAM.md) | Selected Prospecting and Cold Email skills with references/license |
-| [docs/SKILL-SELECTION.md](docs/SKILL-SELECTION.md) | Research and reasons for the selected contact/outreach skills |
+| [skills/marketingskills/](skills/marketingskills/UPSTREAM.md) | Selected Prospecting, Cold Email, and Copy Editing skills with references/license |
+| [skills/anthropic-sales/](skills/anthropic-sales/UPSTREAM.md) | Official Account Research and Draft Outreach originals, license, and pinned provenance |
+| [docs/SKILL-SELECTION.md](docs/SKILL-SELECTION.md) | Earlier vs established alternatives, adoption evidence, and selection decisions |
+| [sources/skill-research/](sources/skill-research/2026-10-15-adoption.json) | Dated repository adoption, maintenance, publisher, and source observations |
 | [docs/CONTACT-RESEARCH.md](docs/CONTACT-RESEARCH.md) | Find relevant people, LinkedIn URLs, and sourced professional emails |
 | [docs/LETTERS.md](docs/LETTERS.md) | Before/after-application messages, cover letters, referrals, follow-ups, and hiring replies |
 | [docs/TAILORING.md](docs/TAILORING.md) | Positioning, layout choices, and role-family examples |

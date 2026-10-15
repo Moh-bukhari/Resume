@@ -1,22 +1,26 @@
 # Skills for this repository
 
-Start with [the local resume workflow](resume-workflow/SKILL.md) and
-[AGENTS.md](../AGENTS.md). Read only the relevant upstream skill before using
-it; the skill files and references are available offline for future needs.
+Start with [AGENTS.md](../AGENTS.md) and [Mohammed's combined application
+workflow](application-workflow/SKILL.md), or [the resume subset](resume-workflow/SKILL.md)
+when only a resume is needed. Read the relevant published original before using
+its method; files and references are available offline.
 
 ## Contacts, letters, and full application packets
 
-Use the externally published specialist methods below. Local workflow files
-connect them to this repository's facts and application state.
+The combined workflow selects the strongest parts of established sources and
+the earlier specialist picks. It includes role-specific bank evidence, current
+contact checks, actual conversation history, before/after-application timing,
+one useful ask, and editing. See the [dated comparison](../docs/SKILL-SELECTION.md).
 
 | Task | Start here | Supporting skill |
 | --- | --- | --- |
-| Resume plus contacts and letters | [Application workflow](application-workflow/SKILL.md) | Routes to the skills below |
+| Resume plus contacts and letters | [Combined application workflow](application-workflow/SKILL.md) | Adapted research-to-letter process, role recipes, and checks |
+| Research the company/person | [Contact research](contact-research/SKILL.md) | [Anthropic Account Research](anthropic-sales/account-research/SKILL.md) |
 | Find people and LinkedIn profiles | [Contact research](contact-research/SKILL.md) | [Exa Search](exa/search/SKILL.md) and its [people patterns](exa/search/references/patterns-people.md) |
 | Find/verify professional emails | [Contact research](contact-research/SKILL.md) | [Daniela Ryplová's Verified Email Finder](apify/apify-verified-email-finder/SKILL.md) |
-| Pre/post-application email, LinkedIn, referral, follow-up, thank-you, or reply | [Application letter writer](application-letter-writer/SKILL.md) | [Cold Email](marketingskills/cold-email/SKILL.md) |
+| Pre/post-application email, LinkedIn, referral, follow-up, thank-you, or reply | [Application letter writer](application-letter-writer/SKILL.md) | [Anthropic Draft Outreach](anthropic-sales/draft-outreach/SKILL.md) plus [Corey Haines Cold Email](marketingskills/cold-email/SKILL.md) |
 | Polish a draft | [Application letter writer](application-letter-writer/SKILL.md) | [Copy Editing](marketingskills/copy-editing/SKILL.md) |
-| Person/company research for personalization | [Contact research](contact-research/SKILL.md) | [Firecrawl Lead Research](firecrawl/firecrawl-lead-research/SKILL.md) |
+| Optional deeper context | [Contact research](contact-research/SKILL.md) | [Firecrawl Lead Research](firecrawl/firecrawl-lead-research/SKILL.md) |
 | Formal cover letter | [Application letter writer](application-letter-writer/SKILL.md) | [Cover Letter Generator](resumeskills/skills/cover-letter-generator/SKILL.md) |
 
 See [selection research](../docs/SKILL-SELECTION.md),
@@ -25,11 +29,15 @@ See [selection research](../docs/SKILL-SELECTION.md),
 skills include their references, evaluation cases, and [MIT license](marketingskills/LICENSE).
 Their [pinned provenance](marketingskills/UPSTREAM.md) is separate from the
 original ResumeSkills bundle below. Exa, Apify, and Firecrawl have separate
-upstream provenance/licenses in their directories. No live tool/provider access
+upstream provenance/licenses in their directories. Anthropic's two official
+sales skills retain their originals and [Apache-2.0 provenance](anthropic-sales/UPSTREAM.md).
+No live tool/provider access
 is installed. These are original published skill files; local guides provide
 the application-specific context.
 
-Local guidance selects source-backed research and concise writing. Sales-volume
+Local guidance adapts Anthropic's research/history/intent structure and Corey's
+natural voice and editing. Exa supplies targeted discovery; the optional email
+finder contributes wrong-company and verification-status checks. Sales-volume
 targets, sending domains, mailbox warm-up, automatic replies, and rigid
 length/subject rules are not defaults for job applications. Contacts and event
 state must be grounded in evidence.

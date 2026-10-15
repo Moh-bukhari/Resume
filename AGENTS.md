@@ -21,14 +21,17 @@ Use `skills/application-workflow/SKILL.md` for a complete packet,
 `docs/EXAMPLE-PROMPTS.md` for tasks, `docs/MAINTENANCE.md` for bank updates,
 and `docs/BUILD.md` for compilation. New versions follow `applications/README.md`.
 
-The user specifically wants externally published specialist skills. Start with
-`docs/SKILL-SELECTION.md`: Exa's people-search guidance, Daniela Ryplová's
-Apify Verified Email Finder, Corey Haines' Cold Email and Copy Editing, and
-Firecrawl Lead Research for context. Their original source files and licenses
-are in `skills/`. Local workflow files supply bank facts, stage, and formatting
-context; the research/writing methods come from these named upstream sources.
-Read the selected original skill. Use provider-specific workflows only when
-the corresponding tools/access exist; do not claim copying them installs APIs.
+The user wants established online skills combined for his specific needs.
+Start with `skills/application-workflow/SKILL.md`: the adapted research,
+contact selection, role-to-evidence mapping, timing, writing, and editing
+workflow. It combines Anthropic's Account Research and Draft Outreach,
+Corey Haines' Cold Email and Copy Editing, Exa's people-search guidance, and
+the optional email-verification/context methods from Apify and Firecrawl.
+`docs/SKILL-SELECTION.md` compares the prior picks and better-known alternatives
+using dated adoption evidence and actual instructions. Read the relevant
+published originals; pinned files, attribution, and licenses are in `skills/`.
+The bank supplies candidate facts, never generic skill examples. Use provider
+workflows only with available access; copying skills does not install APIs.
 
 ## Source priority
 
@@ -56,7 +59,7 @@ the corresponding tools/access exist; do not claim copying them installs APIs.
   previously caused invalid LaTeX.
 - Letters are copyable text/Markdown by default. Use a concrete subject, a
   sourced role/company connection, one or two relevant bank facts, and one
-  clear ask. Introductory emails are usually 90–150 words; use the letter guide
+  clear ask. Aim for 100–120 words, flexible up to 150; use the letter guide
   for other formats. Generic upstream length/subject rules are optional.
 - Expected graduation is May 2027. Full-time preference is after graduation,
   open to earlier work. Do not infer exact availability, current residence,
@@ -123,11 +126,15 @@ search; their concrete capabilities remain `needs_detail`.
    `python3 scripts/new_application.py --help` to scaffold a new packet when
    useful; it creates drafts, not researched/sent materials. Reuse existing
    packets without overwriting prior work.
-2. Use `skills/contact-research/SKILL.md` and `docs/CONTACT-RESEARCH.md`.
+2. Use the combined application workflow, `skills/contact-research/SKILL.md`,
+   and `docs/CONTACT-RESEARCH.md`.
    Default to one primary contact and one fallback: a current recruiter,
    named role contact, or likely function leader with evidence of relevance.
    Label hiring authority instead of assuming it from a title.
-3. Save exact found LinkedIn URLs and professional email evidence in
+3. Check supplied actual prior threads/events before choosing cold or warm
+   wording. Read full available exchanges before naming the latest interaction.
+   History not queried is different from no history. Save exact found LinkedIn
+   URLs and professional email evidence in
    `contacts.json`, with sources/access dates. Published address, provider
    result, inferred pattern, and deliverability check are separate concepts.
    Leave unknown details blank; do not call guesses verified.
@@ -135,7 +142,9 @@ search; their concrete capabilities remain `needs_detail`.
    select before/after-application, referral, follow-up, LinkedIn, cover letter,
    thank-you, or event-response wording. Unknown status cannot become
    “I applied”; a draft cannot become a sent-message event.
-5. Personalize company/recipient details from sourced facts and candidate
+5. Use Anthropic's relevance → evidence bridge → small ask structure and
+   Corey's voice/editing passes. Personalize company/recipient details from
+   sourced facts and candidate
    claims from the bank. No invented prior meetings, referrals, news, product
    experience, current competing offers, or recipient addresses.
 6. Save needed drafts under `letters/` and timing/evidence in `outreach-plan.md`.
@@ -171,10 +180,14 @@ preserved original upload is `sources/user-supplied-resume.tex`.
 
 ## Skills and environment
 
-Choose the local resume, contact-research, letter-writing, or complete-packet
-workflow through `skills/README.md`, then read relevant upstream skills.
+Choose the combined application workflow or its resume/contact/letter subset
+through `skills/README.md`, then read relevant upstream skills. Preserve
+upstream files, licenses, and version records when updating the blend.
 Generic sales examples, sending infrastructure, autonomous replies, and
 campaign benchmarks do not override job-application scope or user facts.
+Anthropic's original host-specific silent-work, Page/Slide, connector, and
+upload-relative date instructions do not override active assistant instructions
+or the local drafting task. Use actual observation dates and keep old inputs dated.
 
 Python 3 supports the bank tools. PDF builds need `pdflatex`, `pdfinfo`, and
 `pdftotext`; `pdftoppm` helps visual review. No server, production CRM, database,

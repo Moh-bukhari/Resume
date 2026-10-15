@@ -8,6 +8,11 @@
   named upstream commit, with explicit limits on live/runtime claims.
 - [Known job requirements](../jobs/README.md): user-supplied target inputs,
   not proof of current vacancies or candidate skills.
+- [Skill research snapshot](skill-research/2026-10-15-adoption.json): dated
+  repository popularity, publisher, maintenance, and pinned-source observations
+  for the [skill comparison](../docs/SKILL-SELECTION.md). These are repository
+  counters, not skill-level installs or tested outreach results. Original
+  skills and licenses are preserved separately under `skills/`.
 
 The original upload is not a fresh tailored deliverable and is not guaranteed
 to compile unchanged. Start new work from `templates/resume-base.tex`.

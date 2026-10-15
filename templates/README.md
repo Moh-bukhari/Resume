@@ -9,8 +9,8 @@
   `tailoring-notes.md` to record the JD, selected IDs, gaps, and real checks.
 - [contacts.json](contacts.json): empty contact-research/event record; email
   origin and verification are recorded separately.
-- [outreach-plan.md](outreach-plan.md): recipient/channel, evidence, timing,
-  and next-step notes.
+- [outreach-plan.md](outreach-plan.md): role-to-proof bridge, selected skill
+  methods, prior-thread status, recipient/channel, one ask, and timing notes.
 - [letters/](letters/README.md): eight templates for introductions, LinkedIn,
   referrals, follow-ups, thank-yous, cover letters, and hiring replies.
 

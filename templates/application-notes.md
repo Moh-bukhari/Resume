@@ -35,6 +35,8 @@ Use `bank/experience-bank.json` as the factual source. Consult `skills/README.md
 - Details intentionally omitted for relevance or space: [items]
 - Material fit gaps: [missing required experience, availability constraints, etc.]
 - Questions that materially affect this draft: [none / concise questions; continue independent work]
+- Combined workflow and selected original methods: [application-workflow; relevant research/writing skills]
+- Shared resume/outreach positioning: [which two or three needs this version addresses]
 
 When changing shared facts, edit the JSON first, preserve source/status/scope metadata, then regenerate and check the bank from the repository root:
 
