@@ -2,6 +2,12 @@
 
 See [a worked introduction](OUTREACH-EXAMPLE.md) for the target style.
 
+The writing methods come from Corey Haines' published
+[Cold Email](../skills/marketingskills/cold-email/SKILL.md) and
+[Copy Editing](../skills/marketingskills/copy-editing/SKILL.md) skills. Read the
+original files and relevant references. This guide supplies job stage,
+candidate facts, and delivery context; it does not replace their methodology.
+
 Use [application-letter-writer](../skills/application-letter-writer/SKILL.md).
 For a complete packet, use [application-workflow](../skills/application-workflow/SKILL.md).
 Read the actual job description, selected resume, bank, contact research, and

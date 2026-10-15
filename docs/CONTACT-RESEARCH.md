@@ -1,5 +1,15 @@
 # Find the right person and contact route
 
+Start with the actual published specialist skills in
+[the curated source list](SKILL-SELECTION.md): [Exa Search](../skills/exa/search/SKILL.md)
+for people/LinkedIn, [Daniela Ryplová's Verified Email Finder](../skills/apify/apify-verified-email-finder/SKILL.md)
+for business email enrichment/verification, and
+[Firecrawl Lead Research](../skills/firecrawl/firecrawl-lead-research/SKILL.md)
+for deeper context. Read their original instructions when selecting that
+provider. Use only available tool access and authorized usage. Reuse job,
+department, target-count, and output preferences already supplied instead of
+asking the user for the same inputs again.
+
 Use [contact-research](../skills/contact-research/SKILL.md) and the bundled
 [Prospecting skill](../skills/marketingskills/prospecting/SKILL.md). The target
 is a small, useful hiring shortlist for a particular job, not a sales lead list.

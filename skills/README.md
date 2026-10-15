@@ -6,19 +6,28 @@ it; the skill files and references are available offline for future needs.
 
 ## Contacts, letters, and full application packets
 
+Use the externally published specialist methods below. Local workflow files
+connect them to this repository's facts and application state.
+
 | Task | Start here | Supporting skill |
 | --- | --- | --- |
 | Resume plus contacts and letters | [Application workflow](application-workflow/SKILL.md) | Routes to the skills below |
-| Find a relevant person, LinkedIn, and professional email | [Contact research](contact-research/SKILL.md) | [Prospecting](marketingskills/prospecting/SKILL.md) |
+| Find people and LinkedIn profiles | [Contact research](contact-research/SKILL.md) | [Exa Search](exa/search/SKILL.md) and its [people patterns](exa/search/references/patterns-people.md) |
+| Find/verify professional emails | [Contact research](contact-research/SKILL.md) | [Daniela Ryplová's Verified Email Finder](apify/apify-verified-email-finder/SKILL.md) |
 | Pre/post-application email, LinkedIn, referral, follow-up, thank-you, or reply | [Application letter writer](application-letter-writer/SKILL.md) | [Cold Email](marketingskills/cold-email/SKILL.md) |
+| Polish a draft | [Application letter writer](application-letter-writer/SKILL.md) | [Copy Editing](marketingskills/copy-editing/SKILL.md) |
+| Person/company research for personalization | [Contact research](contact-research/SKILL.md) | [Firecrawl Lead Research](firecrawl/firecrawl-lead-research/SKILL.md) |
 | Formal cover letter | [Application letter writer](application-letter-writer/SKILL.md) | [Cover Letter Generator](resumeskills/skills/cover-letter-generator/SKILL.md) |
 
 See [selection research](../docs/SKILL-SELECTION.md),
 [contact guidance](../docs/CONTACT-RESEARCH.md), and
-[letter routing/templates](../docs/LETTERS.md). The two selected marketing
+[letter routing/templates](../docs/LETTERS.md). The three selected marketing
 skills include their references, evaluation cases, and [MIT license](marketingskills/LICENSE).
 Their [pinned provenance](marketingskills/UPSTREAM.md) is separate from the
-original ResumeSkills bundle below. No live tool/provider access is installed.
+original ResumeSkills bundle below. Exa, Apify, and Firecrawl have separate
+upstream provenance/licenses in their directories. No live tool/provider access
+is installed. These are original published skill files; local guides provide
+the application-specific context.
 
 Local guidance selects source-backed research and concise writing. Sales-volume
 targets, sending domains, mailbox warm-up, automatic replies, and rigid

@@ -4,6 +4,23 @@ A factual experience bank, one-page Overleaf resumes, professional contact
 research, and tailored application letters in one place.
 **AI assistants: start with [AGENTS.md](AGENTS.md).**
 
+## Published specialist skills
+
+The [curated sources](docs/SKILL-SELECTION.md) include the original skills,
+references, authorship, pinned versions, and licenses:
+
+| Task | Published skill |
+| --- | --- |
+| Find relevant people and LinkedIn profiles | [Exa Labs — Search](skills/exa/search/SKILL.md), including people-search patterns |
+| Find and verify business emails | [Daniela Ryplová — Verified Email Finder](skills/apify/apify-verified-email-finder/SKILL.md), from Apify's community catalog |
+| Write personalized outreach | [Corey Haines — Cold Email](skills/marketingskills/cold-email/SKILL.md) |
+| Polish the writing | [Corey Haines — Copy Editing](skills/marketingskills/copy-editing/SKILL.md) |
+| Research a person/company before writing | [Firecrawl — Lead Research](skills/firecrawl/firecrawl-lead-research/SKILL.md) |
+
+Local bank/workflow guides connect these published methods to your facts and
+application stage. Exa/Apify/Firecrawl execution needs the relevant tool access;
+copying the skills does not configure an account or spend credits.
+
 ## Start here
 
 1. Read the [experience bank](bank/experience-bank.md) and the full job description.

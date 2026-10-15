@@ -21,6 +21,15 @@ Use `skills/application-workflow/SKILL.md` for a complete packet,
 `docs/EXAMPLE-PROMPTS.md` for tasks, `docs/MAINTENANCE.md` for bank updates,
 and `docs/BUILD.md` for compilation. New versions follow `applications/README.md`.
 
+The user specifically wants externally published specialist skills. Start with
+`docs/SKILL-SELECTION.md`: Exa's people-search guidance, Daniela Ryplová's
+Apify Verified Email Finder, Corey Haines' Cold Email and Copy Editing, and
+Firecrawl Lead Research for context. Their original source files and licenses
+are in `skills/`. Local workflow files supply bank facts, stage, and formatting
+context; the research/writing methods come from these named upstream sources.
+Read the selected original skill. Use provider-specific workflows only when
+the corresponding tools/access exist; do not claim copying them installs APIs.
+
 ## Source priority
 
 - The latest explicit user correction wins. Save new facts in the bank before

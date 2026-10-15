@@ -7,6 +7,11 @@ description: Find a small, sourced shortlist of job-relevant recruiters, likely 
 
 Use for “find the right person,” “find their LinkedIn/email,” and recipient
 research for an application. Read `AGENTS.md` and `docs/CONTACT-RESEARCH.md`.
+Start with the original published skills selected in `docs/SKILL-SELECTION.md`:
+Exa Search/people patterns, Daniela Ryplová's Apify Verified Email Finder, or
+Firecrawl Lead Research, according to available tools and the task. Read their
+files under `skills/exa/`, `skills/apify/`, and `skills/firecrawl/`. This local
+file carries the candidate/project context; use upstream specialist methods.
 Use the bundled `skills/marketingskills/prospecting/SKILL.md` for its research,
 cross-checking, provenance, and enrichment techniques. This local workflow
 replaces the upstream sales ICP, volume, campaign, and sending assumptions.

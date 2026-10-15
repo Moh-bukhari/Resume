@@ -2,8 +2,9 @@
 
 - Source: https://github.com/coreyhaines31/marketingskills
 - Commit: `365b412152b9542499ca1439426f7fc3cc92bb65`
-- Included: `skills/prospecting/` and `skills/cold-email/`, with references
-  and evaluation cases. Both `SKILL.md` files are unchanged. One cross-skill
+- Included: `skills/prospecting/`, `skills/cold-email/`, and
+  `skills/copy-editing/`, with references and evaluation cases. All three
+  `SKILL.md` files are unchanged. One cross-skill
   link in `prospecting/references/demand-signals.md` was changed to the pinned
   upstream URL so it resolves without copying an unrelated ad-creative bundle.
 - License: [MIT](LICENSE), copyright Corey Haines 2025.

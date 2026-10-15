@@ -9,6 +9,11 @@ Read `AGENTS.md`, the current bank, the actual JD/resume, and
 `docs/LETTERS.md`. For outreach read
 `skills/marketingskills/cold-email/SKILL.md`; for a formal letter read the
 existing `skills/resumeskills/skills/cover-letter-generator/SKILL.md`.
+For editing, read Corey Haines' original
+`skills/marketingskills/copy-editing/SKILL.md`. Use the clarity, voice, proof,
+and specificity passes appropriate to the requested letter. Preserve bank
+facts; generic marketing examples and sales-only techniques are not new
+candidate evidence. Original upstream skills supply the writing method.
 
 Use the upstream writing principles, with these job-specific defaults:
 
