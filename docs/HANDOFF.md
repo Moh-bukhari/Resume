@@ -7,10 +7,12 @@ Replace this note at the end of a session; Git keeps prior versions.
 ## Last task
 
 - Date: 2026-10-15.
-- Request: organize the full application system into portable Markdown
-  instructions, with complete tracking procedures for any AI assistant.
-- Work: added an entry point, system guide, task workflows, tracker reference,
-  documentation index, and this handoff; connected existing guides and AI entry points.
+- Request: make every tailored resume and message reflect the specific
+  company's mission and goals to show Mohammed's fit.
+- Work: added [company alignment](COMPANY-ALIGNMENT.md) as a standing requirement
+  in shared instructions, resume/letter workflows, and local skills. Added a
+  sourced fit brief to packet notes, review fields to the outreach plan and
+  all eight letter templates, and saved the preference as bank source `SRC15`.
 
 ## Current records
 
@@ -22,26 +24,26 @@ Replace this note at the end of a session; Git keeps prior versions.
 
 ## Checks and publication
 
-- Tracker regression suite: 11 tests passed.
+- Template smoke checks: two application stages; all eight letter types retain
+  the alignment review fields and correct stage metadata. Contact checks passed.
 - Bank validation: 13 entries, 72 bullets, 21 numeric facts; generated views agree.
 - Tracker validation: 10 jobs and 41 companies; all 13 generated views agree.
-- Documentation check: 319 relative links/anchors across 17 changed/new Markdown
-  files resolved; whitespace check passed.
-- A separate assistant reviewed the handbook without prior chat context.
-  Its findings were corrected: submission requires actual evidence, daily
-  snapshot validation uses the matching date, and handoff is saved before push.
-- Publication: this handoff belongs to the documentation commit intended for
+- Documentation links and whitespace checked. The live tracker was unchanged
+  by the template checks; no application or message events were created.
+- A separate assistant reviewed the policy, preference, and template changes
+  and found no material issues or initializer incompatibilities.
+- Publication: this handoff belongs to the company-alignment commit intended for
   `origin/main`. On a new session, compare the checkout and remote commit rather
   than assuming a local file proves publication. No runtime configuration or
   external provider account is required by this documentation change.
 
 ## Continue here
 
-- Documentation and validation are complete. No job preparation or external
-  outreach was requested as part of this organization task.
+- The standing preference and template changes are complete. No specific
+  company's resume or message was requested or sent in this task.
 - For the next job-search task, follow [WORKFLOWS.md](WORKFLOWS.md) using the
-  user's requested job ID or posting. No job should advance simply because
-  these instructions were reorganized.
+  user's requested job ID or posting. Add/reuse its company-fit brief before
+  writing, and review alignment before delivery or any authorized send.
 
 ## Handoff maintenance
 

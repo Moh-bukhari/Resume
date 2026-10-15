@@ -21,6 +21,10 @@ candidate evidence. Original upstream skills supply the writing method.
 Combine sourced relevance → evidence bridge → one small ask with Corey's
 specialist writing/editing methods, using these job-specific defaults:
 
+- Apply [company alignment](../../docs/COMPANY-ALIGNMENT.md) to every message.
+  Connect sourced company/role goals to relevant bank proof, record the choice
+  in `outreach-plan.md`, and review the final text before delivery or any
+  authorized send. Logistical replies need accurate context, not an added pitch.
 - Read supplied prior threads and the actual latest exchange before choosing
   cold/warm wording. No history found in checked sources and history not
   checked/unavailable are different states. Never invent familiarity or assert

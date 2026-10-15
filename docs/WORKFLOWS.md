@@ -99,6 +99,8 @@ application attempts must remain distinguishable even when titles match.
    [tailoring guide](TAILORING.md). Save the full JD and its source/date in
    `job-description.md`. Match requirements to supported bank bullet IDs and
    preserve scope/ownership limits in `tailoring-notes.md`.
+   Complete [company alignment](COMPANY-ALIGNMENT.md): save the sourced mission,
+   role/team goals, evidence map, and positioning in those notes before drafting.
 3. Tailor `resume.tex` from the current bank: Tamara first, one A4 page, 10pt
    body, standalone pdfLaTeX. For uncertain facts, use supported wording and
    record the gap. Imported tracker proof notes do not override the bank.
@@ -154,6 +156,9 @@ Record an application only after a confirmed submission, using runbook 5.
    company/role needs to one or two bank facts and one clear ask. Keep claim
    IDs, sources, timing, and unresolved questions outside the copyable text in
    `outreach-plan.md` and letter metadata.
+   Apply [company alignment](COMPANY-ALIGNMENT.md) and record the selected
+   goal/proof and review date in the plan. Review the exact final text again
+   before an authorized send; a logistical reply should address its actual task.
 5. Validate the contact record, then link the completed drafts if useful:
 
    ```bash

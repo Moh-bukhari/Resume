@@ -72,6 +72,13 @@ and continue supported work.
 
 ## 2. Choose proof for this role
 
+For every resume and message, first complete the required
+[company-alignment brief](../../docs/COMPANY-ALIGNMENT.md). Connect the company's
+sourced mission and current goals to this role, then select bank evidence that
+shows how Mohammed could contribute. Save the map in `tailoring-notes.md` and
+the message-specific choice in `outreach-plan.md`. Review it before delivery
+and any authorized send/submission; retain truthful scope and actual history.
+
 These are starting points, not fixed bundles. Read the IDs' current scope notes
 and select the strongest non-overlapping evidence for the actual JD.
 

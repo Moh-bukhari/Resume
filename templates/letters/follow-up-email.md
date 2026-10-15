@@ -12,8 +12,16 @@ reminder can be enough. This template does not authorize sending or a sequence.
 
 ## Draft record — outside the message
 
+Review company fit using the repository-root `docs/COMPANY-ALIGNMENT.md` guide
+before finalizing and before any authorized send. Use the shared packet brief;
+keep logistical replies concise and preserve the exact sent version.
+
 ```yaml
 message_status: draft
+company_alignment_brief: "../tailoring-notes.md#company-mission-and-goals"
+company_alignment_goal: "[Sourced company/role goal; context-only for a logistical reply]"
+company_alignment_review: "pending"
+company_alignment_review_date: null
 draft_date: "[YYYY-MM-DD in the user's timezone]"
 application_status: "[not_submitted | submitted_user_confirmed | unconfirmed]"
 company: "[Company]"

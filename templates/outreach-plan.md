@@ -26,6 +26,18 @@
 - Message intent: [cold introduction / warm reply / referral / event / interview / follow-up]
 - One useful ask: [a single question fitting the stage]
 
+## Company alignment for this message
+
+- Shared brief: `tailoring-notes.md` → Company mission and goals
+- Company/role goal selected: [specific sourced goal, or context-only for a logistical reply]
+- Supporting source/date: [URL or supplied text; current verification/access limits]
+- Evidence connection: [bank IDs and how that work would support the goal]
+- Final alignment review/date: [pending / reviewed; exact letter version, correct company/role/stage, relevant proof]
+
+Follow `docs/COMPANY-ALIGNMENT.md` from the repository root. Review the exact
+text before delivery and before any authorized send. Keep administrative replies
+brief; preserve actual sent wording and record real events separately.
+
 ## Recommended next step
 
 [Choose the letter type and explain why it fits the confirmed stage. Do not

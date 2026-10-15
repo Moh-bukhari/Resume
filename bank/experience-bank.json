@@ -1,6 +1,6 @@
 {
   "schema_version": "1.3",
-  "updated_client_date": "2026-10-14",
+  "updated_client_date": "2026-10-15",
   "profile": {
     "name": "Mohammed Bukhari",
     "phone": "+1 (415) 314-6640",
@@ -84,6 +84,10 @@
       "id": "SRC14",
       "description": "Attempted official Berkeley Big Ideas calendar verification on 2026-10-14 (America/Los_Angeles). bigideas.berkeley.edu, bigideascontest.org, and alternate Berkeley pages returned proxy tunnel HTTP 403; exact dates could not be verified. This is an access/result note, not evidence of calendar dates.",
       "url": "https://bigideas.berkeley.edu/"
+    },
+    {
+      "id": "SRC15",
+      "description": "On 2026-10-15, the user requested that every tailored resume and message align Mohammed's experience with the specific company's mission and goals to demonstrate fit. This is a standing content preference, not a new accomplishment or authorization to send messages."
     }
   ],
   "experiences": [
@@ -2081,10 +2085,12 @@
     "Job-search workflow developed in 2025 with Claude/GPT-assisted coding and minor Python edits; processed 2,000+ postings in one month.",
     "Personal search: 221 applications, interviews with 17 different companies, and seven different job offers; user continued with Tamara.",
     "Embersafe’s Sonoma-area city-council engagement is still planning, superseding earlier wording suggesting implementation had begun.",
-    "Embersafe competition date reference is Berkeley Big Ideas; official date lookup was attempted but blocked by network HTTP 403. Exact cycle/project dates remain unverified."
+    "Embersafe competition date reference is Berkeley Big Ideas; official date lookup was attempted but blocked by network HTTP 403. Exact cycle/project dates remain unverified.",
+    "Every tailored resume and job-search message should show alignment with the specific company's mission and goals through relevant supported experience (SRC15)."
   ],
   "tailoring_rules": [
     "This bank is the current source for future tailoring; do not re-import superseded claims from older resume drafts.",
+    "For every tailored resume and job-search message, research the specific company's mission and goals, connect the role's priorities to supported bank evidence, and make that fit shape the content. Follow docs/COMPANY-ALIGNMENT.md; record sources and review before delivery or any authorized send/submission. Keep logistical replies natural, preserve actual sent/submitted versions, and do not invent achievements, personal beliefs, company goals, or guaranteed outcomes (SRC15).",
     "Choose a few relevant bullets per role. Bullet variants are alternatives, not additional achievements; merge overlapping claims and avoid counting the same result twice.",
     "Preserve official titles, dates, expected graduation, units, approximation, and individual-versus-team credit.",
     "Default to Tamara first, as requested. Keep one-page tailored resumes with readable 10pt body text and a standard single-column layout.",

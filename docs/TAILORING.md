@@ -4,6 +4,11 @@ Use this repository to select and explain Mohammed Bukhari's documented work for
 a particular role. A tailored resume is a selection from the bank, not a new
 source of facts.
 
+For every tailored version, follow [company alignment](COMPANY-ALIGNMENT.md).
+Map the company's mission and current goals to this role and supported bank
+evidence in `tailoring-notes.md`; use that map to choose the summary, bullets,
+and projects. Review the connection before marking the resume ready.
+
 ## Start here
 
 1. Read [AGENTS.md](../AGENTS.md) for repository instructions and

@@ -71,6 +71,12 @@ workflows only with available access; copying skills does not install APIs.
 
 ## Defaults and preferences
 
+- **Company alignment is required for every tailored resume and message.**
+  Follow [docs/COMPANY-ALIGNMENT.md](docs/COMPANY-ALIGNMENT.md): research the
+  company's mission and current goals, map this role's contribution to supported
+  bank evidence, and make that connection shape the content. Save sources and
+  the fit brief in packet notes; review it before delivery and any authorized
+  send/submission. Keep logistical replies natural and preserve actual sent history.
 - **Tamara first**, above SCET, unless the user explicitly changes this.
 - One page; A4; 10pt body; simple single column; pdfLaTeX; text-based PDF.
   Template margins are 0.58 inches. Cut weaker content before shrinking text,

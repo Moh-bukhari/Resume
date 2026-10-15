@@ -13,6 +13,7 @@ application workflow; open the relevant branch of the guide for the current task
 | Tracking | [HOW-TO-UPDATE.md](../tracker/HOW-TO-UPDATE.md) | Common commands and user prompts |
 | Tracking | [TRACKER-REFERENCE.md](TRACKER-REFERENCE.md) | Field types, event effects, date rules, direct-edit contracts |
 | Experience | [MAINTENANCE.md](MAINTENANCE.md) | Add/correct evidence, preserve scope, regenerate the bank |
+| Company fit | [COMPANY-ALIGNMENT.md](COMPANY-ALIGNMENT.md) | Required mission/goal research, evidence mapping, and review for resumes/messages |
 | Resume | [TAILORING.md](TAILORING.md) | Choose relevant proof and fit one page |
 | PDF | [BUILD.md](BUILD.md) | Overleaf/local build and layout checks |
 | People | [CONTACT-RESEARCH.md](CONTACT-RESEARCH.md) | Relevant contacts, LinkedIn, professional email provenance |

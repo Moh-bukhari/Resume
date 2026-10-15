@@ -5,6 +5,11 @@ job search. An AI assistant can use it to tailor resumes, research contacts,
 write letters, and maintain the application tracker without the original chat.
 All instructions are ordinary Markdown; no particular AI provider is required.
 
+Every tailored resume and message must reflect the specific company's mission,
+goals, and role needs through supported experience. Follow the
+[company-alignment guide](docs/COMPANY-ALIGNMENT.md) before drafting and before
+any authorized send or submission.
+
 ## Give a new AI this instruction
 
 > Open this repository and read START-HERE.md, then AGENTS.md. Follow the

@@ -19,6 +19,24 @@ Copy this file into `applications/<company>-<role>/tailoring-notes.md` and repla
 - Submission status: **no submission recorded**
 - Submission evidence/date, only if explicitly confirmed by the user: [not supplied]
 
+## Company mission and goals
+
+- Company mission / customers / problem solved: [supported source text or unknown]
+- Sources and observation/provision dates: [official URLs or supplied text; access limits]
+- Role/team goals: [two or three; distinguish stated priorities from interpretation]
+- Positioning: [how my supported experience could contribute through this specific role]
+
+| Company or team goal | Source / date / stated or inferred | Bank bullet IDs and relevant contribution | Scope or gap |
+| --- | --- | --- | --- |
+| [specific goal] | [evidence] | [supported work and why it matters here] | [limits] |
+
+- Alignment review/date: [pending / reviewed; outcome and missing information]
+- Resume choices shaped by this brief: [summary, bullets, projects, skills]
+
+Follow `docs/COMPANY-ALIGNMENT.md` from the repository root for every version.
+Use this brief in `outreach-plan.md`; company goals do not create new candidate
+facts. Keep previous submitted/sent versions identifiable.
+
 ## Requirements and selected evidence
 
 Use `bank/experience-bank.json` as the factual source. Consult `skills/README.md` for the relevant bundled resume skills, then select a few strong, non-overlapping bullets. Preserve each bullet's metric units, ownership, dates, and scope notes. Job requirements are not evidence of candidate experience.

@@ -2,6 +2,12 @@
 
 See [a worked introduction](OUTREACH-EXAMPLE.md) for the target style.
 
+Every message follows [company alignment](COMPANY-ALIGNMENT.md): use a sourced
+company/role goal and relevant bank evidence for substantive outreach, and
+check the correct company and conversation context for logistical replies.
+Record the selected connection and review in `outreach-plan.md`. Repeat the
+review on the exact final text before any separately authorized send.
+
 The combined candidate workflow is
 [application-workflow](../skills/application-workflow/SKILL.md). Its writing
 methods combine Anthropic's published

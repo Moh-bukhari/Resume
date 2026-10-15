@@ -15,6 +15,9 @@ Read `AGENTS.md` first. Paths below are relative to the repository root.
    `resume-formatter` as needed. Examples are not candidate facts.
 3. Follow `docs/TAILORING.md`: Tamara first, readable 10pt body, A4, one page,
    pdfLaTeX. Reframe evidence; never invent missing tenure, outcomes, or tools.
+   Follow [company alignment](../../docs/COMPANY-ALIGNMENT.md) for every version:
+   source the mission/goals, map them to the role and bank IDs, and use that map
+   to select the summary, bullets, and projects. Save and review the fit brief.
 4. Copy `templates/resume-base.tex` into a new application folder according to
    `applications/README.md`. Record JD, selected IDs, gaps, and status in
    `tailoring-notes.md` using `templates/application-notes.md`.
