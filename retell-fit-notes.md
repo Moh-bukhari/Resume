@@ -41,7 +41,7 @@ in the role, while its production engineering expectations remain a stretch.
 | Personalized outbound and integrations | Tamara Greenhouse APIs, checkpointed sync and webhooks; SCET lead/email automations | No Salesforce/HubSpot API, n8n/Zapier/Make, or time-saving claims invented |
 | Recruiting and candidate engagement systems | Shared ownership, engagement timelines, follow-ups, imports, OpenAI search; 500+ qualified candidates personally added | AI translates requests into filters; it does not rank resumes or predict interview success. 700K+ records are system feed scope, not active users or generated leads |
 | Operational automation | SCET recurring coordination workflows and onboarding documentation | No measured time savings or invented automation coverage |
-| Hands-on AI and startup building | AynX co-founder and implementation; Sitters voice AI; SkipLab demo and ML workflow | No fabricated production agent infrastructure or customer usage |
+| Hands-on AI and startup building | AynX founder and implementation; Sitters voice AI; SkipLab demo and ML workflow | No fabricated production agent infrastructure or customer usage |
 | Professional engineering qualifications | Technical degree expected May 2027, listed programming skills, personal project implementation | Two years of professional software engineering and production LLM operation are not established |
 
 ## Editorial decisions

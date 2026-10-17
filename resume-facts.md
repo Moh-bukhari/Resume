@@ -37,7 +37,7 @@ unconfirmed metrics, skills, customers, production deployment, seniority, or own
 
 ### AynX, Berkeley, October 2025--Present
 
-- Co-founder; aynx.space.
+- Founder; aynx.space.
 - Collision-avoidance coordination for LEO operators, including sovereign programs, without revealing satellite ownership.
 - Rotating cryptographic identity system for precise pseudonymous and verifiable conjunction data (CDMs).
 - ML-backed engine deciding who moves and when.
