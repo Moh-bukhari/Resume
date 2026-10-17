@@ -192,12 +192,12 @@
       "id": "AYN",
       "name": "AynX",
       "kind": "experience",
-      "title": "Co-Founder",
+      "title": "Founder",
       "dates": "October 2025–Present",
       "location": "Berkeley, CA",
       "url": "https://aynx.space",
       "context": "Satellite collision-avoidance coordination for low-Earth-orbit operators, including intended sovereign-program use cases. Intended users are not confirmed customers.",
-      "ownership": "Co-founded the company and personally implemented project software; do not claim sole ownership of team/company contributions.",
+      "ownership": "Founded the company and personally implemented project software; do not claim sole ownership of team/company contributions.",
       "best_for": [
         "product",
         "ai_tools",
@@ -944,7 +944,7 @@
     {
       "id": "AYN-01",
       "experience_id": "AYN",
-      "text": "Co-founded a collision-avoidance platform enabling low-Earth-orbit operators to coordinate maneuvers without disclosing satellite ownership.",
+      "text": "Founded a collision-avoidance platform enabling low-Earth-orbit operators to coordinate maneuvers without disclosing satellite ownership.",
       "tags": [
         "founder",
         "product",
@@ -1867,7 +1867,7 @@
     {
       "id": "SUM-06",
       "role_family": "aerospace",
-      "text": "UC Berkeley aerospace engineering student and satellite-platform co-founder with experience in propulsion design, CAD, CFD, and MATLAB analysis. Built privacy-preserving collision-coordination software and contributed to multidisciplinary rocket design teams."
+      "text": "UC Berkeley aerospace engineering student and satellite-platform founder with experience in propulsion design, CAD, CFD, and MATLAB analysis. Built privacy-preserving collision-coordination software and contributed to multidisciplinary rocket design teams."
     }
   ],
   "role_maps": [
