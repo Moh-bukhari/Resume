@@ -204,11 +204,11 @@ Onboarding, training, operational documentation, and recurring administrative wo
 
 ### AynX (AYN)
 
-**Co-Founder | October 2025–Present | Berkeley, CA**
+**Founder | October 2025–Present | Berkeley, CA**
 
 Satellite collision-avoidance coordination for low-Earth-orbit operators, including intended sovereign-program use cases. Intended users are not confirmed customers.
 
-**Ownership:** Co-founded the company and personally implemented project software; do not claim sole ownership of team/company contributions.
+**Ownership:** Founded the company and personally implemented project software; do not claim sole ownership of team/company contributions.
 
 **Useful for:** product, ai_tools, deployment, aerospace, founder.
 
@@ -216,7 +216,7 @@ Satellite collision-avoidance coordination for low-Earth-orbit operators, includ
 
 **Link:** https://aynx.space
 
-- **AYN-01 [ready]:** Co-founded a collision-avoidance platform enabling low-Earth-orbit operators to coordinate maneuvers without disclosing satellite ownership.
+- **AYN-01 [ready]:** Founded a collision-avoidance platform enabling low-Earth-orbit operators to coordinate maneuvers without disclosing satellite ownership.
   Scope: Sovereign programs are an intended use case, not established customers.
   Tags: founder, product, aerospace. Sources: SRC01.
 - **AYN-02 [ready]:** Built rotating cryptographic identities for pseudonymous, verifiable sharing of precise conjunction data.
@@ -649,7 +649,7 @@ Product manager and founder combining partnership development, stakeholder coord
 
 ### SUM-06 — aerospace
 
-UC Berkeley aerospace engineering student and satellite-platform co-founder with experience in propulsion design, CAD, CFD, and MATLAB analysis. Built privacy-preserving collision-coordination software and contributed to multidisciplinary rocket design teams.
+UC Berkeley aerospace engineering student and satellite-platform founder with experience in propulsion design, CAD, CFD, and MATLAB analysis. Built privacy-preserving collision-coordination software and contributed to multidisciplinary rocket design teams.
 
 ## Choosing evidence for a job
 
