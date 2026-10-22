@@ -5,6 +5,10 @@ job search. An AI assistant can use it to tailor resumes, research contacts,
 write letters, and maintain the application tracker without the original chat.
 All instructions are ordinary Markdown; no particular AI provider is required.
 
+External startup concepts live in [EXTERNAL-PROJECTS.md](EXTERNAL-PROJECTS.md).
+For that work, read the concept and its continuation instructions; preserve
+the distinction between plans, recommendations, and demonstrated experience.
+
 Every tailored resume and message must reflect the specific company's mission,
 goals, and role needs through supported experience. Follow the
 [company-alignment guide](docs/COMPANY-ALIGNMENT.md) before drafting and before
@@ -56,6 +60,7 @@ routes to the relevant methods, including their source and license.
 | View the spreadsheet-style table | [Jobs CSV](tracker/jobs.csv) |
 | View target companies | [Company watchlist](tracker/companies.md) |
 | Understand all available experience | [Experience bank](bank/experience-bank.md) |
+| Continue the wearable tutor/shared AI teammate idea | [External projects](EXTERNAL-PROJECTS.md) |
 | Run a task from start to finish | [Workflows](docs/WORKFLOWS.md) |
 | Update the tracker | [Quick update guide](tracker/HOW-TO-UPDATE.md) |
 | Understand every tracking field and event | [Tracker reference](docs/TRACKER-REFERENCE.md) |
@@ -68,11 +73,14 @@ and a sent message are separate facts. Creating a resume or letter only creates
 an artifact. Record an actual submission/message/interview/outcome when the
 user confirms it or an authorized tool provides the result.
 
-The editable records are JSON; the instructions and browsable views are
+The editable job-search records are JSON; the instructions and browsable views are
 Markdown. Update the records, regenerate the views, validate, then commit and
 push. This keeps the dashboard, job pages, and CSV consistent. Editing a rendered
 table alone will be overwritten. The original Google Sheet and Excel upload are
 historical inputs and do not synchronize with this tracker.
+
+External-project concepts are edited directly in `EXTERNAL-PROJECTS.md`;
+they do not use the bank or tracker renderers.
 
 ## Example requests
 

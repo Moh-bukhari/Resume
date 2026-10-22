@@ -9,6 +9,7 @@ application workflow; open the relevant branch of the guide for the current task
 | Architecture | [SYSTEM.md](SYSTEM.md) | File ownership, capabilities, update/publish cycle, recovery |
 | Actions | [WORKFLOWS.md](WORKFLOWS.md) | End-to-end procedures and completion criteria |
 | Continuation | [HANDOFF.md](HANDOFF.md) | Current unfinished work and actual validation results |
+| External projects | [EXTERNAL-PROJECTS.md](../EXTERNAL-PROJECTS.md) | Startup idea evolution, latest product concept, use cases, space applications, and open decisions |
 | Tracking | [TRACKER.md](TRACKER.md) | Tracking concepts and data ownership |
 | Tracking | [HOW-TO-UPDATE.md](../tracker/HOW-TO-UPDATE.md) | Common commands and user prompts |
 | Tracking | [TRACKER-REFERENCE.md](TRACKER-REFERENCE.md) | Field types, event effects, date rules, direct-edit contracts |
@@ -30,4 +31,5 @@ application workflow; open the relevant branch of the guide for the current task
 
 The [bank](../bank/experience-bank.md), [tracker](../tracker/README.md), and
 [company watchlist](../tracker/companies.md) are the main browsing views.
-Canonical records are JSON; regenerate these Markdown views after editing them.
+Bank and tracker canonical records are JSON; regenerate their Markdown views
+after editing them. External-project concepts are edited directly in Markdown.

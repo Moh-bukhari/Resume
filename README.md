@@ -15,6 +15,7 @@ files route to the same instructions. No prior chat is required.
 | Understand tracking fields and events | [Tracker reference](docs/TRACKER-REFERENCE.md) |
 | Continue unfinished work | [Current handoff](docs/HANDOFF.md) |
 | Browse every guide | [Documentation index](docs/README.md) |
+| Explore external startup ideas and space applications | [External projects](EXTERNAL-PROJECTS.md) |
 
 **[Open the job tracker](tracker/README.md)** ·
 [Company watchlist](tracker/companies.md) · [Spreadsheet-style job table](tracker/jobs.csv)
@@ -25,6 +26,14 @@ can update the tracker alongside your materials. Changes appear after they
 are committed and pushed. [How updates work](tracker/HOW-TO-UPDATE.md).
 You can view it directly on GitHub; no Google Sheets connection or separate
 website is required. The Excel workbook is preserved as a source snapshot.
+
+## External projects
+
+[EXTERNAL-PROJECTS.md](EXTERNAL-PROJECTS.md) preserves the wearable tutor and
+shared AI teammate idea: its evolution, the latest profiles/tasks/updates
+concept, proposed product behavior, customers, space applications, prototype
+options, and unanswered questions. It is a concept record; the experience
+bank remains the source for supported resume claims.
 
 ## Published specialist skills
 
@@ -86,6 +95,7 @@ The default is one A4 page, readable 10pt text, pdfLaTeX, and Tamara first.
 | --- | --- |
 | [START-HERE.md](START-HERE.md) | Universal entry point and copyable instruction for a new AI |
 | [AGENTS.md](AGENTS.md) | Main instructions and navigation for any AI assistant |
+| [EXTERNAL-PROJECTS.md](EXTERNAL-PROJECTS.md) | Editable startup concept record: wearable tutor, shared AI teammate, alternative versions, and space applications |
 | [docs/README.md](docs/README.md) | Organized handbook index, including workflows and handoff |
 | [tracker/README.md](tracker/README.md) | GitHub-hosted application dashboard and reminders |
 | [tracker/tracker.json](tracker/tracker.json) | Editable operational master; permanent job IDs, status, preparation, events, and links |

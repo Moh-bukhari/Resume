@@ -23,6 +23,7 @@ actual authorized update.
 | “Here is a correction to my experience” | [Update facts](#6-update-candidate-facts) |
 | “Continue where the other AI stopped” | [Resume work](#7-resume-after-a-handoff) |
 | “Update GitHub so I can see it” | [Finish and publish](#8-finish-and-publish) |
+| “Document or continue my startup idea” | [External projects](#9-document-an-external-project) |
 
 ## 1. Review the day
 
@@ -300,3 +301,24 @@ verify the result before reporting success.
 checks pass or their limits are disclosed, and the user knows whether GitHub
 contains the update. GitHub displays committed Markdown/CSV; it does not edit
 the original workbook, sync Google Sheets, or run an AI automatically.
+
+## 9. Document an external project
+
+1. Read [EXTERNAL-PROJECTS.md](../EXTERNAL-PROJECTS.md), including the latest
+   concept, version history, decisions, and continuation instructions.
+2. Apply the user's new details to that Markdown file. Preserve project/version
+   IDs and distinguish user choices, proposed implementation, market hypotheses,
+   research, and demonstrated results. Retain useful alternative versions.
+3. Keep plans out of the experience bank and application tracker. A future
+   project can become resume evidence only after concrete work and its scope
+   are established. No application activity follows from idea documentation.
+4. Check the edited prose, relative links, anchors, and `git diff --check`.
+   For documentation-only work, bank/tracker regeneration, PDF compilation,
+   and application tests are unnecessary. Update entry links when needed.
+5. Update [HANDOFF.md](HANDOFF.md), review the diff, and publish the authorized
+   changes using [SYSTEM.md](SYSTEM.md#publish-without-losing-work). Verify
+   the remote result before reporting that the document is on GitHub.
+
+**Done when:** the concept is understandable without the prior conversation,
+its uncertainties remain explicit, navigation works, and publication status
+is accurately reported.

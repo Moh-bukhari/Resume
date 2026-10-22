@@ -10,6 +10,14 @@ Human/AI entry point: [START-HERE.md](START-HERE.md). Documentation map:
 [docs/README.md](docs/README.md). Model-specific entry files point here;
 keep operating rules in shared Markdown instead of duplicating them by model.
 
+For external startup ideas, use [EXTERNAL-PROJECTS.md](EXTERNAL-PROJECTS.md).
+It preserves the wearable tutor/shared AI teammate concept, earlier versions,
+proposed markets, and space applications. Edit that Markdown directly. Keep
+user choices, assistant recommendations, and demonstrated results distinct;
+concepts do not become resume accomplishments or tracker events. For an
+idea-only task, use [runbook 9](docs/WORKFLOWS.md#9-document-an-external-project)
+without modifying application records.
+
 ## Read in this order
 
 1. This file, then [docs/SYSTEM.md](docs/SYSTEM.md) for file ownership,

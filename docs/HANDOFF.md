@@ -6,48 +6,56 @@ Replace this note at the end of a session; Git keeps prior versions.
 
 ## Last task
 
-- Date: 2026-10-15.
-- Request: research the best humanizer skills and make all application writing
-  pass through them while keeping the wording strong.
-- Work: compared 11 repositories and selected Blader Humanizer v3.1.0 plus the
-  existing Corey Haines Copy Editing skill. Added the unchanged MIT-licensed
-  Blader source, [selection research](HUMANIZER-SELECTION.md), and required
-  [Professional Writing Review](../skills/professional-writing-review/SKILL.md).
-  Instructions, workflows, and all eight letter templates now carry the review.
-  Saved the preference as bank source `SRC16`; company alignment remains required.
+- Date: 2026-10-22 (America/Los_Angeles).
+- Request: flesh out all versions of the wearable/startup idea, the latest
+  concept, its uses and space applications, and publish an external-projects
+  file in GitHub.
+- Work: created [EXTERNAL-PROJECTS.md](../EXTERNAL-PROJECTS.md), project `EXT-001`.
+  It preserves nine concept versions, the three functions, the latest shared
+  profiles/tasks/updates system, a proposed information model, markets and
+  space applications, pilot design, laundry hardware notes, prior references,
+  a concept-stage pitch, and open decisions.
+- Added navigation and the concept/evidence boundary to the main entry files,
+  system guide, documentation index, and workflow 9. The concept file is an
+  editable Markdown master; it is not a generated experience-bank view.
 
 ## Current records
 
 - Application state: [tracker/tracker.json](../tracker/tracker.json).
 - Candidate facts and answered clarifications: [bank](../bank/experience-bank.md).
 - No new application or sent-message events were reported in this task.
+- The checkout was fast-forwarded to the latest fetched `main` at `aaa0743`
+  before editing. Existing founder-title corrections and Mercor activity were
+  preserved. This task changes documentation only.
 - Existing unresolved tracker details remain in each job's review notes.
   Read those before asking for more information or reusing imported proof claims.
 
 ## Checks and publication
 
-- Template smoke checks: three application stages; all eight letter types retain
-  pending writing/alignment review fields and correct metadata. Contact checks passed.
-- Selected upstream skill/license hashes verified against pinned research evidence.
-- Bank validation: 13 entries, 72 bullets, 21 numeric facts; generated views agree.
-- Tracker validation: 10 jobs and 41 companies; all 13 generated views agree.
-- Documentation: 369 relative links/anchors and whitespace checked. The live
-  tracker was unchanged by smoke checks; no application/message events were created.
-- A separate assistant reviewed the local adapter and all three writing examples
-  against the bank; factual scope, strength, company fit, and history were preserved.
-- Publication: this handoff belongs to the professional-writing-review commit intended for
-  `origin/main`. On a new session, compare the checkout and remote commit rather
-  than assuming a local file proves publication. No runtime configuration or
-  external provider account is required by this documentation change.
+- Documentation: 222 relative links/anchors across eight edited Markdown files
+  passed; the nine version headings, code-fence balance, and table column
+  counts were checked. Whitespace checks passed.
+- Two independent content reviews passed. They checked completeness, latest
+  user choices versus proposals, technical scope, space applications, and
+  navigation; the Markdown/JSON ownership wording was clarified.
+- No bank/tracker data, application materials, or runtime code was changed;
+  their rendering, PDF builds, and application tests are outside this task.
+- External platform/competitor references are historical notes and were not
+  freshly verified. No prototype or market validation was performed.
+- Publication: the commit containing this handoff is intended for `origin/main`.
+  On continuation, compare the commit with the actual remote; the file itself
+  does not establish publication. No runtime configuration is required.
 
 ## Continue here
 
-- The research, standing preference, and template changes are complete. No
-  specific company's resume or message was requested or sent in this task.
-- For the next job-search task, follow [WORKFLOWS.md](WORKFLOWS.md) using the
-  user's requested job ID or posting. Add/reuse its company-fit brief before
-  writing, then apply the required writing review to final prose before delivery
-  or any authorized send. Template metadata is not proof that review occurred.
+- For this idea, start at [the latest concept](../EXTERNAL-PROJECTS.md#latest-concept)
+  and its [open questions](../EXTERNAL-PROJECTS.md#decisions-and-open-questions).
+  First buyer, build scope, platform, and commercial model are unresolved.
+- Documentation is the requested deliverable. The user has not requested
+  prototype implementation, partner outreach, or recording a workplace in
+  this task. The earlier laundry request was explicitly explanation-only.
+- For job-search work, use the existing application workflows and canonical
+  records. Do not promote this proposed startup into a resume accomplishment.
 
 ## Handoff maintenance
 
