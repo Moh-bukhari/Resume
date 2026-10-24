@@ -6,7 +6,7 @@ This is a static GitHub view. Dates and due items change only when the tracker i
 
 Tell the AI: **“Prepare R001”**, **“I applied to R001 on YYYY-MM-DD”**, or **“I sent the R001 outreach message on YYYY-MM-DD.”** It can update the tracker and linked materials as work progresses. Preparation never records an application or a sent message.
 
-**10 jobs · 41 companies.** Applied: 2 · Saved: 8
+**10 jobs · 41 companies.** Applied: 3 · Saved: 7
 
 [Company watchlist](companies.md) · [Spreadsheet-style job table](jobs.csv) · [How to update](HOW-TO-UPDATE.md) · [Candidate evidence bank](../bank/experience-bank.md)
 
@@ -16,14 +16,12 @@ These are reminders to review, not records of applications or messages being sen
 
 | Date | Timing | Job | Type | Next review |
 | --- | --- | --- | --- | --- |
-| 2026-10-15 | 8 day\(s\) past scheduled date | [R002](<jobs/R002.md>) | Preparation | Consider relevant outreach; do not delay applying |
 | 2026-10-17 | 6 day\(s\) past scheduled date | [R004](<jobs/R004.md>) | Preparation | Research the role \(suggested prep date\) |
 | 2026-10-17 | 6 day\(s\) past scheduled date | [R006](<jobs/R006.md>) | Preparation | Research the role \(suggested prep date\) |
 | 2026-10-18 | 5 day\(s\) past scheduled date | [R005](<jobs/R005.md>) | Preparation | Research the role \(suggested prep date\) |
 | 2026-10-20 | 3 day\(s\) past scheduled date | [R010](<jobs/R010.md>) | Follow-up | Review the actual thread before considering an outreach follow-up |
 | 2026-10-21 | 2 day\(s\) past scheduled date | [R003](<jobs/R003.md>) | Preparation | Research the role \(suggested prep date\) |
 | 2026-10-22 | 1 day\(s\) past scheduled date | [R009](<jobs/R009.md>) | Preparation | Research the role \(suggested prep date\) |
-| 2026-10-24 | In 1 day\(s\) | [R002](<jobs/R002.md>) | Application | Apply by target |
 | 2026-10-27 | In 4 day\(s\) | [R004](<jobs/R004.md>) | Application | Apply by target |
 | 2026-10-27 | In 4 day\(s\) | [R006](<jobs/R006.md>) | Application | Apply by target |
 | 2026-10-28 | In 5 day\(s\) | [R005](<jobs/R005.md>) | Application | Apply by target |
@@ -36,7 +34,7 @@ Research, proof, and resume completion come from their own checkboxes. Applying 
 | ID | Company | Role | Application | Priority | Fit | Preparation | Networking | Applied | Apply target / deadline | Materials |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [R001](<jobs/R001.md>) | Retell AI | Deployment Strategist | Applied | — | 4 | 2/3 · ✓ Research · ○ Proof / demo · ✓ Resume | Not started | 2026-10-23 | 2026-10-23 | [Packet](<../applications/r001-retell-ai-deployment-strategist>) · [Letters](<../applications/r001-retell-ai-deployment-strategist/letters>) |
-| [R002](<jobs/R002.md>) | Retell AI | Founders Initiatives, AI Agents | Saved | — | 2 | 2/3 · ✓ Research · ○ Proof / demo · ✓ Resume | Not started | — | 2026-10-24 | [Packet](<../applications/r002-retell-ai-founders-initiatives-ai-agents>) · [Letters](<../applications/r002-retell-ai-founders-initiatives-ai-agents/letters>) |
+| [R002](<jobs/R002.md>) | Retell AI | Founders Initiatives, AI Agents | Applied | — | 2 | 2/3 · ✓ Research · ○ Proof / demo · ✓ Resume | Not started | 2026-10-23 | 2026-10-24 | [Packet](<../applications/r002-retell-ai-founders-initiatives-ai-agents>) · [Letters](<../applications/r002-retell-ai-founders-initiatives-ai-agents/letters>) |
 | [R003](<jobs/R003.md>) | Retell AI | Founders Initiatives, Technical Ex-Founders | Saved | — | 2 | 0/3 · ○ Research · ○ Proof / demo · ○ Resume | Not started | — | 2026-10-31 | — |
 | [R004](<jobs/R004.md>) | Sierra | APX \(New Grad 2027\) | Saved | — | 3 | 0/3 · ○ Research · ○ Proof / demo · ○ Resume | Not started | — | 2026-10-27 | — |
 | [R005](<jobs/R005.md>) | Sierra | Strategist, Agent Development \(Arabic speaking\) | Saved | — | 4 | 0/3 · ○ Research · ○ Proof / demo · ○ Resume | Not started | — | 2026-10-28 | — |

@@ -24,9 +24,12 @@ Replace this note at the end of a session; Git keeps prior versions.
   and bank-unconfirmed tools (Salesforce, Zapier, n8n, Make) were excluded
   from the skills. Writing review (Humanizer + copy edit + evidence
   comparison) completed.
-- Tracker: R002 `resume_done` and `research_done` set with an evidence note;
-  status remains "Saved" — nothing was submitted to Ashby and no outreach
-  was sent. (R001's Deployment Strategist application was submitted on Ashby
+- Tracker: R002 `resume_done` and `research_done` set with an evidence note
+  when the packet was built. The application was then submitted on Ashby on
+  2026-10-23 (~10:17 PM PDT) with the packet's tailored resume; work
+  authorization was answered truthfully (F-1 student, will require
+  sponsorship). Recorded as Applied, event R002-E002. No outreach has been
+  sent. (R001's Deployment Strategist application was submitted on Ashby
   on 2026-10-23 and is recorded as Applied, event R001-E002.)
 
 ## Current records
@@ -51,9 +54,10 @@ Replace this note at the end of a session; Git keeps prior versions.
   `resume.pdf` (local only — the GitHub write channel accepts UTF-8 text) and
   in the workspace deliverables as
   `Mohammed_Bukhari_Retell_Founders_Initiatives.pdf`.
-- Remaining: the parent agent submits R002 on Ashby; outreach drafting for
-  this role has not started and nothing may be sent without the user's
-  approval.
+- Remaining: the R002 application is submitted (see above). Outreach drafts
+  for this role are in the packet's `letters/outreach-drafts.md`, scheduled
+  to send Mon 2026-10-26 after a humanizing pass at send time; nothing has
+  been sent yet, and no outreach may be recorded as sent before it goes out.
 - External platform/competitor references are historical notes and were not
   freshly verified. No prototype or market validation was performed.
 - Publication: the commit containing this handoff is intended for `origin/main`.

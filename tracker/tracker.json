@@ -936,7 +936,7 @@
       "id": "R002",
       "company": "Retell AI",
       "role": "Founders Initiatives, AI Agents",
-      "status": "Saved",
+      "status": "Applied",
       "priority": null,
       "fit": 2,
       "apply_by": "2026-10-24",
@@ -945,7 +945,7 @@
       "networking": "Not started",
       "proof_done": false,
       "resume_done": true,
-      "applied_on": null,
+      "applied_on": "2026-10-23",
       "interview_on": null,
       "contact": null,
       "last_contact": null,
@@ -997,6 +997,25 @@
             "research_done": {
               "before": false,
               "after": true
+            }
+          }
+        },
+        {
+          "id": "R002-E002",
+          "type": "application",
+          "occurred_on": "2026-10-23",
+          "recorded_on": "2026-10-23",
+          "confirmed_by": "user",
+          "note": "Application submitted on Ashby on 2026-10-23 (~10:17 PM PDT) using the Founders Initiatives tailored resume built in this packet. Work authorization answered truthfully on the form: F-1 student, will require sponsorship.",
+          "history_only": false,
+          "changes": {
+            "status": {
+              "before": "Saved",
+              "after": "Applied"
+            },
+            "applied_on": {
+              "before": null,
+              "after": "2026-10-23"
             }
           }
         }
