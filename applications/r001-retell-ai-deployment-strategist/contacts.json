@@ -99,9 +99,9 @@
     },
     {
       "company": "Retell AI",
-      "connection_degree": null,
+      "connection_degree": "2nd",
       "id": "todd-li",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/toddli1/",
       "name": "Todd Li",
       "priority": 4,
       "relevance": "Owns enterprise go-to-market at Retell; the deployments/FDE motion sits in his revenue org.",
@@ -131,7 +131,7 @@
     },
     {
       "company": "Retell AI",
-      "connection_degree": null,
+      "connection_degree": "2nd",
       "id": "steven-wu",
       "linkedin_url": "https://www.linkedin.com/in/stevenwu2019",
       "name": "Steven Wu",
@@ -162,7 +162,7 @@
     },
     {
       "company": "Retell AI",
-      "connection_degree": null,
+      "connection_degree": "2nd",
       "id": "joshua-alexander",
       "linkedin_url": "https://www.linkedin.com/in/the-joshuaalexander",
       "name": "Joshua Alexander",
@@ -301,9 +301,9 @@
     },
     {
       "company": "Retell AI",
-      "connection_degree": null,
+      "connection_degree": "2nd",
       "id": "bing-wu",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/bingw/",
       "name": "Bing Wu",
       "priority": 10,
       "relevance": "CEO and public face of Retell; at a ~50-person company the founders stay close to senior GTM/deployments hiring.",

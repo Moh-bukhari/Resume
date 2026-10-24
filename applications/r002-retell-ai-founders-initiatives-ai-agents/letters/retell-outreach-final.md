@@ -54,26 +54,29 @@ LinkedIn sweep of 2026-10-23, which is authoritative over earlier web research.
   send two messages to the same person in the same week.
 - All emails say he applied Friday 2026-10-23 (past tense).
 
-## Sequencing
+## Sequencing — LIVE Monday sends (Mon 2026-10-26 ~12:40 PM, cron retell-fi-outreach-send)
 
-- **Already scheduled, Mon 2026-10-26 ~12:40 PM (cron retell-fi-outreach-send):**
-  the five FI messages — Bing, Todd, Evie (email), Steven (email), Carlo (DM).
-- **New drafts below, NOT scheduled:** Weijia Yu email, Nicolaus Wong email +
-  connection note, Joshua Chavez email + connection note, Prabir Vora, Zexia
-  Zhang, Vidhan Mittal, Shasta Subramanian, Hayden Langelier, Steven Wu (R001)
-  connection notes, Sylvie Liu DM. These need Mohammed's go-ahead and a send
-  slot that does not collide with Monday's five.
-- **HOLD (do not send):** Bing Wu (R001) and Todd Li (R001) — already covered by
-  their FI emails; Carlo Porcelli (R001) — covered by his FI DM; Joshua Alexander
-  — invite pending and no email on file, DM only if the invite is accepted.
-
+15 sends total — 6 emails, 7 LinkedIn connection notes, 2 LinkedIn DMs. No
+person receives two live messages on Monday, except Steven Wu, who
+deliberately gets one email (FI) and one connection note (Strategist) on
+different channels.
+- **Emails (6):** Bing Wu, Todd Li, Evie Wang, Steven Wu, Weijia Yu, Joshua
+  Chavez (one email covering both applications, sent once).
+- **Connection notes (7):** Nicolaus G. Wong, Shasta Subramanian, Hayden
+  Langelier, Steven Wu, Prabir Vora, Zexia Zhang, Vidhan Mittal.
+- **DMs (2):** Sylvie Liu (Strategist), Carlo Porcelli (FI only).
+- **NOT Monday sends (follow-ups / held):** Nicolaus Wong's email (follow-up
+  only if the connection goes unanswered); Joshua Chavez's connection note
+  (follow-up only if the email goes unanswered); Bing Wu (R001) second-touch
+  email, Todd Li (R001) email, Carlo Porcelli (R001) DM — all HELD, covered by
+  their Monday FI messages; Joshua Alexander — HELD, invite pending and no
+  email on file, DM only if the invite is accepted.
 ---
 
 # R001 — Deployment Strategist (10 contacts)
 
 ## R001-1 · Nicolaus G. Wong — Founding Head, Deployments — 2nd degree
-**Channel:** LinkedIn connection note first; email (pattern-inferred, unconfirmed)
-as follow-up if the connection goes unanswered.
+**Channel:** LinkedIn connection note — **SCHEDULED Mon 2026-10-26 ~12:40 PM**; email (pattern-inferred, unconfirmed) is a follow-up only if the connection goes unanswered — NOT a Monday send.
 **Profile:** linkedin.com/in/nicolauswong/ · **Email:** nicolaus@retellai.com ⚠️ INFERRED
 **Why #1:** he was the founding Deployment Strategist and is now hiring the team.
 **Signal:** his August post announcing he joined as founding Deployment
@@ -101,7 +104,7 @@ Second-touch DM draft (do not send with the FI DM):
 > Hi Carlo — since we talked about Founders Initiatives: I also applied for Deployment Strategist on Friday, and that seat partners with GTM, which is your side now. Your Q2 recap made the case itself — launches like Conductor only matter once enterprise call centers actually run on them. At SCET I built an AI + HubSpot workflow that cut 100K+ leads to 500 priority targets. If you know who owns the Strategist search, a name would help.
 
 ## R001-3 · Sylvie Liu — GTM — 1st degree
-**Channel:** LinkedIn DM (fresh draft — she is R001-only).
+**Channel:** LinkedIn DM — **SCHEDULED Mon 2026-10-26 ~12:40 PM** (she is R001-only).
 **Signal:** her September post on creator-led GTM — the product can speak for
 itself, but it still needs the right people to experience it.
 
@@ -113,7 +116,7 @@ for Monday. Do not send a separate Strategist email in the same week, and do not
 re-send the LinkedIn invite.
 
 ## R001-5 · Steven Wu — Founding Forward Deployed Engineer — 2nd degree
-**Channel:** LinkedIn connection note. (His fuller email is the FI email, R002-7.)
+**Channel:** LinkedIn connection note — **SCHEDULED Mon 2026-10-26 ~12:40 PM.** (His FI email, R002-7, also goes Monday — email + note on different channels, intended.)
 **Profile:** linkedin.com/in/stevenwu2019 · **Email on file:** steven@retellai.com ⚠️ INFERRED
 **Signal:** his June post on personally supporting the Grab deployment across
 countries and languages.
@@ -133,7 +136,7 @@ If-accepted DM draft:
 > Hi Joshua — thanks for connecting. I applied for the Deployment Strategist role on Friday. You lead the Solutions Team, so you see how deployments land with customers. At Tamara I built a recruiting CRM that TA and the COO use. If you know who owns the Strategist search, a name would help.
 
 ## R001-7 · Shasta Subramanian — Deployments — 2nd degree
-**Channel:** LinkedIn connection note.
+**Channel:** LinkedIn connection note — **SCHEDULED Mon 2026-10-26 ~12:40 PM.**
 **Profile:** linkedin.com/in/shasta-subramanian/
 **Signal:** her September post announcing she joined Retell as an AI Deployment
 Strategist after enterprise IT work at Deloitte.
@@ -142,7 +145,7 @@ Connection note:
 > Hi Shasta — you joined Retell as an AI Deployment Strategist after enterprise IT at Deloitte, so you know what a deployment actually demands. I applied for that role Friday; my voice-AI product Sitters won Anthropic's hackathon. Worth a quick word on the deployments work?
 
 ## R001-8 · Hayden Langelier — Solutions Architect — 2nd degree
-**Channel:** LinkedIn connection note.
+**Channel:** LinkedIn connection note — **SCHEDULED Mon 2026-10-26 ~12:40 PM.**
 **Profile:** linkedin.com/in/haydenlangelier/
 **Signal:** his February post starting as Solutions Architect at Retell, after a
 Technical Account Manager role at interface.ai (a voice-AI competitor).
@@ -151,9 +154,10 @@ Connection note:
 > Hi Hayden — you moved from voice AI at interface.ai to Solutions Architect at Retell, so you've seen both sides of a deployment. I applied for Deployment Strategist Friday; at Tamara I built a recruiting CRM TA and the COO run on. Worth a quick word on the solutions side?
 
 ## R001-9 · Joshua Chavez — Founding Talent (recruiting lead) — 2nd degree
-**Channel:** LinkedIn connection note first; email (pattern-inferred, unconfirmed)
-if the connection isn't accepted within a few days. **Send this email once — it
-covers both applications, and it is the same text as R002-10.**
+**Channel:** Email — **SCHEDULED Mon 2026-10-26 ~12:40 PM. Send this email once — it
+covers both applications, and it is the same text as R002-10.** The connection
+note below is a FOLLOW-UP only if the email goes unanswered — it is NOT a
+Monday send.
 **Profile:** linkedin.com/in/joshua-chavez-5890535a/ · **Email:** joshua@retellai.com ⚠️ INFERRED
 **Why he matters:** he is Retell's named recruiting lead — he has posted about
 hiring FDEs and Deployment Strategists. This supersedes the earlier web finding
@@ -162,11 +166,11 @@ that Retell had no named in-house recruiter.
 high-priority role with Juicebox (AI recruiting).
 
 Connection note:
-> Hi Joshua — you filled a high-priority role with Juicebox in the internal AI hour, so recruiting AI is a working tool there, not a pitch. I applied Friday for both roles; at Tamara I built a recruiting CRM TA and the COO run on. Worth a quick word on the searches?
+> Hi Joshua — you filled a high-priority role with Juicebox in the internal AI hour, so recruiting AI is already a working tool there. I applied Friday for both roles; at Tamara I built a recruiting CRM TA and the COO run on. Worth a quick word on the searches?
 
 Email — **Subject:** saw the Juicebox fill
 
-> You filled a high-priority role with Juicebox in the internal AI hour. That tells me recruiting AI is a working tool there, not a roadmap item — and Founders Initiatives wants more of it built. I applied Friday for Deployment Strategist and Founders Initiatives. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO. One practical note: the postings list F-1 sponsorship, which is what I need. Worth a look from the person running the searches?
+> You filled a high-priority role with Juicebox in the internal AI hour. That tells me recruiting AI is already a working tool there, and Founders Initiatives wants more of it built. I applied Friday for Deployment Strategist and Founders Initiatives. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO. One practical note: the postings list F-1 sponsorship, which is what I need. Worth a look from the person running the searches?
 >
 > Mohammed Bukhari
 > h7@berkeley.edu | linkedin.com/in/mo-bukhari
@@ -193,7 +197,7 @@ Second-touch email draft (do not send with the FI email) — **Subject:** every 
 # R002 — Founders Initiatives, AI Agents (10 contacts)
 
 ## R002-1 · Prabir Vora — Technical Chief of Staff — 2nd degree
-**Channel:** LinkedIn connection note.
+**Channel:** LinkedIn connection note — **SCHEDULED Mon 2026-10-26 ~12:40 PM.**
 **Profile:** linkedin.com/in/prabir-vora/ · **Email on file:** prabir@retellai.com ⚠️ INFERRED
 **Why he matters:** he owns internal AI automation in the founders' office — the
 closest incumbent analog to this seat. He also co-founded Alayna AI, so the
@@ -233,7 +237,7 @@ someone converts feedback into production impact within one sprint.
 > h7@berkeley.edu | linkedin.com/in/mo-bukhari
 
 ## R002-4 · Weijia Yu — Co-Founder & COO
-**Channel:** Email — **NEW draft, not yet scheduled.**
+**Channel:** Email — **SCHEDULED Mon 2026-10-26 ~12:40 PM.**
 **Email:** weijia@retellai.com ✅ corroborated (FCC robocall-mitigation filing)
 **Hook note:** no LinkedIn profile found after four searches — this email
 deliberately carries no LinkedIn hook; it leads on the posting's ops half
@@ -248,7 +252,7 @@ invent a hook for her.
 > h7@berkeley.edu | linkedin.com/in/mo-bukhari
 
 ## R002-5 · Zexia Zhang — Co-Founder & CTO — 2nd degree
-**Channel:** LinkedIn connection note.
+**Channel:** LinkedIn connection note — **SCHEDULED Mon 2026-10-26 ~12:40 PM.**
 **Profile:** linkedin.com/in/zexia-zhang/ · **Email on file:** zexia@retellai.com ⚠️ INFERRED
 **Signal:** his October post on Retell's 10x traffic growth and pushing the
 infrastructure behind fast, reliable conversations.
@@ -273,8 +277,9 @@ Motorola, Lenovo, and Anker.
 > h7@berkeley.edu | linkedin.com/in/mo-bukhari
 
 ## R002-7 · Steven Wu — Founding Forward Deployed Engineer — 2nd degree
-**Channel:** Email — **SCHEDULED Mon 2026-10-26 ~12:40 PM.** (LinkedIn DM is an
-equal-strength fallback: linkedin.com/in/stevenwu2019.)
+**Channel:** Email — **SCHEDULED Mon 2026-10-26 ~12:40 PM.** Steven Wu receives two
+live Monday messages on different channels by design: this email (FI) plus the
+R001-5 connection note (Strategist).
 **Email:** steven@retellai.com ⚠️ INFERRED
 **Signal:** his June post on personally supporting the Grab deployment across
 countries and languages.
@@ -292,20 +297,21 @@ countries and languages.
 voice AI in Fortune and Global 500 call centers, with the Conductor launch and
 a five-features-in-five-days Launch Week.
 
-> Hi Carlo — your Q2 recap stuck with me: Retell going from developer tool to voice AI in Fortune and Global 500 call centers, with the Conductor launch in the middle of it. That inflection is where GTM strategy turns launches into enterprise adoption. I applied to Founders Initiatives on Friday; at Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search that TA and the COO use daily. Do you know who owns the Founders Initiatives search on your side? A name is all I need.
+> Hi Carlo — your Q2 recap stuck with me: Retell going from developer tool to voice AI in Fortune and Global 500 call centers, with the Conductor launch in the middle of it. That inflection is where GTM strategy turns launches into enterprise adoption. I applied to Founders Initiatives on Friday; at Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search that TA and the COO use. Do you know who owns the Founders Initiatives search on your side? A name is all I need.
 
 ## R002-9 · Vidhan Mittal — VP of Revenue — 2nd degree
-**Channel:** LinkedIn connection note.
+**Channel:** LinkedIn connection note — **SCHEDULED Mon 2026-10-26 ~12:40 PM.**
 **Profile:** linkedin.com/in/vidhanmittal/ · **Email on file:** vidhan@retellai.com ⚠️ INFERRED (not the planned channel)
 **Signal:** his June post on moving Retell's revenue motion onto Ergo (AI
 Revenue Infrastructure) to stop revenue leaking, on the way from $8M to $60M ARR.
 
 Connection note:
-> Hi Vidhan — your move onto Ergo to stop revenue leaking says GTM automation is revenue protection at your scale, not admin. I applied to Founders Initiatives Friday; at SCET I built a HubSpot workflow cutting 100K+ leads to 500 targets. Worth a quick word?
+> Hi Vidhan — your move onto Ergo to stop revenue leaking says GTM automation is revenue protection at your scale. I applied to Founders Initiatives Friday; at SCET I built a HubSpot workflow cutting 100K+ leads to 500 targets. Worth a quick word?
 
 ## R002-10 · Joshua Chavez — Founding Talent (recruiting lead) — 2nd degree
-**Channel:** Email — **NEW draft, not yet scheduled.** This is the same email as
-R001-9: send it once, it covers both applications. Connection note is in R001-9.
+**Channel:** Email — **SCHEDULED Mon 2026-10-26 ~12:40 PM.** This is the same email as
+R001-9: send it once, it covers both applications. The connection note in R001-9
+is a follow-up only, not a Monday send.
 **Profile:** linkedin.com/in/joshua-chavez-5890535a/ · **Email:** joshua@retellai.com ⚠️ INFERRED
 **Why he matters:** the internal customer for the FI role's recruiting-AI
 workstream — resume signal extraction and recruiter workflows are his team's
@@ -315,7 +321,7 @@ high-priority role with Juicebox (AI recruiting).
 
 **Subject:** saw the Juicebox fill
 
-> You filled a high-priority role with Juicebox in the internal AI hour. That tells me recruiting AI is a working tool there, not a roadmap item — and Founders Initiatives wants more of it built. I applied Friday for Deployment Strategist and Founders Initiatives. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO. One practical note: the postings list F-1 sponsorship, which is what I need. Worth a look from the person running the searches?
+> You filled a high-priority role with Juicebox in the internal AI hour. That tells me recruiting AI is already a working tool there, and Founders Initiatives wants more of it built. I applied Friday for Deployment Strategist and Founders Initiatives. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO. One practical note: the postings list F-1 sponsorship, which is what I need. Worth a look from the person running the searches?
 >
 > Mohammed Bukhari
 > h7@berkeley.edu | linkedin.com/in/mo-bukhari
@@ -346,8 +352,9 @@ high-priority role with Juicebox (AI recruiting).
   staff or partner-side is unresolved, and with a pending invite plus no email,
   he is on hold regardless.
 - **Joshua Chavez's email:** joshua@retellai.com is pattern-inferred only, even
-  though his role is LinkedIn-confirmed. The connection note is the safer first
-  move; the email follows only if the connection isn't accepted.
+  though his role is LinkedIn-confirmed. The email goes Monday (covers both
+  applications, sent once); the connection note is a follow-up only if the
+  email goes unanswered.
 - **Dropped from the old R001 list:** Mike Derlatka, Weijia Yu, Evie Wang,
   Alex Baca. Weijia and Evie remain on the R002 list; Derlatka and Alex Baca
   appear on neither final list.
@@ -355,14 +362,15 @@ high-priority role with Juicebox (AI recruiting).
 ## Verification note (budgets, checked by script after writing)
 
 - Connection notes, all ≤280 characters: Nicolaus Wong 249, Steven Wu 255,
-  Shasta Subramanian 272, Hayden Langelier 272, Joshua Chavez 264, Prabir Vora
-  271, Zexia Zhang 272, Vidhan Mittal 256.
+  Shasta Subramanian 272, Hayden Langelier 272, Joshua Chavez 259, Prabir Vora
+  271, Zexia Zhang 272, Vidhan Mittal 245.
 - Email bodies, all 60–90 words excluding subject and sign-off: Nicolaus 88,
   Bing (R001 second touch) 69, Bing (FI) 80, Todd 84, Weijia 84, Evie 73,
-  Steven 81, Chavez 89.
+  Steven 81, Chavez 85.
 - DMs, all under 100 words: Carlo (R001 second touch) 78, Sylvie 71, Joshua
-  Alexander 53 (held), Carlo (FI) 89.
-- Rejection test: every live message passed — each names a signal that belongs
-  to exactly one person. The two exceptions are both held, not live: Joshua
-  Alexander's DM (no hook researched) and Weijia Yu's email (no profile exists;
-  structured on the posting's ops half instead, with no invented hook).
+  Alexander 53 (held), Carlo (FI) 88.
+- Rejection test: every live message with a researched signal passed — each
+  names a signal that belongs to exactly one person. One live exception:
+  Weijia Yu's email (no LinkedIn profile exists; structured on the posting's
+  ops half instead, with no invented hook). One held exception: Joshua
+  Alexander's DM (no hook researched; a hook must be found before it goes out).
