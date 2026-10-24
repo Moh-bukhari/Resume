@@ -37,7 +37,8 @@
         "checked_at": null,
         "limitations": "Title, founding-Strategist history, team-lead role, LinkedIn URL, and 2nd-degree status from Mohammed's signed-in LinkedIn sweep, 2026-10-23 (authoritative over public web). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed."
       },
-      "verification_note": "Title, founding-Strategist history, team-lead role, LinkedIn URL, and 2nd-degree status from Mohammed's signed-in LinkedIn sweep, 2026-10-23 (authoritative over public web). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed."
+      "verification_note": "Title, founding-Strategist history, team-lead role, LinkedIn URL, and 2nd-degree status from Mohammed's signed-in LinkedIn sweep, 2026-10-23 (authoritative over public web). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed. [2026-10-23: LinkedIn connection request + note sent, verified pending.]",
+      "linkedin_invite_status": "pending — connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile"
     },
     {
       "company": "Retell AI",
@@ -158,7 +159,8 @@
       "email_source_type": "inferred",
       "email_sources": [],
       "preferred_channel": "linkedin",
-      "verification_note": "Title corroborated by The Org and RocketReach; LinkedIn URL from his own published resume site. Connection degree unknown. Email pattern-inferred ({firstname}@retellai.com), unconfirmed. For R001 the first move is a LinkedIn connection note; his fuller email sits in the R002 packet."
+      "verification_note": "Title corroborated by The Org and RocketReach; LinkedIn URL from his own published resume site. Connection degree unknown. Email pattern-inferred ({firstname}@retellai.com), unconfirmed. For R001 the first move is a LinkedIn connection note; his fuller email sits in the R002 packet. [2026-10-23: LinkedIn connection request + note sent, verified pending.]",
+      "linkedin_invite_status": "pending — connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile"
     },
     {
       "company": "Retell AI",
@@ -225,7 +227,8 @@
         "checked_at": null,
         "limitations": "Title as shown on her LinkedIn profile ('Deployments') and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23. No professional email found; LinkedIn is the channel."
       },
-      "verification_note": "Title as shown on her LinkedIn profile ('Deployments') and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23. No professional email found; LinkedIn is the channel."
+      "verification_note": "Title as shown on her LinkedIn profile ('Deployments') and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23. No professional email found; LinkedIn is the channel. [2026-10-23: LinkedIn connection request + note sent, verified pending.]",
+      "linkedin_invite_status": "pending — connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile"
     },
     {
       "id": "hayden-langelier",
@@ -261,7 +264,8 @@
         "checked_at": null,
         "limitations": "Title, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23. No professional email found; LinkedIn is the channel."
       },
-      "verification_note": "Title, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23. No professional email found; LinkedIn is the channel."
+      "verification_note": "Title, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23. No professional email found; LinkedIn is the channel. [2026-10-23: LinkedIn connection request + note sent, verified pending.]",
+      "linkedin_invite_status": "pending — connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile"
     },
     {
       "id": "joshua-chavez",
@@ -297,7 +301,8 @@
         "checked_at": null,
         "limitations": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection first."
       },
-      "verification_note": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection first."
+      "verification_note": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection first. [2026-10-23: LinkedIn connection request + note sent, verified pending.]",
+      "linkedin_invite_status": "pending — connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile"
     },
     {
       "company": "Retell AI",
@@ -334,12 +339,56 @@
         }
       ],
       "preferred_channel": "email",
-      "verification_note": "Title corroborated by many sources including Retell's own site. LinkedIn URL and connection degree not determinable from public web. Email published in Gainsight's official sub-processor list (verified). For R001 he is a hold/second-touch contact: the Founders Initiatives email in the R002 packet is the one scheduled send — do not send him two notes in the same week."
+      "verification_note": "Title corroborated by many sources including Retell's own site. LinkedIn URL and connection degree not determinable from public web. Email published in Gainsight's official sub-processor list (verified). For R001 he is a hold/second-touch contact: the Founders Initiatives email in the R002 packet is the one scheduled send — do not send him two notes in the same week. [2026-10-23: LinkedIn connection request + note sent, verified pending.]",
+      "linkedin_invite_status": "pending — connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile"
     }
   ],
   "created_on": "2026-10-23",
   "interview_date": null,
-  "outreach_events": [],
+  "outreach_events": [
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-23",
+      "recipient_id": "nicolaus-wong",
+      "confirmed_by": "user",
+      "evidence_note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile. Note sent verbatim: 'Hi Nicolaus — your August post joining as founding Deployment Strategist read like a hiring brief. Building a team from zero means the first hires set the bar. I applied Friday; at Tamara I built a recruiting CRM TA and the COO run on. Worth a look?'"
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-23",
+      "recipient_id": "steven-wu",
+      "confirmed_by": "user",
+      "evidence_note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile. Note sent verbatim: 'Hi Steven — you personally carried the Grab deployment across countries and languages. That's where a deployment either lands or breaks. I applied for Deployment Strategist Friday; my voice-AI product Sitters won Anthropic's hackathon. Worth a quick word?'"
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-23",
+      "recipient_id": "shasta-subramanian",
+      "confirmed_by": "user",
+      "evidence_note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile. Note sent verbatim: 'Hi Shasta — you joined Retell as an AI Deployment Strategist after enterprise IT at Deloitte, so you know what a deployment actually demands. I applied for that role Friday; my voice-AI product Sitters won Anthropic's hackathon. Worth a quick word on the deployments work?'"
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-23",
+      "recipient_id": "hayden-langelier",
+      "confirmed_by": "user",
+      "evidence_note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile. Note sent verbatim: 'Hi Hayden — you moved from voice AI at interface.ai to Solutions Architect at Retell, so you've seen both sides of a deployment. I applied for Deployment Strategist Friday; at Tamara I built a recruiting CRM TA and the COO run on. Worth a quick word on the solutions side?'"
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-23",
+      "recipient_id": "joshua-chavez",
+      "confirmed_by": "user",
+      "evidence_note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile. Note sent verbatim: 'Hi Joshua — you filled a high-priority role with Juicebox in the internal AI hour, so recruiting AI is already a working tool there. I applied Friday for both roles; at Tamara I built a recruiting CRM TA and the COO run on. Worth a quick word on the searches?'"
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-23",
+      "recipient_id": "bing-wu",
+      "confirmed_by": "user",
+      "evidence_note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile. Note sent verbatim: 'Hi Bing — you scaled Retell to $60M ARR on $5M raised, running Sales yourself to $20M, on the view most jobs become software. Founders Initiatives is that view as a team. I applied Friday; at Tamara I built a recruiting CRM TA and the COO run on. Worth a read?'"
+    }
+  ],
   "research_notes": "People research completed 2026-10-23 via public web sources (Retell AI about page, The Org, Sacra, RocketReach, Inc., individuals' own sites). LinkedIn profile URLs and connection degrees could not be verified from public web sources for most contacts and are marked null rather than guessed; a signed-in LinkedIn check can fill them in. No named in-house recruiter was found: Retell's job posts show recruiting run through contract recruiters, and a GTM Recruiting Lead opening was posted Jun 2026 (Built In) with no named incumbent. Reconciled 2026-10-23 against a signed-in LinkedIn sweep (authoritative over the public-web research above): final 10 for R001 are Nicolaus G. Wong (Founding Head, Deployments — the founding Deployment Strategist, now hiring the team; ranked #1), Carlo Porcelli, Sylvie Liu, Todd Li, Steven Wu, Joshua Alexander, Shasta Subramanian (Deployments), Hayden Langelier (Solutions Architect), Joshua Chavez (Founding Talent — the named recruiting lead, superseding the earlier 'no named recruiter' finding), and Bing Wu. Dropped from the earlier draft list: Mike Derlatka, Weijia Yu, Evie Wang, Alex Baca (Weijia and Evie remain on the R002 list). LinkedIn connection invites are already pending for Todd Li, Evie Wang, and Joshua Alexander — do not re-send; Todd is email-only, and Joshua Alexander has no email on file. Carlo and Sylvie are 1st-degree connections (DM channel). Evie Wang's own LinkedIn title is 'Co-founder, CPO', not CMO — corrected wherever she appears.",
   "research_status": "completed",
   "role": "Deployment Strategist",

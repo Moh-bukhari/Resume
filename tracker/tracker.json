@@ -856,13 +856,13 @@
       "apply_by": "2026-10-23",
       "deadline": null,
       "research_done": true,
-      "networking": "Not started",
+      "networking": "Reached out",
       "proof_done": false,
       "resume_done": true,
       "applied_on": "2026-10-23",
       "interview_on": null,
-      "contact": null,
-      "last_contact": null,
+      "contact": "Bing Wu",
+      "last_contact": "2026-10-23",
       "log": null,
       "job_link": "https://jobs.ashbyhq.com/retell-ai/72dcc20d-0f0e-4639-9b7e-1806327acd97",
       "location": "Redwood City, CA",
@@ -929,6 +929,110 @@
               "after": "2026-10-23"
             }
           }
+        },
+        {
+          "id": "R001-E003",
+          "type": "sent",
+          "occurred_on": "2026-10-23",
+          "recorded_on": "2026-10-23",
+          "confirmed_by": "user",
+          "note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42-11:54 PM PDT), verified pending on profile. Channel: LinkedIn connection request + note. Note sent verbatim: 'Hi Nicolaus — your August post joining as founding Deployment Strategist read like a hiring brief. Building a team from zero means the first hires set the bar. I applied Friday; at Tamara I built a recruiting CRM TA and the COO run on. Worth a look?'",
+          "contact": "Nicolaus G. Wong",
+          "history_only": false,
+          "changes": {
+            "networking": {
+              "before": "Not started",
+              "after": "Reached out"
+            },
+            "last_contact": {
+              "before": null,
+              "after": "2026-10-23"
+            },
+            "contact": {
+              "before": null,
+              "after": "Nicolaus G. Wong"
+            }
+          }
+        },
+        {
+          "id": "R001-E004",
+          "type": "sent",
+          "occurred_on": "2026-10-23",
+          "recorded_on": "2026-10-23",
+          "confirmed_by": "user",
+          "note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42-11:54 PM PDT), verified pending on profile. Channel: LinkedIn connection request + note. Note sent verbatim: 'Hi Steven — you personally carried the Grab deployment across countries and languages. That is where a deployment either lands or breaks. I applied for Deployment Strategist Friday; my voice-AI product Sitters won Anthropic's hackathon. Worth a quick word?'",
+          "contact": "Steven Wu",
+          "history_only": false,
+          "changes": {
+            "contact": {
+              "before": "Nicolaus G. Wong",
+              "after": "Steven Wu"
+            }
+          }
+        },
+        {
+          "id": "R001-E005",
+          "type": "sent",
+          "occurred_on": "2026-10-23",
+          "recorded_on": "2026-10-23",
+          "confirmed_by": "user",
+          "note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42-11:54 PM PDT), verified pending on profile. Channel: LinkedIn connection request + note. Note sent verbatim: 'Hi Shasta — you joined Retell as an AI Deployment Strategist after enterprise IT at Deloitte, so you know what a deployment actually demands. I applied for that role Friday; my voice-AI product Sitters won Anthropic's hackathon. Worth a quick word on the deployments work?'",
+          "contact": "Shasta Subramanian",
+          "history_only": false,
+          "changes": {
+            "contact": {
+              "before": "Steven Wu",
+              "after": "Shasta Subramanian"
+            }
+          }
+        },
+        {
+          "id": "R001-E006",
+          "type": "sent",
+          "occurred_on": "2026-10-23",
+          "recorded_on": "2026-10-23",
+          "confirmed_by": "user",
+          "note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42-11:54 PM PDT), verified pending on profile. Channel: LinkedIn connection request + note. Note sent verbatim: 'Hi Hayden — you moved from voice AI at interface.ai to Solutions Architect at Retell, so you have seen both sides of a deployment. I applied for Deployment Strategist Friday; at Tamara I built a recruiting CRM TA and the COO run on. Worth a quick word on the solutions side?'",
+          "contact": "Hayden Langelier",
+          "history_only": false,
+          "changes": {
+            "contact": {
+              "before": "Shasta Subramanian",
+              "after": "Hayden Langelier"
+            }
+          }
+        },
+        {
+          "id": "R001-E007",
+          "type": "sent",
+          "occurred_on": "2026-10-23",
+          "recorded_on": "2026-10-23",
+          "confirmed_by": "user",
+          "note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42-11:54 PM PDT), verified pending on profile. Channel: LinkedIn connection request + note. Note sent verbatim: 'Hi Joshua — you filled a high-priority role with Juicebox in the internal AI hour, so recruiting AI is already a working tool there. I applied Friday for both roles; at Tamara I built a recruiting CRM TA and the COO run on. Worth a quick word on the searches?'",
+          "contact": "Joshua Chavez",
+          "history_only": false,
+          "changes": {
+            "contact": {
+              "before": "Hayden Langelier",
+              "after": "Joshua Chavez"
+            }
+          }
+        },
+        {
+          "id": "R001-E008",
+          "type": "sent",
+          "occurred_on": "2026-10-23",
+          "recorded_on": "2026-10-23",
+          "confirmed_by": "user",
+          "note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42-11:54 PM PDT), verified pending on profile. Channel: LinkedIn connection request + note. Note sent verbatim: 'Hi Bing — you scaled Retell to $60M ARR on $5M raised, running Sales yourself to $20M, on the view most jobs become software. Founders Initiatives is that view as a team. I applied Friday; at Tamara I built a recruiting CRM TA and the COO run on. Worth a read?'",
+          "contact": "Bing Wu",
+          "history_only": false,
+          "changes": {
+            "contact": {
+              "before": "Joshua Chavez",
+              "after": "Bing Wu"
+            }
+          }
         }
       ]
     },
@@ -942,13 +1046,13 @@
       "apply_by": "2026-10-24",
       "deadline": null,
       "research_done": true,
-      "networking": "Not started",
+      "networking": "Reached out",
       "proof_done": false,
       "resume_done": true,
       "applied_on": "2026-10-23",
       "interview_on": null,
-      "contact": null,
-      "last_contact": null,
+      "contact": "Zexia Zhang",
+      "last_contact": "2026-10-23",
       "log": null,
       "job_link": "https://jobs.ashbyhq.com/retell-ai/21cf0117-6b44-40df-96ea-0fb2d1d0892f",
       "location": "Redwood City, CA",
@@ -1016,6 +1120,46 @@
             "applied_on": {
               "before": null,
               "after": "2026-10-23"
+            }
+          }
+        },
+        {
+          "id": "R002-E003",
+          "type": "sent",
+          "occurred_on": "2026-10-23",
+          "recorded_on": "2026-10-23",
+          "confirmed_by": "user",
+          "note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42-11:54 PM PDT), verified pending on profile. Channel: LinkedIn connection request + note. Note sent verbatim: 'Hi Prabir — your Grab rollout reaching more people without adding headcount is the internal-AI promise in one line. I applied to Founders Initiatives Friday; at Tamara I built a recruiting CRM TA and the COO run on. Worth a quick word on what internal AI needs most next?'",
+          "contact": "Prabir Vora",
+          "history_only": false,
+          "changes": {
+            "networking": {
+              "before": "Not started",
+              "after": "Reached out"
+            },
+            "last_contact": {
+              "before": null,
+              "after": "2026-10-23"
+            },
+            "contact": {
+              "before": null,
+              "after": "Prabir Vora"
+            }
+          }
+        },
+        {
+          "id": "R002-E004",
+          "type": "sent",
+          "occurred_on": "2026-10-23",
+          "recorded_on": "2026-10-23",
+          "confirmed_by": "user",
+          "note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42-11:54 PM PDT), verified pending on profile. Channel: LinkedIn connection request + note. Note sent verbatim: 'Hi Zexia — Retell's 10x traffic growth means the infra behind fast, reliable calls never stops being the constraint. I applied to Founders Initiatives Friday; at Tamara I built a recruiting CRM TA and the COO run on. Worth a quick word on the engineering bar for the seat?'",
+          "contact": "Zexia Zhang",
+          "history_only": false,
+          "changes": {
+            "contact": {
+              "before": "Prabir Vora",
+              "after": "Zexia Zhang"
             }
           }
         }

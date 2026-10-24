@@ -62,7 +62,8 @@
         "checked_at": null,
         "limitations": "Title corroborated by four independent sources (The Org, Pylon case study, two event bios) with minor wording variants: Founding Chief of Staff / Founding Technical Chief of Staff / Technical Chief of Staff. Email is pattern-inferred ({firstname}@retellai.com), not published anywhere found. LinkedIn URL and 2nd-degree status confirmed via the signed-in LinkedIn sweep, 2026-10-23; title aligned to the profile's 'Technical Chief of Staff'."
       },
-      "verification_note": "Title corroborated by four independent sources (The Org, Pylon case study, two event bios) with minor wording variants: Founding Chief of Staff / Founding Technical Chief of Staff / Technical Chief of Staff. Email is pattern-inferred ({firstname}@retellai.com), not published anywhere found. LinkedIn URL and 2nd-degree status confirmed via the signed-in LinkedIn sweep, 2026-10-23; title aligned to the profile's 'Technical Chief of Staff'."
+      "verification_note": "Title corroborated by four independent sources (The Org, Pylon case study, two event bios) with minor wording variants: Founding Chief of Staff / Founding Technical Chief of Staff / Technical Chief of Staff. Email is pattern-inferred ({firstname}@retellai.com), not published anywhere found. LinkedIn URL and 2nd-degree status confirmed via the signed-in LinkedIn sweep, 2026-10-23; title aligned to the profile's 'Technical Chief of Staff'. [2026-10-23: LinkedIn connection request + note sent, verified pending.]",
+      "linkedin_invite_status": "pending — connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile"
     },
     {
       "id": "bing-wu",
@@ -261,7 +262,8 @@
         "checked_at": null,
         "limitations": "Title corroborated by The Org, Tracxn, LiveKit, and DevCuration. Email is pattern-inferred ({firstname}@retellai.com) and unconfirmed. LinkedIn URL and 2nd-degree status confirmed via the signed-in LinkedIn sweep, 2026-10-23."
       },
-      "verification_note": "Title corroborated by The Org, Tracxn, LiveKit, and DevCuration. Email is pattern-inferred ({firstname}@retellai.com) and unconfirmed. LinkedIn URL and 2nd-degree status confirmed via the signed-in LinkedIn sweep, 2026-10-23."
+      "verification_note": "Title corroborated by The Org, Tracxn, LiveKit, and DevCuration. Email is pattern-inferred ({firstname}@retellai.com) and unconfirmed. LinkedIn URL and 2nd-degree status confirmed via the signed-in LinkedIn sweep, 2026-10-23. [2026-10-23: LinkedIn connection request + note sent, verified pending.]",
+      "linkedin_invite_status": "pending — connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile"
     },
     {
       "id": "evie-wang",
@@ -435,7 +437,8 @@
         "checked_at": null,
         "limitations": "Title corroborated by three sources (The Org, Ergo case study, Ergo press release). Email is pattern-inferred ({firstname}@retellai.com) and unconfirmed. LinkedIn URL not verifiable from public web."
       },
-      "verification_note": "Title corroborated by three sources. Email pattern-inferred, unconfirmed. LinkedIn URL not verifiable from public web."
+      "verification_note": "Title corroborated by three sources. Email pattern-inferred, unconfirmed. LinkedIn URL not verifiable from public web.",
+      "linkedin_invite_status": "pending — pre-existing invite already pending before the Fri 2026-10-23 night run; note NOT sent, left untouched"
     },
     {
       "id": "joshua-chavez",
@@ -474,5 +477,20 @@
       "verification_note": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection sent alongside."
     }
   ],
-  "outreach_events": []
+  "outreach_events": [
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-23",
+      "recipient_id": "prabir-vora",
+      "confirmed_by": "user",
+      "evidence_note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile. Note sent verbatim: 'Hi Prabir — your Grab rollout reaching more people without adding headcount is the internal-AI promise in one line. I applied to Founders Initiatives Friday; at Tamara I built a recruiting CRM TA and the COO run on. Worth a quick word on what internal AI needs most next?'"
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-23",
+      "recipient_id": "zexia-zhang",
+      "confirmed_by": "user",
+      "evidence_note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile. Note sent verbatim: 'Hi Zexia — Retell's 10x traffic growth means the infra behind fast, reliable calls never stops being the constraint. I applied to Founders Initiatives Friday; at Tamara I built a recruiting CRM TA and the COO run on. Worth a quick word on the engineering bar for the seat?'"
+    }
+  ]
 }
