@@ -51,23 +51,35 @@ LinkedIn sweep of 2026-10-23, which is authoritative over earlier web research.
 - People with a pending LinkedIn invite get email only — never re-send an invite.
 - One person, one live message: where the same person appears in both packets,
   the plan says which message is live and which is a HOLD/second touch. Never
-  send two messages to the same person in the same week.
+  send two messages to the same person in the same week — with one explicit
+  exception: where the plan says so, a person may receive one email AND one
+  connection note on different channels on the same day (Steven Wu, Bing Wu,
+  Joshua Chavez — each flagged as intended in their entries).
 - All emails say he applied Friday 2026-10-23 (past tense).
 
 ## Sequencing — LIVE Monday sends (Mon 2026-10-26 ~12:40 PM, cron retell-fi-outreach-send)
 
-15 sends total — 6 emails, 7 LinkedIn connection notes, 2 LinkedIn DMs. No
-person receives two live messages on Monday, except Steven Wu, who
-deliberately gets one email (FI) and one connection note (Strategist) on
-different channels.
+17 sends total — 6 emails, 9 LinkedIn connection notes, 2 LinkedIn DMs.
+Per Mohammed's instruction to connect with ALL Retell contacts on LinkedIn,
+every contact with a findable profile gets a connection request or is already
+connected/invited. No person receives two live messages on Monday on the SAME
+channel; three people deliberately get one email AND one connection note on
+different channels: Steven Wu, Bing Wu, and Joshua Chavez.
 - **Emails (6):** Bing Wu, Todd Li, Evie Wang, Steven Wu, Weijia Yu, Joshua
   Chavez (one email covering both applications, sent once).
-- **Connection notes (7):** Nicolaus G. Wong, Shasta Subramanian, Hayden
-  Langelier, Steven Wu, Prabir Vora, Zexia Zhang, Vidhan Mittal.
+- **Connection notes (9):** Nicolaus G. Wong, Shasta Subramanian, Hayden
+  Langelier, Steven Wu, Prabir Vora, Zexia Zhang, Vidhan Mittal, Bing Wu
+  (NEW — see R001-10), Joshua Chavez (promoted from follow-up — see R001-9).
 - **DMs (2):** Sylvie Liu (Strategist), Carlo Porcelli (FI only).
+- **Already connected — no action needed:** Carlo Porcelli, Sylvie Liu
+  (both 1st-degree; they get DMs, not invites).
+- **Invites already pending — do NOT re-send:** Todd Li, Evie Wang, Joshua
+  Alexander (LinkedIn does not allow a second pending invite; they get email
+  only, or nothing in Joshua Alexander's case).
+- **No LinkedIn profile found — email only:** Weijia Yu (four searches found
+  no profile; her email is her only channel, and no hook was invented).
 - **NOT Monday sends (follow-ups / held):** Nicolaus Wong's email (follow-up
-  only if the connection goes unanswered); Joshua Chavez's connection note
-  (follow-up only if the email goes unanswered); Bing Wu (R001) second-touch
+  only if the connection goes unanswered); Bing Wu (R001) second-touch
   email, Todd Li (R001) email, Carlo Porcelli (R001) DM — all HELD, covered by
   their Monday FI messages; Joshua Alexander — HELD, invite pending and no
   email on file, DM only if the invite is accepted.
@@ -156,8 +168,8 @@ Connection note:
 ## R001-9 · Joshua Chavez — Founding Talent (recruiting lead) — 2nd degree
 **Channel:** Email — **SCHEDULED Mon 2026-10-26 ~12:40 PM. Send this email once — it
 covers both applications, and it is the same text as R002-10.** The connection
-note below is a FOLLOW-UP only if the email goes unanswered — it is NOT a
-Monday send.
+note below is ALSO **SCHEDULED Mon 2026-10-26 ~12:40 PM** — email + note on
+different channels, intended (per Mohammed's connect-with-all instruction).
 **Profile:** linkedin.com/in/joshua-chavez-5890535a/ · **Email:** joshua@retellai.com ⚠️ INFERRED
 **Why he matters:** he is Retell's named recruiting lead — he has posted about
 hiring FDEs and Deployment Strategists. This supersedes the earlier web finding
@@ -176,14 +188,18 @@ Email — **Subject:** saw the Juicebox fill
 > h7@berkeley.edu | linkedin.com/in/mo-bukhari
 
 ## R001-10 · Bing Wu — Co-Founder & CEO
-**Channel:** Email — **HOLD.** His FI email (R002-2) is already scheduled for
-Monday. Do not send him two notes in the same week. Strategist-angle email below
-is a second-touch draft only.
+**Channel:** LinkedIn connection note — **SCHEDULED Mon 2026-10-26 ~12:40 PM**,
+plus his FI email (R002-2), also Monday — email + note on different channels,
+intended (per Mohammed's connect-with-all instruction). The Strategist-angle
+email below stays a HELD second-touch draft only — do not send it Monday.
 **Email on file:** bing@retellai.com ✅ corroborated (Gainsight sub-processor list)
 **Profile:** linkedin.com/in/bingw/
 **Signal:** his featured post on scaling Retell to $60M ARR on $5M raised, having
 run Sales himself until $20M ARR, on the view that most of every job could
 become software.
+
+Connection note:
+> Hi Bing — you scaled Retell to $60M ARR on $5M raised, running Sales yourself to $20M, on the view most jobs become software. Founders Initiatives is that view as a team. I applied Friday; at Tamara I built a recruiting CRM TA and the COO run on. Worth a read?
 
 Second-touch email draft (do not send with the FI email) — **Subject:** every job could become software
 
@@ -209,7 +225,9 @@ Connection note:
 > Hi Prabir — your Grab rollout reaching more people without adding headcount is the internal-AI promise in one line. I applied to Founders Initiatives Friday; at Tamara I built a recruiting CRM TA and the COO run on. Worth a quick word on what internal AI needs most next?
 
 ## R002-2 · Bing Wu — Co-Founder & CEO
-**Channel:** Email — **SCHEDULED Mon 2026-10-26 ~12:40 PM.**
+**Channel:** Email — **SCHEDULED Mon 2026-10-26 ~12:40 PM.** Bing Wu receives two
+live Monday messages on different channels by design: this email (FI) plus the
+R001-10 connection note (new — per Mohammed's connect-with-all instruction).
 **Profile:** linkedin.com/in/bingw/ · **Email:** bing@retellai.com ✅ corroborated
 **Signal:** his featured post on scaling Retell to $60M ARR on $5M raised, having
 run Sales himself until $20M ARR, on the view that most of every job could
@@ -311,7 +329,7 @@ Connection note:
 ## R002-10 · Joshua Chavez — Founding Talent (recruiting lead) — 2nd degree
 **Channel:** Email — **SCHEDULED Mon 2026-10-26 ~12:40 PM.** This is the same email as
 R001-9: send it once, it covers both applications. The connection note in R001-9
-is a follow-up only, not a Monday send.
+ALSO goes Monday — email + note on different channels, intended.
 **Profile:** linkedin.com/in/joshua-chavez-5890535a/ · **Email:** joshua@retellai.com ⚠️ INFERRED
 **Why he matters:** the internal customer for the FI role's recruiting-AI
 workstream — resume signal extraction and recruiter workflows are his team's
@@ -353,8 +371,8 @@ high-priority role with Juicebox (AI recruiting).
   he is on hold regardless.
 - **Joshua Chavez's email:** joshua@retellai.com is pattern-inferred only, even
   though his role is LinkedIn-confirmed. The email goes Monday (covers both
-  applications, sent once); the connection note is a follow-up only if the
-  email goes unanswered.
+  applications, sent once); the connection note ALSO goes Monday (email + note
+  on different channels, intended).
 - **Dropped from the old R001 list:** Mike Derlatka, Weijia Yu, Evie Wang,
   Alex Baca. Weijia and Evie remain on the R002 list; Derlatka and Alex Baca
   appear on neither final list.
@@ -363,7 +381,8 @@ high-priority role with Juicebox (AI recruiting).
 
 - Connection notes, all ≤280 characters: Nicolaus Wong 249, Steven Wu 255,
   Shasta Subramanian 272, Hayden Langelier 272, Joshua Chavez 259, Prabir Vora
-  271, Zexia Zhang 272, Vidhan Mittal 245.
+  271, Zexia Zhang 272, Vidhan Mittal 245, Bing Wu 260 (new, Fri 2026-10-23
+  night — connect-with-all update).
 - Email bodies, all 60–90 words excluding subject and sign-off: Nicolaus 88,
   Bing (R001 second touch) 69, Bing (FI) 80, Todd 84, Weijia 84, Evie 73,
   Steven 81, Chavez 85.
