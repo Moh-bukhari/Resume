@@ -7,17 +7,17 @@
   "application_date": "2026-10-23",
   "interview_date": null,
   "research_status": "completed",
-  "research_notes": "People research completed 2026-10-23 via public web sources (Retell AI about page, The Org, FCC robocall-mitigation filing for Retell AI, Inc., Gainsight sub-processor list, Pylon and Ergo case studies, Inc., Tracxn, RocketReach). The set combines the five contacts already drafted for the scheduled Mon 2026-10-26 outreach (Bing Wu, Todd Li, Evie Wang, Steven Wu, Carlo Porcelli) with five new finds: Prabir Vora (Founding Technical Chief of Staff — the founders'-office internal-automation owner and closest incumbent analog to this role), Weijia Yu (Co-Founder & COO — ops/compliance owner), Zexia Zhang (Co-Founder & CTO — engineering leadership), Vidhan Mittal (VP Revenue — internal customer for GTM automation), and Mike Derlatka (Head of Partnerships and Mid-Market — partnerships). Emails: only two are published/verified — bing@retellai.com (Gainsight's official sub-processor list) and weijia@retellai.com (Retell's FCC robocall-mitigation filing). All other addresses follow Retell's dominant {firstname}@retellai.com pattern and are marked inferred/unconfirmed. LinkedIn profile URLs could not be verified from public web sources for anyone except Steven Wu (from his own published site) and are marked null rather than guessed; a signed-in LinkedIn check can fill them in. Recruiting note: no named in-house recruiter or people-ops lead exists publicly — Retell staffs recruiting through contract recruiters (Contract Recruiter and Senior Contract Recruiter postings, plus a GTM Recruiting Lead opening posted Jun 2026, all unnamed), so the internal customers for the role's recruiting-AI workstream are the founders' office (Prabir Vora) and the COO (Weijia Yu), who are both in this set. Nothing has been sent to anyone on this list from the R002 packet; the five drafted messages are scheduled for Mon 2026-10-26 per Mohammed's instruction.",
+  "research_notes": "People research completed 2026-10-23 via public web sources (Retell AI about page, The Org, FCC robocall-mitigation filing for Retell AI, Inc., Gainsight sub-processor list, Pylon and Ergo case studies, Inc., Tracxn, RocketReach). The set combines the five contacts already drafted for the scheduled Mon 2026-10-26 outreach (Bing Wu, Todd Li, Evie Wang, Steven Wu, Carlo Porcelli) with five new finds: Prabir Vora (Founding Technical Chief of Staff — the founders'-office internal-automation owner and closest incumbent analog to this role), Weijia Yu (Co-Founder & COO — ops/compliance owner), Zexia Zhang (Co-Founder & CTO — engineering leadership), Vidhan Mittal (VP Revenue — internal customer for GTM automation), and Mike Derlatka (Head of Partnerships and Mid-Market — partnerships). Emails: only two are published/verified — bing@retellai.com (Gainsight's official sub-processor list) and weijia@retellai.com (Retell's FCC robocall-mitigation filing). All other addresses follow Retell's dominant {firstname}@retellai.com pattern and are marked inferred/unconfirmed. LinkedIn profile URLs could not be verified from public web sources for anyone except Steven Wu (from his own published site) and are marked null rather than guessed; a signed-in LinkedIn check can fill them in. Recruiting note: no named in-house recruiter or people-ops lead exists publicly — Retell staffs recruiting through contract recruiters (Contract Recruiter and Senior Contract Recruiter postings, plus a GTM Recruiting Lead opening posted Jun 2026, all unnamed), so the internal customers for the role's recruiting-AI workstream are the founders' office (Prabir Vora) and the COO (Weijia Yu), who are both in this set. Nothing has been sent to anyone on this list from the R002 packet; the five drafted messages are scheduled for Mon 2026-10-26 per Mohammed's instruction. Reconciled 2026-10-23 against a signed-in LinkedIn sweep (authoritative over the public-web research above): Mike Derlatka swapped out and Joshua Chavez (Founding Talent, the named recruiting lead — superseding the 'no named recruiter' note above) swapped in at #10. LinkedIn URLs and 2nd-degree status added for Prabir Vora (linkedin.com/in/prabir-vora/) and Zexia Zhang (linkedin.com/in/zexia-zhang/); Prabir's title aligned to his profile's 'Technical Chief of Staff'. Evie Wang's title corrected to Co-Founder & CPO per her own LinkedIn profile (public sources still say CMO). LinkedIn invites are already pending for Todd Li and Evie Wang — email channel only for both, do not re-send invites.",
   "contacts": [
     {
       "id": "prabir-vora",
       "name": "Prabir Vora",
       "company": "Retell AI",
       "employer": "Retell AI",
-      "title": "Founding Technical Chief of Staff",
+      "title": "Technical Chief of Staff",
       "priority": 1,
-      "connection_degree": null,
-      "linkedin_url": null,
+      "connection_degree": "2nd",
+      "linkedin_url": "https://www.linkedin.com/in/prabir-vora/",
       "professional_email": "prabir@retellai.com",
       "email_source_type": "inferred",
       "email_sources": [],
@@ -36,6 +36,11 @@
           "url": "https://theorg.com/org/retell-ai",
           "accessed_date": "2026-10-23",
           "supporting_detail": "The Org's Retell AI org chart lists Prabir Vora as Founding Chief of Staff alongside the five co-founders."
+        },
+        {
+          "url": "https://www.linkedin.com/in/prabir-vora/",
+          "accessed_date": "2026-10-23",
+          "supporting_detail": "LinkedIn profile (signed-in sweep, 2026-10-23): Prabir Vora, Technical Chief of Staff at Retell AI; 2nd-degree connection."
         }
       ],
       "relevance": "Sits in the founders' office as its technical builder — he owns internal AI automation at Retell (support agents, workflow automation), which is the closest incumbent analog to the Founders Initiatives seat.",
@@ -48,15 +53,16 @@
         "Pylon case study (usepylon.com): Prabir Vora, Founding Chief of Staff, on Retell's internal support automation",
         "Homebase Hackathon bio: Founding Technical Chief of Staff, Retell AI; co-founder of Alayna AI",
         "The Org org chart: Prabir Vora, Founding Chief of Staff",
-        "His X bio: 'Chief of Staff, Retell AI | Co-founder, Alayna AI | CS @ Georgia Tech'"
+        "His X bio: 'Chief of Staff, Retell AI | Co-founder, Alayna AI | CS @ Georgia Tech'",
+        "Signed-in LinkedIn sweep, 2026-10-23 (Mohammed's own LinkedIn session): Prabir Vora — linkedin.com/in/prabir-vora/, 2nd-degree connection; profile title 'Technical Chief of Staff'."
       ],
       "verification": {
         "provider": null,
         "result": "unknown",
         "checked_at": null,
-        "limitations": "Title corroborated by four independent sources (The Org, Pylon case study, two event bios) with minor wording variants: Founding Chief of Staff / Founding Technical Chief of Staff / Technical Chief of Staff. Email is pattern-inferred ({firstname}@retellai.com), not published anywhere found. LinkedIn URL not verifiable from public web."
+        "limitations": "Title corroborated by four independent sources (The Org, Pylon case study, two event bios) with minor wording variants: Founding Chief of Staff / Founding Technical Chief of Staff / Technical Chief of Staff. Email is pattern-inferred ({firstname}@retellai.com), not published anywhere found. LinkedIn URL and 2nd-degree status confirmed via the signed-in LinkedIn sweep, 2026-10-23; title aligned to the profile's 'Technical Chief of Staff'."
       },
-      "verification_note": "Title corroborated by four independent sources with minor wording variants (Founding / Founding Technical / Technical Chief of Staff). Email pattern-inferred and unconfirmed. LinkedIn URL not verifiable from public web."
+      "verification_note": "Title corroborated by four independent sources (The Org, Pylon case study, two event bios) with minor wording variants: Founding Chief of Staff / Founding Technical Chief of Staff / Technical Chief of Staff. Email is pattern-inferred ({firstname}@retellai.com), not published anywhere found. LinkedIn URL and 2nd-degree status confirmed via the signed-in LinkedIn sweep, 2026-10-23; title aligned to the profile's 'Technical Chief of Staff'."
     },
     {
       "id": "bing-wu",
@@ -147,9 +153,10 @@
         "provider": null,
         "result": "unknown",
         "checked_at": null,
-        "limitations": "Title corroborated by three sources including Retell's own site. Email is pattern-inferred ({firstname}@retellai.com, the domain's dominant format) and unconfirmed. LinkedIn URL not verifiable from public web."
+        "limitations": "Title corroborated by three sources including Retell's own site. Email is pattern-inferred ({firstname}@retellai.com, the domain's dominant format) and unconfirmed. LinkedIn URL not verifiable from public web. A LinkedIn connection invite from Mohammed is already pending (sweep, 2026-10-23) — do not re-send; email is the channel."
       },
-      "verification_note": "Title corroborated by Retell's own site, The Org, and Respan. Email pattern-inferred, unconfirmed. LinkedIn URL not verifiable from public web."
+      "verification_note": "Title corroborated by three sources including Retell's own site. Email is pattern-inferred ({firstname}@retellai.com, the domain's dominant format) and unconfirmed. LinkedIn URL not verifiable from public web. A LinkedIn connection invite from Mohammed is already pending (sweep, 2026-10-23) — do not re-send; email is the channel.",
+      "linkedin_invite_status": "pending — connection invite already sent (per 2026-10-23 LinkedIn sweep); do not re-send; email channel only"
     },
     {
       "id": "weijia-yu",
@@ -208,8 +215,8 @@
       "employer": "Retell AI",
       "title": "Co-Founder & CTO",
       "priority": 5,
-      "connection_degree": null,
-      "linkedin_url": null,
+      "connection_degree": "2nd",
+      "linkedin_url": "https://www.linkedin.com/in/zexia-zhang/",
       "professional_email": "zexia@retellai.com",
       "email_source_type": "inferred",
       "email_sources": [],
@@ -228,6 +235,11 @@
           "url": "https://tracxn.com/d/companies/retell/__qAFnbwN7vHuMUKADfyXxnzuEXs4E8UwpfKZrjdIsu_Y",
           "accessed_date": "2026-10-23",
           "supporting_detail": "Tracxn key-team list: 'Zexia Zhang: Co-Founder & CTO of Retell.'"
+        },
+        {
+          "url": "https://www.linkedin.com/in/zexia-zhang/",
+          "accessed_date": "2026-10-23",
+          "supporting_detail": "LinkedIn profile (signed-in sweep, 2026-10-23): Zexia Zhang, Co-Founder at Retell AI; 2nd-degree connection."
         }
       ],
       "relevance": "CTO and engineering leadership: Founders Initiatives is an engineering seat (production LLM systems, 90-minute coding round), and the CTO is the technical bar-setter for founder-org engineering hires.",
@@ -240,22 +252,23 @@
         "The Org: Zexia Zhang, Co-Founder & CTO at Retell AI",
         "LiveKit: testimonial by 'Zexia Zhang, CTO, Retell AI'",
         "Tracxn: Zexia Zhang, Co-Founder & CTO",
-        "DevCuration Retell profile: 'Zexia Zhang, Co founder and CTO'"
+        "DevCuration Retell profile: 'Zexia Zhang, Co founder and CTO'",
+        "Signed-in LinkedIn sweep, 2026-10-23 (Mohammed's own LinkedIn session): Zexia Zhang — linkedin.com/in/zexia-zhang/, 2nd-degree connection."
       ],
       "verification": {
         "provider": null,
         "result": "unknown",
         "checked_at": null,
-        "limitations": "Title corroborated by The Org, Tracxn, LiveKit, and DevCuration. Email is pattern-inferred ({firstname}@retellai.com) and unconfirmed. LinkedIn URL not verifiable from public web."
+        "limitations": "Title corroborated by The Org, Tracxn, LiveKit, and DevCuration. Email is pattern-inferred ({firstname}@retellai.com) and unconfirmed. LinkedIn URL and 2nd-degree status confirmed via the signed-in LinkedIn sweep, 2026-10-23."
       },
-      "verification_note": "Title corroborated by four sources. Email pattern-inferred, unconfirmed. LinkedIn URL not verifiable from public web."
+      "verification_note": "Title corroborated by The Org, Tracxn, LiveKit, and DevCuration. Email is pattern-inferred ({firstname}@retellai.com) and unconfirmed. LinkedIn URL and 2nd-degree status confirmed via the signed-in LinkedIn sweep, 2026-10-23."
     },
     {
       "id": "evie-wang",
       "name": "Evie Wang",
       "company": "Retell AI",
       "employer": "Retell AI",
-      "title": "Co-Founder & CMO",
+      "title": "Co-Founder & CPO",
       "priority": 6,
       "connection_degree": null,
       "linkedin_url": null,
@@ -272,10 +285,16 @@
           "url": "https://artunews.com/2025/02/04/alum-evie-wangs-retell-ai-startup-finds-early-success/",
           "accessed_date": "2026-10-23",
           "supporting_detail": "Academy of Art University news: 'Evie Wang (M.A. '24), founder and chief marketing officer (CMO) of startup Retell AI.'"
+        },
+        {
+          "url": null,
+          "source_type": "user_provided",
+          "accessed_date": "2026-10-23",
+          "supporting_detail": "Signed-in LinkedIn sweep, 2026-10-23: Evie Wang's own LinkedIn profile title reads 'Co-founder, CPO' at Retell AI — authoritative over the older CMO listings. A connection invite from Mohammed is already pending."
         }
       ],
-      "relevance": "CMO and co-founder owning GTM and growth; the Founders Initiatives posting's HubSpot/Salesforce and GTM-automation workstreams run through the marketing/GTM stack she owns.",
-      "relevance_reason": "CMO and co-founder owning GTM and growth; the Founders Initiatives posting's HubSpot/Salesforce and GTM-automation workstreams run through the marketing/GTM stack she owns.",
+      "relevance": "Co-founder and CPO (her own LinkedIn profile title; public sources from earlier in 2026 still list her as CMO). Product and GTM leadership — the Founders Initiatives posting's HubSpot/Salesforce and GTM-automation workstreams run through the stack her org owns.",
+      "relevance_reason": "Co-founder and CPO (her own LinkedIn profile title; public sources from earlier in 2026 still list her as CMO). Product and GTM leadership — the Founders Initiatives posting's HubSpot/Salesforce and GTM-automation workstreams run through the stack her org owns.",
       "routing_value": "Founder-level router on the GTM side: outreach already drafted for the scheduled Mon 2026-10-26 send; she can direct Mohammed to the FI hiring owner.",
       "angle": "The HubSpot half of the FI posting is his day job: at SCET he runs HubSpot automation that filtered 100K+ leads into 500 priority outreach targets.",
       "hiring_connection_status": "unknown",
@@ -283,15 +302,17 @@
       "sources": [
         "Inc. 2026 Female Founders 500 release: Evie Wang, Co-founder and CMO of Retell AI",
         "Academy of Art University News: Evie Wang, founder and CMO of Retell AI",
-        "Retell AI official about page: CMO, Evie Wang"
+        "Retell AI official about page: CMO, Evie Wang",
+        "Signed-in LinkedIn sweep, 2026-10-23 (Mohammed's own LinkedIn session): Evie Wang's LinkedIn profile title is 'Co-founder, CPO' (not CMO); connection invite already pending."
       ],
       "verification": {
         "provider": null,
         "result": "unknown",
         "checked_at": null,
-        "limitations": "Title corroborated by Inc., her university, and Retell's own site. Email is pattern-inferred ({firstname}@retellai.com) and unconfirmed. LinkedIn URL not verifiable from public web."
+        "limitations": "Title corrected 2026-10-23: her own LinkedIn profile reads 'Co-founder, CPO' and is treated as authoritative; Inc., her university, and Retell's about page still carry the older CMO title. Email is pattern-inferred ({firstname}@retellai.com) and unconfirmed. A LinkedIn invite is already pending — do not re-send; email is the channel."
       },
-      "verification_note": "Title corroborated by Inc. and Retell's own site. Email pattern-inferred, unconfirmed. LinkedIn URL not verifiable from public web."
+      "verification_note": "Title corrected 2026-10-23: her own LinkedIn profile reads 'Co-founder, CPO' and is treated as authoritative; Inc., her university, and Retell's about page still carry the older CMO title. Email is pattern-inferred ({firstname}@retellai.com) and unconfirmed. A LinkedIn invite is already pending — do not re-send; email is the channel.",
+      "linkedin_invite_status": "pending — connection invite already sent (per 2026-10-23 LinkedIn sweep); do not re-send; email channel only"
     },
     {
       "id": "steven-wu",
@@ -417,46 +438,40 @@
       "verification_note": "Title corroborated by three sources. Email pattern-inferred, unconfirmed. LinkedIn URL not verifiable from public web."
     },
     {
-      "id": "mike-derlatka",
-      "name": "Mike Derlatka",
+      "id": "joshua-chavez",
+      "name": "Joshua Chavez",
       "company": "Retell AI",
       "employer": "Retell AI",
-      "title": "Head of Partnerships and Mid-Market",
+      "title": "Founding Talent",
       "priority": 10,
-      "connection_degree": null,
-      "linkedin_url": null,
-      "professional_email": "mike@retellai.com",
+      "connection_degree": "2nd",
+      "linkedin_url": "https://www.linkedin.com/in/joshua-chavez-5890535a/",
+      "professional_email": "joshua@retellai.com",
       "email_source_type": "inferred",
       "email_sources": [],
       "identity_sources": [
         {
-          "url": "https://rocketreach.co/mike-derlatka-email_43287730",
+          "url": "https://www.linkedin.com/in/joshua-chavez-5890535a/",
           "accessed_date": "2026-10-23",
-          "supporting_detail": "RocketReach profile (crawled Oct 2026): 'Mike Derlatka, based in Fort Lauderdale, FL, US, is currently a Head of Partnerships and Mid-Market at Retell AI', with prior roles at iSapien.ai, GoTu and Nextiva."
-        },
-        {
-          "url": "https://rocketreach.co/joshua-alexander-email_28173827",
-          "accessed_date": "2026-10-23",
-          "supporting_detail": "Older RocketReach snapshot (crawled ~2025) lists the same Mike Derlatka as 'Vice President of Strategic Accounts at Retell AI' — the partnerships/strategic-accounts remit is consistent; the exact title appears to have changed since."
+          "supporting_detail": "LinkedIn profile (signed-in sweep, 2026-10-23): Joshua Chavez, Founding Talent at Retell AI; recruiting lead; 2nd-degree connection."
         }
       ],
-      "relevance": "Runs partnerships at Retell — partnerships and the partner/agency ecosystem are adjacent to the Founders Initiatives org (Retell runs a parallel Founding Strategic Partnerships track), and partner operations is internal-systems work.",
-      "relevance_reason": "Runs partnerships at Retell — partnerships and the partner/agency ecosystem are adjacent to the Founders Initiatives org, and partner operations is internal-systems work.",
-      "routing_value": "Partnerships router: a NEW addition beyond the drafted five; a head-level GTM leader who can point Mohammed to the FI hiring owner and speak to how the partnerships motion is staffed.",
-      "angle": "Partnerships proof on both sides of his world: ~12 partnerships secured at SCET and partnership work at Tamara, plus the systems habit (he ran CRM-driven partnership pipelines).",
-      "hiring_connection_status": "unknown",
+      "relevance": "Retell's founding talent / recruiting lead — the internal customer for the Founders Initiatives role's recruiting-AI workstream (resume signal extraction, recruiter workflows). He has posted publicly about hiring FDEs and Deployment Strategists, so he runs these searches. This supersedes the earlier public-web finding that Retell had no named recruiter.",
+      "relevance_reason": "Retell's founding talent / recruiting lead — the internal customer for the Founders Initiatives role's recruiting-AI workstream (resume signal extraction, recruiter workflows). He has posted publicly about hiring FDEs and Deployment Strategists, so he runs these searches. This supersedes the earlier public-web finding that Retell had no named recruiter.",
+      "routing_value": "The named recruiter for the FI search: a brief note to him reaches the person screening the application and the internal customer for its recruiting-AI brief at once.",
+      "angle": "Brief and factual: the FI application went in Friday 2026-10-23; at Tamara he built the pre-ATS recruiting CRM (Greenhouse API + OpenAI natural-language search over 700K+ historical applicant records) that TA and the COO adopted — the same class of system the FI posting describes; the posting lists F-1 sponsorship, which he needs.",
+      "hiring_connection_status": "likely",
       "preferred_channel": "email",
       "sources": [
-        "RocketReach profile (crawled Oct 2026): Head of Partnerships and Mid-Market at Retell AI",
-        "RocketReach older snapshot: Vice President of Strategic Accounts at Retell AI (same person, same remit)"
+        "Signed-in LinkedIn sweep, 2026-10-23 (Mohammed's own LinkedIn session): Joshua Chavez — Founding Talent at Retell AI; 2nd-degree connection; has posted about hiring FDEs and Deployment Strategists."
       ],
       "verification": {
         "provider": null,
         "result": "unknown",
         "checked_at": null,
-        "limitations": "Single-provider sourcing (RocketReach) across two crawls — flagged: the current title 'Head of Partnerships and Mid-Market' rests on the Oct 2026 RocketReach crawl; an older snapshot said 'Vice President of Strategic Accounts'. Email is pattern-inferred from his public first name 'Mike' (legal first name may be Michael) and is unconfirmed. LinkedIn URL not verifiable from public web."
+        "limitations": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection sent alongside."
       },
-      "verification_note": "Partnerships role corroborated by two RocketReach crawls with differing titles (current: Head of Partnerships and Mid-Market). Email pattern-inferred from 'Mike', unconfirmed. LinkedIn URL not verifiable from public web."
+      "verification_note": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection sent alongside."
     }
   ],
   "outreach_events": []

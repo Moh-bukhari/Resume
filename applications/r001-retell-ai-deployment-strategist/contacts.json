@@ -4,12 +4,48 @@
   "company": "Retell AI",
   "contacts": [
     {
+      "id": "nicolaus-wong",
+      "name": "Nicolaus G. Wong",
+      "company": "Retell AI",
+      "employer": "Retell AI",
+      "title": "Founding Head, Deployments",
+      "priority": 1,
+      "connection_degree": "2nd",
+      "linkedin_url": "https://www.linkedin.com/in/nicolauswong/",
+      "professional_email": "nicolaus@retellai.com",
+      "email_source_type": "inferred",
+      "email_sources": [],
+      "identity_sources": [
+        {
+          "url": "https://www.linkedin.com/in/nicolauswong/",
+          "accessed_date": "2026-10-23",
+          "supporting_detail": "LinkedIn profile (signed-in sweep, 2026-10-23): Nicolaus G. Wong, Founding Head, Deployments at Retell AI; 2nd-degree connection of Mohammed's."
+        }
+      ],
+      "relevance": "Founding Deployment Strategist at Retell who now leads the deployments team as Founding Head, Deployments — he built the seat Mohammed applied to and is hiring for it.",
+      "relevance_reason": "Founding Deployment Strategist at Retell who now leads the deployments team as Founding Head, Deployments — he built the seat Mohammed applied to and is hiring for it.",
+      "routing_value": "Top of the list: he owns the Deployment Strategist hiring chain; a read or referral from him decides whether the application moves.",
+      "angle": "Deployment proof, not adjectives: at Tamara his pre-ATS recruiting CRM (Greenhouse API, OpenAI natural-language search over 700K+ historical applicant records) was adopted by TA and leadership including the COO; Sitters, his Claude + ElevenLabs voice-AI product, took 1st place at Anthropic's hackathon.",
+      "hiring_connection_status": "likely",
+      "preferred_channel": "linkedin",
+      "sources": [
+        "Signed-in LinkedIn sweep, 2026-10-23 (Mohammed's own LinkedIn session): Nicolaus G. Wong — Founding Head, Deployments at Retell AI; 2nd-degree connection; originally the founding Deployment Strategist, now hiring the team."
+      ],
+      "verification": {
+        "provider": null,
+        "result": "unknown",
+        "checked_at": null,
+        "limitations": "Title, founding-Strategist history, team-lead role, LinkedIn URL, and 2nd-degree status from Mohammed's signed-in LinkedIn sweep, 2026-10-23 (authoritative over public web). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed."
+      },
+      "verification_note": "Title, founding-Strategist history, team-lead role, LinkedIn URL, and 2nd-degree status from Mohammed's signed-in LinkedIn sweep, 2026-10-23 (authoritative over public web). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed."
+    },
+    {
       "company": "Retell AI",
       "connection_degree": "1st",
       "id": "carlo-porcelli",
       "linkedin_url": null,
       "name": "Carlo Porcelli",
-      "priority": 1,
+      "priority": 2,
       "relevance": "Works inside Retell's GTM org, the function the Deployment Strategist role partners with and supports.",
       "routing_value": "Primary contact: already a first-degree connection, so Mohammed can DM him directly; he can route the application to the deployments hiring chain.",
       "sources": [
@@ -20,7 +56,7 @@
         "provider": null,
         "result": "unknown",
         "checked_at": null,
-        "limitations": "Title and first-degree connection confirmed from Mohammed's own LinkedIn session records; LinkedIn profile URL not captured in those records."
+        "limitations": "Title and first-degree connection confirmed from Mohammed's own LinkedIn session records; LinkedIn profile URL not captured in those records. LinkedIn DM channel confirmed by Mohammed (1st-degree); the profile URL itself was not among the URLs captured in the 2026-10-23 sweep, so it remains null here rather than guessed. Channel is LinkedIn DM in practice (1st-degree connection); preferred_channel stays 'unknown' only because the validator requires a captured profile URL for 'linkedin' and his/hers was not captured in the sweep."
       },
       "employer": "Retell AI",
       "professional_email": null,
@@ -30,7 +66,7 @@
       "email_source_type": "unknown",
       "email_sources": [],
       "preferred_channel": "unknown",
-      "verification_note": "Title and first-degree connection confirmed from Mohammed's own LinkedIn session records; LinkedIn profile URL not captured in those records."
+      "verification_note": "Title and first-degree connection confirmed from Mohammed's own LinkedIn session records; LinkedIn profile URL not captured in those records. LinkedIn DM channel confirmed by Mohammed (1st-degree); the profile URL itself was not among the URLs captured in the 2026-10-23 sweep, so it remains null here rather than guessed. Channel is LinkedIn DM in practice (1st-degree connection); preferred_channel stays 'unknown' only because the validator requires a captured profile URL for 'linkedin' and his/hers was not captured in the sweep."
     },
     {
       "company": "Retell AI",
@@ -38,7 +74,7 @@
       "id": "sylvie-liu",
       "linkedin_url": null,
       "name": "Sylvie Liu",
-      "priority": 2,
+      "priority": 3,
       "relevance": "GTM team member at Retell, adjacent to the deployments/solutions motion the Strategist role feeds.",
       "routing_value": "Alternate warm contact: first-degree connection Mohammed can DM directly if Carlo does not respond; can confirm who owns the Strategist search.",
       "sources": [
@@ -49,7 +85,7 @@
         "provider": null,
         "result": "unknown",
         "checked_at": null,
-        "limitations": "GTM affiliation and first-degree connection confirmed from Mohammed's own LinkedIn session records; exact job title and LinkedIn profile URL not publicly verified."
+        "limitations": "GTM affiliation and first-degree connection confirmed from Mohammed's own LinkedIn session records; exact job title and LinkedIn profile URL not publicly verified. LinkedIn DM channel confirmed by Mohammed (1st-degree); profile URL not captured in the 2026-10-23 sweep, so it remains null rather than guessed. Channel is LinkedIn DM in practice (1st-degree connection); preferred_channel stays 'unknown' only because the validator requires a captured profile URL for 'linkedin' and his/hers was not captured in the sweep."
       },
       "employer": "Retell AI",
       "professional_email": null,
@@ -59,7 +95,7 @@
       "email_source_type": "unknown",
       "email_sources": [],
       "preferred_channel": "unknown",
-      "verification_note": "GTM affiliation and first-degree connection confirmed from Mohammed's own LinkedIn session records; exact job title and LinkedIn profile URL not publicly verified."
+      "verification_note": "GTM affiliation and first-degree connection confirmed from Mohammed's own LinkedIn session records; exact job title and LinkedIn profile URL not publicly verified. LinkedIn DM channel confirmed by Mohammed (1st-degree); profile URL not captured in the 2026-10-23 sweep, so it remains null rather than guessed. Channel is LinkedIn DM in practice (1st-degree connection); preferred_channel stays 'unknown' only because the validator requires a captured profile URL for 'linkedin' and his/hers was not captured in the sweep."
     },
     {
       "company": "Retell AI",
@@ -67,7 +103,7 @@
       "id": "todd-li",
       "linkedin_url": null,
       "name": "Todd Li",
-      "priority": 3,
+      "priority": 4,
       "relevance": "Owns enterprise go-to-market at Retell; the deployments/FDE motion sits in his revenue org.",
       "routing_value": "Senior router: the most senior GTM decision-maker below the CEO; a referral or forward from him reaches the Strategist hiring manager directly.",
       "sources": [
@@ -80,17 +116,18 @@
         "provider": null,
         "result": "unknown",
         "checked_at": null,
-        "limitations": "Title corroborated by three sources including Retell's own site. LinkedIn URL and connection degree not determinable from public web."
+        "limitations": "Title corroborated by three sources including Retell's own site. LinkedIn URL and connection degree not determinable from public web. A LinkedIn connection invite from Mohammed is already pending (sweep, 2026-10-23) — do not re-send; email is the channel. Email pattern-inferred ({firstname}@retellai.com), unconfirmed."
       },
       "employer": "Retell AI",
-      "professional_email": null,
+      "professional_email": "todd@retellai.com",
       "identity_sources": [],
       "relevance_reason": "Owns enterprise go-to-market at Retell; the deployments/FDE motion sits in his revenue org.",
       "hiring_connection_status": "unknown",
-      "email_source_type": "unknown",
+      "email_source_type": "inferred",
       "email_sources": [],
-      "preferred_channel": "unknown",
-      "verification_note": "Title corroborated by three sources including Retell's own site. LinkedIn URL and connection degree not determinable from public web."
+      "preferred_channel": "email",
+      "verification_note": "Title corroborated by three sources including Retell's own site. LinkedIn URL and connection degree not determinable from public web. A LinkedIn connection invite from Mohammed is already pending (sweep, 2026-10-23) — do not re-send; email is the channel. Email pattern-inferred ({firstname}@retellai.com), unconfirmed.",
+      "linkedin_invite_status": "pending — connection invite already sent (per 2026-10-23 LinkedIn sweep); do not re-send; email channel only"
     },
     {
       "company": "Retell AI",
@@ -98,7 +135,7 @@
       "id": "steven-wu",
       "linkedin_url": "https://www.linkedin.com/in/stevenwu2019",
       "name": "Steven Wu",
-      "priority": 4,
+      "priority": 5,
       "relevance": "Founded Retell's forward-deployed function (in role since Jul 2025); the deployment team the Strategist role works alongside daily.",
       "routing_value": "Peer in the deployments org: can describe the role/team firsthand and refer internally; ex-C3 AI solutions engineer and ex-founder, so he can judge fit credibly.",
       "sources": [
@@ -111,17 +148,17 @@
         "provider": null,
         "result": "unknown",
         "checked_at": null,
-        "limitations": "Title corroborated by The Org and RocketReach; LinkedIn URL from his own published resume site. Connection degree unknown."
+        "limitations": "Title corroborated by The Org and RocketReach; LinkedIn URL from his own published resume site. Connection degree unknown. Email pattern-inferred ({firstname}@retellai.com), unconfirmed. For R001 the first move is a LinkedIn connection note; his fuller email sits in the R002 packet."
       },
       "employer": "Retell AI",
-      "professional_email": null,
+      "professional_email": "steven@retellai.com",
       "identity_sources": [],
       "relevance_reason": "Founded Retell's forward-deployed function (in role since Jul 2025); the deployment team the Strategist role works alongside daily.",
       "hiring_connection_status": "unknown",
-      "email_source_type": "unknown",
+      "email_source_type": "inferred",
       "email_sources": [],
-      "preferred_channel": "unknown",
-      "verification_note": "Title corroborated by The Org and RocketReach; LinkedIn URL from his own published resume site. Connection degree unknown."
+      "preferred_channel": "linkedin",
+      "verification_note": "Title corroborated by The Org and RocketReach; LinkedIn URL from his own published resume site. Connection degree unknown. Email pattern-inferred ({firstname}@retellai.com), unconfirmed. For R001 the first move is a LinkedIn connection note; his fuller email sits in the R002 packet."
     },
     {
       "company": "Retell AI",
@@ -129,7 +166,7 @@
       "id": "joshua-alexander",
       "linkedin_url": "https://www.linkedin.com/in/the-joshuaalexander",
       "name": "Joshua Alexander",
-      "priority": 5,
+      "priority": 6,
       "relevance": "Leads Retell's Solutions Team, the solutions/deployment-adjacent org the Strategist role coordinates with.",
       "routing_value": "Runs a solutions team: can speak to how solutions/deployments hiring works and route Mohammed to the right owner. Caveat: he simultaneously runs his own agency (JGRobo/Action2Call, a Retell partner), so his seat may be partner-side rather than core staff.",
       "sources": [
@@ -141,7 +178,7 @@
         "provider": null,
         "result": "unknown",
         "checked_at": null,
-        "limitations": "Role corroborated by his own current site and RocketReach; exact current title differs slightly between sources (Solutions Director vs Solutions Manager) and his employment model (staff vs partner) is ambiguous. LinkedIn URL from his own sites."
+        "limitations": "Role corroborated by his own current site and RocketReach; exact current title differs slightly between sources (Solutions Director vs Solutions Manager) and his employment model (staff vs partner) is ambiguous. LinkedIn URL from his own sites. A LinkedIn connection invite from Mohammed is already pending (sweep, 2026-10-23) — do not re-send. No professional email was found, so there is no email channel for him."
       },
       "employer": "Retell AI",
       "professional_email": null,
@@ -151,36 +188,116 @@
       "email_source_type": "unknown",
       "email_sources": [],
       "preferred_channel": "unknown",
-      "verification_note": "Role corroborated by his own current site and RocketReach; exact current title differs slightly between sources (Solutions Director vs Solutions Manager) and his employment model (staff vs partner) is ambiguous. LinkedIn URL from his own sites."
+      "verification_note": "Role corroborated by his own current site and RocketReach; exact current title differs slightly between sources (Solutions Director vs Solutions Manager) and his employment model (staff vs partner) is ambiguous. LinkedIn URL from his own sites. A LinkedIn connection invite from Mohammed is already pending (sweep, 2026-10-23) — do not re-send. No professional email was found, so there is no email channel for him.",
+      "linkedin_invite_status": "pending — connection invite already sent (per 2026-10-23 LinkedIn sweep); do not re-send; no professional email on file, so no email draft — DM only if the invite is accepted"
     },
     {
+      "id": "shasta-subramanian",
+      "name": "Shasta Subramanian",
       "company": "Retell AI",
-      "connection_degree": null,
-      "id": "mike-derlatka",
-      "linkedin_url": null,
-      "name": "Mike Derlatka",
-      "priority": 6,
-      "relevance": "Senior GTM leader (partnerships and mid-market sales) at Retell since Mar 2025; part of the GTM leadership group around the Strategist role.",
-      "routing_value": "Senior GTM router: a head-level leader who can point Mohammed to the deployments hiring owner and vouch internally.",
-      "sources": [
-        "RocketReach profile (crawled Oct 2026): Head of Partnerships and Mid-Market at Retell AI, March 2025 - Present"
+      "employer": "Retell AI",
+      "title": "Deployments",
+      "priority": 7,
+      "connection_degree": "2nd",
+      "linkedin_url": "https://www.linkedin.com/in/shasta-subramanian/",
+      "professional_email": null,
+      "email_source_type": "unknown",
+      "email_sources": [],
+      "identity_sources": [
+        {
+          "url": "https://www.linkedin.com/in/shasta-subramanian/",
+          "accessed_date": "2026-10-23",
+          "supporting_detail": "LinkedIn profile (signed-in sweep, 2026-10-23): Shasta Subramanian, Deployments at Retell AI; 2nd-degree connection."
+        }
       ],
-      "title": "Head of Partnerships and Mid-Market",
+      "relevance": "Works in Retell's deployments org — the team the Deployment Strategist role sits in.",
+      "relevance_reason": "Works in Retell's deployments org — the team the Deployment Strategist role sits in.",
+      "routing_value": "Team-level peer: can describe the deployments team's current work firsthand and refer internally.",
+      "angle": "Peer note: Sitters (voice AI, Claude + ElevenLabs, 1st place Anthropic hackathon) as hands-on building proof next to the Tamara deployment/adoption work.",
+      "hiring_connection_status": "unknown",
+      "preferred_channel": "linkedin",
+      "sources": [
+        "Signed-in LinkedIn sweep, 2026-10-23 (Mohammed's own LinkedIn session): Shasta Subramanian — Deployments at Retell AI; 2nd-degree connection."
+      ],
       "verification": {
         "provider": null,
         "result": "unknown",
         "checked_at": null,
-        "limitations": "Single-source (RocketReach, recent crawl) - flagged: no second independent source found for the exact title. LinkedIn URL and connection degree not determinable from public web."
+        "limitations": "Title as shown on her LinkedIn profile ('Deployments') and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23. No professional email found; LinkedIn is the channel."
       },
+      "verification_note": "Title as shown on her LinkedIn profile ('Deployments') and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23. No professional email found; LinkedIn is the channel."
+    },
+    {
+      "id": "hayden-langelier",
+      "name": "Hayden Langelier",
+      "company": "Retell AI",
       "employer": "Retell AI",
+      "title": "Solutions Architect",
+      "priority": 8,
+      "connection_degree": "2nd",
+      "linkedin_url": "https://www.linkedin.com/in/haydenlangelier/",
       "professional_email": null,
-      "identity_sources": [],
-      "relevance_reason": "Senior GTM leader (partnerships and mid-market sales) at Retell since Mar 2025; part of the GTM leadership group around the Strategist role.",
-      "hiring_connection_status": "unknown",
       "email_source_type": "unknown",
       "email_sources": [],
-      "preferred_channel": "unknown",
-      "verification_note": "Single-source (RocketReach, recent crawl) - flagged: no second independent source found for the exact title. LinkedIn URL and connection degree not determinable from public web."
+      "identity_sources": [
+        {
+          "url": "https://www.linkedin.com/in/haydenlangelier/",
+          "accessed_date": "2026-10-23",
+          "supporting_detail": "LinkedIn profile (signed-in sweep, 2026-10-23): Hayden Langelier, Solutions Architect at Retell AI; 2nd-degree connection."
+        }
+      ],
+      "relevance": "Solutions Architect at Retell — the solutions function the Deployment Strategist role coordinates with on customer deployments.",
+      "relevance_reason": "Solutions Architect at Retell — the solutions function the Deployment Strategist role coordinates with on customer deployments.",
+      "routing_value": "Peer in the solutions org: can speak to how deployments and solutions work together and route Mohammed to the hiring chain.",
+      "angle": "Peer note: Tamara CRM adoption by TA and leadership, plus Sitters as a shipped voice-AI product.",
+      "hiring_connection_status": "unknown",
+      "preferred_channel": "linkedin",
+      "sources": [
+        "Signed-in LinkedIn sweep, 2026-10-23 (Mohammed's own LinkedIn session): Hayden Langelier — Solutions Architect at Retell AI; 2nd-degree connection."
+      ],
+      "verification": {
+        "provider": null,
+        "result": "unknown",
+        "checked_at": null,
+        "limitations": "Title, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23. No professional email found; LinkedIn is the channel."
+      },
+      "verification_note": "Title, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23. No professional email found; LinkedIn is the channel."
+    },
+    {
+      "id": "joshua-chavez",
+      "name": "Joshua Chavez",
+      "company": "Retell AI",
+      "employer": "Retell AI",
+      "title": "Founding Talent",
+      "priority": 9,
+      "connection_degree": "2nd",
+      "linkedin_url": "https://www.linkedin.com/in/joshua-chavez-5890535a/",
+      "professional_email": "joshua@retellai.com",
+      "email_source_type": "inferred",
+      "email_sources": [],
+      "identity_sources": [
+        {
+          "url": "https://www.linkedin.com/in/joshua-chavez-5890535a/",
+          "accessed_date": "2026-10-23",
+          "supporting_detail": "LinkedIn profile (signed-in sweep, 2026-10-23): Joshua Chavez, Founding Talent at Retell AI; recruiting lead; 2nd-degree connection."
+        }
+      ],
+      "relevance": "Retell's founding talent / recruiting lead. He has posted publicly about hiring FDEs and Deployment Strategists, so he runs the searches Mohammed applied into. This supersedes the earlier public-web finding that Retell had no named in-house recruiter.",
+      "relevance_reason": "Retell's founding talent / recruiting lead. He has posted publicly about hiring FDEs and Deployment Strategists, so he runs the searches Mohammed applied into. This supersedes the earlier public-web finding that Retell had no named in-house recruiter.",
+      "routing_value": "The named recruiter for these roles: a brief note to him lands with the person screening the Strategist (and Founders Initiatives) pipelines.",
+      "angle": "Brief and factual: both applications went in Friday 2026-10-23; Tamara's pre-ATS recruiting CRM (Greenhouse API + OpenAI search over 700K+ historical applicant records, adopted by TA and the COO) is the recruiting-systems proof; the postings list F-1 sponsorship, which he needs.",
+      "hiring_connection_status": "likely",
+      "preferred_channel": "linkedin",
+      "sources": [
+        "Signed-in LinkedIn sweep, 2026-10-23 (Mohammed's own LinkedIn session): Joshua Chavez — Founding Talent at Retell AI; 2nd-degree connection; has posted about hiring FDEs and Deployment Strategists."
+      ],
+      "verification": {
+        "provider": null,
+        "result": "unknown",
+        "checked_at": null,
+        "limitations": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection first."
+      },
+      "verification_note": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection first."
     },
     {
       "company": "Retell AI",
@@ -188,7 +305,7 @@
       "id": "bing-wu",
       "linkedin_url": null,
       "name": "Bing Wu",
-      "priority": 7,
+      "priority": 10,
       "relevance": "CEO and public face of Retell; at a ~50-person company the founders stay close to senior GTM/deployments hiring.",
       "routing_value": "Top-of-house router: a note from the CEO's office reaches any hiring manager; best used sparingly, after warm contacts, given his seniority.",
       "sources": [
@@ -201,116 +318,29 @@
         "provider": null,
         "result": "unknown",
         "checked_at": null,
-        "limitations": "Title corroborated by many sources including Retell's own site. LinkedIn URL and connection degree not determinable from public web."
+        "limitations": "Title corroborated by many sources including Retell's own site. LinkedIn URL and connection degree not determinable from public web. Email published in Gainsight's official sub-processor list (verified). For R001 he is a hold/second-touch contact: the Founders Initiatives email in the R002 packet is the one scheduled send — do not send him two notes in the same week."
       },
       "employer": "Retell AI",
-      "professional_email": null,
+      "professional_email": "bing@retellai.com",
       "identity_sources": [],
       "relevance_reason": "CEO and public face of Retell; at a ~50-person company the founders stay close to senior GTM/deployments hiring.",
       "hiring_connection_status": "unknown",
-      "email_source_type": "unknown",
-      "email_sources": [],
-      "preferred_channel": "unknown",
-      "verification_note": "Title corroborated by many sources including Retell's own site. LinkedIn URL and connection degree not determinable from public web."
-    },
-    {
-      "company": "Retell AI",
-      "connection_degree": null,
-      "id": "weijia-yu",
-      "linkedin_url": null,
-      "name": "Weijia Yu",
-      "priority": 8,
-      "relevance": "COO running operations for the whole company; operations leadership typically oversees hiring process and headcount at this stage.",
-      "routing_value": "Executive router on the operations side: can confirm who owns the Strategist search and whether the role is actively being filled.",
-      "sources": [
-        "Retell AI official about page: COO, Weijia Yu",
-        "Sacra company profile: COO Weijia Yu (ex-Meta)",
-        "Retell AI corporate filing summary listing Weijia Yu as Chief Operating Officer"
+      "email_source_type": "published",
+      "email_sources": [
+        {
+          "url": "https://www.gainsight.com/policy/sub-processors/",
+          "accessed_date": "2026-10-23",
+          "supporting_detail": "Gainsight's official sub-processor list names Retell AI, Inc.'s contact as 'Bing Wu, CEO — bing@retellai.com'."
+        }
       ],
-      "title": "Co-Founder & COO",
-      "verification": {
-        "provider": null,
-        "result": "unknown",
-        "checked_at": null,
-        "limitations": "Title corroborated by three sources including Retell's own site. LinkedIn URL and connection degree not determinable from public web."
-      },
-      "employer": "Retell AI",
-      "professional_email": null,
-      "identity_sources": [],
-      "relevance_reason": "COO running operations for the whole company; operations leadership typically oversees hiring process and headcount at this stage.",
-      "hiring_connection_status": "unknown",
-      "email_source_type": "unknown",
-      "email_sources": [],
-      "preferred_channel": "unknown",
-      "verification_note": "Title corroborated by three sources including Retell's own site. LinkedIn URL and connection degree not determinable from public web."
-    },
-    {
-      "company": "Retell AI",
-      "connection_degree": null,
-      "id": "evie-wang",
-      "linkedin_url": null,
-      "name": "Evie Wang",
-      "priority": 9,
-      "relevance": "CMO and co-founder; owns Retell's growth/marketing engine, adjacent to GTM strategy where the Strategist role sits.",
-      "routing_value": "Founder-level router on the GTM side: can direct Mohammed to the deployments/GTM hiring owner; named to Inc.'s 2026 Female Founders list.",
-      "sources": [
-        "Retell AI official about page: CMO, Evie Wang",
-        "Inc. 2026 Female Founders 500 profile: Evie Wang, Retell AI",
-        "Sacra company profile: CMO Evie Wang (ex-ByteDance/TikTok)"
-      ],
-      "title": "Co-Founder & CMO",
-      "verification": {
-        "provider": null,
-        "result": "unknown",
-        "checked_at": null,
-        "limitations": "Title corroborated by three sources including Retell's own site. LinkedIn URL and connection degree not determinable from public web."
-      },
-      "employer": "Retell AI",
-      "professional_email": null,
-      "identity_sources": [],
-      "relevance_reason": "CMO and co-founder; owns Retell's growth/marketing engine, adjacent to GTM strategy where the Strategist role sits.",
-      "hiring_connection_status": "unknown",
-      "email_source_type": "unknown",
-      "email_sources": [],
-      "preferred_channel": "unknown",
-      "verification_note": "Title corroborated by three sources including Retell's own site. LinkedIn URL and connection degree not determinable from public web."
-    },
-    {
-      "company": "Retell AI",
-      "connection_degree": null,
-      "id": "alex-baca",
-      "linkedin_url": null,
-      "name": "Alex Baca",
-      "priority": 10,
-      "relevance": "Founding growth hire on the GTM team (2025-present); publicly active answering users in Retell's own community, so he is reachable and GTM-fluent.",
-      "routing_value": "Accessible GTM insider: a peer-level contact who can explain the GTM/deployments org and point Mohammed to the right person; lower seniority, so a routing/learning contact rather than a decision-maker.",
-      "sources": [
-        "RocketReach: Founding Product Growth at Retell AI, 2025 - now, San Francisco",
-        "Contra profile: Growth at Retell AI",
-        "Retell AI community forum posts by alex.baca responding to users as Retell staff (Nov 2025)"
-      ],
-      "title": "Founding Product Growth",
-      "verification": {
-        "provider": null,
-        "result": "unknown",
-        "checked_at": null,
-        "limitations": "Role corroborated by RocketReach, Contra, and his staff activity on Retell's official community. LinkedIn URL and connection degree not determinable from public web."
-      },
-      "employer": "Retell AI",
-      "professional_email": null,
-      "identity_sources": [],
-      "relevance_reason": "Founding growth hire on the GTM team (2025-present); publicly active answering users in Retell's own community, so he is reachable and GTM-fluent.",
-      "hiring_connection_status": "unknown",
-      "email_source_type": "unknown",
-      "email_sources": [],
-      "preferred_channel": "unknown",
-      "verification_note": "Role corroborated by RocketReach, Contra, and his staff activity on Retell's official community. LinkedIn URL and connection degree not determinable from public web."
+      "preferred_channel": "email",
+      "verification_note": "Title corroborated by many sources including Retell's own site. LinkedIn URL and connection degree not determinable from public web. Email published in Gainsight's official sub-processor list (verified). For R001 he is a hold/second-touch contact: the Founders Initiatives email in the R002 packet is the one scheduled send — do not send him two notes in the same week."
     }
   ],
   "created_on": "2026-10-23",
   "interview_date": null,
   "outreach_events": [],
-  "research_notes": "People research completed 2026-10-23 via public web sources (Retell AI about page, The Org, Sacra, RocketReach, Inc., individuals' own sites). LinkedIn profile URLs and connection degrees could not be verified from public web sources for most contacts and are marked null rather than guessed; a signed-in LinkedIn check can fill them in. No named in-house recruiter was found: Retell's job posts show recruiting run through contract recruiters, and a GTM Recruiting Lead opening was posted Jun 2026 (Built In) with no named incumbent.",
+  "research_notes": "People research completed 2026-10-23 via public web sources (Retell AI about page, The Org, Sacra, RocketReach, Inc., individuals' own sites). LinkedIn profile URLs and connection degrees could not be verified from public web sources for most contacts and are marked null rather than guessed; a signed-in LinkedIn check can fill them in. No named in-house recruiter was found: Retell's job posts show recruiting run through contract recruiters, and a GTM Recruiting Lead opening was posted Jun 2026 (Built In) with no named incumbent. Reconciled 2026-10-23 against a signed-in LinkedIn sweep (authoritative over the public-web research above): final 10 for R001 are Nicolaus G. Wong (Founding Head, Deployments — the founding Deployment Strategist, now hiring the team; ranked #1), Carlo Porcelli, Sylvie Liu, Todd Li, Steven Wu, Joshua Alexander, Shasta Subramanian (Deployments), Hayden Langelier (Solutions Architect), Joshua Chavez (Founding Talent — the named recruiting lead, superseding the earlier 'no named recruiter' finding), and Bing Wu. Dropped from the earlier draft list: Mike Derlatka, Weijia Yu, Evie Wang, Alex Baca (Weijia and Evie remain on the R002 list). LinkedIn connection invites are already pending for Todd Li, Evie Wang, and Joshua Alexander — do not re-send; Todd is email-only, and Joshua Alexander has no email on file. Carlo and Sylvie are 1st-degree connections (DM channel). Evie Wang's own LinkedIn title is 'Co-founder, CPO', not CMO — corrected wherever she appears.",
   "research_status": "completed",
   "role": "Deployment Strategist",
   "schema_version": "1.0"
