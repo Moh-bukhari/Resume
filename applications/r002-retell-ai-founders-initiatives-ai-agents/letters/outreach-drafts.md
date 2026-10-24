@@ -1,127 +1,110 @@
-# Retell AI — Founders Initiatives outreach: emails + drafts
+# Retell AI — Founders Initiatives outreach: final emails + DM
 
-Prepared: Fri 2026-10-23 · Revised and humanized: Fri 2026-10-23 · Status: **DRAFTS ONLY — nothing sent**
-Context: Mohammed applied to Retell AI "Founders Initiatives, AI Agents" (R002) on Friday 2026-10-23, and to "Deployment Strategist" (R001) the same day.
-Note: the five original drafts below are the ones scheduled for Mon 2026-10-26 (cron retell-fi-outreach-send, humanizer pass at send time). The Weijia Yu email is a NEW draft, not yet scheduled. The full 20-contact plan lives in retell-outreach-final.md.
+Prepared: Fri 2026-10-23 · Rewritten: Fri 2026-10-23 night with the repo's
+cold-outreach skills (first-touch, signal-personalization, pattern-interrupt)
+plus the humanizer skill as the final pass. Status: **DRAFTS ONLY — nothing sent**
+Context: Mohammed applied to Retell AI "Founders Initiatives, AI Agents" (R002)
+on Friday 2026-10-23, and to "Deployment Strategist" (R001) the same day.
+The full 20-contact plan lives in retell-outreach-final.md (same folder).
+
+Method: hook → consequence → exactly one proof point → exactly one small ask.
+Email bodies 60–90 words (sign-off excluded). No meeting ask on first contact.
+The five scheduled messages go out Mon 2026-10-26 ~12:40 PM (cron
+retell-fi-outreach-send, humanizer re-check at send time). Weijia Yu's email
+and the Chavez email are new drafts, not yet scheduled.
 
 ## Address status
 
-Retell's domain is **retellai.com**. Prospeo's company data lists three formats in use:
-`{first name}@retellai.com` (56.7%, most common), `{first initial}@retellai.com` (40%),
-`{first name}{last name}@retellai.com` (3.3%). Only two addresses below are corroborated by a named source. The rest are pattern inferences and are labeled **UNVERIFIED**.
+Retell's domain is **retellai.com**. Only two addresses below are corroborated
+by a named source. The rest are pattern inferences and are labeled **UNVERIFIED**.
 
 | Target | Address | Status | Source / basis |
 |---|---|---|---|
-| Bing Wu (CEO) | bing@retellai.com | ✅ Corroborated | Gainsight's official sub-processor list names "Retell AI, Inc. … Bing Wu, CEO — bing@retellai.com" (gainsight.com/policy/sub-processors) |
-| Todd Li (President) | todd@retellai.com | ⚠️ UNVERIFIED | Pattern inference only: most common Retell format per Prospeo + Bing's confirmed first-name address. LinkedIn invite already pending — email is the channel, do not re-send the invite. |
-| Evie Wang (Co-Founder & CPO) | evie@retellai.com | ⚠️ UNVERIFIED | Pattern inference only. Title corrected 2026-10-23: her own LinkedIn profile reads "Co-founder, CPO"; older public sources still say CMO. LinkedIn invite already pending — email is the channel. |
-| Weijia Yu (Co-Founder & COO) | weijia@retellai.com | ✅ Corroborated | Retell AI, Inc.'s FCC robocall-mitigation filing lists Weijia Yu, COO, as compliance contact with this address. |
+| Bing Wu (CEO) | bing@retellai.com | ✅ Corroborated | Gainsight's official sub-processor list |
+| Todd Li (President) | todd@retellai.com | ⚠️ UNVERIFIED | Pattern inference only. LinkedIn invite already pending — email is the channel, do not re-send the invite. |
+| Evie Wang (Co-Founder & CPO) | evie@retellai.com | ⚠️ UNVERIFIED | Pattern inference only. Title corrected 2026-10-23: her own LinkedIn profile reads "Co-founder, CPO". LinkedIn invite already pending — email is the channel. |
+| Weijia Yu (Co-Founder & COO) | weijia@retellai.com | ✅ Corroborated | Retell AI, Inc.'s FCC robocall-mitigation filing lists Weijia Yu, COO, as compliance contact with this address. No LinkedIn profile found — no hook invented. |
 | Carlo Porcelli (GTM Strat & Ops) | — no email found | LinkedIn DM only | 1st-degree connection. No corroborated address exists; do not guess one. |
 | Steven Wu (Founding FDE) | steven@retellai.com | ⚠️ UNVERIFIED | Pattern inference only. Fallback: LinkedIn DM — linkedin.com/in/stevenwu2019 |
+| Joshua Chavez (Founding Talent) | joshua@retellai.com | ⚠️ UNVERIFIED | Pattern inference only. Role LinkedIn-confirmed; connection note is the safer first move. |
 
 ---
 
-## Draft 1 — Carlo Porcelli (GTM Strategy & Operations) — LinkedIn DM
-
-Hi Carlo — keeping this short since we're already connected.
-
-I applied to the Founders Initiatives (AI Agents) role on Friday. The posting is about recruiting AI and ops automation, which is the work I've been doing: at Tamara I built a pre-ATS recruiting CRM (Greenhouse API + OpenAI search over 700K+ past applicants) that the TA team and the COO use day to day.
-
-Do you know who owns the Founders Initiatives search on your side? A name is all I need — I'd rather it land with the right person than sit in a queue.
-
-Thanks either way,
-Mohammed Bukhari
-h7@berkeley.edu | linkedin.com/in/mo-bukhari
-
----
-
-## Draft 2 — Todd Li (Co-Founder & President)
-
-**To:** todd@retellai.com ⚠️ UNVERIFIED (pattern inference)
-**Subject:** Founders Initiatives — I built the recruiting system in the posting
-
-Todd — Retell is around 50 people at roughly $80M ARR, and the Founders Initiatives posting reads like a list of manual ops that are now the constraint: recruiting screening, security questionnaires, onboarding, AR follow-ups.
-
-I've built the first item on that list. At Tamara, I built a pre-ATS recruiting CRM — Greenhouse API plus OpenAI natural-language search over 700K+ historical applicant records — adopted by Talent Acquisition, Talent Brand/Partnerships, and leadership including the COO.
-
-I applied to Founders Initiatives (AI Agents) on Friday. If the application is worth a look, I'd value it landing with whoever owns that search.
-
-Mohammed Bukhari
-h7@berkeley.edu | linkedin.com/in/mo-bukhari
-
----
-
-## Draft 3 — Bing Wu (Co-Founder & CEO)
+## 1 — Bing Wu (Co-Founder & CEO) — SCHEDULED Mon 2026-10-26
 
 **To:** bing@retellai.com ✅ corroborated
-**Subject:** Applied to Founders Initiatives — I already built the recruiting piece
+**Subject:** every job could become software
 
-Bing — I'm a founder (AynX) and I applied to Founders Initiatives on Friday.
-
-The posting leads with recruiting AI. At Tamara I built exactly that: a pre-ATS CRM with Greenhouse API + OpenAI search across 700K+ applicant records, now used by their TA team and COO.
-
-Asking only that the application gets read by whoever owns the hire.
-
-Mohammed Bukhari
-h7@berkeley.edu | linkedin.com/in/mo-bukhari
+> You scaled Retell to $60M ARR on $5M raised and ran Sales yourself until $20M ARR, on the view that most of every job could become software. Founders Initiatives is that view turned into a team — and recruiting is the first system in the posting. I applied Friday. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO. Worth a read from whoever owns the hire?
+>
+> Mohammed Bukhari
+> h7@berkeley.edu | linkedin.com/in/mo-bukhari
 
 ---
 
-## Draft 4 — Evie Wang (Co-Founder & CPO)
+## 2 — Todd Li (Co-Founder & President) — SCHEDULED Mon 2026-10-26
 
-**To:** evie@retellai.com ⚠️ UNVERIFIED (pattern inference)
-**Subject:** The HubSpot half of your FI posting is my day job
+**To:** todd@retellai.com ⚠️ UNVERIFIED
+**Subject:** convert feedback into production impact
 
-Evie — the Founders Initiatives posting splits between recruiting AI and GTM automation. I've shipped the second half: at UC Berkeley SCET I built an AI + HubSpot API workflow that filters 100K+ leads down to 500 priority outreach targets, the kind of pipeline the posting describes for sales and marketing efficiency.
-
-The first half fits too: at Tamara I built a recruiting CRM on Greenhouse + OpenAI that's used by TA and the COO.
-
-I applied to Founders Initiatives (AI Agents) on Friday. If it merits a look, I'd appreciate it reaching whoever runs that search.
-
-Mohammed Bukhari
-h7@berkeley.edu | linkedin.com/in/mo-bukhari
+> Your December post on building the Forward Deployment team ranked experience last and set the test as feedback-to-production impact inside one sprint. That is a bar I would rather be measured against than a resume. I applied to Founders Initiatives on Friday. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO — the first manual system on the posting's list, already built. Worth a look from whoever owns the search?
+>
+> Mohammed Bukhari
+> h7@berkeley.edu | linkedin.com/in/mo-bukhari
 
 ---
 
-## Draft 5 — Steven Wu (Founding Forward Deployed Engineer)
+## 3 — Evie Wang (Co-Founder & CPO) — SCHEDULED Mon 2026-10-26
 
-**To:** steven@retellai.com ⚠️ UNVERIFIED (pattern inference). Fallback: LinkedIn DM — linkedin.com/in/stevenwu2019
-**Subject:** What does the FI role actually need?
+**To:** evie@retellai.com ⚠️ UNVERIFIED
+**Subject:** calls per second past 911
 
-Steven — you founded the forward-deployed function, so you know what Retell's builder roles actually demand day to day.
-
-I applied to Founders Initiatives (AI Agents) on Friday. My background: a recruiting CRM at Tamara (Greenhouse API, OpenAI search over 700K+ records, adopted by TA and the COO), a HubSpot AI triage workflow at Berkeley SCET (100K+ leads → 500 targets), and a voice-AI product with Claude + ElevenLabs that won Anthropic's hackathon.
-
-Straight question: what separates the people who succeed in these seats from the ones who don't? Happy to hear it unfiltered — it'll tell me whether to push harder.
-
-Mohammed Bukhari
-h7@berkeley.edu | linkedin.com/in/mo-bukhari
+> Retell now handles more voice calls per second than the US 911 system, with customers like the Spurs, Motorola, and Lenovo. At that volume, GTM automation stops being a nice-to-have and becomes the constraint — which is the second half of the Founders Initiatives posting. I applied Friday. At SCET I built an AI + HubSpot workflow that cut 100K+ leads to 500 priority targets. Worth a look from whoever runs that search?
+>
+> Mohammed Bukhari
+> h7@berkeley.edu | linkedin.com/in/mo-bukhari
 
 ---
 
-## Draft 6 — Weijia Yu (Co-Founder & COO) — NEW, not yet scheduled
+## 4 — Steven Wu (Founding Forward Deployed Engineer) — SCHEDULED Mon 2026-10-26
 
-**To:** weijia@retellai.com ✅ corroborated (FCC filing)
-**Subject:** Founders Initiatives — internal tooling a COO actually adopted
+**To:** steven@retellai.com ⚠️ UNVERIFIED
+**Subject:** saw the Grab rollout
 
-Weijia — I applied to Founders Initiatives (AI Agents) on Friday, and the ops-infrastructure half of the posting is the part I've already shipped.
-
-At Tamara I built a pre-ATS recruiting CRM — Greenhouse API plus OpenAI natural-language search over 700K+ historical applicant records. It got adopted by Talent Acquisition and by leadership including the COO, which is the part that matters to me: internal tooling only counts if the people running the company keep using it.
-
-At UC Berkeley SCET I did the same kind of systems work on the GTM side: an AI + HubSpot API workflow that filters 100K+ leads down to 500 priority outreach targets.
-
-Compliance automation is in the posting too, and I know that's your remit. I don't have compliance-automation experience to claim — what I do have is a record of building internal systems that the operations side of a company actually runs on.
-
-If the application is worth a look, I'd appreciate it reaching whoever owns the search.
-
-Mohammed Bukhari
-h7@berkeley.edu | linkedin.com/in/mo-bukhari
+> You personally carried the Grab deployment across countries and languages. That is the scale where a builder role either holds up or doesn't — and it's the standard I'd want the FI seat judged by. I applied to Founders Initiatives on Friday. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO. Straight question: what separates the people who succeed in these seats from the ones who don't?
+>
+> Mohammed Bukhari
+> h7@berkeley.edu | linkedin.com/in/mo-bukhari
 
 ---
 
-## Channel notes
+## 5 — Carlo Porcelli (GTM Strategy & Operations) — LinkedIn DM, SCHEDULED Mon 2026-10-26
 
-- **Carlo Porcelli:** LinkedIn DM only (warm connection; no email found).
-- **Steven Wu:** email address unverified; LinkedIn DM is an equal-strength channel.
-- **Todd Li / Evie Wang:** pattern-inferred addresses; LinkedIn invites already pending — email only, do not re-send invites.
-- **Bing Wu / Weijia Yu:** the only corroborated addresses.
+> Hi Carlo — your Q2 recap stuck with me: Retell going from developer tool to voice AI in Fortune and Global 500 call centers, with the Conductor launch in the middle of it. That inflection is where GTM strategy turns launches into enterprise adoption. I applied to Founders Initiatives on Friday; at Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search that TA and the COO use daily. Do you know who owns the Founders Initiatives search on your side? A name is all I need.
+
+---
+
+## 6 — Weijia Yu (Co-Founder & COO) — NEW draft, not yet scheduled
+
+**To:** weijia@retellai.com ✅ corroborated
+**Subject:** internal tooling that gets adopted
+**Note:** no LinkedIn profile found — no hook invented; leads on the posting's
+ops half instead.
+
+> The Founders Initiatives posting splits between recruiting AI and ops infrastructure, and the ops half is where internal tooling either sticks or dies. I applied Friday. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records — adopted by TA and leadership including the COO, which is the only test that matters for internal tools. Compliance automation is in the posting too; I don't have that experience to claim. Worth a look from whoever owns the search?
+>
+> Mohammed Bukhari
+> h7@berkeley.edu | linkedin.com/in/mo-bukhari
+
+---
+
+## 7 — Joshua Chavez (Founding Talent) — NEW draft, not yet scheduled
+
+**To:** joshua@retellai.com ⚠️ UNVERIFIED
+**Subject:** saw the Juicebox fill
+**Note:** send once — this email covers both applications (same text as R001-9).
+
+> You filled a high-priority role with Juicebox in the internal AI hour. That tells me recruiting AI is a working tool there, not a roadmap item — and Founders Initiatives wants more of it built. I applied Friday for Deployment Strategist and Founders Initiatives. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO. One practical note: the postings list F-1 sponsorship, which is what I need. Worth a look from the person running the searches?
+>
+> Mohammed Bukhari
+> h7@berkeley.edu | linkedin.com/in/mo-bukhari
