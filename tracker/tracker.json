@@ -941,10 +941,10 @@
       "fit": 2,
       "apply_by": "2026-10-24",
       "deadline": null,
-      "research_done": false,
+      "research_done": true,
       "networking": "Not started",
       "proof_done": false,
-      "resume_done": false,
+      "resume_done": true,
       "applied_on": null,
       "interview_on": null,
       "contact": null,
@@ -969,11 +969,11 @@
       "prep_plan": "Research: same job description as R003, so pick one of the two to apply to\nNetworking: shared with R003 (someone on the Founders Initiatives team)\nProof: shared with R003 (write-ups of the AynX and SCET automations)\nRésumé: mirror Keywords to mirror; lead with the automations you built\nApply: only if you pick this one over R003\nInterview: system design, tools and automation, a 90-minute coding round and a past-project deep dive",
       "ai_notes": "Same job description as R003, which is aimed at former founders. Qualifications are listed under 'You might thrive if you'.",
       "added_on": "2026-10-11",
-      "updated_on": "2026-10-12",
+      "updated_on": "2026-10-23",
       "source_id": "XLSX-2026-10-15",
-      "packet_path": null,
+      "packet_path": "applications/r002-retell-ai-founders-initiatives-ai-agents",
       "resume_path": null,
-      "letters_path": null,
+      "letters_path": "applications/r002-retell-ai-founders-initiatives-ai-agents/letters",
       "bank_bullet_ids": [],
       "review_notes": [
         "Imported workbook content; not independently verified. Recheck the live opening, requirements, fit assessment, and dates before acting. Candidate claims must come from bank/experience-bank.json, not imported strongest_proof, gaps, or prep_plan.",
@@ -981,7 +981,26 @@
         "Imported SCET Claude Code/audit-pipeline claims are unsupported. Use the bank's AI-assisted filtering and HubSpot/API workflow evidence instead.",
         "Imported Tamara wording emphasizes CRM requirements and may understate the later confirmed implementation. Use current bank details for CRM ownership, Greenhouse integration, stakeholders, and AI-assisted search."
       ],
-      "events": []
+      "events": [
+        {
+          "id": "R002-E001",
+          "type": "tracker_update",
+          "occurred_on": "2026-10-23",
+          "recorded_on": "2026-10-23",
+          "confirmed_by": "tool",
+          "note": "Built the R002 packet (applications/r002-retell-ai-founders-initiatives-ai-agents): full Ashby JD saved and read 2026-10-23 (published 2026-06-11); company-alignment brief and tailored one-page resume from bank role family 'Applied AI / internal tools / GTM engineering' (SUM-04 summary; Tamara CRM engineering TAM-09/10/11/12/13/17/18/19/20/21/25, SCET SCP-03/04/05/06, AynX, Sitters, SkipLab). check_bank.py, tracker checks, and pdfLaTeX build passed (1 page, A4). Status stays Saved: nothing submitted; the SWE-bar and degree gaps are named honestly in tailoring-notes.md, not claimed.",
+          "changes": {
+            "resume_done": {
+              "before": false,
+              "after": true
+            },
+            "research_done": {
+              "before": false,
+              "after": true
+            }
+          }
+        }
+      ]
     },
     {
       "id": "R003",

@@ -7,41 +7,53 @@ Replace this note at the end of a session; Git keeps prior versions.
 ## Last task
 
 - Date: 2026-10-23 (America/Los_Angeles).
-- Request: build a tailored resume for the Retell AI Deployment Strategist
-  application (tracker R001) using the repo workflow.
+- Request: build the application packet and tailored resume for the Retell AI
+  Founders Initiatives, AI Agents application (tracker R002) using the repo
+  workflow, mirroring the R001 packet built earlier the same day.
 - Work: created the packet
-  [applications/r001-retell-ai-deployment-strategist](../applications/r001-retell-ai-deployment-strategist/)
-  with the full Ashby job description, a company-alignment tailoring brief,
-  and a bank-sourced tailored resume (SUM-03 summary; Tamara CRM, SCET,
-  AynX, Sitters, SkipLab evidence). The historical root
-  `retell-deployment-strategist.tex` was the starting draft; its claims were
-  refreshed from the bank (notably SCP-06 added, AynX "Co-founded" corrected
-  to the bank's "Founded", 700K+ scoped as historical applicant records).
-  Writing review (Humanizer + copy edit + evidence comparison) completed.
-- Tracker: R001 `resume_done` and `research_done` set with an evidence note;
+  [applications/r002-retell-ai-founders-initiatives-ai-agents](../applications/r002-retell-ai-founders-initiatives-ai-agents/)
+  with the full Ashby job description (read live 2026-10-23; published
+  2026-06-11), a company-alignment tailoring brief, and a bank-sourced
+  tailored resume (SUM-04 summary; role family "Applied AI / internal tools /
+  GTM engineering"). The resume leads with the Tamara pre-ATS recruiting CRM
+  — Greenhouse Harvest API integration, resumable sync, resume parsing, and
+  OpenAI search (TAM-09–TAM-21, TAM-25) — then SCET HubSpot/AI automation
+  (SCP-03/04/06), AynX, Sitters, and SkipLab. AynX uses the bank's "Founded"
+  wording. The posting's 2+ years professional SWE and CS/CE degree asks are
+  named as honest gaps in the tailoring notes; nothing unclaimed was added,
+  and bank-unconfirmed tools (Salesforce, Zapier, n8n, Make) were excluded
+  from the skills. Writing review (Humanizer + copy edit + evidence
+  comparison) completed.
+- Tracker: R002 `resume_done` and `research_done` set with an evidence note;
   status remains "Saved" — nothing was submitted to Ashby and no outreach
-  was sent.
+  was sent. (R001's Deployment Strategist application was submitted on Ashby
+  on 2026-10-23 and is recorded as Applied, event R001-E002.)
 
 ## Current records
 
 - Application state: [tracker/tracker.json](../tracker/tracker.json).
 - Candidate facts and answered clarifications: [bank](../bank/experience-bank.md).
-- No new application or sent-message events were reported in this task.
+- R002 packet contacts remain the empty scaffold; the researched Retell
+  contacts live in the R001 packet's `contacts.json` (research completed
+  2026-10-23) and have not been adapted to R002 yet.
 - Existing unresolved tracker details remain in each job's review notes.
   Read those before asking for more information or reusing imported proof claims.
 
 ## Checks and publication
 
-- `python3 scripts/check_bank.py` passed; `python3 scripts/tracker.py check`
-  and `python3 scripts/render_tracker.py --check` passed.
-- `bash scripts/build_resume.sh applications/r001-retell-ai-deployment-strategist/resume.tex`
+- `python3 scripts/check_bank.py` passed (13 entries, 72 bullets, 21 numeric
+  facts; Markdown/CSV synchronized); `python3 scripts/tracker.py check` and
+  `python3 scripts/render_tracker.py --check` passed.
+- `bash scripts/build_resume.sh applications/r002-retell-ai-founders-initiatives-ai-agents/resume.tex`
   verified one page, A4, extractable text; extracted text and a rendered
   page image were reviewed (order, contact details, titles, metrics, no
-  clipping/overlap). Reviewed PDF saved as the packet's `resume.pdf`.
-- Remaining: the user submits on Ashby himself; outreach drafts for Carlo
-  Porcelli / Sylvie Liu remain held for his approval (nothing sent).
-- No bank/tracker data, application materials, or runtime code was changed;
-  their rendering, PDF builds, and application tests are outside this task.
+  clipping/overlap, no overfull boxes). Reviewed PDF saved as the packet's
+  `resume.pdf` (local only — the GitHub write channel accepts UTF-8 text) and
+  in the workspace deliverables as
+  `Mohammed_Bukhari_Retell_Founders_Initiatives.pdf`.
+- Remaining: the parent agent submits R002 on Ashby; outreach drafting for
+  this role has not started and nothing may be sent without the user's
+  approval.
 - External platform/competitor references are historical notes and were not
   freshly verified. No prototype or market validation was performed.
 - Publication: the commit containing this handoff is intended for `origin/main`.

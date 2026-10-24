@@ -16,7 +16,7 @@ These are reminders to review, not records of applications or messages being sen
 
 | Date | Timing | Job | Type | Next review |
 | --- | --- | --- | --- | --- |
-| 2026-10-14 | 9 day\(s\) past scheduled date | [R002](<jobs/R002.md>) | Preparation | Research the role \(suggested prep date\) |
+| 2026-10-15 | 8 day\(s\) past scheduled date | [R002](<jobs/R002.md>) | Preparation | Consider relevant outreach; do not delay applying |
 | 2026-10-17 | 6 day\(s\) past scheduled date | [R004](<jobs/R004.md>) | Preparation | Research the role \(suggested prep date\) |
 | 2026-10-17 | 6 day\(s\) past scheduled date | [R006](<jobs/R006.md>) | Preparation | Research the role \(suggested prep date\) |
 | 2026-10-18 | 5 day\(s\) past scheduled date | [R005](<jobs/R005.md>) | Preparation | Research the role \(suggested prep date\) |
@@ -36,7 +36,7 @@ Research, proof, and resume completion come from their own checkboxes. Applying 
 | ID | Company | Role | Application | Priority | Fit | Preparation | Networking | Applied | Apply target / deadline | Materials |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [R001](<jobs/R001.md>) | Retell AI | Deployment Strategist | Applied | — | 4 | 2/3 · ✓ Research · ○ Proof / demo · ✓ Resume | Not started | 2026-10-23 | 2026-10-23 | [Packet](<../applications/r001-retell-ai-deployment-strategist>) · [Letters](<../applications/r001-retell-ai-deployment-strategist/letters>) |
-| [R002](<jobs/R002.md>) | Retell AI | Founders Initiatives, AI Agents | Saved | — | 2 | 0/3 · ○ Research · ○ Proof / demo · ○ Resume | Not started | — | 2026-10-24 | — |
+| [R002](<jobs/R002.md>) | Retell AI | Founders Initiatives, AI Agents | Saved | — | 2 | 2/3 · ✓ Research · ○ Proof / demo · ✓ Resume | Not started | — | 2026-10-24 | [Packet](<../applications/r002-retell-ai-founders-initiatives-ai-agents>) · [Letters](<../applications/r002-retell-ai-founders-initiatives-ai-agents/letters>) |
 | [R003](<jobs/R003.md>) | Retell AI | Founders Initiatives, Technical Ex-Founders | Saved | — | 2 | 0/3 · ○ Research · ○ Proof / demo · ○ Resume | Not started | — | 2026-10-31 | — |
 | [R004](<jobs/R004.md>) | Sierra | APX \(New Grad 2027\) | Saved | — | 3 | 0/3 · ○ Research · ○ Proof / demo · ○ Resume | Not started | — | 2026-10-27 | — |
 | [R005](<jobs/R005.md>) | Sierra | Strategist, Agent Development \(Arabic speaking\) | Saved | — | 4 | 0/3 · ○ Research · ○ Proof / demo · ○ Resume | Not started | — | 2026-10-28 | — |

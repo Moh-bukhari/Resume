@@ -1,0 +1,98 @@
+% Mohammed Bukhari -- one-page resume, standalone Overleaf source.
+% Compile with pdfLaTeX. No external files or paid fonts are required.
+% Target: Retell AI -- Founders Initiatives, AI Agents (tracker R002).
+% Facts: bank/experience-bank.json is authoritative; bullet IDs noted per line.
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.58in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\urlstyle{same}
+\raggedright
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+\setlist[itemize]{leftmargin=13pt,itemsep=1.5pt,topsep=2pt,parsep=0pt,partopsep=0pt}
+
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\par
+  \textit{#3}\hfill #4\par
+}
+\newcommand{\project}[2]{\textbf{#1}\hfill #2\par}
+
+\begin{document}
+\begin{center}
+  {\LARGE\bfseries Mohammed Bukhari}\\[3pt]
+  +1 (415) 314-6640\enspace$|$\enspace
+  \href{mailto:H7@berkeley.edu}{H7@berkeley.edu}\enspace$|$\enspace
+  \href{https://www.linkedin.com/in/mo-bukhari/}{linkedin.com/in/mo-bukhari}\enspace$|$\enspace
+  \href{https://mobuk.me}{mobuk.me}
+\end{center}
+\vspace{-5pt}
+
+\section{Summary}
+% SUM-04 (ai_internal_tools).
+Founder and product manager building AI applications and internal tools. Implemented Tamara's talent CRM with Greenhouse APIs, resumable synchronization, and OpenAI search; other work includes LLM outreach, conversational voice AI, and satellite coordination software.
+
+\section{Experience}
+\entry{Tamara -- Fintech}{Riyadh, Saudi Arabia / Remote}
+{Talent Brand \& Partnerships Intern, then External Consultant}{Jun 2026 -- Present}
+\begin{itemize}
+  % TAM-09 + TAM-25: 700K+ is the historical applicant base; usage is organizational.
+  \item Built the \textbf{Greenhouse-integrated pre-ATS recruiting CRM} around \textbf{700K+ historical applicant records}; the shared talent system is used by Talent Acquisition, Talent Brand/Partnerships, and leadership including the COO, Head of TA, and Strategy teams.
+  % TAM-10: CRM stack, from the bank's owned-project implementation evidence.
+  \item Built the CRM's web application and data workflows in \textbf{Next.js, TypeScript, and Prisma} over SQLite/Turso.
+  % TAM-11 + TAM-12 + TAM-13: Harvest API integration and synchronization design.
+  \item Implemented the \textbf{Greenhouse Harvest API} integration (OAuth, cursor pagination, retry handling) with incremental candidate/application sync using persisted checkpoints, worker leases, and resumable processing, plus signed webhook updates alongside scheduled sync.
+  % TAM-17 + TAM-20: structured intake, local resume parsing, FTS5 full-text search.
+  \item Implemented structured application intake with local PDF/DOCX \textbf{resume parsing} into searchable candidate records, with FTS5 full-text search across profiles, application history, and form answers.
+  % TAM-18 + TAM-19: natural-language search to deterministic filters; not ranking.
+  \item Built an \textbf{OpenAI conversational search assistant} that turns recruiter requests into validated, deterministic filters with live counts and shared saved views.
+  % TAM-21: guarded bulk actions.
+  \item Added previews, confirmation gates, outcome logs, and reversal workflows for bulk Greenhouse actions.
+\end{itemize}
+\entry{UC Berkeley -- Sutardja Center for Entrepreneurship \& Technology}{Berkeley, CA}
+{Product Manager}{Sep 2025 -- Present}
+\begin{itemize}
+  % SCP-06: source lead pool filtered to priority targets; not conversions.
+  \item Built a custom workflow using AI APIs and the HubSpot API to filter \textbf{100K+ leads} from multiple sources into \textbf{500 priority outreach targets}.
+  % SCP-04 + SCP-03: HubSpot/API automation; LLM-powered outbound sequences.
+  \item Automated professional-education lead and email workflows using HubSpot, custom-built systems, and API integrations, including personalized outbound nurturing with LLM-powered email sequences.
+  % SCP-05: shared-project payments across ~12 partnerships; not personal sales.
+  \item Worked across approximately \textbf{12 partnerships} on projects receiving \textbf{\$100K+ in payments}.
+\end{itemize}
+\entry{AynX -- Satellite Collision Avoidance \;\href{https://aynx.space}{(aynx.space)}}{Berkeley, CA}
+{Founder}{Oct 2025 -- Present}
+\begin{itemize}
+  % AYN-01 + AYN-02 + AYN-03: founded; privacy-preserving sharing; decision engine.
+  \item Founded a platform enabling low-Earth-orbit operators to coordinate collision-avoidance maneuvers without disclosing satellite ownership; built rotating cryptographic identities for pseudonymous, verifiable conjunction-data sharing, plus an \textbf{ML-backed engine} deciding which operator maneuvers and when.
+  % AYN-04.
+  \item Finalist in the Saudi Space Agency's global \textbf{DebriSolver} competition.
+\end{itemize}
+\section{Projects \& Awards}
+\project{Sitters -- 1st Place, Anthropic Hackathon}{Sep 2026}
+\begin{itemize}
+  % SIT-01 + SIT-02: personally built; conversational design with guardrails.
+  \item Personally built a \textbf{Next.js, Claude, and ElevenLabs} voice AI app letting museum visitors hold spoken conversations with a painting's sitter, painter, or both; designed conversational personas separating sourced answers from clearly labeled speculation, with a curator layer for context.
+\end{itemize}
+\project{SkipLab -- 1st Place, AFI Global Idea Challenge (\$7,000)}{Jan 2025 -- Present}
+\begin{itemize}
+  % SKI-01 + SKI-02: co-developed; designed ML workflow; no clinical validation claimed.
+  \item Co-developed an AI platform to pre-screen cosmetic formulation safety; built the demo front end and designed an ML workflow using peer-reviewed skin-sensitization and toxicology datasets.
+\end{itemize}
+\section{Education}
+\textbf{University of California, Berkeley}\hfill Expected May 2027\par
+B.S. Aerospace Engineering\enspace$|$\enspace GPA: 3.5/4.0\par
+
+\section{Skills}
+\textbf{Technical:} TypeScript, Next.js, React, Python, SQL, Prisma, SQLite/Turso, OpenAI, Claude, ElevenLabs, Greenhouse Harvest API \& HubSpot API, webhooks, FTS5\par
+\textbf{Business \& Analytics:} stakeholder discovery, workflow design, partnerships, attribution, automation, Advanced Excel\par
+\textbf{Languages:} Arabic (native), English (fluent)
+\end{document}
