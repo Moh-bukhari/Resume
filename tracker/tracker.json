@@ -850,7 +850,7 @@
       "id": "R001",
       "company": "Retell AI",
       "role": "Deployment Strategist",
-      "status": "Saved",
+      "status": "Applied",
       "priority": null,
       "fit": 4,
       "apply_by": "2026-10-23",
@@ -859,7 +859,7 @@
       "networking": "Not started",
       "proof_done": false,
       "resume_done": true,
-      "applied_on": null,
+      "applied_on": "2026-10-23",
       "interview_on": null,
       "contact": null,
       "last_contact": null,
@@ -908,6 +908,25 @@
             "research_done": {
               "before": false,
               "after": true
+            }
+          }
+        },
+        {
+          "id": "R001-E002",
+          "type": "application",
+          "occurred_on": "2026-10-23",
+          "recorded_on": "2026-10-23",
+          "confirmed_by": "user",
+          "note": "User confirmed he submitted the application on Ashby on 2026-10-23 (~9:43 PM PDT) using the tailored resume built in this packet.",
+          "history_only": false,
+          "changes": {
+            "status": {
+              "before": "Saved",
+              "after": "Applied"
+            },
+            "applied_on": {
+              "before": null,
+              "after": "2026-10-23"
             }
           }
         }

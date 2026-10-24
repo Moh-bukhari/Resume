@@ -15,9 +15,10 @@
 - Reviewed PDF: `./resume.pdf` (built and verified locally; binary not pushed —
   the GitHub write channel used accepts UTF-8 text only; the PDF lives with the
   local packet and in the workspace copy)
-- Document status: **draft**
-- Submission status: **no submission recorded**
-- Submission evidence/date: not supplied — nothing submitted to Ashby; no outreach sent.
+- Document status: **final (submitted version)**
+- Submission status: **submitted 2026-10-23**
+- Submission evidence/date: user-confirmed submission on Ashby, Fri 2026-10-23
+  (~9:43 PM PDT), with this packet's tailored resume. No outreach sent.
 
 ## Company mission and goals
 
@@ -107,9 +108,9 @@ strategy / solutions" role map.
 
 ## Submission record
 
-No submission made. Preparing these files does not authorize or establish an
-application or outreach. Tracker R001 remains "Saved" with resume preparation
-updated only.
+Submitted on Ashby on Fri 2026-10-23 (~9:43 PM PDT), user-confirmed, using
+this packet's tailored resume. Tracker R001 is now "Applied" with
+applied_on 2026-10-23 (event R001-E002). No outreach has been sent.
 
 ## Contacts and letters
 
@@ -117,4 +118,6 @@ updated only.
   sessions outside this packet (held for the user's approval; nothing sent).
   The scaffold's letter templates under `letters/` remain unused drafts in
   this packet.
-- Actual sent/reply/application/interview events: none.
+- Actual sent/reply/application/interview events: application submitted
+  2026-10-23 (see Submission record); no outreach sent, no replies or
+  interviews recorded.
