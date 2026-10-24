@@ -1,6 +1,6 @@
 # Job search tracker
 
-**Snapshot as of 2026-10-15 · America/Los\_Angeles.** Source last updated 2026-10-15.
+**Snapshot as of 2026-10-23 · America/Los\_Angeles.** Source last updated 2026-10-23.
 
 This is a static GitHub view. Dates and due items change only when the tracker is rendered again; opening this page does not refresh them.
 
@@ -16,13 +16,20 @@ These are reminders to review, not records of applications or messages being sen
 
 | Date | Timing | Job | Type | Next review |
 | --- | --- | --- | --- | --- |
-| 2026-10-13 | 2 day\(s\) past scheduled date | [R001](<jobs/R001.md>) | Preparation | Research the role \(suggested prep date\) |
-| 2026-10-14 | 1 day\(s\) past scheduled date | [R002](<jobs/R002.md>) | Preparation | Research the role \(suggested prep date\) |
-| 2026-10-17 | In 2 day\(s\) | [R004](<jobs/R004.md>) | Preparation | Research the role \(suggested prep date\) |
-| 2026-10-17 | In 2 day\(s\) | [R006](<jobs/R006.md>) | Preparation | Research the role \(suggested prep date\) |
-| 2026-10-18 | In 3 day\(s\) | [R005](<jobs/R005.md>) | Preparation | Research the role \(suggested prep date\) |
-| 2026-10-21 | In 6 day\(s\) | [R003](<jobs/R003.md>) | Preparation | Research the role \(suggested prep date\) |
-| 2026-10-22 | In 7 day\(s\) | [R009](<jobs/R009.md>) | Preparation | Research the role \(suggested prep date\) |
+| 2026-10-14 | 9 day\(s\) past scheduled date | [R001](<jobs/R001.md>) | Preparation | Consider relevant outreach; do not delay applying |
+| 2026-10-14 | 9 day\(s\) past scheduled date | [R002](<jobs/R002.md>) | Preparation | Research the role \(suggested prep date\) |
+| 2026-10-17 | 6 day\(s\) past scheduled date | [R004](<jobs/R004.md>) | Preparation | Research the role \(suggested prep date\) |
+| 2026-10-17 | 6 day\(s\) past scheduled date | [R006](<jobs/R006.md>) | Preparation | Research the role \(suggested prep date\) |
+| 2026-10-18 | 5 day\(s\) past scheduled date | [R005](<jobs/R005.md>) | Preparation | Research the role \(suggested prep date\) |
+| 2026-10-20 | 3 day\(s\) past scheduled date | [R010](<jobs/R010.md>) | Follow-up | Review the actual thread before considering an outreach follow-up |
+| 2026-10-21 | 2 day\(s\) past scheduled date | [R003](<jobs/R003.md>) | Preparation | Research the role \(suggested prep date\) |
+| 2026-10-22 | 1 day\(s\) past scheduled date | [R009](<jobs/R009.md>) | Preparation | Research the role \(suggested prep date\) |
+| 2026-10-23 | Today in this snapshot | [R001](<jobs/R001.md>) | Application | Apply by target |
+| 2026-10-24 | In 1 day\(s\) | [R002](<jobs/R002.md>) | Application | Apply by target |
+| 2026-10-27 | In 4 day\(s\) | [R004](<jobs/R004.md>) | Application | Apply by target |
+| 2026-10-27 | In 4 day\(s\) | [R006](<jobs/R006.md>) | Application | Apply by target |
+| 2026-10-28 | In 5 day\(s\) | [R005](<jobs/R005.md>) | Application | Apply by target |
+| 2026-10-28 | In 5 day\(s\) | [R010](<jobs/R010.md>) | Follow-up | Consider application follow-up if appropriate; check for replies first |
 
 ## Applications
 
@@ -30,7 +37,7 @@ Research, proof, and resume completion come from their own checkboxes. Applying 
 
 | ID | Company | Role | Application | Priority | Fit | Preparation | Networking | Applied | Apply target / deadline | Materials |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [R001](<jobs/R001.md>) | Retell AI | Deployment Strategist | Saved | — | 4 | 0/3 · ○ Research · ○ Proof / demo · ○ Resume | Not started | — | 2026-10-23 | — |
+| [R001](<jobs/R001.md>) | Retell AI | Deployment Strategist | Saved | — | 4 | 2/3 · ✓ Research · ○ Proof / demo · ✓ Resume | Not started | — | 2026-10-23 | [Packet](<../applications/r001-retell-ai-deployment-strategist>) · [Letters](<../applications/r001-retell-ai-deployment-strategist/letters>) |
 | [R002](<jobs/R002.md>) | Retell AI | Founders Initiatives, AI Agents | Saved | — | 2 | 0/3 · ○ Research · ○ Proof / demo · ○ Resume | Not started | — | 2026-10-24 | — |
 | [R003](<jobs/R003.md>) | Retell AI | Founders Initiatives, Technical Ex-Founders | Saved | — | 2 | 0/3 · ○ Research · ○ Proof / demo · ○ Resume | Not started | — | 2026-10-31 | — |
 | [R004](<jobs/R004.md>) | Sierra | APX \(New Grad 2027\) | Saved | — | 3 | 0/3 · ○ Research · ○ Proof / demo · ○ Resume | Not started | — | 2026-10-27 | — |
@@ -52,8 +59,6 @@ Research, proof, and resume completion come from their own checkboxes. Applying 
 - [R007](<jobs/R007.md>): Imported fit/proof analysis needs review against the factual bank.
 - [R008](<jobs/R008.md>): Imported fit/proof analysis needs review against the factual bank.
 - [R009](<jobs/R009.md>): Imported fit/proof analysis needs review against the factual bank.
-- [R010](<jobs/R010.md>): Networking recorded, but contact is unknown.
-- [R010](<jobs/R010.md>): Networking recorded, but last-contact date is unknown; follow-up cannot be dated.
 - [R010](<jobs/R010.md>): Imported fit/proof analysis needs review against the factual bank.
 
 ## Scheduling policy

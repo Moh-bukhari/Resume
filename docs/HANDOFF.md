@@ -6,38 +6,40 @@ Replace this note at the end of a session; Git keeps prior versions.
 
 ## Last task
 
-- Date: 2026-10-22 (America/Los_Angeles).
-- Request: flesh out all versions of the wearable/startup idea, the latest
-  concept, its uses and space applications, and publish an external-projects
-  file in GitHub.
-- Work: created [EXTERNAL-PROJECTS.md](../EXTERNAL-PROJECTS.md), project `EXT-001`.
-  It preserves nine concept versions, the three functions, the latest shared
-  profiles/tasks/updates system, a proposed information model, markets and
-  space applications, pilot design, laundry hardware notes, prior references,
-  a concept-stage pitch, and open decisions.
-- Added navigation and the concept/evidence boundary to the main entry files,
-  system guide, documentation index, and workflow 9. The concept file is an
-  editable Markdown master; it is not a generated experience-bank view.
+- Date: 2026-10-23 (America/Los_Angeles).
+- Request: build a tailored resume for the Retell AI Deployment Strategist
+  application (tracker R001) using the repo workflow.
+- Work: created the packet
+  [applications/r001-retell-ai-deployment-strategist](../applications/r001-retell-ai-deployment-strategist/)
+  with the full Ashby job description, a company-alignment tailoring brief,
+  and a bank-sourced tailored resume (SUM-03 summary; Tamara CRM, SCET,
+  AynX, Sitters, SkipLab evidence). The historical root
+  `retell-deployment-strategist.tex` was the starting draft; its claims were
+  refreshed from the bank (notably SCP-06 added, AynX "Co-founded" corrected
+  to the bank's "Founded", 700K+ scoped as historical applicant records).
+  Writing review (Humanizer + copy edit + evidence comparison) completed.
+- Tracker: R001 `resume_done` and `research_done` set with an evidence note;
+  status remains "Saved" — nothing was submitted to Ashby and no outreach
+  was sent.
 
 ## Current records
 
 - Application state: [tracker/tracker.json](../tracker/tracker.json).
 - Candidate facts and answered clarifications: [bank](../bank/experience-bank.md).
 - No new application or sent-message events were reported in this task.
-- The checkout was fast-forwarded to the latest fetched `main` at `aaa0743`
-  before editing. Existing founder-title corrections and Mercor activity were
-  preserved. This task changes documentation only.
 - Existing unresolved tracker details remain in each job's review notes.
   Read those before asking for more information or reusing imported proof claims.
 
 ## Checks and publication
 
-- Documentation: 222 relative links/anchors across eight edited Markdown files
-  passed; the nine version headings, code-fence balance, and table column
-  counts were checked. Whitespace checks passed.
-- Two independent content reviews passed. They checked completeness, latest
-  user choices versus proposals, technical scope, space applications, and
-  navigation; the Markdown/JSON ownership wording was clarified.
+- `python3 scripts/check_bank.py` passed; `python3 scripts/tracker.py check`
+  and `python3 scripts/render_tracker.py --check` passed.
+- `bash scripts/build_resume.sh applications/r001-retell-ai-deployment-strategist/resume.tex`
+  verified one page, A4, extractable text; extracted text and a rendered
+  page image were reviewed (order, contact details, titles, metrics, no
+  clipping/overlap). Reviewed PDF saved as the packet's `resume.pdf`.
+- Remaining: the user submits on Ashby himself; outreach drafts for Carlo
+  Porcelli / Sylvie Liu remain held for his approval (nothing sent).
 - No bank/tracker data, application materials, or runtime code was changed;
   their rendering, PDF builds, and application tests are outside this task.
 - External platform/competitor references are historical notes and were not

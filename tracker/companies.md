@@ -2,7 +2,7 @@
 
 [Back to tracker](README.md)
 
-Snapshot as of **2026-10-15**. Imported company information may be outdated; verify current roles and dates before applying.
+Snapshot as of **2026-10-23**. Imported company information may be outdated; verify current roles and dates before applying.
 
 | ID | Company | Priority | Industry | Careers |
 | --- | --- | --- | --- | --- |
