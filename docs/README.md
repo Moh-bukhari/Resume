@@ -9,7 +9,9 @@ application workflow; open the relevant branch of the guide for the current task
 | Architecture | [SYSTEM.md](SYSTEM.md) | File ownership, capabilities, update/publish cycle, recovery |
 | Actions | [WORKFLOWS.md](WORKFLOWS.md) | End-to-end procedures and completion criteria |
 | Continuation | [HANDOFF.md](HANDOFF.md) | Current unfinished work and actual validation results |
-| External projects | [EXTERNAL-PROJECTS.md](../EXTERNAL-PROJECTS.md) | Startup idea evolution, latest product concept, use cases, space applications, and open decisions |
+| External projects | [EXTERNAL-PROJECTS.md](../EXTERNAL-PROJECTS.md#latest-concept) | Final selected V10, YC alignment, historical versions, space applications, and open decisions |
+| Implementation learning | [Learning tree](../external-projects/EXT-001/LEARNING-TREE.md) | Hardware, device connections, software/data layers, integrations, agents, and staged build sequence |
+| Customer discovery | [Interview guide](../external-projects/EXT-001/CUSTOMER-DISCOVERY.md) | Incident-based worker, manager, and professor interviews; evidence capture and comparing bottlenecks |
 | Tracking | [TRACKER.md](TRACKER.md) | Tracking concepts and data ownership |
 | Tracking | [HOW-TO-UPDATE.md](../tracker/HOW-TO-UPDATE.md) | Common commands and user prompts |
 | Tracking | [TRACKER-REFERENCE.md](TRACKER-REFERENCE.md) | Field types, event effects, date rules, direct-edit contracts |

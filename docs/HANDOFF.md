@@ -6,72 +6,61 @@ Replace this note at the end of a session; Git keeps prior versions.
 
 ## Last task
 
-- Date: 2026-10-23 (America/Los_Angeles).
-- Request: build the application packet and tailored resume for the Retell AI
-  Founders Initiatives, AI Agents application (tracker R002) using the repo
-  workflow, mirroring the R001 packet built earlier the same day.
-- Work: created the packet
-  [applications/r002-retell-ai-founders-initiatives-ai-agents](../applications/r002-retell-ai-founders-initiatives-ai-agents/)
-  with the full Ashby job description (read live 2026-10-23; published
-  2026-06-11), a company-alignment tailoring brief, and a bank-sourced
-  tailored resume (SUM-04 summary; role family "Applied AI / internal tools /
-  GTM engineering"). The resume leads with the Tamara pre-ATS recruiting CRM
-  — Greenhouse Harvest API integration, resumable sync, resume parsing, and
-  OpenAI search (TAM-09–TAM-21, TAM-25) — then SCET HubSpot/AI automation
-  (SCP-03/04/06), AynX, Sitters, and SkipLab. AynX uses the bank's "Founded"
-  wording. The posting's 2+ years professional SWE and CS/CE degree asks are
-  named as honest gaps in the tailoring notes; nothing unclaimed was added,
-  and bank-unconfirmed tools (Salesforce, Zapier, n8n, Make) were excluded
-  from the skills. Writing review (Humanizer + copy edit + evidence
-  comparison) completed.
-- Tracker: R002 `resume_done` and `research_done` set with an evidence note
-  when the packet was built. The application was then submitted on Ashby on
-  2026-10-23 (~10:17 PM PDT) with the packet's tailored resume; work
-  authorization was answered truthfully (F-1 student, will require
-  sponsorship). Recorded as Applied, event R002-E002. No outreach has been
-  sent. (R001's Deployment Strategist application was submitted on Ashby
-  on 2026-10-23 and is recorded as Applied, event R001-E002.)
+- Date: 2026-10-24 (America/Los_Angeles).
+- Request: update the external-projects file and distinguish the latest idea
+  as the final selected direction aligned with the supplied YC request.
+- Work: marked [EXT-001 / V10](../EXTERNAL-PROJECTS.md#latest-concept) as the
+  selected connected-workforce operating system for physical projects. Added
+  the YC alignment, bounded agent roles, construction discovery focus, and
+  additional uses. V1–V9 remain historical precursors.
+- Added a detailed [learning tree](../external-projects/EXT-001/LEARNING-TREE.md)
+  and [interview guide](../external-projects/EXT-001/CUSTOMER-DISCOVERY.md).
+  Entry files now route to the selected direction and both guides.
+- Selection is confirmed; first buyer, workflow, stack, and market demand are
+  still open. Interviews are planned. No product implementation is established.
 
 ## Current records
 
 - Application state: [tracker/tracker.json](../tracker/tracker.json).
 - Candidate facts and answered clarifications: [bank](../bank/experience-bank.md).
-- R002 packet contacts remain the empty scaffold; the researched Retell
-  contacts live in the R001 packet's `contacts.json` (research completed
-  2026-10-23) and have not been adapted to R002 yet.
+- The checkout was fast-forwarded to remote `main` at `4415830` before this
+  task. Newer Retell packets, outreach planning, skills, and recorded events
+  were preserved; this task changes project documentation only.
+- No new application, message, interview-completion, or customer event was
+  recorded by this task. The earlier handoff's “no outreach sent” and empty
+  R002-contact statements had been superseded by newer canonical records.
 - Existing unresolved tracker details remain in each job's review notes.
   Read those before asking for more information or reusing imported proof claims.
 
 ## Checks and publication
 
-- `python3 scripts/check_bank.py` passed (13 entries, 72 bullets, 21 numeric
-  facts; Markdown/CSV synchronized); `python3 scripts/tracker.py check` and
-  `python3 scripts/render_tracker.py --check` passed.
-- `bash scripts/build_resume.sh applications/r002-retell-ai-founders-initiatives-ai-agents/resume.tex`
-  verified one page, A4, extractable text; extracted text and a rendered
-  page image were reviewed (order, contact details, titles, metrics, no
-  clipping/overlap, no overfull boxes). Reviewed PDF saved as the packet's
-  `resume.pdf` (local only — the GitHub write channel accepts UTF-8 text) and
-  in the workspace deliverables as
-  `Mohammed_Bukhari_Retell_Founders_Initiatives.pdf`.
-- Remaining: the R002 application is submitted (see above). Outreach drafts
-  for this role are in the packet's `letters/outreach-drafts.md`, scheduled
-  to send Mon 2026-10-26 after a humanizing pass at send time; nothing has
-  been sent yet, and no outreach may be recorded as sent before it goes out.
-- External platform/competitor references are historical notes and were not
-  freshly verified. No prototype or market validation was performed.
+- Two independent content reviews passed: selected-vs-historical status,
+  YC attribution, market uncertainty, technical scope, and discovery evidence.
+- Validation passed for 215 relative links/anchors across nine edited
+  Markdown files, code-fence balance, table columns, and V1–V9 preservation
+  with V10 selected. Whitespace checks passed.
+- No bank/tracker data, application materials, or runtime code changed, so
+  bank/tracker rendering, application tests, and PDF builds were not needed.
+- YC mapping uses the user-pasted passage. Prior platform and Mom Test
+  references were not freshly verified; the full book was not retrieved.
+  No prototype, interviews, or market validation were performed in this task.
 - Publication: the commit containing this handoff is intended for `origin/main`.
   On continuation, compare the commit with the actual remote; the file itself
   does not establish publication. No runtime configuration is required.
 
 ## Continue here
 
-- For this idea, start at [the latest concept](../EXTERNAL-PROJECTS.md#latest-concept)
-  and its [open questions](../EXTERNAL-PROJECTS.md#decisions-and-open-questions).
-  First buyer, build scope, platform, and commercial model are unresolved.
+- For this idea, start at [the final selected V10](../EXTERNAL-PROJECTS.md#latest-concept),
+  then the learning and discovery guides. Do not treat earlier standalone
+  tutor, data-supply, or custom-hardware variants as equally selected options.
 - Documentation is the requested deliverable. The user has not requested
   prototype implementation, partner outreach, or recording a workplace in
   this task. The earlier laundry request was explicitly explanation-only.
+- Retell R001/R002 outreach work remains separate. On resuming it, read the
+  [current master plan](../applications/r001-retell-ai-deployment-strategist/letters/retell-outreach-final.md),
+  the R002 packet's pointers, and current tracker event history. Some connection
+  requests are already recorded; do not resend or mark queued drafts as sent.
+  The plan is a static record, not a running scheduler or fresh authorization.
 - For job-search work, use the existing application workflows and canonical
   records. Do not promote this proposed startup into a resume accomplishment.
 

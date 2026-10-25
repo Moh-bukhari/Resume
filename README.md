@@ -29,11 +29,18 @@ website is required. The Excel workbook is preserved as a source snapshot.
 
 ## External projects
 
-[EXTERNAL-PROJECTS.md](EXTERNAL-PROJECTS.md) preserves the wearable tutor and
-shared AI teammate idea: its evolution, the latest profiles/tasks/updates
-concept, proposed product behavior, customers, space applications, prototype
-options, and unanswered questions. It is a concept record; the experience
-bank remains the source for supported resume claims.
+[EXTERNAL-PROJECTS.md](EXTERNAL-PROJECTS.md#latest-concept) identifies **V10 as
+the final selected idea: a connected-workforce operating system for physical
+projects**, aligned with the YC request supplied by Mohammed. It connects
+workers and AI agents through confirmed work context, with wearable interfaces,
+guidance, and future robot integration. Earlier versions remain as history;
+the first market is still being investigated.
+
+Use the [technical learning tree](external-projects/EXT-001/LEARNING-TREE.md)
+for hardware, integrations, and data/software layers, and the
+[customer-discovery guide](external-projects/EXT-001/CUSTOMER-DISCOVERY.md)
+for planned construction and megaproject interviews. The experience bank
+remains the source for supported resume claims.
 
 ## Published specialist skills
 
@@ -95,7 +102,8 @@ The default is one A4 page, readable 10pt text, pdfLaTeX, and Tamara first.
 | --- | --- |
 | [START-HERE.md](START-HERE.md) | Universal entry point and copyable instruction for a new AI |
 | [AGENTS.md](AGENTS.md) | Main instructions and navigation for any AI assistant |
-| [EXTERNAL-PROJECTS.md](EXTERNAL-PROJECTS.md) | Editable startup concept record: wearable tutor, shared AI teammate, alternative versions, and space applications |
+| [EXTERNAL-PROJECTS.md](EXTERNAL-PROJECTS.md) | Selected V10 physical-work operating system, YC alignment, historical versions, and space applications |
+| [external-projects/EXT-001/](external-projects/EXT-001/) | Supporting technical learning tree and customer-discovery guide |
 | [docs/README.md](docs/README.md) | Organized handbook index, including workflows and handoff |
 | [tracker/README.md](tracker/README.md) | GitHub-hosted application dashboard and reminders |
 | [tracker/tracker.json](tracker/tracker.json) | Editable operational master; permanent job IDs, status, preparation, events, and links |

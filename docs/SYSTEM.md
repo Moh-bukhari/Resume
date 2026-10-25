@@ -32,6 +32,9 @@ External-project concepts are an exception to the JSON record pattern:
 `EXTERNAL-PROJECTS.md` is their editable master and readable view. Idea-only
 work does not require bank/tracker mutations or regeneration. Record actual
 project accomplishments in the bank only when supported evidence is supplied.
+Supporting interview and implementation-learning guides are editable Markdown
+under `external-projects/EXT-001/`; the master owns the selected V10 direction
+and decision status so the guides do not become competing concept records.
 
 The tracker owns hiring lifecycle. `contacts.json` owns detailed identity and
 thread evidence; its narrower application stage is derived from confirmed

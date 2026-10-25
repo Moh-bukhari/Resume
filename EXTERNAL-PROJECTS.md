@@ -2,13 +2,24 @@
 
 **Owner:** Mohammed Bukhari
 
-**Updated:** October 22, 2026 (America/Los_Angeles)
+**Updated:** October 24, 2026 (America/Los_Angeles)
 
 **Source:** Mohammed's discussion with the assistant; this document preserves
-the ideas, corrections, and recommendations from that discussion.
+the ideas, corrections, and recommendations from that discussion, including
+the YC request for startups supplied by the user.
+
+> **FINAL SELECTED IDEA — EXT-001 / V10:** A connected-workforce operating
+> system for physical projects. It connects workers, AI agents, task state,
+> equipment, and procedures; captures confirmed work updates; coordinates
+> dependencies and handoffs; and provides contextual guidance. Supported
+> wearable interfaces and eventual robot integrations extend the system.
+> Mohammed selected this direction on October 24, 2026. V1–V9 are the
+> historical ideas that led here, not competing final choices.
 
 This is the editable home for external project concepts. These are exploratory
-plans, not additions to the [experience bank](bank/experience-bank.md). No
+plans, not additions to the [experience bank](bank/experience-bank.md).
+“Final” identifies the selected direction; first customer, workflow, and
+implementation details remain subject to discovery. No
 working product, customer, paid pilot, revenue, funding, measured performance,
 or flight qualification is established for the concept below.
 
@@ -16,14 +27,16 @@ or flight qualification is established for the concept below.
 
 | ID | Project | Current stage | Latest direction |
 | --- | --- | --- | --- |
-| EXT-001 | Wearable tutor and shared AI teammate | Concept and customer-discovery planning | People maintain profiles, responsibilities, and tasks; regular work updates feed a shared record that delivers relevant information to the right people. |
+| EXT-001 | Connected-workforce operating system | V10 selected; concept and customer-discovery planning | Shared work infrastructure for people and AI agents, with wearable inputs, confirmed task context, relevant coordination, guidance, and future robot interfaces. |
 
 The versions below belong to one evolving idea family. They are not separate
 companies or completed projects. Add future unrelated ideas as separate entries.
 
 ## Navigation
 
-- [Latest concept](#latest-concept)
+- [Final selected idea: V10](#latest-concept)
+- [Alignment with the YC request](#alignment-with-the-yc-request)
+- [Customer discovery and implementation guides](#customer-discovery-and-implementation-guides)
 - [Founder motivation](#founder-motivation)
 - [Evolution and alternative versions](#evolution-and-alternative-versions)
 - [The three functions](#the-three-functions)
@@ -42,13 +55,29 @@ companies or completed projects. Add future unrelated ideas as separate entries.
 
 ## Latest concept
 
-**A shared AI teammate that knows who is responsible for what, keeps track of
-confirmed changes, and informs the people whose work is affected.**
+### V10 is the final selected direction
 
-Mohammed's latest clarification was that everyone could sign in with their
-profile, responsibilities, and tasks; update their work regularly; and receive
-the information they need or want when it matters. This shared record expands
-the original personal wearable tutor into a tool for a whole team.
+**An operating system for physical work: a shared AI teammate that connects
+people and agents to the tasks, equipment, procedures, and decisions needed
+to complete work together.**
+
+Mohammed wants connected infrastructure behind workers on large projects
+that depend on frequent communication. It should help people understand the
+work, maintain useful shared context, identify specific mistakes or missing
+prerequisites, improve performance, and prevent avoidable problems. These are
+intended outcomes that require task-specific validation.
+
+People have profiles, responsibilities, expertise, and tasks. Regular voice,
+text, or system-generated updates maintain a shared record. The system
+clarifies uncertain information, confirms material changes, and delivers
+relevant information to the people whose work depends on it. Supported
+wearable cameras or instrument outputs can add context when useful.
+
+The chosen direction extends beyond reporting into bounded coordination:
+identify missing prerequisites, retrieve applicable procedures, prepare a
+handoff, route an issue, and preserve the result. People retain required
+technical decisions and approvals. Robot interfaces are a future extension
+when a real customer workflow calls for them.
 
 The proposed experience combines:
 
@@ -63,20 +92,83 @@ Glasses could be a useful interface for people working with their hands.
 Phones, tablets, and computers could access the same system. A supervisor does
 not need to wear glasses to receive a useful overview or respond to a question.
 
-The latest assistant recommendation is to start with confirmed updates and
-handoffs, add relevant coordination, and deepen technical tutoring as the
-system earns trust. Mohammed has not yet selected a first customer, finalized
-this sequence, or committed to a particular hardware or software platform.
+The recommended first implementation is a complete, narrow update-and-handoff
+loop, with bounded agent assistance. Broader visual monitoring, personalized
+tutoring, site-wide deployment, and robotics can follow evidence of value.
+The exact sequence, first buyer, and technology stack remain unconfirmed.
+
+Construction workers, construction managers, and Professor Mark Shami are
+Mohammed's planned discovery interviewees. He describes the professor as
+having megaproject experience; no additional credentials are inferred here.
+Interviews are planned, not completed. Construction is a discovery focus,
+not yet a validated market selection. The space application remains a
+long-term user requirement.
 
 ### What is established versus proposed
 
 | Category | Status |
 | --- | --- |
 | User's interests | Human augmentation, smart glasses, multidisciplinary work, combining existing technologies, and an eventual space application. |
-| Latest user-defined concept | Shared profiles, responsibilities, tasks, regular updates, and relevant information delivery. |
-| Earlier ideas to preserve | Expert demonstrations for robotics, a central wearable hub, a real-world tutor, online tutorial synthesis, and persistent personal guidance. |
+| Selected direction | V10: connected-workforce infrastructure for physical projects, aligned with the user-supplied YC thesis; human/agent coordination, wearable interaction, contextual guidance, and future robot interfaces. |
+| Shared work model | Profiles, responsibilities, tasks, regular updates, dependencies, and relevant information delivery. |
+| Discovery plan | Interview workers, managers, and the user's professor about recent incidents, consequences, existing responses, and purchasing authority. No completed interviews established. |
+| Earlier ideas to preserve | V1–V9 are historical precursors and possible components; they are not equally selected alternatives. |
 | Assistant recommendations | Function ordering, initial markets, architecture, pilot design, and commercial models in this document. |
 | Unknown | Product name, founding team, first buyer, budget, pricing, selected integrations, production hardware access, implementation progress, and validated demand. |
+
+## Alignment with the YC request
+
+**Reference:** Charlie Warren, “New Operating Systems for the Physical World,”
+in [Y Combinator's requests for startups](https://www.ycombinator.com/rfs);
+[video supplied by the user](https://www.youtube.com/watch?v=V_gDce8hBrg).
+The basis for this mapping is the passage Mohammed pasted into the discussion.
+It is not a fresh verification of the page or an indication of YC endorsement.
+
+| Theme in the supplied YC request | How the selected idea addresses it | What must still be proved |
+| --- | --- | --- |
+| Software for work away from desks | Voice, wearable, phone, and computer interfaces share task and equipment context. | The interface reduces effort in the actual work environment. |
+| Humans and AI agents working together | Agents prepare records, retrieve procedures, identify missing information, and route issues within defined authority. | Correct actions, useful time savings, and clear human oversight. |
+| Routing work across different participants | Model task ownership, prerequisites, capabilities, and approval authority; assign or propose the next action accordingly. | Reliable routing in one real workflow; later robot interfaces need separate implementation. |
+| Operational safety and reliability | Distinguish observations, proposals, confirmed facts, and approvals; evaluate specific errors and missed prerequisites. | Task-level evidence; no claim that camera observation certifies work or eliminates mistakes. |
+| Valuable records of how work happens | Connect the task and equipment to the procedure revision, action, evidence, correction, and outcome. | Permission to use the data, adequate quality, and demonstrated product improvement. |
+| Value beyond visibility alone | Follow a bounded workflow through preparation, blockers, handoff, and recorded outcome. | A buyer who values the operational improvement enough to pay. |
+
+The passage's workforce and labor-spending figures are not independently
+verified market-sizing evidence for this company. A connection to the thesis
+does not establish an application, acceptance, funding, or a customer.
+
+### Product edges to sharpen through discovery
+
+1. Choose one recurring workflow and an identifiable owner, such as a site
+   handoff or test preparation. Keep these examples open until interviews
+   reveal a consequential problem.
+2. Measure the consequence: waiting, rework, idle equipment, delayed approval,
+   or lost context. General enthusiasm about communication is weak evidence.
+3. Reduce the burden of updates through existing system events, short voice
+   inputs, and exception reports. A database requiring constant manual upkeep
+   may fail in real use.
+4. Give agents bounded responsibilities and explicit permission checks.
+   Preserve technical review and approved operating procedures.
+5. Start mistake prevention with testable issues: an outdated procedure,
+   incomplete prerequisite, conflicting reservation, or missed handoff.
+6. Build useful work records with evidence and outcomes. Video volume alone
+   does not establish a defensible data advantage.
+
+## Customer discovery and implementation guides
+
+These are supporting guides for the selected V10 direction. This file remains
+the master for the idea and its decisions; the guides hold detailed working material.
+
+| Guide | Use it for |
+| --- | --- |
+| [Customer discovery](external-projects/EXT-001/CUSTOMER-DISCOVERY.md) | The Mom Test-inspired interview plan, worker/manager/professor questions, evidence capture, and comparing bottlenecks without leading participants. |
+| [Technical learning tree](external-projects/EXT-001/LEARNING-TREE.md) | Hardware, device integration, software foundations, data layers, agents, UX, reliability, future robotics/space capabilities, and the order to learn and build. |
+
+The technical guide distinguishes operational SQL records, event history,
+file storage, derived search indexes, offline data, and analytics. The first
+learning project is phone voice input → structured proposal → user confirmation
+→ saved task update → relevant teammate notification. This is a proposed
+build sequence; no implementation is recorded as complete.
 
 ## Founder motivation
 
@@ -105,8 +197,10 @@ knowledge of human factors, sensing, technical operations, and evaluation.
 
 ## Evolution and alternative versions
 
-The order below captures the conceptual progression. It does not assign
-unverified creation dates to individual versions.
+V1–V9 preserve the conceptual progression. V10 is the selected direction as
+of October 24, 2026 and takes precedence for future work. Earlier branches
+can contribute capabilities, but should not silently replace V10. Dates for
+the creation of the earlier versions remain unspecified.
 
 ### V1: Expert demonstrations for robot training
 
@@ -206,7 +300,8 @@ with one equipment family and eventually supporting unfamiliar payload
 operations in space.
 
 That market was a recommendation, not a user-validated customer decision.
-The broader tutoring vision remains available alongside the latest team version.
+Tutoring is preserved as a capability within V10; this earlier standalone
+positioning is historical rather than a second selected company direction.
 
 ### V8: Wearables across a site, with shared coordination
 
@@ -221,7 +316,7 @@ was not verified; no claim is made that it provides this wearable architecture.
 
 ### V9: Profiles, responsibilities, tasks, and relevant updates
 
-This is the latest user-defined version. Everyone has an identity in the
+This was the shared-record version preceding V10. Everyone has an identity in the
 system, their responsibilities and work are recorded, and regular updates
 maintain a shared database. People receive relevant information through
 their roles, dependencies, and chosen interests.
@@ -230,6 +325,20 @@ The three functions remain connected, but reliable reporting and handoffs
 were recommended as the first commercial function. The product can begin
 with deliberate voice or text updates; continuous visual understanding is
 not required for every useful interaction.
+
+### V10: Connected-workforce operating system — selected
+
+Mohammed selected the connected-workforce direction after relating it to
+YC's “New Operating Systems for the Physical World” request, planning
+construction/megaproject discovery interviews, and reviewing a technical
+learning tree. V10 joins the earlier shared record with contextual guidance,
+bounded agent responsibilities, and coordination of real physical workflows.
+Future robot participation and space use remain part of the expansion vision.
+
+The authoritative definition is [the final selected idea](#latest-concept).
+The [YC mapping](#alignment-with-the-yc-request), [discovery guide](external-projects/EXT-001/CUSTOMER-DISCOVERY.md),
+and [learning tree](external-projects/EXT-001/LEARNING-TREE.md) explain how to
+develop it without treating untested assumptions as established facts.
 
 ## The three functions
 
@@ -252,6 +361,21 @@ work-management tools. The proposed differentiation is reduced effort during
 physical work, accurate connection of updates to equipment and procedures,
 useful handoffs, and relevant routing. A pilot must show an improvement over
 the customer's current tools and ordinary voice notes.
+
+### Additional value within the selected idea
+
+- Preserve experienced workers' reasoning for later reviewed training.
+- Help new people learn in the context of actual equipment and tasks.
+- Keep progress, decisions, and unresolved issues intact across shifts.
+- Flag competing requirements for shared equipment, parts, or specialists.
+- Give remote experts a question with the relevant evidence and procedure.
+- Make research easier to reproduce through configurations, revisions,
+  deviations, and linked results.
+- Identify recurring confusion and propose procedure improvements for review.
+- Help people reconstruct where they stopped after interruptions.
+
+These are possible extensions of the three functions. They are not all
+requirements for the first release, and their benefits have not been measured.
 
 ## How the latest version would work
 
@@ -299,6 +423,26 @@ When the replacement arrives, its availability can be reported and confirmed.
 The system can notify affected people; it must not silently treat availability
 as completed calibration or operational approval.
 
+### Bounded agent work and future robot participation
+
+In an initial implementation, agents could prepare structured records, retrieve
+the applicable documentation, surface missing information, assemble a handoff,
+and route issues through agreed rules. Permissions and application code would
+control actions; model-generated text would not itself authorize a change.
+
+The work model should represent who can perform a task, which prerequisites
+apply, what evidence indicates completion, and who can approve it. This can
+support later allocation to a person, agent, or supported robot. An actual
+robot integration would additionally need a defined interface, its permitted
+operating scope, trustworthy status, failure handling, and local operational
+controls. None is implemented or assumed available today.
+
+For discovery, a construction handoff is another useful example: an incoming
+crew needs current information about completed work, open issues, access,
+equipment, and required inspections. The system could assemble that context
+and route unresolved questions. The interview must establish which information
+actually causes delays and who is authorized to release the next work stage.
+
 ### Questions people could ask
 
 - What changed since my last shift?
@@ -330,6 +474,7 @@ This is a design sketch, not an implemented schema or selected technology stack.
 | Record | Information it would need |
 | --- | --- |
 | Person | Stable identity, team, role, expertise, responsibilities, permissions. |
+| Agent | Identity, accountable owner, permitted actions, data-access scope, and approval requirements. |
 | Task | Owner, scope, equipment, status, deadline or estimate, blocker, last confirmation. |
 | Dependency | Which task or condition depends on another, and who confirms it. |
 | Equipment | Identifier, location where relevant, configuration, availability, associated procedures. |
@@ -376,6 +521,7 @@ be deliberate and task-specific; always-on recording is not a prerequisite.
 
 | Setting | Useful work | Potential buyer or sponsor | What remains to test |
 | --- | --- | --- | --- |
+| Construction and megaproject teams | Crew handoffs, prerequisite tracking, issue routing, shared-equipment coordination, and relevant field updates. | Contractor, site/project manager, or another process owner identified through discovery. | Which recurring bottleneck is consequential, who can change it, and whether software addresses its actual cause. |
 | Technical laboratories | Equipment setup, experiment handoffs, troubleshooting explanations, and operator training. | Lab manager, equipment owner, or manufacturer. | Whether repeated teaching and missing context create enough cost to justify purchase. |
 | Manufacturing and integration | Progress capture, questions, blocked tasks, and cross-shift handoffs. | Operations, manufacturing, or test manager. | Fit with existing manufacturing/quality systems and actual update effort. |
 | Field service and skilled trades | Job notes, remote expert questions, task guidance, and dispatch coordination. | Service organization or equipment supplier. | Worksite connectivity, recurring procedures, and adoption in real conditions. |
@@ -434,8 +580,15 @@ which customer group to approach. The latest function recommendation is
 confirmed progress/handoff capture. The suggested space-related market is
 a team with recurring payload or test-equipment work.
 
+**Current discovery focus:** Mohammed plans interviews with construction
+workers, construction managers, and his professor with user-reported megaproject
+experience. These conversations should reveal the first consequential
+workflow. The earlier payload/testing recommendation remains an option to
+compare, not a settled first market or a reason to steer construction interviews.
+
 | Option | Why consider it | Main limitation | Suggested role |
 | --- | --- | --- | --- |
+| Construction and megaproject teams | The user's planned interviews can expose concrete incidents across workers, managers, and contractor boundaries. | No findings, purchasing authority, or paid demand established yet. | Current discovery focus; first workflow and customer remain open. |
 | Berkeley payload/CubeSat team | Potential access, technical work, and a place to observe real handoffs. | Limited budgets and interest may not translate into payment. | Early design and evaluation partner. |
 | Commercial payload team or independent testing lab | Recurring procedures, identifiable engineering manager, and measurable time spent clarifying work. | Actual repetition, urgency, data access, and purchasing ability are unverified. | Proposed first paying-customer hypothesis. |
 | Technical-equipment manufacturer | Could distribute training/support software with a specific equipment family to many customers. | Requires product-specific evidence and a commercial partnership. | Proposed expansion and distribution route. |
@@ -546,6 +699,11 @@ feedback; it does not validate an enterprise market or safety-critical guidance.
 
 ## Technology growth and learning path
 
+The full [technical learning tree](external-projects/EXT-001/LEARNING-TREE.md)
+is the implementation-learning companion for V10. It marks NOW, NEXT, and
+LATER topics and includes the first complete interaction and a staged build
+sequence. Its architecture and stack suggestions remain adaptable to discovery.
+
 The user's question was partly about what to build now that becomes more
 capable as wearable technology improves. The proposed strategy is to develop
 useful task representations and evaluations with today's deliberate inputs,
@@ -607,26 +765,27 @@ evidence, data rights, and measured value.
 The following is proposed positioning, not a claim that the product is built
 or that customers have adopted it:
 
-> We are developing the concept for a shared AI teammate for people working
-> with complex equipment. It helps each person understand their work, captures
-> confirmed progress with minimal interruption, and keeps the people who depend
-> on them informed.
+> Our concept is an operating system for physical work that connects workers
+> and AI agents through shared, confirmed task context. It helps teams understand
+> what is ready, what is blocked, and who owns the next action, while preserving
+> the procedures and approvals needed to carry out the work.
 >
-> A technician can explain a blocker through glasses or a phone. The assistant
-> connects the update to the right equipment and task, asks about ambiguity,
-> and preserves it in the team's work record. The responsible engineer gets
-> the question with its context; the next shift gets a useful handoff; the
-> person waiting on the task learns when its prerequisites change.
+> A worker can report a blocker through glasses or a phone. The assistant
+> connects the update to the right task and equipment, clarifies uncertain
+> details, and prepares a record for confirmation. Agents retrieve applicable
+> instructions and route missing information; the next person receives a
+> useful handoff. Supervisors can see the decisions that need their attention.
 >
-> Our proposed first use is one recurring handoff in a technical testing team.
-> We would measure whether people spend less time reporting and reconstructing
-> work, receive fewer unnecessary interruptions, and complete the chosen task
-> more reliably. Guidance grounded in approved procedures can grow alongside
-> that shared record.
+> We will use discovery with construction workers, managers, and experienced
+> project practitioners to identify one recurring workflow with an expensive
+> failure or delay. The first pilot would measure reporting effort, missing
+> context, incorrect alerts, handoff quality, and the operational outcome.
+> The first paying market has not yet been selected.
 >
-> The long-term ambition includes space crews operating unfamiliar scientific
-> equipment with limited immediate ground support. Ground testing and training
-> would establish practical value first, with separate validation for onboard use.
+> Over time, the same work model could connect supported robots and provide
+> more contextual technical guidance. The long-term ambition includes space
+> teams and crews operating unfamiliar equipment with limited immediate
+> support, with separate validation for onboard use.
 
 The earlier tutor-focused positioning remains useful for that variant:
 “Turn an expert's demonstration and approved documentation into guidance
@@ -641,17 +800,24 @@ market size, existing traction, or a final commercial strategy.
 - Build on what Mohammed can learn, not only what he has already done.
 - Prioritize what wearables enable people to do and learn.
 - Explore software combining existing technology and hardware platforms.
-- Preserve the latest shared-profile, responsibilities, task, and update concept.
+- Treat V10, the connected-workforce operating system aligned with the supplied
+  YC request, as the final selected direction as of October 24, 2026.
+- Retain shared profiles, responsibilities, tasks, confirmed updates, relevant
+  coordination, and contextual help as the product foundation.
+- Use the planned construction/manager/professor interviews to investigate
+  bottlenecks. Do not treat them as completed research or a fixed first market.
 - In the laundry example, warn and explain; do not control the washer.
-- Preserve earlier versions as options rather than silently replacing them.
+- Preserve V1–V9 as history and possible component ideas; do not present them
+  as equally selected alternatives unless Mohammed explicitly reopens the direction.
 
 ### Recommendations that still need validation
 
 - Start with confirmed update capture and handoffs, then relevant coordination.
 - Choose one recurring technical workflow before expanding across a site.
 - Use an accessible lab for learning and seek commercial willingness to pay early.
-- Consider commercial payload/testing teams first and equipment manufacturers
-  as a possible distribution route.
+- Compare the earlier commercial payload/testing hypothesis with problems
+  uncovered in construction discovery; equipment manufacturers remain a
+  possible distribution route.
 - Integrate with an existing work system when that reduces adoption effort.
 - Test the workflow through phones/computers before making glasses mandatory.
 
@@ -679,6 +845,10 @@ Read [AGENTS.md](AGENTS.md) for repository operating rules. For this concept,
 use this file as the working source; no earlier chat is required.
 
 - Update this Markdown file directly. It is not a generated bank or tracker view.
+- Start from V10 as the selected direction. The historical tutor, standalone
+  data-supply, and custom-hardware concepts are not the current default.
+- Use the linked customer-discovery and learning guides for detailed work.
+  Keep the master decision status here; avoid contradictory copies in the guides.
 - Preserve stable project/version IDs, user decisions, open questions, and the
   distinction between user statements and assistant recommendations.
 - Incorporate later corrections into the current concept; retain useful older
@@ -701,3 +871,4 @@ use this file as the working source; no earlier chat is required.
 | Date | Change | Evidence |
 | --- | --- | --- |
 | 2026-10-22 | Created EXT-001 with the idea's evolution, latest shared-team concept, proposed architecture, use cases, space applications, market hypotheses, prototype notes, and continuation instructions. | User discussion and explicit request to document the ideas in GitHub; no new implementation or customer evidence. |
+| 2026-10-24 | Marked V10 as the final selected connected-workforce operating-system direction; added the user-supplied YC alignment, bounded agent work, additional use cases, planned construction discovery, and linked interview and technical-learning guides. Retained V1–V9 as history and kept market/platform choices open. | User explicitly requested the final idea be distinguished and aligned with the YC request; selection is confirmed, implementation and demand are not. |
