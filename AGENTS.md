@@ -10,18 +10,9 @@ Human/AI entry point: [START-HERE.md](START-HERE.md). Documentation map:
 [docs/README.md](docs/README.md). Model-specific entry files point here;
 keep operating rules in shared Markdown instead of duplicating them by model.
 
-For external startup ideas, use [EXTERNAL-PROJECTS.md](EXTERNAL-PROJECTS.md).
-**V10 is the final selected direction:** a connected-workforce operating system
-aligned with the user-supplied YC “New Operating Systems for the Physical
-World” request. V1–V9 are historical precursors, not equally selected options.
-The master links the [learning tree](external-projects/EXT-001/LEARNING-TREE.md)
-and [discovery guide](external-projects/EXT-001/CUSTOMER-DISCOVERY.md).
-First buyer, workflow, and implementation choices still require evidence.
-Edit those Markdown files directly. Keep
-user choices, assistant recommendations, and demonstrated results distinct;
-concepts do not become resume accomplishments or tracker events. For an
-idea-only task, use [runbook 9](docs/WORKFLOWS.md#9-document-an-external-project)
-without modifying application records.
+Startup work has moved to the [standalone repository](https://github.com/Moh-bukhari/wearable-project).
+Read its START-HERE.md and AGENTS.md for that work. Keep this repository focused
+on applications and supported experience; ideas are not resume accomplishments.
 
 ## Read in this order
 

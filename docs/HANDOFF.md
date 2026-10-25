@@ -1,71 +1,49 @@
 # Current work handoff
 
-This is a continuation note for any AI, not a second tracker. Read
-[START-HERE.md](../START-HERE.md) and the canonical records before acting.
-Replace this note at the end of a session; Git keeps prior versions.
+This is a continuation note, not a second tracker. Read
+[START-HERE.md](../START-HERE.md) and canonical records before acting.
 
 ## Last task
 
 - Date: 2026-10-24 (America/Los_Angeles).
-- Request: update the external-projects file and distinguish the latest idea
-  as the final selected direction aligned with the supplied YC request.
-- Work: marked [EXT-001 / V10](../EXTERNAL-PROJECTS.md#latest-concept) as the
-  selected connected-workforce operating system for physical projects. Added
-  the YC alignment, bounded agent roles, construction discovery focus, and
-  additional uses. V1–V9 remain historical precursors.
-- Added a detailed [learning tree](../external-projects/EXT-001/LEARNING-TREE.md)
-  and [interview guide](../external-projects/EXT-001/CUSTOMER-DISCOVERY.md).
-  Entry files now route to the selected direction and both guides.
-- Selection is confirmed; first buyer, workflow, stack, and market demand are
-  still open. Interviews are planned. No product implementation is established.
+- Request: move all startup material into a new standalone GitHub repository.
+- Destination: [wearable-project](https://github.com/Moh-bukhari/wearable-project). The project record, complete idea
+  history, technical learning tree, and customer-discovery guide belong there,
+  along with standalone AI instructions.
+- This cleanup replaces the local project record with a pointer, removes the
+  duplicated guides, and routes startup work to the destination.
 
 ## Current records
 
 - Application state: [tracker/tracker.json](../tracker/tracker.json).
-- Candidate facts and answered clarifications: [bank](../bank/experience-bank.md).
-- The checkout was fast-forwarded to remote `main` at `4415830` before this
-  task. Newer Retell packets, outreach planning, skills, and recorded events
-  were preserved; this task changes project documentation only.
-- No new application, message, interview-completion, or customer event was
-  recorded by this task. The earlier handoff's “no outreach sent” and empty
-  R002-contact statements had been superseded by newer canonical records.
-- Existing unresolved tracker details remain in each job's review notes.
-  Read those before asking for more information or reusing imported proof claims.
+- Candidate facts: [experience bank](../bank/experience-bank.md).
+- No bank, tracker, application, skill, or contact records are changed by this
+  migration. No messages or applications are sent by it.
 
 ## Checks and publication
 
-- Two independent content reviews passed: selected-vs-historical status,
-  YC attribution, market uncertainty, technical scope, and discovery evidence.
-- Validation passed for 215 relative links/anchors across nine edited
-  Markdown files, code-fence balance, table columns, and V1–V9 preservation
-  with V10 selected. Whitespace checks passed.
-- No bank/tracker data, application materials, or runtime code changed, so
-  bank/tracker rendering, application tests, and PDF builds were not needed.
-- YC mapping uses the user-pasted passage. Prior platform and Mom Test
-  references were not freshly verified; the full book was not retrieved.
-  No prototype, interviews, or market validation were performed in this task.
-- Publication: the commit containing this handoff is intended for `origin/main`.
-  On continuation, compare the commit with the actual remote; the file itself
-  does not establish publication. No runtime configuration is required.
+- This cleanup was prepared against source commit
+  `53d931ef7ad0fc10cac5ebf50bfa0aa42ca3b9b8`.
+- The private destination repository was published at
+  `f844c5fd1027e05f0f7407c0de8286239e0e676d`. An independent fresh Git fetch
+  verified that commit and the exact contents of the project record, both
+  guides, README, AGENTS, and START-HERE before source copies were removed.
+- Source input hashes matched the reviewed cleanup patch. All 193 relative
+  links/anchors in the eight changed Markdown files passed; the old guide
+  copies are removed and the project pointer remains. Whitespace checks passed.
+- This handoff belongs to the source-cleanup commit intended for `origin/main`.
+  Verify the current remote before inferring publication from this file alone.
 
 ## Continue here
 
-- For this idea, start at [the final selected V10](../EXTERNAL-PROJECTS.md#latest-concept),
-  then the learning and discovery guides. Do not treat earlier standalone
-  tutor, data-supply, or custom-hardware variants as equally selected options.
-- Documentation is the requested deliverable. The user has not requested
-  prototype implementation, partner outreach, or recording a workplace in
-  this task. The earlier laundry request was explicitly explanation-only.
-- Retell R001/R002 outreach work remains separate. On resuming it, read the
+- Startup work: use the destination repository's START-HERE.md and AGENTS.md.
+- Existing Retell R001/R002 outreach remains separate. Use the
   [current master plan](../applications/r001-retell-ai-deployment-strategist/letters/retell-outreach-final.md),
-  the R002 packet's pointers, and current tracker event history. Some connection
-  requests are already recorded; do not resend or mark queued drafts as sent.
-  The plan is a static record, not a running scheduler or fresh authorization.
-- For job-search work, use the existing application workflows and canonical
-  records. Do not promote this proposed startup into a resume accomplishment.
+  linked packets, and current tracker event history before taking action.
+  Already recorded sends must not be duplicated; queued drafts are not sent.
+- For job-search work, follow the application workflows and supported evidence.
 
 ## Handoff maintenance
 
-Keep the headings above. For an unfinished job task, include its stable ID,
-linked packet, completed work, exact pending action, missing fact/access, and
-checks actually run. Keep real events and facts in their canonical files first.
+Record actual changes, checks, publication state, and remaining work. Keep
+candidate facts and application events in their canonical records.

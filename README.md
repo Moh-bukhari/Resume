@@ -15,7 +15,7 @@ files route to the same instructions. No prior chat is required.
 | Understand tracking fields and events | [Tracker reference](docs/TRACKER-REFERENCE.md) |
 | Continue unfinished work | [Current handoff](docs/HANDOFF.md) |
 | Browse every guide | [Documentation index](docs/README.md) |
-| Explore external startup ideas and space applications | [External projects](EXTERNAL-PROJECTS.md) |
+| Continue the startup project | [Standalone startup repository](https://github.com/Moh-bukhari/wearable-project) |
 
 **[Open the job tracker](tracker/README.md)** ·
 [Company watchlist](tracker/companies.md) · [Spreadsheet-style job table](tracker/jobs.csv)
@@ -27,20 +27,11 @@ are committed and pushed. [How updates work](tracker/HOW-TO-UPDATE.md).
 You can view it directly on GitHub; no Google Sheets connection or separate
 website is required. The Excel workbook is preserved as a source snapshot.
 
-## External projects
+## Startup project
 
-[EXTERNAL-PROJECTS.md](EXTERNAL-PROJECTS.md#latest-concept) identifies **V10 as
-the final selected idea: a connected-workforce operating system for physical
-projects**, aligned with the YC request supplied by Mohammed. It connects
-workers and AI agents through confirmed work context, with wearable interfaces,
-guidance, and future robot integration. Earlier versions remain as history;
-the first market is still being investigated.
-
-Use the [technical learning tree](external-projects/EXT-001/LEARNING-TREE.md)
-for hardware, integrations, and data/software layers, and the
-[customer-discovery guide](external-projects/EXT-001/CUSTOMER-DISCOVERY.md)
-for planned construction and megaproject interviews. The experience bank
-remains the source for supported resume claims.
+The physical-work operating-system idea and its learning/discovery guides
+have moved to [wearable-project](https://github.com/Moh-bukhari/wearable-project). This repository holds the job
+application system.
 
 ## Published specialist skills
 
@@ -102,8 +93,7 @@ The default is one A4 page, readable 10pt text, pdfLaTeX, and Tamara first.
 | --- | --- |
 | [START-HERE.md](START-HERE.md) | Universal entry point and copyable instruction for a new AI |
 | [AGENTS.md](AGENTS.md) | Main instructions and navigation for any AI assistant |
-| [EXTERNAL-PROJECTS.md](EXTERNAL-PROJECTS.md) | Selected V10 physical-work operating system, YC alignment, historical versions, and space applications |
-| [external-projects/EXT-001/](external-projects/EXT-001/) | Supporting technical learning tree and customer-discovery guide |
+| [EXTERNAL-PROJECTS.md](EXTERNAL-PROJECTS.md) | Navigation pointer to the standalone startup repository |
 | [docs/README.md](docs/README.md) | Organized handbook index, including workflows and handoff |
 | [tracker/README.md](tracker/README.md) | GitHub-hosted application dashboard and reminders |
 | [tracker/tracker.json](tracker/tracker.json) | Editable operational master; permanent job IDs, status, preparation, events, and links |

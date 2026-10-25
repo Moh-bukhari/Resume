@@ -9,9 +9,7 @@ application workflow; open the relevant branch of the guide for the current task
 | Architecture | [SYSTEM.md](SYSTEM.md) | File ownership, capabilities, update/publish cycle, recovery |
 | Actions | [WORKFLOWS.md](WORKFLOWS.md) | End-to-end procedures and completion criteria |
 | Continuation | [HANDOFF.md](HANDOFF.md) | Current unfinished work and actual validation results |
-| External projects | [EXTERNAL-PROJECTS.md](../EXTERNAL-PROJECTS.md#latest-concept) | Final selected V10, YC alignment, historical versions, space applications, and open decisions |
-| Implementation learning | [Learning tree](../external-projects/EXT-001/LEARNING-TREE.md) | Hardware, device connections, software/data layers, integrations, agents, and staged build sequence |
-| Customer discovery | [Interview guide](../external-projects/EXT-001/CUSTOMER-DISCOVERY.md) | Incident-based worker, manager, and professor interviews; evidence capture and comparing bottlenecks |
+| Startup project | [Standalone repository](https://github.com/Moh-bukhari/wearable-project) | Project definition, learning tree, interviews, and startup-specific AI instructions |
 | Tracking | [TRACKER.md](TRACKER.md) | Tracking concepts and data ownership |
 | Tracking | [HOW-TO-UPDATE.md](../tracker/HOW-TO-UPDATE.md) | Common commands and user prompts |
 | Tracking | [TRACKER-REFERENCE.md](TRACKER-REFERENCE.md) | Field types, event effects, date rules, direct-edit contracts |
@@ -34,4 +32,4 @@ application workflow; open the relevant branch of the guide for the current task
 The [bank](../bank/experience-bank.md), [tracker](../tracker/README.md), and
 [company watchlist](../tracker/companies.md) are the main browsing views.
 Bank and tracker canonical records are JSON; regenerate their Markdown views
-after editing them. External-project concepts are edited directly in Markdown.
+after editing them. Startup documentation is maintained in its own repository.

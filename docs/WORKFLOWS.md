@@ -304,21 +304,7 @@ the original workbook, sync Google Sheets, or run an AI automatically.
 
 ## 9. Document an external project
 
-1. Read [EXTERNAL-PROJECTS.md](../EXTERNAL-PROJECTS.md), including the latest
-   concept, version history, decisions, and continuation instructions.
-2. Apply the user's new details to that Markdown file. Preserve project/version
-   IDs and distinguish user choices, proposed implementation, market hypotheses,
-   research, and demonstrated results. Retain useful alternative versions.
-3. Keep plans out of the experience bank and application tracker. A future
-   project can become resume evidence only after concrete work and its scope
-   are established. No application activity follows from idea documentation.
-4. Check the edited prose, relative links, anchors, and `git diff --check`.
-   For documentation-only work, bank/tracker regeneration, PDF compilation,
-   and application tests are unnecessary. Update entry links when needed.
-5. Update [HANDOFF.md](HANDOFF.md), review the diff, and publish the authorized
-   changes using [SYSTEM.md](SYSTEM.md#publish-without-losing-work). Verify
-   the remote result before reporting that the document is on GitHub.
-
-**Done when:** the concept is understandable without the prior conversation,
-its uncertainties remain explicit, navigation works, and publication status
-is accurately reported.
+Startup work has moved to [wearable-project](https://github.com/Moh-bukhari/wearable-project). Read its START-HERE.md
+and AGENTS.md, then continue in that repository. This repository's
+[external-project page](../EXTERNAL-PROJECTS.md) is a navigation pointer.
+Do not recreate startup content in the application tracker or experience bank.

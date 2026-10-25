@@ -5,11 +5,8 @@ job search. An AI assistant can use it to tailor resumes, research contacts,
 write letters, and maintain the application tracker without the original chat.
 All instructions are ordinary Markdown; no particular AI provider is required.
 
-External startup concepts live in [EXTERNAL-PROJECTS.md](EXTERNAL-PROJECTS.md).
-V10 is the selected physical-work operating-system direction; earlier versions
-are history. Read the concept and its linked learning/discovery guides, and
-preserve the distinction between selection, recommendations, and demonstrated
-experience. The first market and implementation are still unvalidated.
+Startup work lives in the [standalone repository](https://github.com/Moh-bukhari/wearable-project).
+Use that repository's entry instructions for the physical-work operating system.
 
 Every tailored resume and message must reflect the specific company's mission,
 goals, and role needs through supported experience. Follow the
@@ -62,9 +59,7 @@ routes to the relevant methods, including their source and license.
 | View the spreadsheet-style table | [Jobs CSV](tracker/jobs.csv) |
 | View target companies | [Company watchlist](tracker/companies.md) |
 | Understand all available experience | [Experience bank](bank/experience-bank.md) |
-| Continue the final selected physical-work operating-system idea | [External projects: V10](EXTERNAL-PROJECTS.md#latest-concept) |
-| Learn the hardware, integrations, and data/software layers | [Technical learning tree](external-projects/EXT-001/LEARNING-TREE.md) |
-| Prepare construction and megaproject discovery interviews | [Customer discovery](external-projects/EXT-001/CUSTOMER-DISCOVERY.md) |
+| Continue the startup project | [Standalone startup repository](https://github.com/Moh-bukhari/wearable-project) |
 | Run a task from start to finish | [Workflows](docs/WORKFLOWS.md) |
 | Update the tracker | [Quick update guide](tracker/HOW-TO-UPDATE.md) |
 | Understand every tracking field and event | [Tracker reference](docs/TRACKER-REFERENCE.md) |
@@ -82,10 +77,6 @@ Markdown. Update the records, regenerate the views, validate, then commit and
 push. This keeps the dashboard, job pages, and CSV consistent. Editing a rendered
 table alone will be overwritten. The original Google Sheet and Excel upload are
 historical inputs and do not synchronize with this tracker.
-
-External-project concepts are edited directly in `EXTERNAL-PROJECTS.md`;
-supporting guides live under `external-projects/EXT-001/`. They do not use
-the bank or tracker renderers.
 
 ## Example requests
 

@@ -21,20 +21,15 @@ application is needed for local tracking and document work.
 | Unfinished session work, checks, continuation instructions | [HANDOFF.md](HANDOFF.md) | Work note; never overrides the bank or tracker |
 | How future assistants should operate | [AGENTS.md](../AGENTS.md) and these guides | [Documentation index](README.md) |
 | Historical inputs and source attribution | [sources/](../sources/README.md), upstream `UPSTREAM.md`/licenses | Evidence, not active user instructions |
-| External startup ideas, variants, hypotheses, and next questions | [EXTERNAL-PROJECTS.md](../EXTERNAL-PROJECTS.md) | Editable Markdown concept record; not candidate accomplishments or application state |
 
 Markdown is the instruction and review layer. JSON provides one editable record
 for each kind of state, so separate views cannot quietly disagree. The scripts
 are local helpers that implement the documented workflow. They never apply for
 jobs, send messages, or synchronize the old Google Sheet.
 
-External-project concepts are an exception to the JSON record pattern:
-`EXTERNAL-PROJECTS.md` is their editable master and readable view. Idea-only
-work does not require bank/tracker mutations or regeneration. Record actual
-project accomplishments in the bank only when supported evidence is supplied.
-Supporting interview and implementation-learning guides are editable Markdown
-under `external-projects/EXT-001/`; the master owns the selected V10 direction
-and decision status so the guides do not become competing concept records.
+Startup documentation and its AI instructions live in the
+[standalone repository](https://github.com/Moh-bukhari/wearable-project). The local
+[project pointer](../EXTERNAL-PROJECTS.md) is navigation only.
 
 The tracker owns hiring lifecycle. `contacts.json` owns detailed identity and
 thread evidence; its narrower application stage is derived from confirmed
