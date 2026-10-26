@@ -491,6 +491,62 @@
       "recipient_id": "zexia-zhang",
       "confirmed_by": "user",
       "evidence_note": "LinkedIn connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile. Note sent verbatim: 'Hi Zexia — Retell's 10x traffic growth means the infra behind fast, reliable calls never stops being the constraint. I applied to Founders Initiatives Friday; at Tamara I built a recruiting CRM TA and the COO run on. Worth a quick word on the engineering bar for the seat?'"
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-26",
+      "recipient_id": "bing-wu",
+      "confirmed_by": "user",
+      "evidence_note": "Email sent Mon 2026-10-26 1:04 PM PDT from h7@berkeley.edu to bing@retellai.com (verified address (Gainsight sub-processor list)), verified in Gmail Sent (id 1a179d0bb77d640a). Subject: \"every job could become software\". Role: Founders Initiatives. Body sent verbatim: \"You scaled Retell to $60M ARR on $5M raised and ran Sales yourself until $20M ARR, on the view that most of every job could become software. Founders Initiatives is that view turned into a team — and recruiting is the first system in the posting. I applied Friday. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO. Worth a read from whoever owns the hire?\""
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-26",
+      "recipient_id": "todd-li",
+      "confirmed_by": "user",
+      "evidence_note": "Email sent Mon 2026-10-26 1:05 PM PDT from h7@berkeley.edu to todd@retellai.com (address pattern-inferred, unconfirmed; no bounce observed in Sent), verified in Gmail Sent (id 1a179d15a44b9039). Subject: \"convert feedback into production impact\". Role: Founders Initiatives. Body sent verbatim: \"Your December post on building the Forward Deployment team ranked experience last and set the test as feedback-to-production impact inside one sprint. That is a bar I would rather be measured against than a resume. I applied to Founders Initiatives on Friday. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO — the first manual system on the posting's list, already built. Worth a look from whoever owns the search?\""
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-26",
+      "recipient_id": "evie-wang",
+      "confirmed_by": "user",
+      "evidence_note": "Email sent Mon 2026-10-26 1:07 PM PDT from h7@berkeley.edu to evie@retellai.com (address pattern-inferred, unconfirmed; no bounce observed in Sent), verified in Gmail Sent (id 1a179d32b047be07). Subject: \"calls per second past 911\". Role: Founders Initiatives. Body sent verbatim: \"Retell now handles more voice calls per second than the US 911 system, with customers like the Spurs, Motorola, and Lenovo. At that volume, GTM automation stops being a nice-to-have and becomes the constraint — which is the second half of the Founders Initiatives posting. I applied Friday. At SCET I built an AI + HubSpot workflow that cut 100K+ leads to 500 priority targets. Worth a look from whoever runs that search?\""
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-26",
+      "recipient_id": "steven-wu",
+      "confirmed_by": "user",
+      "evidence_note": "Email sent Mon 2026-10-26 1:09 PM PDT from h7@berkeley.edu to steven@retellai.com (address pattern-inferred, unconfirmed; no bounce observed in Sent), verified in Gmail Sent (id 1a179d4d0830fc42). Subject: \"saw the Grab rollout\". Role: Founders Initiatives. Body sent verbatim: \"You personally carried the Grab deployment across countries and languages. That is the scale where a builder role either holds up or doesn't — and it's the standard I'd want the FI seat judged by. I applied to Founders Initiatives on Friday. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO. Straight question: what separates the people who succeed in these seats from the ones who don't?\""
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-26",
+      "recipient_id": "weijia-yu",
+      "confirmed_by": "user",
+      "evidence_note": "Email sent Mon 2026-10-26 1:11 PM PDT from h7@berkeley.edu to weijia@retellai.com (verified address (FCC robocall-mitigation filing)), verified in Gmail Sent (id 1a179d677fdce7d7). Subject: \"internal tooling that gets adopted\". Role: Founders Initiatives. Body sent verbatim: \"The Founders Initiatives posting splits between recruiting AI and ops infrastructure, and the ops half is where internal tooling either sticks or dies. I applied Friday. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records — adopted by TA and leadership including the COO, which is the only test that matters for internal tools. Compliance automation is in the posting too; I don't have that experience to claim. Worth a look from whoever owns the search?\""
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-26",
+      "recipient_id": "joshua-chavez",
+      "confirmed_by": "user",
+      "evidence_note": "Email sent Mon 2026-10-26 1:12 PM PDT from h7@berkeley.edu to joshua@retellai.com (address pattern-inferred, unconfirmed; no bounce observed in Sent), verified in Gmail Sent (id 1a179d81c71ffcae). Subject: \"saw the Juicebox fill\". Role: Deployment Strategist and Founders Initiatives (covers both applications). Body sent verbatim: \"You filled a high-priority role with Juicebox in the internal AI hour. That tells me recruiting AI is already a working tool there, and Founders Initiatives wants more of it built. I applied Friday for Deployment Strategist and Founders Initiatives. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO. One practical note: the postings list F-1 sponsorship, which is what I need. Worth a look from the person running the searches?\""
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-26",
+      "recipient_id": "carlo-porcelli",
+      "confirmed_by": "user",
+      "evidence_note": "LinkedIn DM sent Mon 2026-10-26 1:13 PM PDT to Carlo Porcelli (GTM Strategy & Operations, Retell AI; 1st-degree). \"Message sent successfully\" and the full message is visible in the thread (linkedin.com/messaging/thread/2-MTNiNTJkNGQtODZiMy00ZDI2LWFhMzEtYzI1ZDM2ZDZlZWQwXzEwMA==/). Founders Initiatives ONLY; no Strategist message sent to Carlo today. Message sent verbatim: \"Hi Carlo — your Q2 recap stuck with me: Retell going from developer tool to voice AI in Fortune and Global 500 call centers, with the Conductor launch in the middle of it. That inflection is where GTM strategy turns launches into enterprise adoption. I applied to Founders Initiatives on Friday; at Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search that TA and the COO use. Do you know who owns the Founders Initiatives search on your side? A name is all I need.\""
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-23",
+      "recipient_id": "vidhan-mittal",
+      "confirmed_by": "user",
+      "evidence_note": "BACKFILL: LinkedIn connection request + note sent Fri 2026-10-23 as part of the Friday round; it was omitted from Friday's contacts record. Verified still Pending on his profile Mon 2026-10-26 during the Monday connection-status check (no new request sent Monday). Note sent verbatim: \"Hi Vidhan — your move onto Ergo to stop revenue leaking says GTM automation is revenue protection at your scale. I applied to Founders Initiatives Friday; at SCET I built a HubSpot workflow cutting 100K+ leads to 500 targets. Worth a quick word?\""
     }
   ]
 }
