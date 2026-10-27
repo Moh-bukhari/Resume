@@ -861,7 +861,7 @@
       "resume_done": true,
       "applied_on": "2026-10-23",
       "interview_on": null,
-      "contact": "Sylvie Liu",
+      "contact": "Joshua Chavez",
       "last_contact": "2026-10-26",
       "log": null,
       "job_link": "https://jobs.ashbyhq.com/retell-ai/72dcc20d-0f0e-4639-9b7e-1806327acd97",
@@ -1069,6 +1069,22 @@
               "after": "Sylvie Liu"
             }
           }
+        },
+        {
+          "id": "R001-E011",
+          "type": "note",
+          "occurred_on": "2026-10-26",
+          "recorded_on": "2026-10-26",
+          "confirmed_by": "user",
+          "note": "BOUNCE — Email sent Mon 2026-10-26 1:12 PM PDT from h7@berkeley.edu to joshua@retellai.com (subject 'saw the Juicebox fill', Gmail id 1a179d81c71ffcae) bounced the same minute: Gmail delivery failure, 550 5.1.1 'The email account that you tried to reach does not exist' (delivery-failure thread 1a179d81c71ffcae). The address was pattern-inferred, never verified, and is invalid — do not reuse. This corrects sent event R001-E009, which refers to the bounced email. Chavez was instead reached by LinkedIn DM already sent Sun 2026-10-25 9:47 AM PDT (same Juicebox/internal-AI-hour hook and Tamara CRM proof point; verified in the LinkedIn thread), so no further email to him. No new DM was sent Mon evening, to avoid a duplicate.",
+          "contact": "Joshua Chavez",
+          "history_only": false,
+          "changes": {
+            "contact": {
+              "before": "Sylvie Liu",
+              "after": "Joshua Chavez"
+            }
+          }
         }
       ]
     },
@@ -1087,7 +1103,7 @@
       "resume_done": true,
       "applied_on": "2026-10-23",
       "interview_on": null,
-      "contact": "Carlo Porcelli",
+      "contact": "Joshua Chavez",
       "last_contact": "2026-10-26",
       "log": null,
       "job_link": "https://jobs.ashbyhq.com/retell-ai/21cf0117-6b44-40df-96ea-0fb2d1d0892f",
@@ -1324,6 +1340,22 @@
           "note": "BACKFILL: LinkedIn connection request + note sent Fri 2026-10-23 as part of the Friday round; it was omitted from Friday's tracker/contacts record. Verified still Pending on his profile Mon 2026-10-26 during the Monday connection-status check (no new request sent Monday). Channel: LinkedIn connection request + note. Note sent verbatim: \"Hi Vidhan — your move onto Ergo to stop revenue leaking says GTM automation is revenue protection at your scale. I applied to Founders Initiatives Friday; at SCET I built a HubSpot workflow cutting 100K+ leads to 500 targets. Worth a quick word?\"",
           "contact": "Vidhan Mittal",
           "history_only": true
+        },
+        {
+          "id": "R002-E013",
+          "type": "note",
+          "occurred_on": "2026-10-26",
+          "recorded_on": "2026-10-26",
+          "confirmed_by": "user",
+          "note": "BOUNCE — Email sent Mon 2026-10-26 1:12 PM PDT from h7@berkeley.edu to joshua@retellai.com (subject 'saw the Juicebox fill', Gmail id 1a179d81c71ffcae) bounced the same minute: Gmail delivery failure, 550 5.1.1 'The email account that you tried to reach does not exist' (delivery-failure thread 1a179d81c71ffcae). The address was pattern-inferred, never verified, and is invalid — do not reuse. This corrects sent event R002-E010, which refers to the bounced email. Chavez was instead reached by LinkedIn DM already sent Sun 2026-10-25 9:47 AM PDT (same Juicebox/internal-AI-hour hook and Tamara CRM proof point; verified in the LinkedIn thread), so no further email to him. No new DM was sent Mon evening, to avoid a duplicate.",
+          "contact": "Joshua Chavez",
+          "history_only": false,
+          "changes": {
+            "contact": {
+              "before": "Carlo Porcelli",
+              "after": "Joshua Chavez"
+            }
+          }
         }
       ]
     },
