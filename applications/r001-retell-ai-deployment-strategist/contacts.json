@@ -278,7 +278,14 @@
       "linkedin_url": "https://www.linkedin.com/in/joshua-chavez-5890535a/",
       "professional_email": "joshua@retellai.com",
       "email_source_type": "inferred",
-      "email_sources": [],
+      "email_sources": [
+        {
+          "url": null,
+          "source_type": "provider_result",
+          "accessed_date": "2026-10-26",
+          "supporting_detail": "Gmail delivery failure Mon 2026-10-26 1:12 PM PDT for the email to joshua@retellai.com (Gmail id 1a179d81c71ffcae; delivery-failure thread 1a179d81c71ffcae): 550 5.1.1 'The email account that you tried to reach does not exist.' Address is invalid; do not reuse."
+        }
+      ],
       "identity_sources": [
         {
           "url": "https://www.linkedin.com/in/joshua-chavez-5890535a/",
@@ -296,12 +303,12 @@
         "Signed-in LinkedIn sweep, 2026-10-23 (Mohammed's own LinkedIn session): Joshua Chavez — Founding Talent at Retell AI; 2nd-degree connection; has posted about hiring FDEs and Deployment Strategists."
       ],
       "verification": {
-        "provider": null,
-        "result": "unknown",
-        "checked_at": null,
-        "limitations": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection first."
+        "provider": "Gmail delivery failure",
+        "result": "bounced — address does not exist",
+        "checked_at": "2026-10-26",
+        "limitations": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection first. [2026-10-26: Email to joshua@retellai.com bounced 1:12 PM PDT — 550 5.1.1, address does not exist. Invalid; do not reuse. Live channel is LinkedIn.]"
       },
-      "verification_note": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection first. [2026-10-23: LinkedIn connection request + note sent, verified pending.]",
+      "verification_note": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection first. [2026-10-23: LinkedIn connection request + note sent, verified pending.] [2026-10-26: Email to joshua@retellai.com BOUNCED 1:12 PM PDT — 550 5.1.1, address does not exist. Do not reuse. Live channel is the LinkedIn DM sent Sun 2026-10-25 9:47 AM PDT.]",
       "linkedin_invite_status": "pending — connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile"
     },
     {
@@ -393,7 +400,7 @@
       "occurred_at": "2026-10-26",
       "recipient_id": "joshua-chavez",
       "confirmed_by": "user",
-      "evidence_note": "Email sent Mon 2026-10-26 1:12 PM PDT from h7@berkeley.edu to joshua@retellai.com (address pattern-inferred, unconfirmed; no bounce observed in Sent), verified in Gmail Sent (id 1a179d81c71ffcae). Subject: \"saw the Juicebox fill\". Role: Deployment Strategist and Founders Initiatives (covers both applications). Body sent verbatim: \"You filled a high-priority role with Juicebox in the internal AI hour. That tells me recruiting AI is already a working tool there, and Founders Initiatives wants more of it built. I applied Friday for Deployment Strategist and Founders Initiatives. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO. One practical note: the postings list F-1 sponsorship, which is what I need. Worth a look from the person running the searches?\""
+      "evidence_note": "Email sent Mon 2026-10-26 1:12 PM PDT from h7@berkeley.edu to joshua@retellai.com (address pattern-inferred, unconfirmed; BOUNCED 1:12 PM PDT — 550 5.1.1, address does not exist; Gmail delivery-failure thread 1a179d81c71ffcae; do not reuse), verified in Gmail Sent (id 1a179d81c71ffcae). Subject: \"saw the Juicebox fill\". Role: Deployment Strategist and Founders Initiatives (covers both applications). Body sent verbatim: \"You filled a high-priority role with Juicebox in the internal AI hour. That tells me recruiting AI is already a working tool there, and Founders Initiatives wants more of it built. I applied Friday for Deployment Strategist and Founders Initiatives. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO. One practical note: the postings list F-1 sponsorship, which is what I need. Worth a look from the person running the searches?\""
     },
     {
       "event_type": "sent",
@@ -401,6 +408,13 @@
       "recipient_id": "sylvie-liu",
       "confirmed_by": "user",
       "evidence_note": "LinkedIn DM sent Mon 2026-10-26 1:10 PM PDT to Sylvie Liu (GTM, Retell AI; 1st-degree). \"Message sent successfully\" and the full message is visible in the thread (linkedin.com/messaging/thread/2-YTc3OTdkNDktNmM3Mi00YmYzLWEzMDMtZTAyMWRiY2U1ZDczXzEwMA==/). Message sent verbatim: \"Hi Sylvie — your September post on creator-led GTM stuck with me: the product can speak for itself, but it still needs the right people to experience it. Deployments are where that experience happens, which is why I applied for the Deployment Strategist role on Friday. At SCET I built an AI + HubSpot workflow that cut 100K+ leads to 500 priority targets. Do you know who owns the Strategist search?\""
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-25",
+      "recipient_id": "joshua-chavez",
+      "confirmed_by": "user",
+      "evidence_note": "LinkedIn DM sent Sun 2026-10-25 9:47 AM PDT to Joshua Chavez (Founding Talent, Retell AI; 1st-degree), verified in the LinkedIn thread (https://www.linkedin.com/messaging/thread/2-MDRkM2FkZjEtOGY3Zi00MGI5LTlhMWQtYWI2YzUwNmQzYTVhXzEwMA==/). Message sent verbatim: 'Hi Joshua — you filled a high-priority role with Juicebox in the internal AI hour, so recruiting AI is already a working tool there. I applied Friday for both roles; at Tamara I built a recruiting CRM TA and the COO run on. Worth a quick word on the searches?' This DM is the live channel: the email sent Mon 2026-10-26 1:12 PM PDT to joshua@retellai.com bounced the same minute (550 5.1.1, address does not exist; Gmail delivery-failure thread 1a179d81c71ffcae). No further email to this address."
     }
   ],
   "research_notes": "People research completed 2026-10-23 via public web sources (Retell AI about page, The Org, Sacra, RocketReach, Inc., individuals' own sites). LinkedIn profile URLs and connection degrees could not be verified from public web sources for most contacts and are marked null rather than guessed; a signed-in LinkedIn check can fill them in. No named in-house recruiter was found: Retell's job posts show recruiting run through contract recruiters, and a GTM Recruiting Lead opening was posted Jun 2026 (Built In) with no named incumbent. Reconciled 2026-10-23 against a signed-in LinkedIn sweep (authoritative over the public-web research above): final 10 for R001 are Nicolaus G. Wong (Founding Head, Deployments — the founding Deployment Strategist, now hiring the team; ranked #1), Carlo Porcelli, Sylvie Liu, Todd Li, Steven Wu, Joshua Alexander, Shasta Subramanian (Deployments), Hayden Langelier (Solutions Architect), Joshua Chavez (Founding Talent — the named recruiting lead, superseding the earlier 'no named recruiter' finding), and Bing Wu. Dropped from the earlier draft list: Mike Derlatka, Weijia Yu, Evie Wang, Alex Baca (Weijia and Evie remain on the R002 list). LinkedIn connection invites are already pending for Todd Li, Evie Wang, and Joshua Alexander — do not re-send; Todd is email-only, and Joshua Alexander has no email on file. Carlo and Sylvie are 1st-degree connections (DM channel). Evie Wang's own LinkedIn title is 'Co-founder, CPO', not CMO — corrected wherever she appears.",

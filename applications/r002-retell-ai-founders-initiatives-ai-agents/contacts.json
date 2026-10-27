@@ -451,7 +451,14 @@
       "linkedin_url": "https://www.linkedin.com/in/joshua-chavez-5890535a/",
       "professional_email": "joshua@retellai.com",
       "email_source_type": "inferred",
-      "email_sources": [],
+      "email_sources": [
+        {
+          "url": null,
+          "source_type": "provider_result",
+          "accessed_date": "2026-10-26",
+          "supporting_detail": "Gmail delivery failure Mon 2026-10-26 1:12 PM PDT for the email to joshua@retellai.com (Gmail id 1a179d81c71ffcae; delivery-failure thread 1a179d81c71ffcae): 550 5.1.1 'The email account that you tried to reach does not exist.' Address is invalid; do not reuse."
+        }
+      ],
       "identity_sources": [
         {
           "url": "https://www.linkedin.com/in/joshua-chavez-5890535a/",
@@ -469,12 +476,12 @@
         "Signed-in LinkedIn sweep, 2026-10-23 (Mohammed's own LinkedIn session): Joshua Chavez — Founding Talent at Retell AI; 2nd-degree connection; has posted about hiring FDEs and Deployment Strategists."
       ],
       "verification": {
-        "provider": null,
-        "result": "unknown",
-        "checked_at": null,
-        "limitations": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection sent alongside."
+        "provider": "Gmail delivery failure",
+        "result": "bounced — address does not exist",
+        "checked_at": "2026-10-26",
+        "limitations": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection sent alongside. [2026-10-26: Email to joshua@retellai.com bounced 1:12 PM PDT — 550 5.1.1, address does not exist. Invalid; do not reuse. Live channel is LinkedIn.]"
       },
-      "verification_note": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection sent alongside."
+      "verification_note": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection sent alongside. [2026-10-26: Email to joshua@retellai.com BOUNCED 1:12 PM PDT — 550 5.1.1, address does not exist. Do not reuse. Live channel is the LinkedIn DM sent Sun 2026-10-25 9:47 AM PDT.]"
     }
   ],
   "outreach_events": [
@@ -532,7 +539,7 @@
       "occurred_at": "2026-10-26",
       "recipient_id": "joshua-chavez",
       "confirmed_by": "user",
-      "evidence_note": "Email sent Mon 2026-10-26 1:12 PM PDT from h7@berkeley.edu to joshua@retellai.com (address pattern-inferred, unconfirmed; no bounce observed in Sent), verified in Gmail Sent (id 1a179d81c71ffcae). Subject: \"saw the Juicebox fill\". Role: Deployment Strategist and Founders Initiatives (covers both applications). Body sent verbatim: \"You filled a high-priority role with Juicebox in the internal AI hour. That tells me recruiting AI is already a working tool there, and Founders Initiatives wants more of it built. I applied Friday for Deployment Strategist and Founders Initiatives. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO. One practical note: the postings list F-1 sponsorship, which is what I need. Worth a look from the person running the searches?\""
+      "evidence_note": "Email sent Mon 2026-10-26 1:12 PM PDT from h7@berkeley.edu to joshua@retellai.com (address pattern-inferred, unconfirmed; BOUNCED 1:12 PM PDT — 550 5.1.1, address does not exist; Gmail delivery-failure thread 1a179d81c71ffcae; do not reuse), verified in Gmail Sent (id 1a179d81c71ffcae). Subject: \"saw the Juicebox fill\". Role: Deployment Strategist and Founders Initiatives (covers both applications). Body sent verbatim: \"You filled a high-priority role with Juicebox in the internal AI hour. That tells me recruiting AI is already a working tool there, and Founders Initiatives wants more of it built. I applied Friday for Deployment Strategist and Founders Initiatives. At Tamara I built a pre-ATS recruiting CRM on Greenhouse plus OpenAI search over 700K+ applicant records, adopted by TA and the COO. One practical note: the postings list F-1 sponsorship, which is what I need. Worth a look from the person running the searches?\""
     },
     {
       "event_type": "sent",
@@ -547,6 +554,13 @@
       "recipient_id": "vidhan-mittal",
       "confirmed_by": "user",
       "evidence_note": "BACKFILL: LinkedIn connection request + note sent Fri 2026-10-23 as part of the Friday round; it was omitted from Friday's contacts record. Verified still Pending on his profile Mon 2026-10-26 during the Monday connection-status check (no new request sent Monday). Note sent verbatim: \"Hi Vidhan — your move onto Ergo to stop revenue leaking says GTM automation is revenue protection at your scale. I applied to Founders Initiatives Friday; at SCET I built a HubSpot workflow cutting 100K+ leads to 500 targets. Worth a quick word?\""
+    },
+    {
+      "event_type": "sent",
+      "occurred_at": "2026-10-25",
+      "recipient_id": "joshua-chavez",
+      "confirmed_by": "user",
+      "evidence_note": "LinkedIn DM sent Sun 2026-10-25 9:47 AM PDT to Joshua Chavez (Founding Talent, Retell AI; 1st-degree), verified in the LinkedIn thread (https://www.linkedin.com/messaging/thread/2-MDRkM2FkZjEtOGY3Zi00MGI5LTlhMWQtYWI2YzUwNmQzYTVhXzEwMA==/). Message sent verbatim: 'Hi Joshua — you filled a high-priority role with Juicebox in the internal AI hour, so recruiting AI is already a working tool there. I applied Friday for both roles; at Tamara I built a recruiting CRM TA and the COO run on. Worth a quick word on the searches?' This DM is the live channel: the email sent Mon 2026-10-26 1:12 PM PDT to joshua@retellai.com bounced the same minute (550 5.1.1, address does not exist; Gmail delivery-failure thread 1a179d81c71ffcae). No further email to this address."
     }
   ]
 }
