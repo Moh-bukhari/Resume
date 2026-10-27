@@ -274,7 +274,7 @@
       "employer": "Retell AI",
       "title": "Founding Talent",
       "priority": 9,
-      "connection_degree": "2nd",
+      "connection_degree": "1st",
       "linkedin_url": "https://www.linkedin.com/in/joshua-chavez-5890535a/",
       "professional_email": "joshua@retellai.com",
       "email_source_type": "inferred",
@@ -309,7 +309,7 @@
         "limitations": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection first. [2026-10-26: Email to joshua@retellai.com bounced 1:12 PM PDT — 550 5.1.1, address does not exist. Invalid; do not reuse. Live channel is LinkedIn.]"
       },
       "verification_note": "Role, LinkedIn URL, and 2nd-degree status from the signed-in LinkedIn sweep, 2026-10-23 (authoritative over the earlier web finding of no named recruiter). Email is pattern-inferred from Retell's dominant {firstname}@retellai.com format and is unconfirmed — LinkedIn connection first. [2026-10-23: LinkedIn connection request + note sent, verified pending.] [2026-10-26: Email to joshua@retellai.com BOUNCED 1:12 PM PDT — 550 5.1.1, address does not exist. Do not reuse. Live channel is the LinkedIn DM sent Sun 2026-10-25 9:47 AM PDT.]",
-      "linkedin_invite_status": "pending — connection request + note sent Fri 2026-10-23 (~11:42–11:54 PM PDT), verified pending on profile"
+      "linkedin_invite_status": "accepted — connection request accepted Sun 2026-10-25 ~10:51 AM PDT; 1st-degree connection (verified in LinkedIn thread)"
     },
     {
       "company": "Retell AI",
