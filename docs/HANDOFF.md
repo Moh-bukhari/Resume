@@ -3,6 +3,22 @@
 This is a continuation note, not a second tracker. Read
 [START-HERE.md](../START-HERE.md) and canonical records before acting.
 
+## Latest reconciliation — 2026-10-27
+
+- Job-finder's Gmail-enabled session published a 319-message ledger. Existing
+  R001/R002/R010 historical sends were retained there and were not appended again
+  to this tracker.
+- R010's `last_contact` is now 2026-10-18, reconciled with the existing confirmed
+  R010-E004 follow-up. A history-only note records the earlier bulk Mercor send and
+  its 43 failure notices from the published Gmail ledger; it does not create 43
+  sends or change the application status.
+- Source validation passed; all 13 tracker views were regenerated and checked
+  for 2026-10-27. The known missing R010 posting URL remains unresolved.
+- Private dispatch state was absent here. Restore/reconcile the authoritative
+  journal before live dispatch; do not initialize empty campaign history.
+- This update is prepared for origin/main. Check the remote commit before claiming
+  publication. The earlier startup migration notes below remain historical context.
+
 ## Last task
 
 - Date: 2026-10-24 (America/Los_Angeles).

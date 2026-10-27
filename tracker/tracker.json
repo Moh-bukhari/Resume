@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_on": "2026-10-26",
+  "updated_on": "2026-10-27",
   "settings": {
     "timezone": "America/Los_Angeles",
     "contact_followup_days": 5,
@@ -1724,7 +1724,7 @@
       "applied_on": "2026-10-14",
       "interview_on": null,
       "contact": "Owen Wu via LinkedIn DM (2026-10-15); brendan@mercor.com via email (2026-10-15)",
-      "last_contact": "2026-10-15",
+      "last_contact": "2026-10-18",
       "log": "2026-10-15: Emailed brendan@mercor.com asking for intro to right person for Growth Associate role. Sent LinkedIn DM to Owen Wu (Growth @ Mercor). Awaiting replies.",
       "job_link": null,
       "location": null,
@@ -1745,7 +1745,7 @@
       "prep_plan": null,
       "ai_notes": null,
       "added_on": null,
-      "updated_on": "2026-10-15",
+      "updated_on": "2026-10-27",
       "source_id": "XLSX-2026-10-15",
       "packet_path": null,
       "resume_path": null,
@@ -1795,6 +1795,29 @@
           "recorded_on": "2026-10-18",
           "confirmed_by": "tool",
           "note": "Follow-up email to brendan@mercor.com (reply in thread 'Growth Associate applicant — a quick introduction!!'), verified in Gmail SENT folder. First attempt misfired to self via +reply on own sent message; corrected send confirmed to brendan@mercor.com. No reply from Brendan yet as of 2026-10-18."
+        },
+        {
+          "id": "R010-E005",
+          "type": "tracker_update",
+          "occurred_on": "2026-10-27",
+          "recorded_on": "2026-10-27",
+          "confirmed_by": "tool",
+          "note": "Reconciled the last-contact summary with existing confirmed follow-up event R010-E004 (2026-10-18) and the Gmail-bound Job-finder source-r010-e004 record. No new send is recorded.",
+          "changes": {
+            "last_contact": {
+              "before": "2026-10-15",
+              "after": "2026-10-18"
+            }
+          }
+        },
+        {
+          "id": "R010-E006",
+          "type": "note",
+          "occurred_on": "2026-10-14",
+          "recorded_on": "2026-10-27",
+          "confirmed_by": "tool",
+          "note": "Historical mailbox reconciliation: Job-finder commit f574d53 records Gmail message 1a13d9e4c6ec5393, Growth Associate application!!!, sent 2026-10-14 20:32 PDT to multiple recipients, plus 43 related delivery-failure notices. This is one historical send with multiple failure notifications, not 43 sends or applications. See https://github.com/Moh-bukhari/Job-finder/blob/f574d53/tracker/outreach.json and message-level evidence. Reconcile company-wide bounce/hold history before further outreach. Current application status and contact dates are unchanged by this history-only note.",
+          "history_only": true
         }
       ]
     }
