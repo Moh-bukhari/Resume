@@ -1,6 +1,6 @@
 # Mohammed Bukhari — master experience bank
 
-Updated: 2026-10-15 (client date).
+Updated: 2026-10-27 (client date).
 
 Schema: 1.3.
 
@@ -29,7 +29,7 @@ Generated from [experience-bank.json](experience-bank.json). Edit the JSON, then
   - English — fluent
 - **Availability:** Prefers full-time work after May 2027 graduation; open to earlier work. Exact earlier availability not supplied.
 - **Location preferences:** Not yet supplied; past work locations do not establish current residence or relocation preferences.
-- **Work authorization:** Not supplied. Do not infer citizenship, visa status, or sponsorship needs.
+- **Work authorization:** Last confirmed answer: F-1 student, will require sponsorship (2026-10-23; user-confirmed R002-E002; SRC17). This dated application answer does not establish current OPT/CPT permission, authorization or expiry dates, eligibility for a different legal question, or status in May 2027.
 - **Positioning:** Original personal narrative emphasizes ambiguous early-stage problems, building first systems, and translating experience across aerospace, fintech, partnerships, and growth. Support these themes with concrete examples rather than generic adjectives.
 
 ## How to read the bank
@@ -708,6 +708,7 @@ UC Berkeley aerospace engineering student and satellite-platform founder with ex
 - Embersafe competition date reference is Berkeley Big Ideas; official date lookup was attempted but blocked by network HTTP 403. Exact cycle/project dates remain unverified.
 - Every tailored resume and job-search message should show alignment with the specific company's mission and goals through relevant supported experience (SRC15).
 - All new or revised application writing should receive a humanizing and professional editing pass while preserving strong wording, specific evidence, factual scope, and company fit (SRC16).
+- Work authorization: the user-confirmed R002-E002 application event records "F-1 student, will require sponsorship" on 2026-10-23 (SRC17). Preserve that dated answer and do not re-ask for it; exact current permission, authorization/expiry dates, other legal eligibility questions and May 2027 status remain unconfirmed.
 
 ## Details that would strengthen future versions
 
@@ -721,7 +722,7 @@ These are questions, not implied facts. Partial answers and unknowns are fine. T
 - **Q06 — Embersafe technical details (high):** What tech stack was used for the fire-department survey system and resident frontend? Municipal engagement is confirmed as still planning. The user requested official Big Ideas date research; access was blocked, so do not repeatedly ask for the planning status or assume dates from Rasma.
 - **Q08 — Chronology and recognition (medium):** Were the SCET PM and Operations Intern roles concurrent during September–December 2025? What are the exact Anthropic event name and DebriSolver finalist date? Are there award/proof links?
 - **Q09 — Missing experience and skill depth (medium):** Are there other jobs, leadership roles, volunteering, awards, certifications, or skills to add? Which listed technical tools can you discuss or use independently?
-- **Q10 — Application preferences (optional):** What role families, locations, and work arrangements do you prefer? What is your earliest full-time start or pre-graduation availability? If useful, what work-authorization or sponsorship requirements should applications reflect?
+- **Q10 — Application preferences (optional):** What role families, locations, and work arrangements do you prefer? What is your earliest full-time start or pre-graduation availability? F-1 student/will require sponsorship was user-confirmed for R002 on 2026-10-23 (SRC17); do not ask for that historical answer again. Confirm any presently required OPT/CPT permission, authorization dates or differently phrased legal eligibility only when a specific application needs them.
 - **Q11 — Job-search technical details (medium):** What runtime tools/model versions or APIs powered the workflow, and what is the fit-score scale? Development in 2025 with Claude/GPT-assisted coding and minor Python edits, 2,000+ jobs in one month, 221 applications, interviews with 17 distinct companies, and seven distinct offers are already recorded; do not ask those again.
 - **Q12 — OpenClaw and assistant capabilities (medium):** For the separate OpenClaw/Raspberry Pi setup and personal assistant, what concrete tasks does each perform, what runs on the Pi, which models/tools connect, and what did you code versus configure? Dates and optional demo/repo evidence would help.
 
@@ -810,6 +811,18 @@ On 2026-10-15, the user requested that every tailored resume and message align M
 
 On 2026-10-15, the user requested research into the best humanizer skills for messages and resume writing and required all application writing to pass through them while keeping the wording strong. This is a standing editing preference, not a new accomplishment or permission to alter sent/submitted history.
 
+
+### SRC17
+
+Reconciled on 2026-10-27 from the existing primary user-confirmed application event R002-E002, which records the 2026-10-23 Retell application answer: "F-1 student, will require sponsorship." This records that dated answer only, not new confirmation of current OPT/CPT permission, authorization or expiry dates, differently phrased legal eligibility, or May 2027 status. Muse's later summary is not the evidence source.
+
+- **Local path:** [tracker/tracker.json](<../tracker/tracker.json>)
+- **Url:** https://github.com/Moh-bukhari/Resume/blob/07d4ca5cf23e67a16f5e34a1f03d4ea23d15f7c4/tracker/tracker.json
+- **Tracker job id:** R002
+- **Tracker event id:** R002-E002
+- **Confirmed by:** user
+- **Confirmed on:** 2026-10-23
+- **Reconciled on:** 2026-10-27
 
 ## Submission status
 
