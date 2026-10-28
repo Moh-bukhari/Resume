@@ -1,0 +1,84 @@
+% Mohammed Bukhari -- one-page resume, standalone Overleaf source.
+% Compile with pdfLaTeX. No external files or paid fonts are required.
+% Target: Sierra -- Strategist, Agent Development (Arabic speaking). Facts: bank/experience-bank.json only.
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.58in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\urlstyle{same}
+\raggedright
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+\setlist[itemize]{leftmargin=13pt,itemsep=1.5pt,topsep=2pt,parsep=0pt,partopsep=0pt}
+
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\par
+  \textit{#3}\hfill #4\par
+}
+\newcommand{\project}[2]{\textbf{#1}\hfill #2\par}
+
+\begin{document}
+\begin{center}
+  {\LARGE\bfseries Mohammed Bukhari}\\[3pt]
+  +1 (415) 314-6640\enspace$|$\enspace
+  \href{mailto:H7@berkeley.edu}{H7@berkeley.edu}\enspace$|$\enspace
+  \href{https://www.linkedin.com/in/mo-bukhari/}{linkedin.com/in/mo-bukhari}\enspace$|$\enspace
+  \href{https://mobuk.me}{mobuk.me}
+\end{center}
+\vspace{-5pt}
+
+\section{Summary}
+Native Arabic-speaking product manager and founder who builds AI products end to end: conversation design, tooling, and iteration. Built a Greenhouse-integrated CRM with OpenAI natural-language search adopted across Tamara's recruiting teams and leadership, and an award-winning voice-AI agent (Claude + ElevenLabs).
+
+\section{Experience}
+\entry{Tamara -- Fintech}{Riyadh, Saudi Arabia / Remote}
+{Talent Brand \& Partnerships Intern, then External Consultant}{Jun 2026 -- Present}
+\begin{itemize}
+  \item Mapped COO, Talent Brand, Partnerships, and recruiting workflows into a shared talent CRM, translating stakeholder needs into a system used by Talent Acquisition, Talent Brand/Partnerships, and leadership including the COO and Head of TA.
+  \item Built the CRM on a \textbf{700K+ historical applicant base} with Greenhouse Harvest API integration (OAuth, pagination, retries), resumable synchronization, webhooks, and full-text search.
+  \item Built an \textbf{OpenAI conversational search assistant} that translates recruiter requests into validated, deterministic filters with live counts, explainable results, and shared saved views.
+  \item Evaluated 40+ universities, government entities, and professional communities; engaged 20 priority organizations and \textbf{secured 7 partnerships}; added \textbf{500+ qualified early-career candidates} in summer 2026.
+\end{itemize}
+\entry{UC Berkeley -- Sutardja Center for Entrepreneurship \& Technology}{Berkeley, CA}
+{Product Manager}{Sep 2025 -- Present}
+\begin{itemize}
+  \item Built a custom workflow using AI APIs and the HubSpot API to filter \textbf{100K+ leads} from multiple sources into \textbf{500 priority outreach targets}.
+  \item Automated lead nurturing with \textbf{LLM-powered personalized email sequences} and API integrations across professional-education programs.
+  \item Built multichannel attribution for \textbf{\$50K in ad spend}, translating campaign performance into budget allocation decisions.
+\end{itemize}
+\entry{AynX -- Satellite Collision Avoidance \;\href{https://aynx.space}{(aynx.space)}}{Berkeley, CA}
+{Founder}{Oct 2025 -- Present}
+\begin{itemize}
+  \item Founded a platform enabling low-Earth-orbit operators to coordinate collision-avoidance maneuvers without disclosing satellite ownership; built an \textbf{ML-backed decision engine} determining which operator maneuvers and when.
+  \item Reached the finals of the Saudi Space Agency's global \textbf{DebriSolver} competition.
+\end{itemize}
+
+\section{Projects \& Awards}
+\project{Sitters -- 1st Place, Anthropic Hackathon}{Sep 2026}
+\begin{itemize}
+  \item Personally built a \textbf{Next.js, Claude, and ElevenLabs} voice-AI application: museum visitors point a camera at a painting and converse with its sitter, painter, or both.
+  \item Designed conversational personas separating sourced responses from clearly labeled speculation, with a curator layer adding modern context; demonstrated on Sargent's \textit{Portrait of Madame X}.
+\end{itemize}
+\project{SkipLab -- 1st Place, AFI Global Idea Challenge (\$7,000)}{Jun 2025}
+\begin{itemize}
+  \item Co-developed an AI platform pre-screening cosmetic formulation safety, with an ML workflow built on peer-reviewed skin-sensitization and toxicology datasets.
+\end{itemize}
+
+\section{Education}
+\textbf{University of California, Berkeley}\hfill Expected May 2027\par
+B.S. Aerospace Engineering\enspace$|$\enspace GPA: 3.5/4.0\par
+
+\section{Skills}
+\textbf{Technical:} TypeScript, Next.js, Python, SQL, OpenAI, Claude, ElevenLabs, Greenhouse APIs, HubSpot API\par
+\textbf{Languages:} Arabic (native), English (fluent)\par
+\textbf{Business \& Analytics:} stakeholder discovery, workflow automation, attribution, partnership development, Advanced Excel
+\end{document}
