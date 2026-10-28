@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_on": "2026-10-27",
+  "updated_on": "2026-10-28",
   "settings": {
     "timezone": "America/Los_Angeles",
     "contact_followup_days": 5,
@@ -1474,7 +1474,7 @@
       "research_done": false,
       "networking": "Not started",
       "proof_done": false,
-      "resume_done": false,
+      "resume_done": true,
       "applied_on": null,
       "interview_on": null,
       "contact": null,
@@ -1499,17 +1499,76 @@
       "prep_plan": "Research: Sierra's posts on the agent strategist role and the Agent Development Life Cycle\nNetworking: message a Sierra agent strategist in London about the team and a 2027 start\nProof: build a small Arabic customer-service agent with a simple eval\nRésumé: mirror Keywords to mirror; lead with the Jabal competition and Arabic\nApply: submit through the job link\nInterview: stories on customer obsession, ownership and handling ambiguity",
       "ai_notes": "London-based, outside the Bay Area and Gulf targets. Posting doesn't mention visa sponsorship. Resources: https://sierra.ai/blog/agent-strategist-your-phd-in-applied-ai; https://sierra.ai/blog/agent-development-life-cycle",
       "added_on": "2026-10-11",
-      "updated_on": "2026-10-12",
+      "updated_on": "2026-10-28",
       "source_id": "XLSX-2026-10-15",
-      "packet_path": null,
+      "packet_path": "applications/r005-sierra-strategist-agent-development-arabic-speaking",
       "resume_path": null,
-      "letters_path": null,
-      "bank_bullet_ids": [],
+      "letters_path": "applications/r005-sierra-strategist-agent-development-arabic-speaking/letters",
+      "bank_bullet_ids": [
+        "TAM-02",
+        "TAM-05",
+        "TAM-08",
+        "TAM-09",
+        "TAM-11",
+        "TAM-12",
+        "TAM-18",
+        "TAM-19",
+        "TAM-20",
+        "TAM-25",
+        "SCP-02",
+        "SCP-03",
+        "SCP-06",
+        "SIT-01",
+        "SIT-02",
+        "SIT-04",
+        "AYN-01",
+        "AYN-03",
+        "AYN-04"
+      ],
       "review_notes": [
         "Imported workbook content; not independently verified. Recheck the live opening, requirements, fit assessment, and dates before acting. Candidate claims must come from bank/experience-bank.json, not imported strongest_proof, gaps, or prep_plan.",
         "Imported COO competition-sponsor claim requires confirmation; do not infer it from COO involvement in sourcing."
       ],
-      "events": []
+      "events": [
+        {
+          "id": "R005-E001",
+          "type": "tracker_update",
+          "occurred_on": "2026-10-28",
+          "recorded_on": "2026-10-28",
+          "confirmed_by": "user",
+          "note": "Tailored one-page resume built from bank for Sierra Strategist, Agent Development (Arabic speaking); pdfLaTeX verified 1 page A4; packet applications/r005-sierra-strategist-agent-development-arabic-speaking; status stays Saved per Mohammed (resume only, no application or outreach).",
+          "changes": {
+            "resume_done": {
+              "before": false,
+              "after": true
+            },
+            "bank_bullet_ids": {
+              "before": [],
+              "after": [
+                "TAM-02",
+                "TAM-05",
+                "TAM-08",
+                "TAM-09",
+                "TAM-11",
+                "TAM-12",
+                "TAM-18",
+                "TAM-19",
+                "TAM-20",
+                "TAM-25",
+                "SCP-02",
+                "SCP-03",
+                "SCP-06",
+                "SIT-01",
+                "SIT-02",
+                "SIT-04",
+                "AYN-01",
+                "AYN-03",
+                "AYN-04"
+              ]
+            }
+          }
+        }
+      ]
     },
     {
       "id": "R006",
