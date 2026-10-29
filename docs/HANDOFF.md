@@ -63,3 +63,21 @@ This is a continuation note, not a second tracker. Read
 
 Record actual changes, checks, publication state, and remaining work. Keep
 candidate facts and application events in their canonical records.
+
+
+## October 28, 2026 — workflow sanity check
+
+Fast-forwarded the checkout to 808ce8f, preserving the newer R005 Sierra draft
+packet and October 28 tracker views. The lifecycle tests had copied the changing
+production tracker while expecting October 15 dates and unknown contacts, causing
+eight failures as real application history advanced. tests/test_tracker.py now
+uses deterministic synthetic records in temporary folders. Production chronology
+validation and all real bank/tracker/application records are unchanged.
+
+Validation: all 11 tests pass; bank, tracker and generated tracker-view checks pass.
+The existing R010 missing-posting-URL note remains a known sourcing gap. All 48
+production bank/tracker/application files compared byte-for-byte with 808ce8f.
+The base resume builds as a one-page A4 PDF; this is a build check, not approval of
+a new application. No application or message was sent. This handoff is included
+in the test-fix commit intended for main; verify the remote before inferring push
+completion. Job-finder records the reviewed source pin and shared audit outcome.

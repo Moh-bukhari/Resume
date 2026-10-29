@@ -1,7 +1,8 @@
 """Functional checks for tracker evidence, reminders, and application packets.
 
-All mutations use disposable tracker copies and output folders. The repository's
-tracker, applications, and imported workbook are only read as source fixtures.
+All mutations use deterministic synthetic records and disposable output folders.
+The real tracker is read only to check its archived source and ensure it is unchanged;
+current application dates, contacts and preparation state never seed test cases.
 Run with: python3 -m unittest discover -s tests -v
 """
 
@@ -23,6 +24,37 @@ import render_tracker  # noqa: E402
 from check_contacts import validate_contacts  # noqa: E402
 
 
+def tracker_fixture() -> dict:
+    """Keep lifecycle scenarios fixed as the user's real search progresses."""
+    companies = [{"id": f"C{number:03d}", "name": f"Fixture Company {number}"}
+                 for number in range(1, 42)]
+    jobs = []
+    for number in range(1, 11):
+        jobs.append({
+            "id": f"R{number:03d}", "company": companies[number - 1]["name"],
+            "role": "Fixture Role", "status": "Saved", "networking": "Not started",
+            "contact": None, "last_contact": None, "applied_on": None,
+            "research_done": False, "proof_done": False, "resume_done": False,
+            "added_on": "2026-10-10", "updated_on": "2026-10-15",
+            "packet_path": None, "resume_path": None, "letters_path": None,
+            "bank_bullet_ids": [], "review_notes": [], "events": [],
+            "source_id": "TEST-FIXTURE",
+        })
+    # A known application with undated/unknown outreach exercises reminders without
+    # pretending that a contact name, send date or structured sent event is known.
+    jobs[-1].update(status="Applied", applied_on="2026-10-14", networking="Reached out")
+    return {
+        "schema_version": "1.0", "updated_on": "2026-10-15",
+        "settings": {"timezone": "America/Los_Angeles", "contact_followup_days": 5,
+                     "contact_followup_unit": "calendar", "application_followup_days": 14,
+                     "lookahead_days": 7, "fit1_decision_days": 3,
+                     "planning_offsets": {"research": 10, "networking": 9,
+                                          "proof": 4, "resume": 2}},
+        "sources": [{"id": "TEST-FIXTURE", "note": "Synthetic workflow test data."}],
+        "companies": companies, "jobs": jobs,
+    }
+
+
 class TrackerWorkflowTests(unittest.TestCase):
     def setUp(self) -> None:
         self.temporary = tempfile.TemporaryDirectory(prefix="resume-tracker-test-")
@@ -31,13 +63,9 @@ class TrackerWorkflowTests(unittest.TestCase):
         self.path = self.folder / "tracker.json"
         self.source_path = ROOT / "tracker" / "tracker.json"
         self.source_bytes = self.source_path.read_bytes()
-        self.fixture = json.loads(self.source_bytes)
-        # Even if a future production tracker links packets, test updates must
-        # never reach refresh_packet_context() with those production paths.
+        self.fixture = tracker_fixture()
+        # Synthetic records never inherit real packet links or confirmed events.
         self.data = deepcopy(self.fixture)
-        for job in self.data["jobs"]:
-            for key in ("packet_path", "resume_path", "letters_path"):
-                job[key] = None
         self.write_data()
         self.addCleanup(self.assert_source_unchanged)
 
@@ -93,22 +121,22 @@ class TrackerWorkflowTests(unittest.TestCase):
         self.assertEqual(len(matches), 1)
         return matches[0]
 
-    def test_import_preserves_ids_company_watchlist_and_unknown_outreach(self) -> None:
+    def test_snapshot_preserves_ids_company_watchlist_and_unknown_outreach(self) -> None:
         self.assertEqual(len(self.fixture["jobs"]), 10)
         self.assertEqual(len(self.fixture["companies"]), 41)
         self.assertEqual([job["id"] for job in self.fixture["jobs"]],
                          [f"R{number:03d}" for number in range(1, 11)])
-        source = next(item for item in self.fixture["sources"]
+        source = next(item for item in json.loads(self.source_bytes)["sources"]
                       if item["id"] == "XLSX-2026-10-15")
         self.assertEqual(hashlib.sha256((ROOT / source["path"]).read_bytes()).hexdigest(),
                          source["sha256"])
-        mercor = self.job("R010")
-        self.assertEqual((mercor["status"], mercor["applied_on"]),
+        applied = self.job("R010")
+        self.assertEqual((applied["status"], applied["applied_on"]),
                          ("Applied", "2026-10-14"))
-        self.assertIsNone(mercor["contact"])
-        self.assertIsNone(mercor["last_contact"])
-        self.assertFalse(any(event["type"] == "sent" for event in mercor["events"]))
-        self.assertFalse(mercor["proof_done"])
+        self.assertIsNone(applied["contact"])
+        self.assertIsNone(applied["last_contact"])
+        self.assertFalse(any(event["type"] == "sent" for event in applied["events"]))
+        self.assertFalse(applied["proof_done"])
         self.assertTrue(any("against the factual bank" in note
                             for note in render_tracker.missing_details(self.job())))
         self.render()
