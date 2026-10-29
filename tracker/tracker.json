@@ -1466,7 +1466,7 @@
       "id": "R005",
       "company": "Sierra",
       "role": "Strategist, Agent Development (Arabic speaking)",
-      "status": "Saved",
+      "status": "Applied",
       "priority": null,
       "fit": 4,
       "apply_by": "2026-10-28",
@@ -1475,7 +1475,7 @@
       "networking": "Not started",
       "proof_done": false,
       "resume_done": true,
-      "applied_on": null,
+      "applied_on": "2026-10-28",
       "interview_on": null,
       "contact": null,
       "last_contact": null,
@@ -1565,6 +1565,25 @@
                 "AYN-03",
                 "AYN-04"
               ]
+            }
+          }
+        },
+        {
+          "id": "R005-E002",
+          "type": "application",
+          "occurred_on": "2026-10-28",
+          "recorded_on": "2026-10-28",
+          "confirmed_by": "user",
+          "note": "User confirmed he submitted the application on Ashby on 2026-10-28 using the tailored resume built in this packet. Ashby confirmation email from Sierra Recruiting <no-reply@ashbyhq.com> (subject: Thanks for your application) received 2026-10-28 15:35 UTC; Gmail message id 1a183270f79d3842.",
+          "history_only": false,
+          "changes": {
+            "status": {
+              "before": "Saved",
+              "after": "Applied"
+            },
+            "applied_on": {
+              "before": null,
+              "after": "2026-10-28"
             }
           }
         }
