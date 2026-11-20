@@ -3,6 +3,10 @@
 This is a continuation note, not a second tracker. Read
 [START-HERE.md](../START-HERE.md) and canonical records before acting.
 
+## HUMAIN FDE team | November 20, 2026
+
+[R012](../tracker/jobs/R012.md) has a reviewed [cover letter](../applications/r012-humain-forward-deployed-engineering/letters/cover-letter.md) and one-page PDF. Prepared as a team-level expression of interest. Hiring status is unverified. Tracker and packet checks passed.
+
 ## Google Summer 2027 internship | November 20, 2026
 
 [R011](../tracker/jobs/R011.md) tracks Google's forward deployed engineering internship. The [application packet](../applications/r011-google-fde-summer-2027/) records the posting identifier and the requirements summarized in Mohammed's November 19 brief. The exact cutoff and application availability require confirmation in Google Careers. The [one-page A4 résumé](../applications/r011-google-fde-summer-2027/resume.pdf) passed text extraction, link and visual layout checks. The tracker records the résumé as prepared and the job as saved. The tracker, its generated views and the packet’s empty contact record passed validation. Check the current Git remote for publication.

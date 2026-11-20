@@ -2005,6 +2005,79 @@
           }
         }
       ]
+    },
+    {
+      "must_haves": null,
+      "posted_on": null,
+      "job_link": null,
+      "ai_notes": null,
+      "pay": null,
+      "last_contact": null,
+      "source_id": null,
+      "work_mode": null,
+      "applied_on": null,
+      "nice_to_haves": null,
+      "prep_plan": null,
+      "team": null,
+      "contact": null,
+      "priority": null,
+      "deadline": null,
+      "packet_path": "applications/r012-humain-forward-deployed-engineering",
+      "about_role": null,
+      "start_date": null,
+      "role": "Forward Deployed Engineering team (expression of interest)",
+      "company": "HUMAIN",
+      "location": null,
+      "interview_process": null,
+      "gaps": null,
+      "letters_path": "applications/r012-humain-forward-deployed-engineering/letters",
+      "log": null,
+      "strongest_proof": null,
+      "keywords": null,
+      "added_on": "2026-11-20",
+      "resume_path": null,
+      "apply_by": null,
+      "interview_on": null,
+      "job_type": null,
+      "updated_on": "2026-11-20",
+      "req_id": null,
+      "id": "R012",
+      "status": "Saved",
+      "networking": "Not started",
+      "fit": null,
+      "proof_done": false,
+      "resume_done": false,
+      "research_done": false,
+      "bank_bullet_ids": [],
+      "review_notes": [],
+      "events": [
+        {
+          "id": "R012-E001",
+          "type": "note",
+          "occurred_on": "2026-11-20",
+          "recorded_on": "2026-11-20",
+          "confirmed_by": "tool",
+          "note": "Mohammed requested a cover letter for HUMAIN’s FDE team. Team-level interest, no specific requisition supplied."
+        },
+        {
+          "id": "R012-E002",
+          "type": "tracker_update",
+          "occurred_on": "2026-11-20",
+          "recorded_on": "2026-11-20",
+          "confirmed_by": "tool",
+          "note": "Prepared and reviewed HUMAIN FDE team cover letter in Markdown and PDF.",
+          "changes": {
+            "packet_path": {
+              "before": null,
+              "after": "applications/r012-humain-forward-deployed-engineering"
+            },
+            "letters_path": {
+              "before": null,
+              "after": "applications/r012-humain-forward-deployed-engineering/letters"
+            }
+          }
+        }
+      ]
     }
   ]
 }

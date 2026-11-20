@@ -6,7 +6,7 @@ This is a static GitHub view. Dates and due items change only when the tracker i
 
 Tell the AI: **“Prepare R001”**, **“I applied to R001 on YYYY-MM-DD”**, or **“I sent the R001 outreach message on YYYY-MM-DD.”** It can update the tracker and linked materials as work progresses. Preparation never records an application or a sent message.
 
-**11 jobs · 41 companies.** Applied: 4 · Saved: 7
+**12 jobs · 41 companies.** Applied: 4 · Saved: 8
 
 [Company watchlist](companies.md) · [Spreadsheet-style job table](jobs.csv) · [How to update](HOW-TO-UPDATE.md) · [Candidate evidence bank](../bank/experience-bank.md)
 
@@ -51,6 +51,7 @@ Research, proof, and resume completion come from their own checkboxes. Applying 
 | [R009](<jobs/R009.md>) | Baseten | Forward Deployed Engineer | Saved | — | 2 | 0/3 · ○ Research · ○ Proof / demo · ○ Resume | Not started | — | 2026-11-01 | — |
 | [R010](<jobs/R010.md>) | Mercor | Growth Assosiate | Applied | High | 4 | 2/3 · ✓ Research · ○ Proof / demo · ✓ Resume | Reached out | 2026-10-14 | 2026-10-15 | — |
 | [R011](<jobs/R011.md>) | Google | Forward Deployed Engineering Internship, Summer 2027 | Saved | — | — | 1/3 · ○ Research · ○ Proof / demo · ✓ Resume | Not started | — | — | [Packet](<../applications/r011-google-fde-summer-2027>) · [Resume](<../applications/r011-google-fde-summer-2027/resume.pdf>) |
+| [R012](<jobs/R012.md>) | HUMAIN | Forward Deployed Engineering team \(expression of interest\) | Saved | — | — | 0/3 · ○ Research · ○ Proof / demo · ○ Resume | Not started | — | — | [Packet](<../applications/r012-humain-forward-deployed-engineering>) · [Letters](<../applications/r012-humain-forward-deployed-engineering/letters>) |
 
 ## Details to confirm
 
@@ -64,6 +65,7 @@ Research, proof, and resume completion come from their own checkboxes. Applying 
 - [R009](<jobs/R009.md>): Imported fit/proof analysis needs review against the factual bank.
 - [R010](<jobs/R010.md>): Imported fit/proof analysis needs review against the factual bank.
 - [R011](<jobs/R011.md>): Imported fit/proof analysis needs review against the factual bank.
+- [R012](<jobs/R012.md>): Imported fit/proof analysis needs review against the factual bank.
 
 ## Scheduling policy
 
