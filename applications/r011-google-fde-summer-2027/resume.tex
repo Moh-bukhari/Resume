@@ -1,0 +1,64 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.58in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,enumitem,titlesec}
+\usepackage[hidelinks]{hyperref}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\hypersetup{pdftitle={Mohammed Bukhari | Forward Deployed Engineering Internship},pdfauthor={Mohammed Bukhari}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\linespread{1.1}\selectfont
+\raggedright
+\urlstyle{same}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\setlist[itemize]{leftmargin=15pt,itemsep=3pt,topsep=4pt,parsep=0pt,partopsep=0pt}
+\newcommand{\role}[3]{\smallskip\textbf{#1}\hfill #3\par\textit{#2}\par}
+\begin{document}
+{\LARGE\bfseries Mohammed Bukhari}\par\vspace{3pt}
+\href{mailto:H7@berkeley.edu}{H7@berkeley.edu} \enspace$|$\enspace
+\href{https://mobuk.me}{mobuk.me} \enspace$|$\enspace
+\href{https://github.com/Moh-bukhari}{github.com/Moh-bukhari} \enspace$|$\enspace
+\href{https://www.linkedin.com/in/mo-bukhari/}{linkedin.com/in/mo-bukhari}
+
+\section*{Education}
+\textbf{University of California, Berkeley}\hfill Expected Fall 2027\par
+B.S. in Aerospace Engineering \enspace$|$\enspace GPA 3.5/4.0\par
+Available full-time in the U.S. for 12 weeks in summer 2027.
+
+\section*{Experience}
+\role{Tamara}{Talent Brand \& Partnerships Intern, then External Consultant}{Jun 2026 -- Present}
+\begin{itemize}
+\item Led discovery with recruiters and Partnerships on how to invite candidates to events and reengage past attendees for open roles. Co-built a CRM with Strategy around 700K+ historical applicant records.
+\item Wrote the Python integration that used Gemini to extract education, work history, and event attendance from r\'esum\'es, recruiter notes, and attendance CSVs. Checked extracted fields against source records and fixed extraction and CSV import errors during rollout.
+\item Worked with IT to deploy the CRM on Tamara's servers, restrict access, and connect it to cloud-hosted Gemini. Integrated Greenhouse data through its API.
+\item Trained recruiters on the live system, wrote task guides, and revised workflows based on their feedback. Tracked adoption across the rollout.
+\end{itemize}
+
+\role{UC Berkeley, Sutardja Center for Entrepreneurship \& Technology}{Product Manager}{Sep 2025 -- Present}
+\begin{itemize}
+\item Built a workflow using AI APIs and the HubSpot API to filter 100K+ professional education leads from multiple sources into 500 priority outreach targets. Automated personalized follow-up emails.
+\end{itemize}
+
+\role{AynX}{Founder}{Oct 2025 -- Present}
+\begin{itemize}
+\item Built a system for satellite operators to share collision data using rotating cryptographic identities and an ML model to recommend who should maneuver and when. Finalist in the Saudi Space Agency's DebriSolver competition.
+\end{itemize}
+
+\section*{Selected Projects}
+\textbf{Lecture Search} \enspace$|$\enspace Python, vector search, Google Colab
+\begin{itemize}
+\item Built a retrieval-augmented generation (RAG) system for questions spanning multiple lectures. Extracted captions from YouTube and indexed each full transcript as one document in a vector database.
+\item Used vector search to find relevant lectures, then had a model select passages from the retrieved transcripts to ground each answer. Ran the pipeline locally and in Colab.
+\end{itemize}
+\textbf{Sitters} \enspace$|$\enspace First place, Anthropic Hackathon \hfill Sep 2026
+\begin{itemize}
+\item Built a voice demo in Next.js with Claude and ElevenLabs that lets museum visitors question a painting's sitter or artist. Designed the personas to distinguish sourced answers from labeled speculation.
+\end{itemize}
+
+\section*{Technical Skills}
+\textbf{Languages and tools} \enspace Python, SQL, TypeScript, Gemini, Next.js, Greenhouse API, HubSpot API\par
+\textbf{Agent workflows} \enspace Implemented task delegation and handoffs between specialist agents. Used a reviewer agent to check another agent's output. Saved intermediate state so interrupted workflows could retry safely.\par
+\textbf{Model evaluation} \enspace Scored outputs against saved examples and measured tokens per second, cost per request, and end-to-end response time.
+\end{document}

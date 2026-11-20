@@ -62,7 +62,7 @@ Hi [First name],
 
 Following up on my [confirmed date] note about [role title]. One relevant detail: at Tamara, I translated recruiting and leadership needs into shared CRM workflows. The posting's focus on [sourced responsibility] is the connection I wanted to highlight.
 
-Would a brief conversation about the role and timing be useful? I expect to graduate in May 2027 and prefer full-time work afterward.
+Would a brief conversation about the role and timing be useful? I expect to graduate in Fall 2027 and prefer full-time work afterward.
 
 Mohammed
 ```

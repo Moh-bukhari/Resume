@@ -67,7 +67,7 @@ At Tamara, I mapped workflows across talent-brand, partnerships, recruiting, and
 
 At UC Berkeley's Sutardja Center for Entrepreneurship & Technology, I built a custom workflow using AI APIs and the HubSpot API to filter 100K+ leads from multiple sources into 500 priority outreach targets. [One sentence connecting this example to a second important requirement in the JD.] Across these projects, my contribution has been moving from a fragmented problem to a working workflow, then using feedback to refine it. [One specific, supported sentence explaining how that approach would apply to the responsibilities listed for this role.] Those are the experiences I would bring to [Company].
 
-I expect to complete my B.S. in Aerospace Engineering at UC Berkeley in May 2027 and prefer to begin full-time work after graduation. Could we discuss how this background fits the team's priorities and start timing?
+I expect to complete my B.S. in Aerospace Engineering at UC Berkeley in Fall 2027 and prefer to begin full-time work after graduation. Could we discuss how this background fits the team's priorities and start timing?
 
 Sincerely,
 Mohammed Bukhari

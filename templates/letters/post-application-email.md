@@ -61,7 +61,7 @@ I applied for [role title] on [confirmed date]. The responsibility for [specific
 
 During summer 2026, I added 500+ qualified early-career candidates across our sourcing channels. I also ran Sales Navigator event funnels and built CRM workflows linking event attendance, staff interactions, and follow-ups. That experience seems relevant to [Company]'s need for [sourced need].
 
-I expect to graduate from UC Berkeley in May 2027 and prefer to start full-time afterward. Would a short conversation about the role and timing be useful?
+I expect to graduate from UC Berkeley in Fall 2027 and prefer to start full-time afterward. Would a short conversation about the role and timing be useful?
 
 Mohammed Bukhari
 H7@berkeley.edu

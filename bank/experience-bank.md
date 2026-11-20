@@ -1,10 +1,10 @@
 # Mohammed Bukhari — master experience bank
 
-Updated: 2026-10-27 (client date).
+Updated: 2026-11-20 (client date).
 
 Schema: 1.3.
 
-13 experience/project entries; 72 selectable bullet options; 21 numeric facts; 4 awards.
+14 experience/project entries; 78 selectable bullet options; 21 numeric facts; 4 awards.
 
 This is a complete source library, not a resume to submit. Later explicit corrections take precedence over older drafts.
 
@@ -20,14 +20,15 @@ Generated from [experience-bank.json](experience-bank.json). Edit the JSON, then
 - **Education:**
   - **Institution:** University of California, Berkeley
   - **Degree:** B.S. in Aerospace Engineering
-  - **Dates:** June 2023–May 2027
-  - **Graduation:** Expected May 2027
+  - **Dates:** June 2023–Fall 2027
+  - **Graduation:** Expected Fall 2027
   - **Gpa:** 3.5/4.0
   - **Location:** Berkeley, CA
+  - **Graduation note:** Mohammed confirmed Fall 2027 on November 20 (SRC19). This supersedes the historical May 2027 estimate. No specific month was supplied.
 - **Languages:**
   - Arabic — native
   - English — fluent
-- **Availability:** Prefers full-time work after May 2027 graduation; open to earlier work. Exact earlier availability not supplied.
+- **Availability:** Available full time for a 12-week Summer 2027 internship in the US outside term, returning to coursework in Fall 2027 (SRC18). Prefers full-time work after graduation and is open to earlier work.
 - **Location preferences:** Not yet supplied; past work locations do not establish current residence or relocation preferences.
 - **Work authorization:** Last confirmed answer: F-1 student, will require sponsorship (2026-10-23; user-confirmed R002-E002; SRC17). This dated application answer does not establish current OPT/CPT permission, authorization or expiry dates, eligibility for a different legal question, or status in May 2027.
 - **Positioning:** Original personal narrative emphasizes ambiguous early-stage problems, building first systems, and translating experience across aerospace, fintech, partnerships, and growth. Support these themes with concrete examples rather than generic adjectives.
@@ -44,11 +45,11 @@ Generated from [experience-bank.json](experience-bank.json). Edit the JSON, then
 
 Fintech. Internship June–August 2026; retained afterward as an external consultant on the talent-brand and partnerships mandate. Exact consultant start date not supplied. The 700K+ base is the historical applicant pool; new event attendees and prospective applicants are additional intake scope. The system was used by Talent Acquisition, Talent Brand/Partnerships, and leadership including the COO, Head of TA, and Strategy teams.
 
-**Ownership:** User reports building the CRM, mapping stakeholder workflows, running Sales Navigator funnels, and delivering talent/partnership programs.
+**Ownership:** Led stakeholder discovery, co-built the recruiting CRM with Strategy, personally wrote Python for Gemini-assisted extraction, and worked with IT on deployment. Ran Sales Navigator funnels and delivered talent and partnership programs.
 
 **Useful for:** growth, sourcing, partnerships, business_operations, product, deployment, ai_tools.
 
-**Kind:** experience. **Sources:** SRC01, SRC02, SRC06, SRC07, SRC08, SRC10.
+**Kind:** experience. **Sources:** SRC01, SRC02, SRC06, SRC07, SRC08, SRC10, SRC18.
 
 **Additional scope and implementation details:**
 
@@ -65,6 +66,8 @@ Fintech. Internship June–August 2026; retained afterward as an external consul
   - Build a suitable-candidate invitation shortlist
   - Personalized invitations through the COO’s LinkedIn profile
   - Follow-ups
+- **Deployment:** The internal application ran on company servers and called hosted Gemini. Wider company rollout is planned. The older inspected repository documents a Next.js/Greenhouse implementation with OpenAI-assisted search. Its code alone does not establish which components shipped or who wrote individual features.
+- **Adoption:** Demonstrated tasks to users, created guidance, incorporated feedback and tracked adoption. No active-user count or measured time savings were supplied.
 
 - **TAM-01 [ready]:** Retained as an external consultant after a June–August 2026 Talent Brand & Partnerships internship, continuing talent and partnership work remotely.
   Tags: business_operations, ownership. Sources: SRC01.
@@ -87,9 +90,9 @@ Fintech. Internship June–August 2026; retained afterward as an external consul
   Tags: partnerships, program_management, growth. Sources: SRC01.
 - **TAM-08 [ready]:** Mapped COO, Talent Brand, Partnerships, and recruiting workflows into a shared talent CRM, translating stakeholder needs into connected team processes.
   Tags: product, deployment, business_operations. Sources: SRC07, SRC06.
-- **TAM-09 [ready]:** Built a Greenhouse-integrated CRM around 700K+ historical applicant records, with intake and engagement workflows for event attendees and prospective applicants.
+- **TAM-09 [ready]:** Co-built a Greenhouse-integrated CRM around 700K+ historical applicant records, with intake and engagement workflows for event attendees and prospective applicants.
   Scope: 700K+ describes the historical applicant base. New attendees/prospects are additional intake, not part of a separately verified combined count. User-reported volume; no live database count performed.
-  Tags: product, ai_tools, deployment, sourcing. Sources: SRC07, SRC06, SRC10.
+  Tags: product, ai_tools, deployment, sourcing. Sources: SRC07, SRC06, SRC10, SRC18.
 - **TAM-10 [ready]:** Built the CRM’s web application and data workflows using Next.js, TypeScript, Prisma, and SQLite/Turso.
   Scope: Owned-project stack corroborated in source; do not infer mastery level or sole authorship of all team contributions.
   Tags: ai_tools, engineering, product. Sources: SRC07, SRC06.
@@ -112,12 +115,12 @@ Fintech. Internship June–August 2026; retained afterward as an external consul
 - **TAM-17 [ready]:** Implemented structured application intake and local PDF/DOCX resume parsing, connecting submissions to searchable candidate records.
   Scope: Resume parsing is deterministic, not LLM-based; Greenhouse submission writes are configuration-dependent.
   Tags: ai_tools, engineering, sourcing. Sources: SRC07, SRC06.
-- **TAM-18 [ready]:** Built OpenAI-assisted candidate search translating recruiter requests into validated, deterministic filters.
-  Scope: Not AI resume ranking, job-fit prediction, or automatic hiring decisions.
-  Tags: ai_tools, product, sourcing. Sources: SRC07, SRC06.
-- **TAM-19 [ready]:** Built a conversational search assistant with live database counts, explainable filters, and shared saved views for recruiting teams.
-  Scope: Do not claim that no candidate-derived information reaches the model.
-  Tags: ai_tools, product, business_operations. Sources: SRC07, SRC06.
+- **TAM-18 [ready]:** The inspected CRM implementation uses OpenAI-assisted candidate search translating recruiter requests into validated, deterministic filters.
+  Scope: Not AI resume ranking, job-fit prediction, or automatic hiring decisions. Attribute live-system search to the team. SRC18 establishes personal feature-level ownership of Python/Gemini extraction.
+  Tags: ai_tools, product, sourcing. Sources: SRC07, SRC06, SRC18.
+- **TAM-19 [ready]:** The inspected CRM implementation includes a conversational search assistant with live database counts, explainable filters, and shared saved views for recruiting teams.
+  Scope: Do not claim that no candidate-derived information reaches the model. Attribute live-system search to the team. SRC18 establishes personal feature-level ownership of Python/Gemini extraction.
+  Tags: ai_tools, product, business_operations. Sources: SRC07, SRC06, SRC18.
 - **TAM-20 [ready]:** Implemented full-text search across candidate profiles, application history, event participation, and form answers using an automatically maintained FTS5 index.
   Scope: No source-comment latency or index-build timing presented as a measured benchmark.
   Tags: ai_tools, engineering, data. Sources: SRC07, SRC06.
@@ -139,6 +142,18 @@ Fintech. Internship June–August 2026; retained afterward as an external consul
 - **TAM-26 [ready]:** Created targeted candidate shortlists for personalized event invitations through the COO’s LinkedIn profile and subsequent follow-up.
   Scope: Fit-based shortlist selection does not imply AI ranking. Do not infer a LinkedIn API, sending automation, account-access arrangement, or conversion results.
   Tags: sourcing, growth, outbound, relationships. Sources: SRC08, SRC10.
+- **TAM-27 [ready]:** Led discovery with recruiting and partnerships staff to design two CRM workflows: inviting relevant candidates to events and reconnecting with past attendees when a role opened.
+  Scope: Internal teams worked from candidate contacts spread across spreadsheets.
+  Tags: discovery, deployment, product. Sources: SRC18.
+- **TAM-28 [ready]:** Wrote Python code that called Gemini to extract candidate details, education, work history and attendance from résumés, notes and event CSVs.
+  Scope: Personal feature ownership is established for Gemini extraction. The team built the wider CRM. The 700K+ figure describes the historical applicant base, not records processed by this feature.
+  Tags: python, applied_ai, data_pipelines. Sources: SRC18.
+- **TAM-29 [ready]:** Connected the CRM to live data via file exchange, API reads and a direct database connection. Worked with IT to deploy it on Tamara servers with restricted access and calls to cloud-hosted Gemini.
+  Scope: Co-built with Strategy and deployed with IT. No evidence of broader cloud infrastructure design or a named GCP service.
+  Tags: integrations, deployment, cloud_ai. Sources: SRC18.
+- **TAM-30 [ready]:** Checked extracted fields against source documents, fixed extraction and attendance-file import errors during rollout, and trained recruiters. Wrote user guidance and revised workflows from their feedback.
+  Scope: Internal users. Adoption was tracked, but no adoption counts, measured ROI or post-launch time savings are supplied.
+  Tags: evaluation, adoption, deployment. Sources: SRC18.
 
 ### UC Berkeley — Sutardja Center for Entrepreneurship & Technology (SCET) (SCP)
 
@@ -484,6 +499,25 @@ Separate from the job-search workflow and OpenClaw/Raspberry Pi setup. User repo
   Scope: The description “does everything” needs concrete examples. Do not invent calendar/email/browser actions, voice, autonomy, or time savings.
   Tags: ai_tools, automation. Sources: SRC10, SRC11.
 
+### Lecture knowledge system (LEC)
+
+**Personal Python retrieval project | Not supplied | Personal project**
+
+Search and answer questions across the captions of lectures on YouTube. Each lecture transcript was indexed as one document.
+
+**Ownership:** Wrote the Python pipeline, retrieved lectures using vector search and used a model to select supporting excerpts for answers. Ran the application locally and in Google Colab.
+
+**Useful for:** engineering, ai_tools, retrieval.
+
+**Kind:** project. **Sources:** SRC18.
+
+- **LEC-01 [ready]:** Wrote a Python pipeline to extract YouTube lecture captions and index each complete transcript as one document in a vector database.
+  Scope: Personal project. The vector database product, corpus size and project dates were not supplied.
+  Tags: python, vector_search, data_pipelines. Sources: SRC18.
+- **LEC-02 [ready]:** Built a retrieval-augmented question-answering system that finds relevant lectures by vector search and uses a model to select supporting excerpts from the retrieved transcripts. Ran it locally and in Google Colab.
+  Scope: Lecture-level retrieval precedes excerpt selection. Enterprise use or production hosting was not reported.
+  Tags: rag, retrieval, evaluation. Sources: SRC18.
+
 ## Numeric facts and attribution
 
 | ID | Value | Meaning | Status | Limit |
@@ -499,7 +533,7 @@ Separate from the job-search workflow and OpenClaw/Raspberry Pi setup. User repo
 | M09 | Approximately 12 | SCET partnerships | user_confirmed | Keep approximate; do not derive an average deal size. |
 | M10 | $7,000 | AFI Global Idea Challenge project/team prize | user_confirmed | Not confirmed personal income. |
 | M11 | 13 | Campus-wide finalist teams in Big Ideas, including Rasma | user_confirmed | Not Rasma team size or project users. |
-| M12 | 3.5/4.0 | UC Berkeley GPA | user_confirmed | Degree remains expected May 2027. |
+| M12 | 3.5/4.0 | UC Berkeley GPA | user_confirmed | GPA for the Berkeley B.S. in progress. Expected graduation is Fall 2027 (SRC19). |
 | M13 | 5 | Embersafe project team size | user_confirmed | Not five direct reports or a team-management claim. |
 | M14 | 100K+ | SCET lead pool filtered from multiple sources | user_confirmed | Not generated leads, customers, paid enrollments, or a verified count of unique individuals. |
 | M15 | 500 | SCET priority outreach targets selected from the 100K+ lead pool | user_confirmed | Not conversions, a conversion rate, or Tamara’s separate 500+ early-career candidate pipeline. |
@@ -556,6 +590,8 @@ Separate from the job-search workflow and OpenClaw/Raspberry Pi setup. User repo
   - OpenClaw
   - Raspberry Pi
   - GPT
+  - Gemini
+  - Google Colab
 - **Owned project implementation evidence:**
   - React
   - Prisma
@@ -608,6 +644,12 @@ Separate from the job-search workflow and OpenClaw/Raspberry Pi setup. User repo
   - Retell API
   - telephony/SIP tooling
   - specific SCET AI vendors/models and API endpoints; job-search runtime stack, model versions, and API integrations
+- **Applied ai project evidence:**
+  - **Sources:**
+    - SRC18
+  - **Evaluation:** Measured tokens per second, cost per request and end-to-end response time in Tamara and personal work. Also reports manual source comparisons, saved expected outputs, automated scoring and safety/reliability cases. Values, tracing and latency targets are unconfirmed.
+  - **State:** Across Tamara and personal work, passed state between steps, saved progress, made retries safe and reduced the context passed forward.
+  - **Agent workflows:** Across Tamara and side projects, built reviewer, hierarchical delegation and specialist handoff patterns. Also built a single agent that used tools or search and connected side-project applications to existing MCP servers. Exact project-to-pattern mapping, named frameworks, ReAct and writing an MCP server are unconfirmed.
 
 ## Coursework
 
@@ -661,6 +703,7 @@ UC Berkeley aerospace engineering student and satellite-platform founder with ex
 | Applied AI / internal tools / GTM engineering | TAM-10, TAM-11, TAM-12, TAM-13, TAM-18, TAM-19, SCP-04, SIT-01, SCP-06, PAI-01, PAI-08, PAI-09 | TAM-17, TAM-20, TAM-21, AYN-02, AYN-03, SKI-02, PAI-02, PAI-03, SCP-07, PAI-05, PAI-06, PAI-07, PAI-10 | Select two or three system details per entry rather than listing every mechanism. Do not claim unestablished professional SWE tenure, production benchmarks, or AI-based candidate ranking inside Tamara’s CRM. Job-search tasks, processing volume, and personal-search outcomes are concrete; development used Claude/GPT assistance and minor Python edits. Runtime architecture still needs detail. OpenClaw and personal-assistant capabilities remain needs_detail. |
 | Aerospace / hardware / simulation | SEB-01, SEB-02, SEB-03, STR-01, STR-02, STR-03, AYN-01, AYN-02, AYN-03 | AYN-04 | Use engineering coursework and tools. Distinguish analytical/simulation results from manufactured, tested, or flown hardware. |
 | Social-impact / research-informed product | RAS-01, RAS-02, SKI-01, SKI-02, EMB-01, EMB-02, EMB-06 | SKI-03, SIT-02 | Describe the user problem and discovery/prototype work. Keep clinical outcomes and planned adoption separate from demonstrated results. |
+| Forward deployed AI engineering | TAM-27, TAM-28, TAM-29, TAM-30, LEC-01, LEC-02 | SCP-06, SIT-01 | Enterprise discovery, Python extraction, deployment and adoption at Tamara. Demonstrate vector retrieval separately in the personal lecture system. See SRC18 for cross-project evaluation and state management. |
 
 ## Tailoring rules
 
@@ -677,7 +720,7 @@ UC Berkeley aerospace engineering student and satellite-platform founder with ex
 11. Use $100K+ SCET shared-project payments, not personal sales; $50K is advertising spend; SAR 100K is competition prizes.
 12. Exclude the retired SCET ROAS, cost-per-lead, and converted-lead-value figures. The user asked to skip them; do not ask for them again or derive new ratios from old values.
 13. Distinguish code-supported features from live validation; do not invent deployment success, uptime, latency, time savings, model accuracy, hiring results, or customer adoption.
-14. Describe CRM AI as natural-language/structured search, not automated resume ranking or hiring decisions. Resume parsing is deterministic.
+14. In the inspected CRM repository, OpenAI search translates requests to filters and parsing is deterministic. The later deployment account separately describes personally coding Python/Gemini extraction. Attribute natural-language search, summaries and suggestions in the live system to the team. Do not infer automated hiring decisions or enterprise vector retrieval.
 15. Keep Embersafe’s Sonoma-area city-council engagement at the latest confirmed stage: planning. Implementation/pilots are not established; wider expansion and future website demos remain prospective. Intended sovereign programs are not confirmed customers; public/judge demos are not enterprise deployment.
 16. Do not infer citizenship, work authorization, protected attributes, current residence, or availability from names, language, schooling, or prior work locations.
 17. For each job, save a separate resume version and note the company, title, job description, selected bullet IDs, and source facts. Do not imply that an existing draft has been submitted.
@@ -709,20 +752,21 @@ UC Berkeley aerospace engineering student and satellite-platform founder with ex
 - Every tailored resume and job-search message should show alignment with the specific company's mission and goals through relevant supported experience (SRC15).
 - All new or revised application writing should receive a humanizing and professional editing pass while preserving strong wording, specific evidence, factual scope, and company fit (SRC16).
 - Work authorization: the user-confirmed R002-E002 application event records "F-1 student, will require sponsorship" on 2026-10-23 (SRC17). Preserve that dated answer and do not re-ask for it; exact current permission, authorization/expiry dates, other legal eligibility questions and May 2027 status remain unconfirmed.
+- The Nov 19 internship brief (SRC18) records availability for 12 weeks full time outside term in the US and a Fall 2027 return to study. Mohammed confirmed Fall 2027 graduation on Nov 20 (SRC19).
 
 ## Details that would strengthen future versions
 
 These are questions, not implied facts. Partial answers and unknowns are fine. The current bank can already be used.
 
 - **Q01 — CRM launch and staff footprint (high):** When did the CRM launch and how many active staff users does it have? Teams and the historical 700K+ base are now recorded; do not ask those again.
-- **Q02 — CRM outcomes and ownership (high):** What is one before/after workflow improvement or measured outcome from the CRM, and did you own deployment, staff onboarding, and ongoing maintenance?
+- **Q02 — CRM outcomes and ownership (high):** If new measurements become available, what adoption counts or post-launch outcomes can be documented? Working with IT to deploy, training users, revising workflows after launch and tracking adoption are recorded in SRC18.
 - **Q03 — Sales Navigator funnel (high):** For the confirmed shortlist → COO LinkedIn invitation → follow-up funnel, what event/audience criteria applied, which steps were manual or automated, and are invitation/registration/attendance outcomes available?
 - **Q04 — SCET filtering implementation and payments (high):** For the confirmed 100K+ → 500 workflow, what selection criteria, AI models/vendors, and cadence were used, and did it produce measurable outreach/enrollment results? What was your role in the paid projects/partnerships? The lead volumes and HubSpot API use are already recorded.
 - **Q05 — Project maturity and artifacts (high):** For AynX, Sitters, SkipLab, and Rasma: what is live versus demo/pilot, team size, current users, and public evidence? Embersafe’s five-person team and interface ownership are already recorded.
 - **Q06 — Embersafe technical details (high):** What tech stack was used for the fire-department survey system and resident frontend? Municipal engagement is confirmed as still planning. The user requested official Big Ideas date research; access was blocked, so do not repeatedly ask for the planning status or assume dates from Rasma.
 - **Q08 — Chronology and recognition (medium):** Were the SCET PM and Operations Intern roles concurrent during September–December 2025? What are the exact Anthropic event name and DebriSolver finalist date? Are there award/proof links?
 - **Q09 — Missing experience and skill depth (medium):** Are there other jobs, leadership roles, volunteering, awards, certifications, or skills to add? Which listed technical tools can you discuss or use independently?
-- **Q10 — Application preferences (optional):** What role families, locations, and work arrangements do you prefer? What is your earliest full-time start or pre-graduation availability? F-1 student/will require sponsorship was user-confirmed for R002 on 2026-10-23 (SRC17); do not ask for that historical answer again. Confirm any presently required OPT/CPT permission, authorization dates or differently phrased legal eligibility only when a specific application needs them.
+- **Q10 — Application preferences (optional):** What role families, locations, and work arrangements do you prefer? The 12-week Summer 2027 internship availability is recorded. What is your earliest full-time start for other roles? F-1 student/will require sponsorship was user-confirmed for R002 on 2026-10-23 (SRC17); do not ask for that historical answer again. Confirm any presently required OPT/CPT permission, authorization dates or differently phrased legal eligibility only when a specific application needs them.
 - **Q11 — Job-search technical details (medium):** What runtime tools/model versions or APIs powered the workflow, and what is the fit-score scale? Development in 2025 with Claude/GPT-assisted coding and minor Python edits, 2,000+ jobs in one month, 221 applications, interviews with 17 distinct companies, and seven distinct offers are already recorded; do not ask those again.
 - **Q12 — OpenClaw and assistant capabilities (medium):** For the separate OpenClaw/Raspberry Pi setup and personal assistant, what concrete tasks does each perform, what runs on the Pi, which models/tools connect, and what did you code versus configure? Dates and optional demo/repo evidence would help.
 
@@ -823,6 +867,16 @@ Reconciled on 2026-10-27 from the existing primary user-confirmed application ev
 - **Confirmed by:** user
 - **Confirmed on:** 2026-10-23
 - **Reconciled on:** 2026-10-27
+
+### SRC18
+
+Mohammed's uploaded Google_FDE_Application_Brief.docx, dated 2026-11-19. The project and eligibility sections summarize his own account. Hiring examples and job requirements in the same brief describe other people or the role.
+
+
+### SRC19
+
+Mohammed directly confirmed his expected graduation in the Google FDE application conversation on 2026-11-20: “fall 2027 i will graduate”. This updates the earlier May 2027 estimate. The precise month was not specified.
+
 
 ## Submission status
 

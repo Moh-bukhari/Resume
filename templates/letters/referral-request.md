@@ -59,7 +59,7 @@ Hi [First name],
 
 [One sentence recalling a confirmed interaction or the recipient's invitation to request referrals.] I'm considering [role title] at [Company], particularly its focus on [specific, sourced responsibility].
 
-At Tamara, I mapped talent-brand, recruiting, and COO workflows into a shared CRM with Greenhouse integration. Working around 700K+ historical applicant records meant connecting existing recruiting information with event engagement and follow-up. That seems relevant to the role's need for [supported connection]. I expect to graduate from UC Berkeley in May 2027 and prefer a full-time start afterward.
+At Tamara, I mapped talent-brand, recruiting, and COO workflows into a shared CRM with Greenhouse integration. Working around 700K+ historical applicant records meant connecting existing recruiting information with event engagement and follow-up. That seems relevant to the role's need for [supported connection]. I expect to graduate from UC Berkeley in Fall 2027 and prefer a full-time start afterward.
 
 If the background and timing seem suitable, would you feel comfortable referring me for this opening? My work is summarized at https://mobuk.me.
 

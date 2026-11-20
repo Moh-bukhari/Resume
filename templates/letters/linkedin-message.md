@@ -52,13 +52,13 @@ personalization_notes: "[Why this recipient; one verified overlap; current chann
 ## Connection note: before applying
 
 ```text
-Hi [Name], I'm exploring [Company]'s [Role] opening. I build talent workflows at Tamara and expect to graduate in May 2027. Could we connect?
+Hi [Name], I'm exploring [Company]'s [Role] opening. I build talent workflows at Tamara and expect to graduate in Fall 2027. Could we connect?
 ```
 
 ## Connection note: after a confirmed application
 
 ```text
-Hi [Name], I applied for [Role] at [Company]. I built talent CRM workflows at Tamara and expect to graduate in May 2027. Could we connect?
+Hi [Name], I applied for [Role] at [Company]. I built talent CRM workflows at Tamara and expect to graduate in Fall 2027. Could we connect?
 ```
 
 Long names or titles can push either note over the target. Shorten the company
@@ -70,7 +70,7 @@ person's name or invent an abbreviation. Both notes have one ask: connect.
 ```text
 Hi [First name], the [role title] posting's focus on [sourced responsibility] connects to my work at Tamara. I mapped recruiting and leadership workflows into a Greenhouse-integrated talent CRM around 700K+ historical applicant records.
 
-I expect to graduate from UC Berkeley in May 2027 and prefer full-time work afterward. Would you be open to a brief conversation about the role and timing?
+I expect to graduate from UC Berkeley in Fall 2027 and prefer full-time work afterward. Would you be open to a brief conversation about the role and timing?
 
 Mohammed
 ```
@@ -80,7 +80,7 @@ Mohammed
 ```text
 Hi [First name], I applied for [role title] on [confirmed date]. Its focus on [sourced responsibility] connects to my work at Tamara, where I built a Greenhouse-integrated CRM linking recruiting and talent-brand workflows.
 
-I expect to graduate in May 2027. Would a brief conversation about the team's priorities and start timing be useful?
+I expect to graduate in Fall 2027. Would a brief conversation about the team's priorities and start timing be useful?
 
 Mohammed
 ```

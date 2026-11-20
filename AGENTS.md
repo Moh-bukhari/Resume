@@ -100,7 +100,7 @@ workflows only with available access; copying skills does not install APIs.
   sourced role/company connection, one or two relevant bank facts, and one
   clear ask. Aim for 100–120 words, flexible up to 150; use the letter guide
   for other formats. Generic upstream length/subject rules are optional.
-- Expected graduation is May 2027. Full-time preference is after graduation,
+- Expected graduation is Fall 2027. Full-time preference is after graduation,
   open to earlier work. Do not infer exact availability, current residence,
   citizenship, work authorization, or sponsorship needs.
 - Preserve titles/dates: Tamara internship June–August 2026 then consulting

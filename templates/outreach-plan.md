@@ -17,7 +17,7 @@
 - Role family: [growth/sourcing / deployment/product / AI systems / engineering / other]
 - Two or three central role needs: [from the actual JD]
 - Selected proof IDs and bridge to these needs: [one or two main facts; preserve scope]
-- Material gaps or timing constraints: [include May 2027 graduation when relevant]
+- Material gaps or timing constraints: [include Fall 2027 graduation when relevant]
 - Company/person research: [Anthropic Account Research; tools/sources actually used]
 - People discovery / optional email verification: [Exa method or fallback; provider if run]
 - Draft structure and editing: [Anthropic Draft Outreach + Corey Cold Email/Copy Editing]

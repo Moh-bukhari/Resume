@@ -46,7 +46,7 @@ claim_ids: [TAM-08, TAM-09]
 claim_source_ids: [SRC06, SRC07, SRC10]
 body_word_count: "[Count after personalization]"
 personalization_notes: "[Exact published role need used in the opening; why this recipient is appropriate]"
-availability_notes: "Expected graduation May 2027; prefers afterward and is open to earlier work; exact earlier availability unconfirmed."
+availability_notes: "Expected graduation Fall 2027; prefers afterward and is open to earlier work; available for a 12-week US internship in summer 2027."
 ```
 
 ## Subject options — choose one
@@ -63,7 +63,7 @@ The [role title] posting's emphasis on [specific, sourced responsibility] caught
 
 For [Company], I'd be interested in applying that experience to [concrete need stated in the posting]. The overlap is translating several teams' needs into one usable system, with connected handoffs and a shared view of the work.
 
-I expect to graduate from UC Berkeley in May 2027 and prefer a full-time start afterward. Would a brief conversation about the team's priorities and timing make sense?
+I expect to graduate from UC Berkeley in Fall 2027 and prefer a full-time start afterward. Would a brief conversation about the team's priorities and timing make sense?
 
 Mohammed Bukhari
 H7@berkeley.edu

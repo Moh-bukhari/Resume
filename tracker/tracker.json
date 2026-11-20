@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_on": "2026-10-28",
+  "updated_on": "2026-11-20",
   "settings": {
     "timezone": "America/Los_Angeles",
     "contact_followup_days": 5,
@@ -1896,6 +1896,113 @@
           "confirmed_by": "tool",
           "note": "Historical mailbox reconciliation: Job-finder commit f574d53 records Gmail message 1a13d9e4c6ec5393, Growth Associate application!!!, sent 2026-10-14 20:32 PDT to multiple recipients, plus 43 related delivery-failure notices. This is one historical send with multiple failure notifications, not 43 sends or applications. See https://github.com/Moh-bukhari/Job-finder/blob/f574d53/tracker/outreach.json and message-level evidence. Reconcile company-wide bounce/hold history before further outreach. Current application status and contact dates are unchanged by this history-only note.",
           "history_only": true
+        }
+      ]
+    },
+    {
+      "must_haves": null,
+      "prep_plan": null,
+      "role": "Forward Deployed Engineering Internship, Summer 2027",
+      "keywords": null,
+      "apply_by": null,
+      "resume_path": "applications/r011-google-fde-summer-2027/resume.pdf",
+      "added_on": "2026-11-20",
+      "interview_on": null,
+      "strongest_proof": null,
+      "priority": null,
+      "job_link": "https://www.google.com/about/careers/applications/jobs/results/75665705386549958",
+      "nice_to_haves": null,
+      "posted_on": null,
+      "packet_path": "applications/r011-google-fde-summer-2027",
+      "req_id": "75665705386549958",
+      "updated_on": "2026-11-20",
+      "job_type": "Internship",
+      "contact": null,
+      "company": "Google",
+      "start_date": "Summer 2027",
+      "interview_process": null,
+      "gaps": null,
+      "ai_notes": null,
+      "about_role": null,
+      "log": null,
+      "applied_on": null,
+      "pay": null,
+      "letters_path": null,
+      "work_mode": null,
+      "deadline": null,
+      "team": null,
+      "last_contact": null,
+      "source_id": null,
+      "location": null,
+      "id": "R011",
+      "status": "Saved",
+      "networking": "Not started",
+      "fit": null,
+      "resume_done": true,
+      "research_done": false,
+      "proof_done": false,
+      "bank_bullet_ids": [],
+      "review_notes": [
+        "November 19 brief says to complete the application before November 20, 2026. Exact cutoff and current availability unverified."
+      ],
+      "events": [
+        {
+          "id": "R011-E001",
+          "type": "note",
+          "occurred_on": "2026-11-20",
+          "recorded_on": "2026-11-20",
+          "confirmed_by": "user",
+          "note": "Mohammed supplied the posting and a November 19 application brief for résumé preparation."
+        },
+        {
+          "id": "R011-E002",
+          "type": "tracker_update",
+          "occurred_on": "2026-11-20",
+          "recorded_on": "2026-11-20",
+          "confirmed_by": "tool",
+          "note": "Recorded the posting identifier and internship term from the supplied materials. Linked résumé-only packet.",
+          "changes": {
+            "req_id": {
+              "before": null,
+              "after": "75665705386549958"
+            },
+            "job_type": {
+              "before": null,
+              "after": "Internship"
+            },
+            "start_date": {
+              "before": null,
+              "after": "Summer 2027"
+            },
+            "letters_path": {
+              "before": "applications/r011-google-fde-summer-2027/letters",
+              "after": null
+            },
+            "review_notes": {
+              "before": [],
+              "after": [
+                "November 19 brief says to complete the application before November 20, 2026. Exact cutoff and current availability unverified."
+              ]
+            }
+          }
+        },
+        {
+          "id": "R011-E003",
+          "type": "tracker_update",
+          "occurred_on": "2026-11-20",
+          "recorded_on": "2026-11-20",
+          "confirmed_by": "tool",
+          "note": "Reviewed the one-page A4 résumé PDF and checked text extraction, visual layout, links and overflow.",
+          "changes": {
+            "resume_done": {
+              "before": false,
+              "after": true
+            },
+            "resume_path": {
+              "before": null,
+              "after": "applications/r011-google-fde-summer-2027/resume.pdf"
+            }
+          }
         }
       ]
     }

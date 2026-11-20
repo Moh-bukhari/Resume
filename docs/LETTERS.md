@@ -112,7 +112,7 @@ metrics, generic flattery, and a second ask. Preserve the user's wording when
 making a point edit. Emotion, urgency, guarantees, campaign response benchmarks,
 and sales-volume tactics are not requirements for a candidate letter.
 
-Expected graduation is May 2027; the user prefers afterward and is open to
+Expected graduation is Fall 2027; the user prefers afterward and is open to
 earlier work. Mention timing when it matters, but do not invent immediate
 availability, location, visa status, or a commitment to a start date.
 

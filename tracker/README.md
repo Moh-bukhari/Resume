@@ -1,12 +1,12 @@
 # Job search tracker
 
-**Snapshot as of 2026-10-28 · America/Los\_Angeles.** Source last updated 2026-10-28.
+**Snapshot as of 2026-11-20 · America/Los\_Angeles.** Source last updated 2026-11-20.
 
 This is a static GitHub view. Dates and due items change only when the tracker is rendered again; opening this page does not refresh them.
 
 Tell the AI: **“Prepare R001”**, **“I applied to R001 on YYYY-MM-DD”**, or **“I sent the R001 outreach message on YYYY-MM-DD.”** It can update the tracker and linked materials as work progresses. Preparation never records an application or a sent message.
 
-**10 jobs · 41 companies.** Applied: 4 · Saved: 6
+**11 jobs · 41 companies.** Applied: 4 · Saved: 7
 
 [Company watchlist](companies.md) · [Spreadsheet-style job table](jobs.csv) · [How to update](HOW-TO-UPDATE.md) · [Candidate evidence bank](../bank/experience-bank.md)
 
@@ -16,19 +16,23 @@ These are reminders to review, not records of applications or messages being sen
 
 | Date | Timing | Job | Type | Next review |
 | --- | --- | --- | --- | --- |
-| 2026-10-17 | 11 day\(s\) past scheduled date | [R004](<jobs/R004.md>) | Preparation | Research the role \(suggested prep date\) |
-| 2026-10-17 | 11 day\(s\) past scheduled date | [R006](<jobs/R006.md>) | Preparation | Research the role \(suggested prep date\) |
-| 2026-10-21 | 7 day\(s\) past scheduled date | [R003](<jobs/R003.md>) | Preparation | Research the role \(suggested prep date\) |
-| 2026-10-22 | 6 day\(s\) past scheduled date | [R009](<jobs/R009.md>) | Preparation | Research the role \(suggested prep date\) |
-| 2026-10-23 | 5 day\(s\) past scheduled date | [R010](<jobs/R010.md>) | Follow-up | Review the actual thread before considering an outreach follow-up |
-| 2026-10-27 | 1 day\(s\) past scheduled date | [R004](<jobs/R004.md>) | Application | Apply by target |
-| 2026-10-27 | 1 day\(s\) past scheduled date | [R006](<jobs/R006.md>) | Application | Apply by target |
-| 2026-10-28 | Today in this snapshot | [R010](<jobs/R010.md>) | Follow-up | Consider application follow-up if appropriate; check for replies first |
-| 2026-10-31 | In 3 day\(s\) | [R001](<jobs/R001.md>) | Follow-up | Review the actual thread before considering an outreach follow-up |
-| 2026-10-31 | In 3 day\(s\) | [R002](<jobs/R002.md>) | Follow-up | Review the actual thread before considering an outreach follow-up |
-| 2026-10-31 | In 3 day\(s\) | [R003](<jobs/R003.md>) | Application | Apply by target |
-| 2026-10-31 | In 3 day\(s\) | [R008](<jobs/R008.md>) | Preparation | Research the role \(suggested prep date\) |
-| 2026-11-01 | In 4 day\(s\) | [R009](<jobs/R009.md>) | Application | Apply by target |
+| 2026-10-17 | 34 day\(s\) past scheduled date | [R004](<jobs/R004.md>) | Preparation | Research the role \(suggested prep date\) |
+| 2026-10-17 | 34 day\(s\) past scheduled date | [R006](<jobs/R006.md>) | Preparation | Research the role \(suggested prep date\) |
+| 2026-10-21 | 30 day\(s\) past scheduled date | [R003](<jobs/R003.md>) | Preparation | Research the role \(suggested prep date\) |
+| 2026-10-22 | 29 day\(s\) past scheduled date | [R009](<jobs/R009.md>) | Preparation | Research the role \(suggested prep date\) |
+| 2026-10-23 | 28 day\(s\) past scheduled date | [R010](<jobs/R010.md>) | Follow-up | Review the actual thread before considering an outreach follow-up |
+| 2026-10-27 | 24 day\(s\) past scheduled date | [R004](<jobs/R004.md>) | Application | Apply by target |
+| 2026-10-27 | 24 day\(s\) past scheduled date | [R006](<jobs/R006.md>) | Application | Apply by target |
+| 2026-10-28 | 23 day\(s\) past scheduled date | [R010](<jobs/R010.md>) | Follow-up | Consider application follow-up if appropriate; check for replies first |
+| 2026-10-31 | 20 day\(s\) past scheduled date | [R001](<jobs/R001.md>) | Follow-up | Review the actual thread before considering an outreach follow-up |
+| 2026-10-31 | 20 day\(s\) past scheduled date | [R002](<jobs/R002.md>) | Follow-up | Review the actual thread before considering an outreach follow-up |
+| 2026-10-31 | 20 day\(s\) past scheduled date | [R003](<jobs/R003.md>) | Application | Apply by target |
+| 2026-10-31 | 20 day\(s\) past scheduled date | [R008](<jobs/R008.md>) | Preparation | Research the role \(suggested prep date\) |
+| 2026-11-01 | 19 day\(s\) past scheduled date | [R009](<jobs/R009.md>) | Application | Apply by target |
+| 2026-11-06 | 14 day\(s\) past scheduled date | [R001](<jobs/R001.md>) | Follow-up | Consider application follow-up if appropriate; check for replies first |
+| 2026-11-06 | 14 day\(s\) past scheduled date | [R002](<jobs/R002.md>) | Follow-up | Consider application follow-up if appropriate; check for replies first |
+| 2026-11-10 | 10 day\(s\) past scheduled date | [R008](<jobs/R008.md>) | Application | Apply by target |
+| 2026-11-11 | 9 day\(s\) past scheduled date | [R005](<jobs/R005.md>) | Follow-up | Consider application follow-up if appropriate; check for replies first |
 
 ## Applications
 
@@ -46,6 +50,7 @@ Research, proof, and resume completion come from their own checkboxes. Applying 
 | [R008](<jobs/R008.md>) | Baseten | Forward Deployed Engineer \(Training\) | Saved | — | 1 | 0/3 · ○ Research · ○ Proof / demo · ○ Resume | Not started | — | 2026-11-10 | — |
 | [R009](<jobs/R009.md>) | Baseten | Forward Deployed Engineer | Saved | — | 2 | 0/3 · ○ Research · ○ Proof / demo · ○ Resume | Not started | — | 2026-11-01 | — |
 | [R010](<jobs/R010.md>) | Mercor | Growth Assosiate | Applied | High | 4 | 2/3 · ✓ Research · ○ Proof / demo · ✓ Resume | Reached out | 2026-10-14 | 2026-10-15 | — |
+| [R011](<jobs/R011.md>) | Google | Forward Deployed Engineering Internship, Summer 2027 | Saved | — | — | 1/3 · ○ Research · ○ Proof / demo · ✓ Resume | Not started | — | — | [Packet](<../applications/r011-google-fde-summer-2027>) · [Resume](<../applications/r011-google-fde-summer-2027/resume.pdf>) |
 
 ## Details to confirm
 
@@ -58,6 +63,7 @@ Research, proof, and resume completion come from their own checkboxes. Applying 
 - [R008](<jobs/R008.md>): Imported fit/proof analysis needs review against the factual bank.
 - [R009](<jobs/R009.md>): Imported fit/proof analysis needs review against the factual bank.
 - [R010](<jobs/R010.md>): Imported fit/proof analysis needs review against the factual bank.
+- [R011](<jobs/R011.md>): Imported fit/proof analysis needs review against the factual bank.
 
 ## Scheduling policy
 

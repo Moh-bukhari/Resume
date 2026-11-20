@@ -73,7 +73,7 @@ If next steps were already specified, replace the closing question with one
 appropriate action or omit it so the recipient need not repeat them.
 Mention a promised artifact only when that promise is confirmed and the artifact
 exists. Availability need not be repeated if already settled; otherwise preserve
-expected May 2027 graduation and do not imply an agreed start date.
+expected Fall 2027 graduation and do not imply an agreed start date.
 
 If the event is confirmed but its exact date is unknown, omit the date phrase
 from the message rather than inventing it. Keep date metadata unknown. Exact

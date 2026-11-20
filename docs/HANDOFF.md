@@ -3,6 +3,10 @@
 This is a continuation note, not a second tracker. Read
 [START-HERE.md](../START-HERE.md) and canonical records before acting.
 
+## Google Summer 2027 internship | November 20, 2026
+
+[R011](../tracker/jobs/R011.md) tracks Google's forward deployed engineering internship. The [application packet](../applications/r011-google-fde-summer-2027/) records the posting identifier and the requirements summarized in Mohammed's November 19 brief. The exact cutoff and application availability require confirmation in Google Careers. The [one-page A4 résumé](../applications/r011-google-fde-summer-2027/resume.pdf) passed text extraction, link and visual layout checks. The tracker records the résumé as prepared and the job as saved. The tracker, its generated views and the packet’s empty contact record passed validation. Check the current Git remote for publication.
+
 ## Latest reconciliation — 2026-10-27
 
 - Job-finder's Gmail-enabled session published a 319-message ledger. Existing
