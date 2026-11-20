@@ -112,6 +112,10 @@
     {
       "id": "SRC19",
       "description": "Mohammed directly confirmed his expected graduation in the Google FDE application conversation on 2026-11-20: “fall 2027 i will graduate”. This updates the earlier May 2027 estimate. The precise month was not specified."
+    },
+    {
+      "id": "SRC20",
+      "description": "Mohammed confirmed on 2026-11-20 in the Google FDE résumé review that all 700K+ historical applicant records were imported into Tamara’s CRM."
     }
   ],
   "experiences": [
@@ -122,7 +126,7 @@
       "title": "External Consultant; previously Talent Brand & Partnerships Intern",
       "dates": "June 2026–Present",
       "location": "Riyadh, Saudi Arabia / Remote",
-      "context": "Fintech. Internship June–August 2026; retained afterward as an external consultant on the talent-brand and partnerships mandate. Exact consultant start date not supplied. The 700K+ base is the historical applicant pool; new event attendees and prospective applicants are additional intake scope. The system was used by Talent Acquisition, Talent Brand/Partnerships, and leadership including the COO, Head of TA, and Strategy teams.",
+      "context": "Fintech. Internship June–August 2026; retained afterward as an external consultant on the talent-brand and partnerships mandate. Exact consultant start date not supplied. The CRM imported all 700K+ historical applicant records. New event attendees and prospective applicants are additional intake. The system was used by Talent Acquisition, Talent Brand/Partnerships, and leadership including the COO, Head of TA, and Strategy teams.",
       "ownership": "Led stakeholder discovery, co-built the recruiting CRM with Strategy, personally wrote Python for Gemini-assisted extraction, and worked with IT on deployment. Ran Sales Navigator funnels and delivered talent and partnership programs.",
       "best_for": [
         "growth",
@@ -140,7 +144,8 @@
         "SRC07",
         "SRC08",
         "SRC10",
-        "SRC18"
+        "SRC18",
+        "SRC20"
       ],
       "reported_users": [
         "Talent Acquisition",
@@ -150,7 +155,7 @@
         "Strategy teams"
       ],
       "data_scope": {
-        "historical_applicants": "700K+",
+        "historical_applicants": "700K+ historical applicant records, all imported into the CRM",
         "additional_intake": "New event attendees and prospective applicants; do not include future additions in the historical base count."
       },
       "confirmed_funnel": [
@@ -606,7 +611,7 @@
     {
       "id": "TAM-09",
       "experience_id": "TAM",
-      "text": "Co-built a Greenhouse-integrated CRM around 700K+ historical applicant records, with intake and engagement workflows for event attendees and prospective applicants.",
+      "text": "Co-built a recruiting CRM with Strategy that imported all 700K+ historical applicant records and integrated with Greenhouse. The CRM also supports intake and engagement workflows for event attendees and prospective applicants.",
       "tags": [
         "product",
         "ai_tools",
@@ -617,10 +622,11 @@
         "SRC07",
         "SRC06",
         "SRC10",
-        "SRC18"
+        "SRC18",
+        "SRC20"
       ],
       "status": "ready",
-      "scope_note": "700K+ describes the historical applicant base. New attendees/prospects are additional intake, not part of a separately verified combined count. User-reported volume; no live database count performed."
+      "scope_note": "Mohammed confirmed the import of the full historical applicant dataset. The count excludes additional intake. It does not establish Gemini processing volume or the number of active users."
     },
     {
       "id": "TAM-10",
@@ -1734,9 +1740,9 @@
     {
       "id": "M05",
       "value": "700K+",
-      "meaning": "User-reported historical applicant base used for the CRM; future event attendees and prospective applicants are additional intake.",
+      "meaning": "Historical applicant records imported into Tamara’s CRM, covering the full historical applicant dataset (SRC20).",
       "status": "user_confirmed_historical_scope",
-      "avoid": "Not active users, personally sourced leads, or a current combined historical-plus-future audience count."
+      "avoid": "Additional attendees and prospects are separate. Do not infer active users, personally sourced leads, or Gemini extraction volume."
     },
     {
       "id": "M06",
@@ -2235,7 +2241,7 @@
     }
   ],
   "answered_clarifications": [
-    "700K+ is the historical applicant base; new attendees and prospective applicants add to it.",
+    "Mohammed confirmed the CRM imported all 700K+ historical applicant records (SRC20). New attendee and prospect intake is additional.",
     "CRM used by TA, Talent Brand/Partnerships, COO/Head of TA, and Strategy.",
     "Candidate-fit shortlist → personalized COO LinkedIn invitations → follow-ups.",
     "SCET automation primarily uses HubSpot and custom systems for professional education.",
@@ -2265,7 +2271,7 @@
     "The bank itself has no one-page limit. Include older engineering experience, Rasma, and full coursework here even when omitted from a tailored resume.",
     "Add job-specific terminology only when it describes supported work. A job requirement is not evidence of a candidate skill.",
     "Use Sales Navigator workflow experience and Greenhouse API integration accurately; do not invent LinkedIn Recruiter use or a direct Sales Navigator API connection.",
-    "Use 500+ candidates across summer channels, not hires or all-Sales-Navigator conversions; use 700K+ for the historical applicant base, with future event/prospect intake described separately.",
+    "Use 500+ candidates across summer channels, not hires or all-Sales-Navigator conversions; use 700K+ for the full set of historical applicant records imported into the CRM, with new attendee/prospect intake described separately.",
     "Use $100K+ SCET shared-project payments, not personal sales; $50K is advertising spend; SAR 100K is competition prizes.",
     "Exclude the retired SCET ROAS, cost-per-lead, and converted-lead-value figures. The user asked to skip them; do not ask for them again or derive new ratios from old values.",
     "Distinguish code-supported features from live validation; do not invent deployment success, uptime, latency, time savings, model accuracy, hiring results, or customer adoption.",

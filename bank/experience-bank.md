@@ -43,13 +43,13 @@ Generated from [experience-bank.json](experience-bank.json). Edit the JSON, then
 
 **External Consultant; previously Talent Brand & Partnerships Intern | June 2026–Present | Riyadh, Saudi Arabia / Remote**
 
-Fintech. Internship June–August 2026; retained afterward as an external consultant on the talent-brand and partnerships mandate. Exact consultant start date not supplied. The 700K+ base is the historical applicant pool; new event attendees and prospective applicants are additional intake scope. The system was used by Talent Acquisition, Talent Brand/Partnerships, and leadership including the COO, Head of TA, and Strategy teams.
+Fintech. Internship June–August 2026; retained afterward as an external consultant on the talent-brand and partnerships mandate. Exact consultant start date not supplied. The CRM imported all 700K+ historical applicant records. New event attendees and prospective applicants are additional intake. The system was used by Talent Acquisition, Talent Brand/Partnerships, and leadership including the COO, Head of TA, and Strategy teams.
 
 **Ownership:** Led stakeholder discovery, co-built the recruiting CRM with Strategy, personally wrote Python for Gemini-assisted extraction, and worked with IT on deployment. Ran Sales Navigator funnels and delivered talent and partnership programs.
 
 **Useful for:** growth, sourcing, partnerships, business_operations, product, deployment, ai_tools.
 
-**Kind:** experience. **Sources:** SRC01, SRC02, SRC06, SRC07, SRC08, SRC10, SRC18.
+**Kind:** experience. **Sources:** SRC01, SRC02, SRC06, SRC07, SRC08, SRC10, SRC18, SRC20.
 
 **Additional scope and implementation details:**
 
@@ -60,7 +60,7 @@ Fintech. Internship June–August 2026; retained afterward as an external consul
   - Head of Talent Acquisition
   - Strategy teams
 - **Data scope:**
-  - **Historical applicants:** 700K+
+  - **Historical applicants:** 700K+ historical applicant records, all imported into the CRM
   - **Additional intake:** New event attendees and prospective applicants; do not include future additions in the historical base count.
 - **Confirmed funnel:**
   - Build a suitable-candidate invitation shortlist
@@ -90,9 +90,9 @@ Fintech. Internship June–August 2026; retained afterward as an external consul
   Tags: partnerships, program_management, growth. Sources: SRC01.
 - **TAM-08 [ready]:** Mapped COO, Talent Brand, Partnerships, and recruiting workflows into a shared talent CRM, translating stakeholder needs into connected team processes.
   Tags: product, deployment, business_operations. Sources: SRC07, SRC06.
-- **TAM-09 [ready]:** Co-built a Greenhouse-integrated CRM around 700K+ historical applicant records, with intake and engagement workflows for event attendees and prospective applicants.
-  Scope: 700K+ describes the historical applicant base. New attendees/prospects are additional intake, not part of a separately verified combined count. User-reported volume; no live database count performed.
-  Tags: product, ai_tools, deployment, sourcing. Sources: SRC07, SRC06, SRC10, SRC18.
+- **TAM-09 [ready]:** Co-built a recruiting CRM with Strategy that imported all 700K+ historical applicant records and integrated with Greenhouse. The CRM also supports intake and engagement workflows for event attendees and prospective applicants.
+  Scope: Mohammed confirmed the import of the full historical applicant dataset. The count excludes additional intake. It does not establish Gemini processing volume or the number of active users.
+  Tags: product, ai_tools, deployment, sourcing. Sources: SRC07, SRC06, SRC10, SRC18, SRC20.
 - **TAM-10 [ready]:** Built the CRM’s web application and data workflows using Next.js, TypeScript, Prisma, and SQLite/Turso.
   Scope: Owned-project stack corroborated in source; do not infer mastery level or sole authorship of all team contributions.
   Tags: ai_tools, engineering, product. Sources: SRC07, SRC06.
@@ -526,7 +526,7 @@ Search and answer questions across the captions of lectures on YouTube. Each lec
 | M02 | 20 | Priority organizations engaged at Tamara | user_confirmed | Do not derive a conversion rate without cohort/timeframe confirmation. |
 | M03 | 7 | Partnerships secured at Tamara | user_confirmed | Not seven paying customers or hires. |
 | M04 | 500+ | Qualified early-career candidates added during summer 2026 | user_confirmed | Not hires, and not all attributed to Sales Navigator. |
-| M05 | 700K+ | User-reported historical applicant base used for the CRM; future event attendees and prospective applicants are additional intake. | user_confirmed_historical_scope | Not active users, personally sourced leads, or a current combined historical-plus-future audience count. |
+| M05 | 700K+ | Historical applicant records imported into Tamara’s CRM, covering the full historical applicant dataset (SRC20). | user_confirmed_historical_scope | Additional attendees and prospects are separate. Do not infer active users, personally sourced leads, or Gemini extraction volume. |
 | M06 | SAR 100,000 | Tamara national credit-risk competition prize pool | user_confirmed | Not revenue, personal compensation, or proven budget ownership. |
 | M07 | $50K | SCET advertising spend covered by attribution work | user_confirmed | Not generated revenue or necessarily a personally controlled budget. |
 | M08 | $100K+ | Payments received on shared SCET projects the user worked on | user_confirmed_latest_upload | Not solely generated sales, sponsorship, or personal income. |
@@ -716,7 +716,7 @@ UC Berkeley aerospace engineering student and satellite-platform founder with ex
 7. The bank itself has no one-page limit. Include older engineering experience, Rasma, and full coursework here even when omitted from a tailored resume.
 8. Add job-specific terminology only when it describes supported work. A job requirement is not evidence of a candidate skill.
 9. Use Sales Navigator workflow experience and Greenhouse API integration accurately; do not invent LinkedIn Recruiter use or a direct Sales Navigator API connection.
-10. Use 500+ candidates across summer channels, not hires or all-Sales-Navigator conversions; use 700K+ for the historical applicant base, with future event/prospect intake described separately.
+10. Use 500+ candidates across summer channels, not hires or all-Sales-Navigator conversions; use 700K+ for the full set of historical applicant records imported into the CRM, with new attendee/prospect intake described separately.
 11. Use $100K+ SCET shared-project payments, not personal sales; $50K is advertising spend; SAR 100K is competition prizes.
 12. Exclude the retired SCET ROAS, cost-per-lead, and converted-lead-value figures. The user asked to skip them; do not ask for them again or derive new ratios from old values.
 13. Distinguish code-supported features from live validation; do not invent deployment success, uptime, latency, time savings, model accuracy, hiring results, or customer adoption.
@@ -734,7 +734,7 @@ UC Berkeley aerospace engineering student and satellite-platform founder with ex
 
 ## Clarifications already recorded
 
-- 700K+ is the historical applicant base; new attendees and prospective applicants add to it.
+- Mohammed confirmed the CRM imported all 700K+ historical applicant records (SRC20). New attendee and prospect intake is additional.
 - CRM used by TA, Talent Brand/Partnerships, COO/Head of TA, and Strategy.
 - Candidate-fit shortlist → personalized COO LinkedIn invitations → follow-ups.
 - SCET automation primarily uses HubSpot and custom systems for professional education.
@@ -876,6 +876,11 @@ Mohammed's uploaded Google_FDE_Application_Brief.docx, dated 2026-11-19. The pro
 ### SRC19
 
 Mohammed directly confirmed his expected graduation in the Google FDE application conversation on 2026-11-20: “fall 2027 i will graduate”. This updates the earlier May 2027 estimate. The precise month was not specified.
+
+
+### SRC20
+
+Mohammed confirmed on 2026-11-20 in the Google FDE résumé review that all 700K+ historical applicant records were imported into Tamara’s CRM.
 
 
 ## Submission status

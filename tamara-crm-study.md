@@ -1,6 +1,6 @@
 # Tamara CRM: evidence for resume framing
 
-Later user clarification: 700K+ describes the historical applicant base, with
+Mohammed confirmed on November 20 that the CRM imported all 700K+ historical applicant records, with
 additional intake for event attendees and prospective applicants. The user
 confirmed use by TA, Talent Brand/Partnerships, COO/Head of TA, and Strategy.
 These are firsthand updates recorded in the master bank; the source inspection

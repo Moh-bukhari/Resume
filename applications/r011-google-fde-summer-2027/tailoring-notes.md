@@ -6,7 +6,7 @@ Google Cloud's forward deployed engineers work alongside teams to turn a busines
 
 | Application evidence | Selection and scope |
 | --- | --- |
-| Embedded deployment | TAM-08/09, TAM-25, TAM-27–30. Led workflow discovery, co-built the recruiting CRM with Strategy, personally wrote Python extraction, worked with IT on deployment, trained users, and revised workflows after feedback. The 700K+ figure describes Tamara’s historical applicant pool. The résumé omits it because the number imported or queried by the CRM is unknown. |
+| Embedded deployment | TAM-08/09, TAM-25, TAM-27–30. Led workflow discovery, co-built the recruiting CRM with Strategy, personally wrote Python extraction, worked with IT on deployment, trained users, and revised workflows after feedback. Mohammed confirmed on November 20 that the CRM imported all 700K+ historical applicant records. This is the import volume for the CRM. The number of records processed by Gemini is unknown. |
 | Retrieval over unstructured data | LEC-01/02. Python pipeline for personal lecture captions with whole-transcript vector retrieval and model selection of passages. Ran locally and in Google Colab. |
 | API integration | SCP-04/06. Selected 500 outreach targets from a pool of 100K+ leads using AI APIs and the HubSpot API. SCP-01/02 support the attribution model and the $50K ad spend it covered. |
 | Engineering breadth | AYN-01–04 and SIT-01–04. Satellite coordination and an award-winning voice demo. Preserved the distinction between project recognition and operational deployments. |

@@ -115,7 +115,7 @@ Read selected bullets' scope notes, especially these distinctions:
 
 | Fact | Correct scope |
 | --- | --- |
-| Tamara 700K+ | Historical applicant base, with further attendee/prospect intake. Not active users or personally sourced leads; no live DB count performed. |
+| Tamara 700K+ | The CRM imported all 700K+ historical applicant records, as Mohammed confirmed on November 20. Treat later attendees and prospects as separate intake. Use this number for the CRM import only. |
 | Tamara 500+ | Qualified early-career candidates added across summer 2026 channels; not hires or all from Sales Navigator. |
 | Tamara stakeholders | TA, Talent Brand/Partnerships, COO, Head of TA, and Strategy used the system; active-user count unknown. |
 | Tamara sourcing | Sales Navigator shortlist, COO LinkedIn invitations, follow-ups. No direct LinkedIn API or LinkedIn Recruiter usage established. |
